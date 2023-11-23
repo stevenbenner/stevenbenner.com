@@ -1,0 +1,83 @@
+---
+import { Image } from 'astro:assets';
+import licenseLogo from '../assets/cc-by-sa-88x31.png';
+---
+
+<footer>
+	<div>
+		<section>
+			<h2>About this blog</h2>
+			<p>This blog is a forum for all of the technical rants, ramblings, and nonsense that I feel like throwing at the internet. Mostly, the content will be about programming, servers, computing, gadgets, and the internet. But sometimes you may find even more useless articles posted here.</p>
+			<p>All opinions expressed here are my own and do not represent the views of my employer or any organizations that I am part of.</p>
+			<ul>
+				<li><a href="https://github.com/stevenbenner" rel="noopener">My GitHub</a></li>
+			</ul>
+		</section>
+		<section>
+			<h2>My feed</h2>
+			<p>Since you've wasted this much time why not follow me on <a href="https://twitter.com/stevenbenner" rel="noopener">Twitter</a>, or subscribe to my <a href="/feed/">RSS</a> feed? You'll probably be the first.</p>
+			<ul>
+				<li><a href="https://twitter.com/stevenbenner" rel="noopener">@stevenbenner</a></li>
+				<li><a href="/feed/">Subscribe via RSS</a></li>
+			</ul>
+		</section>
+	</div>
+	<p id="copyright">
+		<Image src={licenseLogo} alt="Creative Commons BY-SA License Logo" />
+		Copyright 2009–{new Date().getFullYear()} Steven Benner. Except where otherwise noted, content on this site is licensed under a <a href="https://creativecommons.org/licenses/by-sa/4.0/" rel="license">Creative Commons Attribution-ShareAlike 4.0 International license</a>.
+	</p>
+</footer>
+
+<style>
+	footer {
+		position: relative;
+	}
+	h2 {
+		font-weight: normal;
+		margin-top: 0;
+	}
+	div {
+		background: radial-gradient(ellipse at top left, #626063 0%, #3a3a3a 40%);
+		color: #aaa;
+		padding: 2rem 0;
+	}
+	div a {
+		color: #c3b59e;
+	}
+	div > * {
+		padding: 1rem 2rem;
+	}
+	#copyright {
+		color: #676767;
+		font-size: 0.7rem;
+		padding: 1rem 2rem;
+		position: absolute;
+	}
+	#copyright a {
+		color: #085982;
+		text-decoration: none;
+	}
+	#copyright img {
+		box-shadow: 0 0 3px #aaa;
+	}
+
+	@media (min-width: 600px) {
+		div {
+			display: grid;
+			grid-auto-rows: 1fr;
+			grid-template-columns: 1fr 1fr;
+			border-radius: 0 0 0.5rem 0.5rem;
+		}
+		div > * {
+			padding: 1rem 3rem;
+		}
+		#copyright {
+			padding: 1rem 20%;
+		}
+		#copyright img {
+			display: block;
+			float: left;
+			margin-right: 0.5rem;
+		}
+	}
+</style>

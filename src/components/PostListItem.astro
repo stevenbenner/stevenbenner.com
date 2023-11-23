@@ -1,0 +1,12 @@
+---
+const { title, url, pubDate } = Astro.props
+---
+
+<li>
+	<article>
+		<p>
+			<a href={url}>{title}</a><br />
+			<time datetime={pubDate.toISOString()}>{pubDate.toLocaleDateString('en-US')}</time>
+		</p>
+	</article>
+</li>

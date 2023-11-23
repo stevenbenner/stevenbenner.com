@@ -1,0 +1,21 @@
+---
+import { Image } from 'astro:assets';
+import BaseLayout from './BaseLayout.astro';
+
+const { frontmatter } = Astro.props;
+---
+
+<BaseLayout pageTitle={frontmatter.title}>
+	<p>
+		<time datetime={frontmatter.pubDate.toISOString()} itemprop="published">
+		{
+			new Intl.DateTimeFormat(
+				'en-US',
+				{ year: 'numeric', month: 'long', day: 'numeric' }
+			).format(frontmatter.pubDate)
+		}
+		</time>
+	</p>
+	{ frontmatter.image && <Image src={frontmatter.image.src} alt={frontmatter.image.alt} class="thumbnail" /> }
+	<slot />
+</BaseLayout>
