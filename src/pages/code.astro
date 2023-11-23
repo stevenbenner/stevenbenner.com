@@ -1,0 +1,57 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+
+const pageTitle = 'Code';
+---
+
+<BaseLayout pageTitle={pageTitle}>
+	<p>Here is the collection of code, tools, and projects that I’ve posted online. All of these are open source and free for anyone to use when following the license for each project.</p>
+	<p><a href="https://github.com/stevenbenner" target="_blank" rel="noopener"><img src="https://github-readme-stats.vercel.app/api?username=stevenbenner&#038;show_icons=true&#038;border_radius=10&#038;border_color=ccc&#038;include_all_commits=true" width="495" height="195" /></a></p>
+	<h3>Linux tools</h3>
+	<ul>
+		<li>
+			<a href="https://github.com/stevenbenner/pacfinder" target="_blank" rel="noopener"><strong>PacFinder</strong></a><br />
+			PacFinder is a GTK 3 desktop application for browsing packages installed on your Arch Linux system as well as exploring packages in the Arch Linux official package repositories.
+		</li>
+	</ul>
+	<h3>jQuery</h3>
+	<ul>
+		<li>
+			<a href="https://stevenbenner.github.io/jquery-powertip" target="_blank" rel="noopener"><strong>jQuery PowerTip</strong></a><br />
+			A jQuery plugin that creates hover tooltips. PowerTip features a very flexible design that is easy to customize, gives you a number of different ways to use the tooltips and supports adding complex data to tooltips. It is being actively developed, and provides a very fluid user experience.
+		</li>
+		<li>
+			<a href="https://github.com/stevenbenner/jquery-xhr-upload-queue" target="_blank" rel="noopener"><strong>jQuery XHR Upload Queue Plugin</strong></a><br />
+			jQuery plugin that creates a queued file uploading framework that implements XHR2, the FileAPI, and the Drag and Drop API.
+		</li>
+	</ul>
+	<h3>Windows tools</h3>
+	<ul>
+		<li>
+			<a href="https://stevenbenner.github.io/steves-encode64-utility" target="_blank" rel="noopener"><strong>Steve’s Encode64 Utility</strong></a><br />
+			This is my super-simple Microsoft Windows tool for creating data URIs. Just select whatever image you want to create a data URI for and it will give you the encoded string to paste in your CSS file.
+		</li>
+	</ul>
+	<h3>JavaScript</h3>
+	<ul>
+		<li>
+			<a href="/2010/03/custom-link-click-tracking-using-omniture/"><strong>Omniture Click Tracking</strong></a><br />
+			If you use Omniture for your web analytics and reporting then you probably want this script. It greatly simplifies adding custom click tracking to your web site.
+		</li>
+		<li>
+			<a href="/2010/04/calculate-page-size-and-view-port-position-in-javascript/"><strong>Window Tools</strong></a><br />
+			My simple utility script that will give you all of the corrected dimensions of the browser windows. This is necessary for any kind of dynamic placement.
+		</li>
+	</ul>
+	<h3>CodeIgniter</h3>
+	<ul>
+		<li>
+			<a href="https://github.com/stevenbenner/codeigniter-cache-helper" target="_blank" rel="noopener"><strong>Cache Helper</strong></a><br />
+			A nifty little helper that will give you some key functions for managing your output cache files that the CodeIgniter devs seem to have forgotten.
+		</li>
+		<li>
+			<a href="https://github.com/stevenbenner/codeigniter-image-magician" target="_blank" rel="noopener"><strong>Image Magician</strong></a><br />
+			An ImageMagick library for CodeIgniter.
+		</li>
+	</ul>
+</BaseLayout>
