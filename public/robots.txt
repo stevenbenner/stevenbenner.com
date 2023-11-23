@@ -1,0 +1,5 @@
+# Disallow LLM crawlers
+User-agent: CCBot
+User-agent: Google-Extended
+User-agent: GPTBot
+Disallow: /
