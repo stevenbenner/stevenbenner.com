@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="layout.xsl"?>
+<searchresults>
+	<book id="21">
+		<title>Advanced XSLT</title>
+		<author id="2">Steven Benner</author>
+		<releasedate>February 2010</releasedate>
+	</book>
+	<book id="142">
+		<title>XSLT</title>
+		<author id="5">Doug Tidwell</author>
+		<releasedate>August 2001</releasedate>
+	</book>
+	<book id="15">
+		<title>XSLT and XPath On The Edge (Professional Mindware)</title>
+		<author id="3">Jeni Tennison</author>
+		<releasedate>July 2005</releasedate>
+	</book>
+	<book id="92">
+		<title>Blood, sweat and tears. The XSLT experience.</title>
+		<author id="2">Steven Benner</author>
+		<releasedate>January 2010</releasedate>
+	</book>
+	<book id="103">
+		<title>Beginning XSLT 2.0: From Novice to Professional (Beginning: from Novice to Professional)</title>
+		<author id="3">Jeni Tennison</author>
+		<releasedate>October 2001</releasedate>
+	</book>
+</searchresults>
