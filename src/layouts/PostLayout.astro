@@ -1,8 +1,11 @@
 ---
+import { getEntry } from 'astro:content';
 import { Image } from 'astro:assets';
 import BaseLayout from './BaseLayout.astro';
+import Comment from '../components/Comment.astro';
 
-const { frontmatter } = Astro.props;
+const { frontmatter, id } = Astro.props;
+const postComments = await getEntry('comments', id);
 ---
 
 <BaseLayout pageTitle={frontmatter.title}>
@@ -18,4 +21,17 @@ const { frontmatter } = Astro.props;
 	</p>
 	{ frontmatter.image && <Image src={frontmatter.image.src} alt={frontmatter.image.alt} class="thumbnail" /> }
 	<slot />
+	{ postComments && <h3>Comments</h3> }
+	{
+		postComments && postComments.data.reverse().map((comment) => (
+			<Comment
+				author={comment.author_name}
+				isPostAuthor={comment.author === 2}
+				url={comment.author_url}
+				avatar={comment.author_avatar_urls['48']}
+				date={new Date(comment.date_gmt)}
+				content={comment.content.rendered}
+			/>
+		))
+	}
 </BaseLayout>
