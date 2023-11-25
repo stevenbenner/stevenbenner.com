@@ -1,3 +1,5 @@
+Sitemap: https://stevenbenner.com/sitemap-index.xml
+
 # Disallow LLM crawlers
 User-agent: CCBot
 User-agent: Google-Extended
