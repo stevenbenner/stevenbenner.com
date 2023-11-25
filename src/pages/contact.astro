@@ -1,5 +1,6 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
+import { site } from '../data/config.json';
 
 const pageTitle = 'Contact';
 ---
@@ -13,6 +14,6 @@ const pageTitle = 'Contact';
 		<li><a href="https://github.com/stevenbenner" target="_blank" rel="noopener">My GitHub</a></li>
 		<li><a href="https://www.linkedin.com/in/stevenbenner" target="_blank" rel="noopener">My LinkedIn</a></li>
 		<li><a href="https://twitter.com/stevenbenner" target="_blank" rel="noopener">My Twitter</a></li>
-		<li><a href="/feed/" target="_blank" rel="noopener">My RSS Feed</a></li>
+		<li><a href={site.rss} target="_blank" rel="noopener">My RSS Feed</a></li>
 	</ul>
 </BaseLayout>

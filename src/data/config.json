@@ -1,6 +1,8 @@
 {
 	"site": {
 		"name": "Steven Benner’s Blog",
-		"description": "Random articles about programming, computing, and the internet."
+		"description": "Random articles about programming, computing, and the internet.",
+		"url": "https://stevenbenner.com",
+		"rss": "/rss.xml"
 	}
 }
