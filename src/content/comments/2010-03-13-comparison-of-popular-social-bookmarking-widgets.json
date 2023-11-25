@@ -1,0 +1,1063 @@
+[
+	{
+		"id": 89334,
+		"post": 680,
+		"parent": 0,
+		"author": 0,
+		"author_name": "Syvlia S",
+		"author_url": "",
+		"date": "2014-05-17T07:21:28",
+		"date_gmt": "2014-05-17T14:21:28",
+		"content": {
+			"rendered": "<p>Steven,</p>\n<p>Good article! You should really conciser making an update, or a new article all together. AddThis is making a lot more requests and added even more tracking to their .js. </p>\n<p>Maybe title it:</p>\n<p>&#8220;SEO Perspective on AddThis, ShareThis, AddToAny, Tell-a-Friend and Other Similar Sharing Services&#8221;</p>\n<p>or:</p>\n<p>&#8220;Website Performance Impact using AddThis, ShareThis, AddToAny, Tell-a-Friend and Other Similar Sharing Services&#8221;</p>\n<p>:)</p>\n"
+		},
+		"link": "https://stevenbenner.com/2010/03/comparison-of-popular-social-bookmarking-widgets/#comment-89334",
+		"status": "approved",
+		"type": "comment",
+		"author_avatar_urls": {
+			"24": "https://secure.gravatar.com/avatar/e2a5962e77ad0bc0f216f3d9d5870aaa?s=24&d=mm&r=pg",
+			"48": "https://secure.gravatar.com/avatar/e2a5962e77ad0bc0f216f3d9d5870aaa?s=48&d=mm&r=pg",
+			"96": "https://secure.gravatar.com/avatar/e2a5962e77ad0bc0f216f3d9d5870aaa?s=96&d=mm&r=pg"
+		},
+		"meta": [],
+		"_links": {
+			"self": [
+				{
+					"href": "https://stevenbenner.com/wp-json/wp/v2/comments/89334"
+				}
+			],
+			"collection": [
+				{
+					"href": "https://stevenbenner.com/wp-json/wp/v2/comments"
+				}
+			],
+			"up": [
+				{
+					"embeddable": true,
+					"post_type": "post",
+					"href": "https://stevenbenner.com/wp-json/wp/v2/posts/680"
+				}
+			]
+		}
+	},
+	{
+		"id": 81910,
+		"post": 680,
+		"parent": 0,
+		"author": 0,
+		"author_name": "hp",
+		"author_url": "",
+		"date": "2012-04-21T20:05:17",
+		"date_gmt": "2012-04-22T03:05:17",
+		"content": {
+			"rendered": "<p>Hi Steven,<br />\nThis is a great effort&#8230;. Hope you would you be able to slip in some hours to redo the analysis for 2012&#8230;.</p>\n"
+		},
+		"link": "https://stevenbenner.com/2010/03/comparison-of-popular-social-bookmarking-widgets/#comment-81910",
+		"status": "approved",
+		"type": "comment",
+		"author_avatar_urls": {
+			"24": "https://secure.gravatar.com/avatar/1f1a0403ed5a66c18807bd3147f32115?s=24&d=mm&r=pg",
+			"48": "https://secure.gravatar.com/avatar/1f1a0403ed5a66c18807bd3147f32115?s=48&d=mm&r=pg",
+			"96": "https://secure.gravatar.com/avatar/1f1a0403ed5a66c18807bd3147f32115?s=96&d=mm&r=pg"
+		},
+		"meta": [],
+		"_links": {
+			"self": [
+				{
+					"href": "https://stevenbenner.com/wp-json/wp/v2/comments/81910"
+				}
+			],
+			"collection": [
+				{
+					"href": "https://stevenbenner.com/wp-json/wp/v2/comments"
+				}
+			],
+			"up": [
+				{
+					"embeddable": true,
+					"post_type": "post",
+					"href": "https://stevenbenner.com/wp-json/wp/v2/posts/680"
+				}
+			]
+		}
+	},
+	{
+		"id": 81645,
+		"post": 680,
+		"parent": 0,
+		"author": 0,
+		"author_name": "Rich",
+		"author_url": "http://www.rwdesign.us",
+		"date": "2012-03-20T10:28:17",
+		"date_gmt": "2012-03-20T17:28:17",
+		"content": {
+			"rendered": "<p>Great review. Thank you.</p>\n"
+		},
+		"link": "https://stevenbenner.com/2010/03/comparison-of-popular-social-bookmarking-widgets/#comment-81645",
+		"status": "approved",
+		"type": "comment",
+		"author_avatar_urls": {
+			"24": "https://secure.gravatar.com/avatar/71a1da377355adf78e33cc250188cdb1?s=24&d=mm&r=pg",
+			"48": "https://secure.gravatar.com/avatar/71a1da377355adf78e33cc250188cdb1?s=48&d=mm&r=pg",
+			"96": "https://secure.gravatar.com/avatar/71a1da377355adf78e33cc250188cdb1?s=96&d=mm&r=pg"
+		},
+		"meta": [],
+		"_links": {
+			"self": [
+				{
+					"href": "https://stevenbenner.com/wp-json/wp/v2/comments/81645"
+				}
+			],
+			"collection": [
+				{
+					"href": "https://stevenbenner.com/wp-json/wp/v2/comments"
+				}
+			],
+			"up": [
+				{
+					"embeddable": true,
+					"post_type": "post",
+					"href": "https://stevenbenner.com/wp-json/wp/v2/posts/680"
+				}
+			]
+		}
+	},
+	{
+		"id": 56626,
+		"post": 680,
+		"parent": 0,
+		"author": 0,
+		"author_name": "katrina",
+		"author_url": "",
+		"date": "2011-07-21T04:41:47",
+		"date_gmt": "2011-07-21T11:41:47",
+		"content": {
+			"rendered": "<p>hi to all, having spend over 15 years on web, whats the point of having a mouse over pop up window in your site that shows 50 icons most of them you have never seen?</p>\n<p>The point is that companies like add this etc advertise on your site free&#8230; and you are getting thing you really dont need&#8230; (how much is helping social sharing web sites is an other issue&#8230; )</p>\n<p>so my opionion is go for something simple and fast, ad free, registration free, simple cut and paste like My Share Bar and stop sending to social bookmarking services trafic and money, its your site you have to focus.</p>\n<p>info about  my share bar you can find here</p>\n<p><a href=\"http://www.tecorange.com/index.php/download-free-open-source-software/78-my-share-bar-facebook-twitter-google-1-mail-print-buttons-for-web-sites\" rel=\"nofollow\">http://www.tecorange.com/index.php/download-free-open-source-software/78-my-share-bar-facebook-twitter-google-1-mail-print-buttons-for-web-sites</a></p>\n<p>GL!</p>\n"
+		},
+		"link": "https://stevenbenner.com/2010/03/comparison-of-popular-social-bookmarking-widgets/#comment-56626",
+		"status": "approved",
+		"type": "comment",
+		"author_avatar_urls": {
+			"24": "https://secure.gravatar.com/avatar/db6bd6ff6b7ac9cd963cb31003c02c6a?s=24&d=mm&r=pg",
+			"48": "https://secure.gravatar.com/avatar/db6bd6ff6b7ac9cd963cb31003c02c6a?s=48&d=mm&r=pg",
+			"96": "https://secure.gravatar.com/avatar/db6bd6ff6b7ac9cd963cb31003c02c6a?s=96&d=mm&r=pg"
+		},
+		"meta": [],
+		"_links": {
+			"self": [
+				{
+					"href": "https://stevenbenner.com/wp-json/wp/v2/comments/56626"
+				}
+			],
+			"collection": [
+				{
+					"href": "https://stevenbenner.com/wp-json/wp/v2/comments"
+				}
+			],
+			"up": [
+				{
+					"embeddable": true,
+					"post_type": "post",
+					"href": "https://stevenbenner.com/wp-json/wp/v2/posts/680"
+				}
+			]
+		}
+	},
+	{
+		"id": 52625,
+		"post": 680,
+		"parent": 0,
+		"author": 0,
+		"author_name": "Nick",
+		"author_url": "http://www.qarchive.org/lab/",
+		"date": "2011-07-12T02:04:02",
+		"date_gmt": "2011-07-12T09:04:02",
+		"content": {
+			"rendered": "<p>We used ShareThis but after a few months we moved our site to AddThis. You can read this story here <a href=\"http://a.sw.io/YFOCjcY\" rel=\"nofollow\">http://a.sw.io/YFOCjcY</a></p>\n"
+		},
+		"link": "https://stevenbenner.com/2010/03/comparison-of-popular-social-bookmarking-widgets/#comment-52625",
+		"status": "approved",
+		"type": "comment",
+		"author_avatar_urls": {
+			"24": "https://secure.gravatar.com/avatar/7cf495d11dbcc81b9eabd21ab2d647d3?s=24&d=mm&r=pg",
+			"48": "https://secure.gravatar.com/avatar/7cf495d11dbcc81b9eabd21ab2d647d3?s=48&d=mm&r=pg",
+			"96": "https://secure.gravatar.com/avatar/7cf495d11dbcc81b9eabd21ab2d647d3?s=96&d=mm&r=pg"
+		},
+		"meta": [],
+		"_links": {
+			"self": [
+				{
+					"href": "https://stevenbenner.com/wp-json/wp/v2/comments/52625"
+				}
+			],
+			"collection": [
+				{
+					"href": "https://stevenbenner.com/wp-json/wp/v2/comments"
+				}
+			],
+			"up": [
+				{
+					"embeddable": true,
+					"post_type": "post",
+					"href": "https://stevenbenner.com/wp-json/wp/v2/posts/680"
+				}
+			]
+		}
+	},
+	{
+		"id": 26890,
+		"post": 680,
+		"parent": 0,
+		"author": 0,
+		"author_name": "Sujit Karpe",
+		"author_url": "",
+		"date": "2011-03-27T22:22:50",
+		"date_gmt": "2011-03-28T05:22:50",
+		"content": {
+			"rendered": "<p>Thanks Steven for the fantastic comparison.</p>\n<p>Best Part is to keep it simple:<br />\nThere are literally hundreds of social media sites out there, most of them you have never heard of and neither have any of your visitors. If your site serves a particular niche then it should be easy to identify the social media sites that you need to target. Just put up a couple icons and links. This will make your site load faster and make it easier to follow your presence on those social media sites. If someone wants to link your site on a social media service then not having a widget will not stop them.</p>\n"
+		},
+		"link": "https://stevenbenner.com/2010/03/comparison-of-popular-social-bookmarking-widgets/#comment-26890",
+		"status": "approved",
+		"type": "comment",
+		"author_avatar_urls": {
+			"24": "https://secure.gravatar.com/avatar/db935d8678c3818ad0dd320c81af6b7e?s=24&d=mm&r=pg",
+			"48": "https://secure.gravatar.com/avatar/db935d8678c3818ad0dd320c81af6b7e?s=48&d=mm&r=pg",
+			"96": "https://secure.gravatar.com/avatar/db935d8678c3818ad0dd320c81af6b7e?s=96&d=mm&r=pg"
+		},
+		"meta": [],
+		"_links": {
+			"self": [
+				{
+					"href": "https://stevenbenner.com/wp-json/wp/v2/comments/26890"
+				}
+			],
+			"collection": [
+				{
+					"href": "https://stevenbenner.com/wp-json/wp/v2/comments"
+				}
+			],
+			"up": [
+				{
+					"embeddable": true,
+					"post_type": "post",
+					"href": "https://stevenbenner.com/wp-json/wp/v2/posts/680"
+				}
+			]
+		}
+	},
+	{
+		"id": 15008,
+		"post": 680,
+		"parent": 0,
+		"author": 0,
+		"author_name": "Nikitas Georgopoulos",
+		"author_url": "http://www.e-mailit.com",
+		"date": "2010-12-28T01:19:52",
+		"date_gmt": "2010-12-28T09:19:52",
+		"content": {
+			"rendered": "<p>That was a great comparison. You might find interesting our brand new sharing platform E-mailit.com</p>\n"
+		},
+		"link": "https://stevenbenner.com/2010/03/comparison-of-popular-social-bookmarking-widgets/#comment-15008",
+		"status": "approved",
+		"type": "comment",
+		"author_avatar_urls": {
+			"24": "https://secure.gravatar.com/avatar/0617c28144b5ce9b1a72817e55f2ca4c?s=24&d=mm&r=pg",
+			"48": "https://secure.gravatar.com/avatar/0617c28144b5ce9b1a72817e55f2ca4c?s=48&d=mm&r=pg",
+			"96": "https://secure.gravatar.com/avatar/0617c28144b5ce9b1a72817e55f2ca4c?s=96&d=mm&r=pg"
+		},
+		"meta": [],
+		"_links": {
+			"self": [
+				{
+					"href": "https://stevenbenner.com/wp-json/wp/v2/comments/15008"
+				}
+			],
+			"collection": [
+				{
+					"href": "https://stevenbenner.com/wp-json/wp/v2/comments"
+				}
+			],
+			"up": [
+				{
+					"embeddable": true,
+					"post_type": "post",
+					"href": "https://stevenbenner.com/wp-json/wp/v2/posts/680"
+				}
+			]
+		}
+	},
+	{
+		"id": 10358,
+		"post": 680,
+		"parent": 0,
+		"author": 2,
+		"author_name": "Steven Benner",
+		"author_url": "http://stevenbenner.com/",
+		"date": "2010-11-21T13:59:46",
+		"date_gmt": "2010-11-21T21:59:46",
+		"content": {
+			"rendered": "<p>ShareThis has made some significant optimizations since this test. Eventually I&#8217;ll do another comparison, not sure when that&#8217;s coming though.</p>\n"
+		},
+		"link": "https://stevenbenner.com/2010/03/comparison-of-popular-social-bookmarking-widgets/#comment-10358",
+		"status": "approved",
+		"type": "comment",
+		"author_avatar_urls": {
+			"24": "https://secure.gravatar.com/avatar/5b09e09f1d9fed4c34e369d02f2edb74?s=24&d=mm&r=pg",
+			"48": "https://secure.gravatar.com/avatar/5b09e09f1d9fed4c34e369d02f2edb74?s=48&d=mm&r=pg",
+			"96": "https://secure.gravatar.com/avatar/5b09e09f1d9fed4c34e369d02f2edb74?s=96&d=mm&r=pg"
+		},
+		"meta": [],
+		"_links": {
+			"self": [
+				{
+					"href": "https://stevenbenner.com/wp-json/wp/v2/comments/10358"
+				}
+			],
+			"collection": [
+				{
+					"href": "https://stevenbenner.com/wp-json/wp/v2/comments"
+				}
+			],
+			"author": [
+				{
+					"embeddable": true,
+					"href": "https://stevenbenner.com/wp-json/wp/v2/users/2"
+				}
+			],
+			"up": [
+				{
+					"embeddable": true,
+					"post_type": "post",
+					"href": "https://stevenbenner.com/wp-json/wp/v2/posts/680"
+				}
+			]
+		}
+	},
+	{
+		"id": 8243,
+		"post": 680,
+		"parent": 0,
+		"author": 0,
+		"author_name": "ShareThisUp",
+		"author_url": "http://sharethisup.com",
+		"date": "2010-10-28T00:53:42",
+		"date_gmt": "2010-10-28T07:53:42",
+		"content": {
+			"rendered": "<p>Very useful comparison. Here’s a new great bookmarking widget: ShareThisUp.com</p>\n"
+		},
+		"link": "https://stevenbenner.com/2010/03/comparison-of-popular-social-bookmarking-widgets/#comment-8243",
+		"status": "approved",
+		"type": "comment",
+		"author_avatar_urls": {
+			"24": "https://secure.gravatar.com/avatar/6c78c40fda6f36b623693cc0b5540396?s=24&d=mm&r=pg",
+			"48": "https://secure.gravatar.com/avatar/6c78c40fda6f36b623693cc0b5540396?s=48&d=mm&r=pg",
+			"96": "https://secure.gravatar.com/avatar/6c78c40fda6f36b623693cc0b5540396?s=96&d=mm&r=pg"
+		},
+		"meta": [],
+		"_links": {
+			"self": [
+				{
+					"href": "https://stevenbenner.com/wp-json/wp/v2/comments/8243"
+				}
+			],
+			"collection": [
+				{
+					"href": "https://stevenbenner.com/wp-json/wp/v2/comments"
+				}
+			],
+			"up": [
+				{
+					"embeddable": true,
+					"post_type": "post",
+					"href": "https://stevenbenner.com/wp-json/wp/v2/posts/680"
+				}
+			]
+		}
+	},
+	{
+		"id": 3763,
+		"post": 680,
+		"parent": 0,
+		"author": 0,
+		"author_name": "Mozdef",
+		"author_url": "",
+		"date": "2010-08-18T15:45:49",
+		"date_gmt": "2010-08-18T22:45:49",
+		"content": {
+			"rendered": "<p>What a review, thank you, Steven!  It is good to see comments from every vendor!  After reading your post and the comments I did my own tests since it has been a while since your review.  We ended up going with AddToAny for the better performance (still) and we love how nicely customizable it is.  They have standalone icons now too.. which makes me wonder why you are still using single icons only, and why do you have Facebook last?!</p>\n"
+		},
+		"link": "https://stevenbenner.com/2010/03/comparison-of-popular-social-bookmarking-widgets/#comment-3763",
+		"status": "approved",
+		"type": "comment",
+		"author_avatar_urls": {
+			"24": "https://secure.gravatar.com/avatar/dc4dba9d472fe9a7a4843a8170422529?s=24&d=mm&r=pg",
+			"48": "https://secure.gravatar.com/avatar/dc4dba9d472fe9a7a4843a8170422529?s=48&d=mm&r=pg",
+			"96": "https://secure.gravatar.com/avatar/dc4dba9d472fe9a7a4843a8170422529?s=96&d=mm&r=pg"
+		},
+		"meta": [],
+		"_links": {
+			"self": [
+				{
+					"href": "https://stevenbenner.com/wp-json/wp/v2/comments/3763"
+				}
+			],
+			"collection": [
+				{
+					"href": "https://stevenbenner.com/wp-json/wp/v2/comments"
+				}
+			],
+			"up": [
+				{
+					"embeddable": true,
+					"post_type": "post",
+					"href": "https://stevenbenner.com/wp-json/wp/v2/posts/680"
+				}
+			]
+		}
+	},
+	{
+		"id": 1896,
+		"post": 680,
+		"parent": 0,
+		"author": 0,
+		"author_name": "Twistys",
+		"author_url": "",
+		"date": "2010-06-19T08:52:50",
+		"date_gmt": "2010-06-19T15:52:50",
+		"content": {
+			"rendered": "<p>Thanks Steven for this comparison chart.<br />\nWe were looking for the best share script, and still modifying our conclusions.</p>\n<p>We were using addtoany, but cause of a privacy issue, we drop them down.<br />\nNow we are using AddThis, but its not what we want, so for now we are trying to do a code caching..<br />\nMaybe tell-a-friend is the best answer..</p>\n"
+		},
+		"link": "https://stevenbenner.com/2010/03/comparison-of-popular-social-bookmarking-widgets/#comment-1896",
+		"status": "approved",
+		"type": "comment",
+		"author_avatar_urls": {
+			"24": "https://secure.gravatar.com/avatar/f584ab8130101141f830164ae48233f3?s=24&d=mm&r=pg",
+			"48": "https://secure.gravatar.com/avatar/f584ab8130101141f830164ae48233f3?s=48&d=mm&r=pg",
+			"96": "https://secure.gravatar.com/avatar/f584ab8130101141f830164ae48233f3?s=96&d=mm&r=pg"
+		},
+		"meta": [],
+		"_links": {
+			"self": [
+				{
+					"href": "https://stevenbenner.com/wp-json/wp/v2/comments/1896"
+				}
+			],
+			"collection": [
+				{
+					"href": "https://stevenbenner.com/wp-json/wp/v2/comments"
+				}
+			],
+			"up": [
+				{
+					"embeddable": true,
+					"post_type": "post",
+					"href": "https://stevenbenner.com/wp-json/wp/v2/posts/680"
+				}
+			]
+		}
+	},
+	{
+		"id": 1816,
+		"post": 680,
+		"parent": 0,
+		"author": 2,
+		"author_name": "Steven Benner",
+		"author_url": "http://stevenbenner.com/",
+		"date": "2010-06-15T11:10:24",
+		"date_gmt": "2010-06-15T18:10:24",
+		"content": {
+			"rendered": "<p>Yeah, that is true. But you don&#8217;t see nearly as many subscribe widgets out there, compared to the prevalence of sharing widgets. If you put both of the AddToAny widgets on one page you will see a significant drop in performance compared to the other widgets.</p>\n<p>However this whole comparison is based on the default sharing widget from each company. So the subscription widget didn&#8217;t get tested.</p>\n"
+		},
+		"link": "https://stevenbenner.com/2010/03/comparison-of-popular-social-bookmarking-widgets/#comment-1816",
+		"status": "approved",
+		"type": "comment",
+		"author_avatar_urls": {
+			"24": "https://secure.gravatar.com/avatar/5b09e09f1d9fed4c34e369d02f2edb74?s=24&d=mm&r=pg",
+			"48": "https://secure.gravatar.com/avatar/5b09e09f1d9fed4c34e369d02f2edb74?s=48&d=mm&r=pg",
+			"96": "https://secure.gravatar.com/avatar/5b09e09f1d9fed4c34e369d02f2edb74?s=96&d=mm&r=pg"
+		},
+		"meta": [],
+		"_links": {
+			"self": [
+				{
+					"href": "https://stevenbenner.com/wp-json/wp/v2/comments/1816"
+				}
+			],
+			"collection": [
+				{
+					"href": "https://stevenbenner.com/wp-json/wp/v2/comments"
+				}
+			],
+			"author": [
+				{
+					"embeddable": true,
+					"href": "https://stevenbenner.com/wp-json/wp/v2/users/2"
+				}
+			],
+			"up": [
+				{
+					"embeddable": true,
+					"post_type": "post",
+					"href": "https://stevenbenner.com/wp-json/wp/v2/posts/680"
+				}
+			]
+		}
+	},
+	{
+		"id": 1802,
+		"post": 680,
+		"parent": 0,
+		"author": 0,
+		"author_name": "Salman",
+		"author_url": "http://911-need-code-help.blogspot.com/",
+		"date": "2010-06-15T02:16:50",
+		"date_gmt": "2010-06-15T09:16:50",
+		"content": {
+			"rendered": "<p>May I add that AddToAny offers two widgets: one for sharing page and the other for subscribing to feed. If you add both of them, the statistics you mentioned in the table above will change significantly.</p>\n"
+		},
+		"link": "https://stevenbenner.com/2010/03/comparison-of-popular-social-bookmarking-widgets/#comment-1802",
+		"status": "approved",
+		"type": "comment",
+		"author_avatar_urls": {
+			"24": "https://secure.gravatar.com/avatar/61c85d77bcaf5212b3a0aa2419c95f33?s=24&d=mm&r=pg",
+			"48": "https://secure.gravatar.com/avatar/61c85d77bcaf5212b3a0aa2419c95f33?s=48&d=mm&r=pg",
+			"96": "https://secure.gravatar.com/avatar/61c85d77bcaf5212b3a0aa2419c95f33?s=96&d=mm&r=pg"
+		},
+		"meta": [],
+		"_links": {
+			"self": [
+				{
+					"href": "https://stevenbenner.com/wp-json/wp/v2/comments/1802"
+				}
+			],
+			"collection": [
+				{
+					"href": "https://stevenbenner.com/wp-json/wp/v2/comments"
+				}
+			],
+			"up": [
+				{
+					"embeddable": true,
+					"post_type": "post",
+					"href": "https://stevenbenner.com/wp-json/wp/v2/posts/680"
+				}
+			]
+		}
+	},
+	{
+		"id": 1667,
+		"post": 680,
+		"parent": 0,
+		"author": 0,
+		"author_name": "Olivia",
+		"author_url": "",
+		"date": "2010-06-08T11:40:36",
+		"date_gmt": "2010-06-08T18:40:36",
+		"content": {
+			"rendered": "<p>Very useful comprehensive review, thank you. will be back for more soon.</p>\n"
+		},
+		"link": "https://stevenbenner.com/2010/03/comparison-of-popular-social-bookmarking-widgets/#comment-1667",
+		"status": "approved",
+		"type": "comment",
+		"author_avatar_urls": {
+			"24": "https://secure.gravatar.com/avatar/e56fa705a411d94a6a8f5c00c58a1a1d?s=24&d=mm&r=pg",
+			"48": "https://secure.gravatar.com/avatar/e56fa705a411d94a6a8f5c00c58a1a1d?s=48&d=mm&r=pg",
+			"96": "https://secure.gravatar.com/avatar/e56fa705a411d94a6a8f5c00c58a1a1d?s=96&d=mm&r=pg"
+		},
+		"meta": [],
+		"_links": {
+			"self": [
+				{
+					"href": "https://stevenbenner.com/wp-json/wp/v2/comments/1667"
+				}
+			],
+			"collection": [
+				{
+					"href": "https://stevenbenner.com/wp-json/wp/v2/comments"
+				}
+			],
+			"up": [
+				{
+					"embeddable": true,
+					"post_type": "post",
+					"href": "https://stevenbenner.com/wp-json/wp/v2/posts/680"
+				}
+			]
+		}
+	},
+	{
+		"id": 1815,
+		"post": 680,
+		"parent": 0,
+		"author": 2,
+		"author_name": "Steven Benner",
+		"author_url": "http://stevenbenner.com/",
+		"date": "2010-05-28T11:04:39",
+		"date_gmt": "2010-05-28T18:04:39",
+		"content": {
+			"rendered": "<p>Much better!</p>\n<p>The optimizations look great. They make the widget much snappier and quicker to download. Now the widget will have much less of a page weight impact on pages that use it. This will even be an SEO improvement for ShareThis user since Google now counts page speed into its rankings.</p>\n<p>Huge improvement for the ShareThis widget. Thanks for taking the time to optimize it.</p>\n<p>I&#8217;ll have to re-profile the widgets and do another full test, eventually.</p>\n"
+		},
+		"link": "https://stevenbenner.com/2010/03/comparison-of-popular-social-bookmarking-widgets/#comment-1815",
+		"status": "approved",
+		"type": "comment",
+		"author_avatar_urls": {
+			"24": "https://secure.gravatar.com/avatar/5b09e09f1d9fed4c34e369d02f2edb74?s=24&d=mm&r=pg",
+			"48": "https://secure.gravatar.com/avatar/5b09e09f1d9fed4c34e369d02f2edb74?s=48&d=mm&r=pg",
+			"96": "https://secure.gravatar.com/avatar/5b09e09f1d9fed4c34e369d02f2edb74?s=96&d=mm&r=pg"
+		},
+		"meta": [],
+		"_links": {
+			"self": [
+				{
+					"href": "https://stevenbenner.com/wp-json/wp/v2/comments/1815"
+				}
+			],
+			"collection": [
+				{
+					"href": "https://stevenbenner.com/wp-json/wp/v2/comments"
+				}
+			],
+			"author": [
+				{
+					"embeddable": true,
+					"href": "https://stevenbenner.com/wp-json/wp/v2/users/2"
+				}
+			],
+			"up": [
+				{
+					"embeddable": true,
+					"post_type": "post",
+					"href": "https://stevenbenner.com/wp-json/wp/v2/posts/680"
+				}
+			]
+		}
+	},
+	{
+		"id": 1469,
+		"post": 680,
+		"parent": 0,
+		"author": 0,
+		"author_name": "Victoria",
+		"author_url": "",
+		"date": "2010-05-27T16:34:16",
+		"date_gmt": "2010-05-27T23:34:16",
+		"content": {
+			"rendered": "<p>Hey Steven,</p>\n<p>Wanted to chime and let you know that ShareThis launched a new widget today. It&#8217;s about 80% smaller than before, with 50% fewer calls and an initial load of 26k. Also has some new features, like a less cluttered UI, a search box to find almost any social channel, and an automated service that customizes for each users sharing habits. </p>\n<p>Check out the ShareThis blog, they just posted more info about it.</p>\n<p>~ Victoria</p>\n<p> <a href=\"http://blog.sharethis.com/2010/05/27/sharing-widget-faster/\" rel=\"nofollow\">http://blog.sharethis.com/2010/05/27/sharing-widget-faster/</a></p>\n"
+		},
+		"link": "https://stevenbenner.com/2010/03/comparison-of-popular-social-bookmarking-widgets/#comment-1469",
+		"status": "approved",
+		"type": "comment",
+		"author_avatar_urls": {
+			"24": "https://secure.gravatar.com/avatar/125c600a13419cb3f80b3fd19e4acec4?s=24&d=mm&r=pg",
+			"48": "https://secure.gravatar.com/avatar/125c600a13419cb3f80b3fd19e4acec4?s=48&d=mm&r=pg",
+			"96": "https://secure.gravatar.com/avatar/125c600a13419cb3f80b3fd19e4acec4?s=96&d=mm&r=pg"
+		},
+		"meta": [],
+		"_links": {
+			"self": [
+				{
+					"href": "https://stevenbenner.com/wp-json/wp/v2/comments/1469"
+				}
+			],
+			"collection": [
+				{
+					"href": "https://stevenbenner.com/wp-json/wp/v2/comments"
+				}
+			],
+			"up": [
+				{
+					"embeddable": true,
+					"post_type": "post",
+					"href": "https://stevenbenner.com/wp-json/wp/v2/posts/680"
+				}
+			]
+		}
+	},
+	{
+		"id": 1245,
+		"post": 680,
+		"parent": 0,
+		"author": 2,
+		"author_name": "Steven Benner",
+		"author_url": "http://stevenbenner.com/",
+		"date": "2010-05-16T13:12:52",
+		"date_gmt": "2010-05-16T20:12:52",
+		"content": {
+			"rendered": "<p>Hi Mike,</p>\n<p>Thanks for the information! Indeed, those are some interesting features. I know the other services have some similar features, but are not as focused on the marketing aspect. I&#8217;m sure that is a big selling point to businesses that want as much branding control as possible.</p>\n"
+		},
+		"link": "https://stevenbenner.com/2010/03/comparison-of-popular-social-bookmarking-widgets/#comment-1245",
+		"status": "approved",
+		"type": "comment",
+		"author_avatar_urls": {
+			"24": "https://secure.gravatar.com/avatar/5b09e09f1d9fed4c34e369d02f2edb74?s=24&d=mm&r=pg",
+			"48": "https://secure.gravatar.com/avatar/5b09e09f1d9fed4c34e369d02f2edb74?s=48&d=mm&r=pg",
+			"96": "https://secure.gravatar.com/avatar/5b09e09f1d9fed4c34e369d02f2edb74?s=96&d=mm&r=pg"
+		},
+		"meta": [],
+		"_links": {
+			"self": [
+				{
+					"href": "https://stevenbenner.com/wp-json/wp/v2/comments/1245"
+				}
+			],
+			"collection": [
+				{
+					"href": "https://stevenbenner.com/wp-json/wp/v2/comments"
+				}
+			],
+			"author": [
+				{
+					"embeddable": true,
+					"href": "https://stevenbenner.com/wp-json/wp/v2/users/2"
+				}
+			],
+			"up": [
+				{
+					"embeddable": true,
+					"post_type": "post",
+					"href": "https://stevenbenner.com/wp-json/wp/v2/posts/680"
+				}
+			]
+		}
+	},
+	{
+		"id": 1187,
+		"post": 680,
+		"parent": 0,
+		"author": 0,
+		"author_name": "Michael Crosson",
+		"author_url": "http://www.SocialTwist.com",
+		"date": "2010-05-13T16:56:19",
+		"date_gmt": "2010-05-13T23:56:19",
+		"content": {
+			"rendered": "<p>I work with SocialTwist.com, the company behind Tell-A-Friend. Your review was very fair and balanced, as much as could be gained without having the benefit of inside information. I would like to point out that we have over 67,000 sites and blogs worldwide using Tell-A-Friend, with over 3.2 *billion* widgets served.</p>\n<p>The key differentiators from competitors in our paid version (which starts at $99 a year) include:<br />\n•\tOnly Tell-A-Friend provides a turn-key social media referral platform that integrates social messaging with advanced marketing logic AND integrated analytics<br />\n•\t Only Tell-A-Friend offers a personal address book import function, greatly improving pass-along performance<br />\n•\t Only Tell-A-Friend can bring dynamic content from any specific page into the outbound message, using relevant photos and copy to dramatically increase the click-thru rate<br />\n•\t Only Tell-A-Friend delivers consolidated reporting on user activity across all social media channels, giving deep marketing insights</p>\n<p>I hope this clarifies some of the distinctions and advantages of our Tell-A-Friend platform. And yes, privacy is a primary concern to us, which is why we&#8217;re also the only TRUSTe certified referral marketing provider. </p>\n<p>Cheers,<br />\nMike Crosson<br />\nVP of Sales<br />\nSocialTwist.com</p>\n"
+		},
+		"link": "https://stevenbenner.com/2010/03/comparison-of-popular-social-bookmarking-widgets/#comment-1187",
+		"status": "approved",
+		"type": "comment",
+		"author_avatar_urls": {
+			"24": "https://secure.gravatar.com/avatar/7c8867526bc8bc50d8cb78ae437ab650?s=24&d=mm&r=pg",
+			"48": "https://secure.gravatar.com/avatar/7c8867526bc8bc50d8cb78ae437ab650?s=48&d=mm&r=pg",
+			"96": "https://secure.gravatar.com/avatar/7c8867526bc8bc50d8cb78ae437ab650?s=96&d=mm&r=pg"
+		},
+		"meta": [],
+		"_links": {
+			"self": [
+				{
+					"href": "https://stevenbenner.com/wp-json/wp/v2/comments/1187"
+				}
+			],
+			"collection": [
+				{
+					"href": "https://stevenbenner.com/wp-json/wp/v2/comments"
+				}
+			],
+			"up": [
+				{
+					"embeddable": true,
+					"post_type": "post",
+					"href": "https://stevenbenner.com/wp-json/wp/v2/posts/680"
+				}
+			]
+		}
+	},
+	{
+		"id": 519,
+		"post": 680,
+		"parent": 0,
+		"author": 0,
+		"author_name": "Edison Leon",
+		"author_url": "",
+		"date": "2010-03-24T16:57:30",
+		"date_gmt": "2010-03-24T23:57:30",
+		"content": {
+			"rendered": "<p>THANK YOU!</p>\n"
+		},
+		"link": "https://stevenbenner.com/2010/03/comparison-of-popular-social-bookmarking-widgets/#comment-519",
+		"status": "approved",
+		"type": "comment",
+		"author_avatar_urls": {
+			"24": "https://secure.gravatar.com/avatar/21b8751d4f48d08b28a7a52db6815f85?s=24&d=mm&r=pg",
+			"48": "https://secure.gravatar.com/avatar/21b8751d4f48d08b28a7a52db6815f85?s=48&d=mm&r=pg",
+			"96": "https://secure.gravatar.com/avatar/21b8751d4f48d08b28a7a52db6815f85?s=96&d=mm&r=pg"
+		},
+		"meta": [],
+		"_links": {
+			"self": [
+				{
+					"href": "https://stevenbenner.com/wp-json/wp/v2/comments/519"
+				}
+			],
+			"collection": [
+				{
+					"href": "https://stevenbenner.com/wp-json/wp/v2/comments"
+				}
+			],
+			"up": [
+				{
+					"embeddable": true,
+					"post_type": "post",
+					"href": "https://stevenbenner.com/wp-json/wp/v2/posts/680"
+				}
+			]
+		}
+	},
+	{
+		"id": 458,
+		"post": 680,
+		"parent": 0,
+		"author": 2,
+		"author_name": "Steven Benner",
+		"author_url": "http://stevenbenner.com/",
+		"date": "2010-03-19T16:58:05",
+		"date_gmt": "2010-03-19T23:58:05",
+		"content": {
+			"rendered": "<p><strong>@Partick</strong></p>\n<p>Thanks for the kind words. I&#8217;ve played with Sexy Bookmarks as well and it is a good WordPress plugin. I&#8217;ve never thought about putting up a subscribe to comments system before, perhaps it is time. :)</p>\n<p><strong>@Steve R</strong></p>\n<p>Hi Steve! Thanks for taking the time to read and respond to my article.</p>\n<p><em>> First on localization: you marked us as an X here, but we recently shipped<br />\n> the widget in 5 languages: Spanish, German, Italian, French and (of course)<br />\n> English.</em></p>\n<p>Oops. I&#8217;ve fixed that now, sorry about missing it.</p>\n<p><em>> Second, on performance: We understand that load times are a big issue for<br />\n> publishers, and we are currently working on streamlining the widget for that<br />\n> initial load. However, once a user had our widget cached, the load time is<br />\n> significantly shorter.</em></p>\n<p>Indeed, cached performance is an important factor, but it&#8217;s not usually the best gauge for performance. A 500k script in cache loads about as fast as a 500B script from cache, but that doesn&#8217;t mean that they score the same in a performance benchmark.</p>\n<p>But it is important to note that in the real world, yes, many visitors will already have the resources for ShareThis in their local cache.</p>\n<p>I still think that performance isn&#8217;t something that should be undervalued just because everyone has DSL and more browser cache than they did in the old days. You can&#8217;t guarantee that someone has resources cache, but you can guarantee that they will need to download it again, periodically.</p>\n"
+		},
+		"link": "https://stevenbenner.com/2010/03/comparison-of-popular-social-bookmarking-widgets/#comment-458",
+		"status": "approved",
+		"type": "comment",
+		"author_avatar_urls": {
+			"24": "https://secure.gravatar.com/avatar/5b09e09f1d9fed4c34e369d02f2edb74?s=24&d=mm&r=pg",
+			"48": "https://secure.gravatar.com/avatar/5b09e09f1d9fed4c34e369d02f2edb74?s=48&d=mm&r=pg",
+			"96": "https://secure.gravatar.com/avatar/5b09e09f1d9fed4c34e369d02f2edb74?s=96&d=mm&r=pg"
+		},
+		"meta": [],
+		"_links": {
+			"self": [
+				{
+					"href": "https://stevenbenner.com/wp-json/wp/v2/comments/458"
+				}
+			],
+			"collection": [
+				{
+					"href": "https://stevenbenner.com/wp-json/wp/v2/comments"
+				}
+			],
+			"author": [
+				{
+					"embeddable": true,
+					"href": "https://stevenbenner.com/wp-json/wp/v2/users/2"
+				}
+			],
+			"up": [
+				{
+					"embeddable": true,
+					"post_type": "post",
+					"href": "https://stevenbenner.com/wp-json/wp/v2/posts/680"
+				}
+			]
+		}
+	},
+	{
+		"id": 450,
+		"post": 680,
+		"parent": 0,
+		"author": 0,
+		"author_name": "Steve R",
+		"author_url": "http://sharethis.com",
+		"date": "2010-03-18T23:05:21",
+		"date_gmt": "2010-03-19T06:05:21",
+		"content": {
+			"rendered": "<p>@Justin,</p>\n<p>It was good to meet you in Austin for drinks, we will have to do round 2 next time you are out in the Bay Area.</p>\n<p>@Steve,</p>\n<p>First on localization: you marked us as an X here, but we recently shipped the widget in 5 languages: Spanish, German, Italian, French and (of course) English.  We have several more that have been crowd-sourced from our community and will launch soon.</p>\n<p>Second, on performance: We understand that load times are a big issue for publishers, and we are currently working on streamlining the widget for that initial load. However, once a user had our widget cached, the load time is significantly shorter. We often perform poorly on speed tests because they aren’t done with the widget in cache, but we reach over 400 million users, so in real world situations this is rarely the case. If you want more technical details about this you can read about it here: </p>\n<p><a href=\"http://forums.sharethis.com/topic.php?id=2453\" rel=\"nofollow\">http://forums.sharethis.com/topic.php?id=2453</a></p>\n<p>If you have any questions about this, feel free to contact me at <a href=\"mailto:sragan@sharethis.com\">sragan@sharethis.com</a> or on twitter @steversb</p>\n"
+		},
+		"link": "https://stevenbenner.com/2010/03/comparison-of-popular-social-bookmarking-widgets/#comment-450",
+		"status": "approved",
+		"type": "comment",
+		"author_avatar_urls": {
+			"24": "https://secure.gravatar.com/avatar/90e5abad7556fb4729d555eb6f8bcd05?s=24&d=mm&r=pg",
+			"48": "https://secure.gravatar.com/avatar/90e5abad7556fb4729d555eb6f8bcd05?s=48&d=mm&r=pg",
+			"96": "https://secure.gravatar.com/avatar/90e5abad7556fb4729d555eb6f8bcd05?s=96&d=mm&r=pg"
+		},
+		"meta": [],
+		"_links": {
+			"self": [
+				{
+					"href": "https://stevenbenner.com/wp-json/wp/v2/comments/450"
+				}
+			],
+			"collection": [
+				{
+					"href": "https://stevenbenner.com/wp-json/wp/v2/comments"
+				}
+			],
+			"up": [
+				{
+					"embeddable": true,
+					"post_type": "post",
+					"href": "https://stevenbenner.com/wp-json/wp/v2/posts/680"
+				}
+			]
+		}
+	},
+	{
+		"id": 443,
+		"post": 680,
+		"parent": 0,
+		"author": 0,
+		"author_name": "Patrick K. O'Brien",
+		"author_url": "http://www.jumpstartguy.com/",
+		"date": "2010-03-18T12:27:53",
+		"date_gmt": "2010-03-18T19:27:53",
+		"content": {
+			"rendered": "<p>Just had to post a &#8220;thank you&#8221; for this incredibly detailed review. I&#8217;ve been using Sexy Bookmarks (because I want to be sexy, I suppose, which is tough for a geeky old white guy) but I&#8217;m working on a new website and thought I&#8217;d take a look at a different bookmarking widget.</p>\n<p>I was leaning toward AddToAny, did a search, found your review, and really appreciated the time and effort you put into it (I have a software engineering background). So, thanks. I&#8217;m going to give AddToAny a shot and see how it works out.</p>\n<p>Pat</p>\n<p>P.S. I wish you had &#8220;Subscribe To Comments&#8221; or a similar plugin installed.</p>\n"
+		},
+		"link": "https://stevenbenner.com/2010/03/comparison-of-popular-social-bookmarking-widgets/#comment-443",
+		"status": "approved",
+		"type": "comment",
+		"author_avatar_urls": {
+			"24": "https://secure.gravatar.com/avatar/996e998ecadfa00db6f5c43e32f70f66?s=24&d=mm&r=pg",
+			"48": "https://secure.gravatar.com/avatar/996e998ecadfa00db6f5c43e32f70f66?s=48&d=mm&r=pg",
+			"96": "https://secure.gravatar.com/avatar/996e998ecadfa00db6f5c43e32f70f66?s=96&d=mm&r=pg"
+		},
+		"meta": [],
+		"_links": {
+			"self": [
+				{
+					"href": "https://stevenbenner.com/wp-json/wp/v2/comments/443"
+				}
+			],
+			"collection": [
+				{
+					"href": "https://stevenbenner.com/wp-json/wp/v2/comments"
+				}
+			],
+			"up": [
+				{
+					"embeddable": true,
+					"post_type": "post",
+					"href": "https://stevenbenner.com/wp-json/wp/v2/posts/680"
+				}
+			]
+		}
+	},
+	{
+		"id": 440,
+		"post": 680,
+		"parent": 0,
+		"author": 2,
+		"author_name": "Steven Benner",
+		"author_url": "http://stevenbenner.com/",
+		"date": "2010-03-18T11:13:38",
+		"date_gmt": "2010-03-18T18:13:38",
+		"content": {
+			"rendered": "<p><strong>@Pat</strong></p>\n<p>Thanks for getting in contact with me. I&#8217;ve acquired some good information about AddToAny from you. I&#8217;ve update the article to fix the original errors.</p>\n<p><strong>@Justin</strong></p>\n<p>Thanks for checking out my article. It&#8217;s really helpful for me to get your input on these tests, and I&#8217;m sure anyone who reads this will be glad to see you responding to the comparisons and pointing out featured which I failed to mention.</p>\n<p><em>> I think one vector for comparison that I’d love to see added to your<br />\n> analysis is which actually drives the most shares. In the end, isn’t<br />\n> that the whole point?</em></p>\n<p>Indeed, I couldn&#8217;t agree with you more, and this is something I am trying to organize.</p>\n<p>However, this is a much more difficult, time-intensive and generally less-quantifiable test. Putting the different widgets on different sites and comparing page views to shares isn&#8217;t a good test alone because different sites have different types of viewers who may be more, or less, inclined to share, they have different layouts, which may be better designed to focus users on the sharing tools and different locales, which also greatly effects shares.</p>\n<p>I&#8217;ve noticed that young people in east, and south-east Asia are at least 50% more likely to share via a widget then the same age group in the United States. So audience makes a <em>huge</em> difference.</p>\n<p>What I am hoping to do is arrange a test on one site with lots of traffic and a varied audience (I have a test case in mind). But this test will take a <em>very</em> long time, I would need at least one month for each widget to get any kind of valid numbers. Four widgets will require four months. And that is only if I can get it approved.</p>\n<p>I&#8217;m going to try to push forward with this because it really is the single most important metric, and is completely missing from this review. But don&#8217;t expect to see this test anytime soon.</p>\n<p><em>> according to comScore, we reach 656 million people per month worldwide.<br />\n> This means that the majority of Web visitors already have our assets<br />\n> cached on their computers</em></p>\n<p>Yeah, I made a note of that in the test metric descriptions as well. In a fully cached state all of the requests will return a 304 and not require a download.</p>\n<p>The primary focus of this test was raw performance without the benefit of cache. But it is worth pointing out that in the real world the resources for both AddThis and ShareThis are very likely to be cached due to their prolific adoption.</p>\n<p><em>> One feature that we have that you mentioned for some of the others is<br />\n> that we do auto-personalize the services listed in the menu based on<br />\n> your previous sharing history</em></p>\n<p>I&#8217;ll add a note about that.</p>\n<p><em>> Oh oh and did you see our recent addition of clickback analytics that<br />\n> we’re providing?</em></p>\n<p>Yeah, this is a great feature. I&#8217;ll add a mention about this as well.</p>\n<p><em>> A note on flash cookies… they were a legacy system that came over from<br />\n> our original flash widget platform Launchpad. After a lot of<br />\n> discussion internally and with our user community, we’re going to be<br />\n> moving to a traditional browser cookie.</em></p>\n<p>I can&#8217;t tell you how happy I am to hear this. This was a dirty tactic that I did not agree with at all. Please let me know when you take it out and I&#8217;ll update the article.</p>\n"
+		},
+		"link": "https://stevenbenner.com/2010/03/comparison-of-popular-social-bookmarking-widgets/#comment-440",
+		"status": "approved",
+		"type": "comment",
+		"author_avatar_urls": {
+			"24": "https://secure.gravatar.com/avatar/5b09e09f1d9fed4c34e369d02f2edb74?s=24&d=mm&r=pg",
+			"48": "https://secure.gravatar.com/avatar/5b09e09f1d9fed4c34e369d02f2edb74?s=48&d=mm&r=pg",
+			"96": "https://secure.gravatar.com/avatar/5b09e09f1d9fed4c34e369d02f2edb74?s=96&d=mm&r=pg"
+		},
+		"meta": [],
+		"_links": {
+			"self": [
+				{
+					"href": "https://stevenbenner.com/wp-json/wp/v2/comments/440"
+				}
+			],
+			"collection": [
+				{
+					"href": "https://stevenbenner.com/wp-json/wp/v2/comments"
+				}
+			],
+			"author": [
+				{
+					"embeddable": true,
+					"href": "https://stevenbenner.com/wp-json/wp/v2/users/2"
+				}
+			],
+			"up": [
+				{
+					"embeddable": true,
+					"post_type": "post",
+					"href": "https://stevenbenner.com/wp-json/wp/v2/posts/680"
+				}
+			]
+		}
+	},
+	{
+		"id": 408,
+		"post": 680,
+		"parent": 0,
+		"author": 0,
+		"author_name": "Justin Thorp",
+		"author_url": "http://addthis.com/blog",
+		"date": "2010-03-17T09:13:54",
+		"date_gmt": "2010-03-17T16:13:54",
+		"content": {
+			"rendered": "<p>@Pat, were you at SXSW? Steve &amp; Erin from ShareThis and I were drinking pints on Monday night.  Wish you were there.</p>\n<p>@Steven, thanks so much for the really detailed analysis.  Our team has been going through what you wrote point by point looking at the different ways that we can improve.  We love the feedback.</p>\n<p>I think one vector for comparison that I&#8217;d love to see added to your analysis is which actually drives the most shares.  In the end, isn&#8217;t that the whole point?  We&#8217;re here to get your content shared to every corner of the Social Web.  We&#8217;ve tested every pixel of our interface to make sure that we can do that as best as possible.</p>\n<p>In terms of performance, one thing to take into consideration is that, according to comScore, we reach 656 million people per month worldwide.  This means that the majority of Web visitors already have our assets cached on their computers and won&#8217;t have to grab the whole load. </p>\n<p>Additionally, if there is an extra concern about performance, we have the ability for someone to locally serve up the main AddThis JS. &#8211; <a href=\"http://addthis.com/help/code-caching\" rel=\"nofollow\">http://addthis.com/help/code-caching</a></p>\n<p>One feature that we have that you mentioned for some of the others is that we do auto-personalize the services listed in the menu based on your previous sharing history and browser locale.  We currently support over 230 services (<a href=\"http://addthis.com/services\" rel=\"nofollow\">http://addthis.com/services</a>) and have been working to successfully show the right services to the right person at the right time. &#8211; <a href=\"http://addthis.com/features#smartest\" rel=\"nofollow\">http://addthis.com/features#smartest</a></p>\n<p>Oh oh and did you see our recent addition of clickback analytics that we&#8217;re providing?  This is a REALLY cool feature and will be able to show the ROI on the shares that you&#8217;re getting.<br />\n<a href=\"http://addthis.com/blog/2010/03/11/clickback-analytics-measure-traffic-back-to-your-site-from-addthis/\" rel=\"nofollow\">http://addthis.com/blog/2010/03/11/clickback-analytics-measure-traffic-back-to-your-site-from-addthis/</a></p>\n<p>A note on flash cookies&#8230; they were a legacy system that came over from our original flash widget platform Launchpad.  After a lot of discussion internally and with our user community, we&#8217;re going to be moving to a traditional browser cookie.</p>\n<p>We&#8217;re also going to be exposing menu DOM events that you could attach Omniture callbacks to.  This is phase 1 of our Omniture integration.  </p>\n<p>Both of these updates will be coming, very soon so stay tuned.</p>\n<p>Again, we greatly appreciate the feedback.  Please stay in touch! &#8211; <a href=\"mailto:justin@clearspring.com\">justin@clearspring.com</a></p>\n<p>best,<br />\n-justin</p>\n"
+		},
+		"link": "https://stevenbenner.com/2010/03/comparison-of-popular-social-bookmarking-widgets/#comment-408",
+		"status": "approved",
+		"type": "comment",
+		"author_avatar_urls": {
+			"24": "https://secure.gravatar.com/avatar/c2cd9c79a46870341110cba058b856b2?s=24&d=mm&r=pg",
+			"48": "https://secure.gravatar.com/avatar/c2cd9c79a46870341110cba058b856b2?s=48&d=mm&r=pg",
+			"96": "https://secure.gravatar.com/avatar/c2cd9c79a46870341110cba058b856b2?s=96&d=mm&r=pg"
+		},
+		"meta": [],
+		"_links": {
+			"self": [
+				{
+					"href": "https://stevenbenner.com/wp-json/wp/v2/comments/408"
+				}
+			],
+			"collection": [
+				{
+					"href": "https://stevenbenner.com/wp-json/wp/v2/comments"
+				}
+			],
+			"up": [
+				{
+					"embeddable": true,
+					"post_type": "post",
+					"href": "https://stevenbenner.com/wp-json/wp/v2/posts/680"
+				}
+			]
+		}
+	},
+	{
+		"id": 405,
+		"post": 680,
+		"parent": 0,
+		"author": 0,
+		"author_name": "Pat",
+		"author_url": "http://www.addtoany.com/",
+		"date": "2010-03-16T23:15:43",
+		"date_gmt": "2010-03-17T06:15:43",
+		"content": {
+			"rendered": "<p>Hey Steve,</p>\n<p>Thanks for posting your thorough analysis.  It&#8217;s definitely one of the best I&#8217;ve seen to date.</p>\n<p>AddToAny is 4 years old this month and it&#8217;s great to see the real-world results.  I&#8217;m very proud that we&#8217;ve managed to keep our sharing platform speedy, highly customizable, and backwards compatible while avoiding the bloat that usually comes with a long life cycle.  More exciting things are under way and, as always, performance will be first in mind.</p>\n<p>Feel free to get in touch anytime if you have questions/thoughts about AddToAny, or if you post another awesome comparison.</p>\n<p>Cheers,<br />\nPat</p>\n"
+		},
+		"link": "https://stevenbenner.com/2010/03/comparison-of-popular-social-bookmarking-widgets/#comment-405",
+		"status": "approved",
+		"type": "comment",
+		"author_avatar_urls": {
+			"24": "https://secure.gravatar.com/avatar/70f34adb97f495ca6ab015ec57ec8913?s=24&d=mm&r=pg",
+			"48": "https://secure.gravatar.com/avatar/70f34adb97f495ca6ab015ec57ec8913?s=48&d=mm&r=pg",
+			"96": "https://secure.gravatar.com/avatar/70f34adb97f495ca6ab015ec57ec8913?s=96&d=mm&r=pg"
+		},
+		"meta": [],
+		"_links": {
+			"self": [
+				{
+					"href": "https://stevenbenner.com/wp-json/wp/v2/comments/405"
+				}
+			],
+			"collection": [
+				{
+					"href": "https://stevenbenner.com/wp-json/wp/v2/comments"
+				}
+			],
+			"up": [
+				{
+					"embeddable": true,
+					"post_type": "post",
+					"href": "https://stevenbenner.com/wp-json/wp/v2/posts/680"
+				}
+			]
+		}
+	}
+]

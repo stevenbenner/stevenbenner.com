@@ -1,0 +1,846 @@
+[
+	{
+		"id": 172808,
+		"post": 633,
+		"parent": 0,
+		"author": 0,
+		"author_name": "Frans",
+		"author_url": "",
+		"date": "2015-07-13T04:08:08",
+		"date_gmt": "2015-07-13T11:08:08",
+		"content": {
+			"rendered": "<p>Hmm&#8230; I was reading the discussion between you and the Omniture guy. He said the code would not be obfuscted starting H20.3. So now I have version 1.4.5 (the new AppMeasurement library) and it&#8217;s obfuscated again. I hope someone from Omniture/Adobe can comment on this because it&#8217;s really disappointing.</p>\n"
+		},
+		"link": "https://stevenbenner.com/2010/03/custom-link-click-tracking-using-omniture/#comment-172808",
+		"status": "approved",
+		"type": "comment",
+		"author_avatar_urls": {
+			"24": "https://secure.gravatar.com/avatar/77852d8f2c20dd48225e1733f1095f1a?s=24&d=mm&r=pg",
+			"48": "https://secure.gravatar.com/avatar/77852d8f2c20dd48225e1733f1095f1a?s=48&d=mm&r=pg",
+			"96": "https://secure.gravatar.com/avatar/77852d8f2c20dd48225e1733f1095f1a?s=96&d=mm&r=pg"
+		},
+		"meta": [],
+		"_links": {
+			"self": [
+				{
+					"href": "https://stevenbenner.com/wp-json/wp/v2/comments/172808"
+				}
+			],
+			"collection": [
+				{
+					"href": "https://stevenbenner.com/wp-json/wp/v2/comments"
+				}
+			],
+			"up": [
+				{
+					"embeddable": true,
+					"post_type": "post",
+					"href": "https://stevenbenner.com/wp-json/wp/v2/posts/633"
+				}
+			]
+		}
+	},
+	{
+		"id": 84059,
+		"post": 633,
+		"parent": 0,
+		"author": 0,
+		"author_name": "Skara Brae",
+		"author_url": "",
+		"date": "2013-11-21T16:34:27",
+		"date_gmt": "2013-11-22T00:34:27",
+		"content": {
+			"rendered": "<p>Hi Steven,</p>\n<p>Thanks for the article, I came across it while implementing a similar thing. I was wondering if you had any thoughts or suggestions on the following.</p>\n<p>If you develop a Javascript link tracking library, and that captured data needs to be sent to a remote HTTP endpoint, how would you go about securing the remote endpoint against rubbish data being submitted?</p>\n<p>Given it&#8217;ll operate from the client&#8217;s browser, I was thinking some kind of one-time password whereby the server-side generates a key for each page request that the Javascript uses, and its verified on the remote server&#8230; but I haven&#8217;t put much thought into it.</p>\n<p>If anyone is aware of a servlet filter or some other open source mechanism which does this in a fairly simple fashion I&#8217;d be interested in the info.</p>\n"
+		},
+		"link": "https://stevenbenner.com/2010/03/custom-link-click-tracking-using-omniture/#comment-84059",
+		"status": "approved",
+		"type": "comment",
+		"author_avatar_urls": {
+			"24": "https://secure.gravatar.com/avatar/d0c4b1a1660f3e15c160ffd39262e5d7?s=24&d=mm&r=pg",
+			"48": "https://secure.gravatar.com/avatar/d0c4b1a1660f3e15c160ffd39262e5d7?s=48&d=mm&r=pg",
+			"96": "https://secure.gravatar.com/avatar/d0c4b1a1660f3e15c160ffd39262e5d7?s=96&d=mm&r=pg"
+		},
+		"meta": [],
+		"_links": {
+			"self": [
+				{
+					"href": "https://stevenbenner.com/wp-json/wp/v2/comments/84059"
+				}
+			],
+			"collection": [
+				{
+					"href": "https://stevenbenner.com/wp-json/wp/v2/comments"
+				}
+			],
+			"up": [
+				{
+					"embeddable": true,
+					"post_type": "post",
+					"href": "https://stevenbenner.com/wp-json/wp/v2/posts/633"
+				}
+			]
+		}
+	},
+	{
+		"id": 84006,
+		"post": 633,
+		"parent": 0,
+		"author": 0,
+		"author_name": "Tom Rogers",
+		"author_url": "",
+		"date": "2013-08-26T13:49:39",
+		"date_gmt": "2013-08-26T20:49:39",
+		"content": {
+			"rendered": "<p>Steven,</p>\n<p>Line 4 of your script is pointless and may be deleted.</p>\n<p>The idea, of course, is that you don&#8217;t want to re-initialize your sb_trackLinks object if it already exists.</p>\n<p>However, line 6 explicitly re-declares the entire object, rather than overriding the init, track, and addEvent properties the extant object may already possess.</p>\n<p>I think the overall pattern is just fine, it&#8217;s just that line 6 guarantees that line 4 is irrelevant in all cases.</p>\n<p>That&#8217;s it! Thanks for the post. I agree that it can be unnecessarily difficult working with Omniture&#8217;s bizarre script API, and I appreciate the time you spent explaining some of the details of your implementation.</p>\n"
+		},
+		"link": "https://stevenbenner.com/2010/03/custom-link-click-tracking-using-omniture/#comment-84006",
+		"status": "approved",
+		"type": "comment",
+		"author_avatar_urls": {
+			"24": "https://secure.gravatar.com/avatar/0783dfb15a890da41dec8274d8d00b7e?s=24&d=mm&r=pg",
+			"48": "https://secure.gravatar.com/avatar/0783dfb15a890da41dec8274d8d00b7e?s=48&d=mm&r=pg",
+			"96": "https://secure.gravatar.com/avatar/0783dfb15a890da41dec8274d8d00b7e?s=96&d=mm&r=pg"
+		},
+		"meta": [],
+		"_links": {
+			"self": [
+				{
+					"href": "https://stevenbenner.com/wp-json/wp/v2/comments/84006"
+				}
+			],
+			"collection": [
+				{
+					"href": "https://stevenbenner.com/wp-json/wp/v2/comments"
+				}
+			],
+			"up": [
+				{
+					"embeddable": true,
+					"post_type": "post",
+					"href": "https://stevenbenner.com/wp-json/wp/v2/posts/633"
+				}
+			]
+		}
+	},
+	{
+		"id": 83869,
+		"post": 633,
+		"parent": 0,
+		"author": 0,
+		"author_name": "Audrey",
+		"author_url": "",
+		"date": "2013-05-22T13:21:18",
+		"date_gmt": "2013-05-22T20:21:18",
+		"content": {
+			"rendered": "<p>I  know this is old, but I&#8217;m going to ask anyway:</p>\n<p>Any word on an updated version of the concept?  You&#8217;re one of two people with useful posts on automatic link tracking.  We currently use Omniture&#8217;s setupLinkTrack plugin, but it also has the &#8220;links added after page load&#8221; issue.  Throw dynamic elements and AJAX into the world of Omniture, and you&#8217;ve got a mess.</p>\n<p>&gt; &#8230;I can rewrite this whole thing to use one event to capture<br />\n&gt; every link. It would even fix the “Links added after page load” gotcha&#8221;</p>\n"
+		},
+		"link": "https://stevenbenner.com/2010/03/custom-link-click-tracking-using-omniture/#comment-83869",
+		"status": "approved",
+		"type": "comment",
+		"author_avatar_urls": {
+			"24": "https://secure.gravatar.com/avatar/016a6b0580b8a26228fbd4eb6ced86a6?s=24&d=mm&r=pg",
+			"48": "https://secure.gravatar.com/avatar/016a6b0580b8a26228fbd4eb6ced86a6?s=48&d=mm&r=pg",
+			"96": "https://secure.gravatar.com/avatar/016a6b0580b8a26228fbd4eb6ced86a6?s=96&d=mm&r=pg"
+		},
+		"meta": [],
+		"_links": {
+			"self": [
+				{
+					"href": "https://stevenbenner.com/wp-json/wp/v2/comments/83869"
+				}
+			],
+			"collection": [
+				{
+					"href": "https://stevenbenner.com/wp-json/wp/v2/comments"
+				}
+			],
+			"up": [
+				{
+					"embeddable": true,
+					"post_type": "post",
+					"href": "https://stevenbenner.com/wp-json/wp/v2/posts/633"
+				}
+			]
+		}
+	},
+	{
+		"id": 83861,
+		"post": 633,
+		"parent": 0,
+		"author": 0,
+		"author_name": "Hedi",
+		"author_url": "https://github.com/mhlassoued/OmniPlus.git",
+		"date": "2013-05-13T20:06:44",
+		"date_gmt": "2013-05-14T03:06:44",
+		"content": {
+			"rendered": "<p>Try This asynchronous Library it can help too!</p>\n"
+		},
+		"link": "https://stevenbenner.com/2010/03/custom-link-click-tracking-using-omniture/#comment-83861",
+		"status": "approved",
+		"type": "comment",
+		"author_avatar_urls": {
+			"24": "https://secure.gravatar.com/avatar/8d86176053f17991d509bff7f024f22b?s=24&d=mm&r=pg",
+			"48": "https://secure.gravatar.com/avatar/8d86176053f17991d509bff7f024f22b?s=48&d=mm&r=pg",
+			"96": "https://secure.gravatar.com/avatar/8d86176053f17991d509bff7f024f22b?s=96&d=mm&r=pg"
+		},
+		"meta": [],
+		"_links": {
+			"self": [
+				{
+					"href": "https://stevenbenner.com/wp-json/wp/v2/comments/83861"
+				}
+			],
+			"collection": [
+				{
+					"href": "https://stevenbenner.com/wp-json/wp/v2/comments"
+				}
+			],
+			"up": [
+				{
+					"embeddable": true,
+					"post_type": "post",
+					"href": "https://stevenbenner.com/wp-json/wp/v2/posts/633"
+				}
+			]
+		}
+	},
+	{
+		"id": 81993,
+		"post": 633,
+		"parent": 0,
+		"author": 0,
+		"author_name": "Jesse Pakin",
+		"author_url": "",
+		"date": "2012-05-18T10:40:38",
+		"date_gmt": "2012-05-18T17:40:38",
+		"content": {
+			"rendered": "<p>I&#8217;ve thought about what you&#8217;ve got here. I did something very similar but i have a jquery dependency &#8211; the reason being i invoke the track and inits through pubsub (jquery events). My thinking was this would be the most unobtrusive implementation. If jquery isn&#8217;t available I have bigger fish to fry. :-)</p>\n<p>But what do you think about pubsub in general for this task? I know there are jQuery dependency free mechanisms, so if you really want to go dependency free you could try that route.</p>\n"
+		},
+		"link": "https://stevenbenner.com/2010/03/custom-link-click-tracking-using-omniture/#comment-81993",
+		"status": "approved",
+		"type": "comment",
+		"author_avatar_urls": {
+			"24": "https://secure.gravatar.com/avatar/a0a9186783e24c53959f2d8779f4a3dc?s=24&d=mm&r=pg",
+			"48": "https://secure.gravatar.com/avatar/a0a9186783e24c53959f2d8779f4a3dc?s=48&d=mm&r=pg",
+			"96": "https://secure.gravatar.com/avatar/a0a9186783e24c53959f2d8779f4a3dc?s=96&d=mm&r=pg"
+		},
+		"meta": [],
+		"_links": {
+			"self": [
+				{
+					"href": "https://stevenbenner.com/wp-json/wp/v2/comments/81993"
+				}
+			],
+			"collection": [
+				{
+					"href": "https://stevenbenner.com/wp-json/wp/v2/comments"
+				}
+			],
+			"up": [
+				{
+					"embeddable": true,
+					"post_type": "post",
+					"href": "https://stevenbenner.com/wp-json/wp/v2/posts/633"
+				}
+			]
+		}
+	},
+	{
+		"id": 81925,
+		"post": 633,
+		"parent": 0,
+		"author": 0,
+		"author_name": "K.Adam White",
+		"author_url": "https://gist.github.com/kadamwhite",
+		"date": "2012-04-23T07:24:23",
+		"date_gmt": "2012-04-23T14:24:23",
+		"content": {
+			"rendered": "<p>Resurrecting a somewhat old thread to thank you for posting this—I came across your article after implementing a similar system myself, and it was good to have that approach validated by such a thorough article!<br />\nThe one addendum I will add is to link to my own version of that sb_tracklinks.track() function: I took a slightly different approach that takes a few more options, primarily to use an object-based approach to defining events, eVars and props but also to let you point events at an arbitrary tracking suite for debugging purposes. It&#8217;s a little heavier than your code, but for us it improved readability within our jQuery event handlers.<br />\nI posted the code at <a href=\"https://gist.github.com/2470993\" rel=\"nofollow\">https://gist.github.com/2470993</a></p>\n"
+		},
+		"link": "https://stevenbenner.com/2010/03/custom-link-click-tracking-using-omniture/#comment-81925",
+		"status": "approved",
+		"type": "comment",
+		"author_avatar_urls": {
+			"24": "https://secure.gravatar.com/avatar/6cd1cf6de05952505a165425efaf06b4?s=24&d=mm&r=pg",
+			"48": "https://secure.gravatar.com/avatar/6cd1cf6de05952505a165425efaf06b4?s=48&d=mm&r=pg",
+			"96": "https://secure.gravatar.com/avatar/6cd1cf6de05952505a165425efaf06b4?s=96&d=mm&r=pg"
+		},
+		"meta": [],
+		"_links": {
+			"self": [
+				{
+					"href": "https://stevenbenner.com/wp-json/wp/v2/comments/81925"
+				}
+			],
+			"collection": [
+				{
+					"href": "https://stevenbenner.com/wp-json/wp/v2/comments"
+				}
+			],
+			"up": [
+				{
+					"embeddable": true,
+					"post_type": "post",
+					"href": "https://stevenbenner.com/wp-json/wp/v2/posts/633"
+				}
+			]
+		}
+	},
+	{
+		"id": 80647,
+		"post": 633,
+		"parent": 0,
+		"author": 0,
+		"author_name": "Phill",
+		"author_url": "http://phill.co",
+		"date": "2011-10-26T18:27:26",
+		"date_gmt": "2011-10-27T01:27:26",
+		"content": {
+			"rendered": "<p>Steve, this post was fantasic. I only wish Omniture had included this in there own documentation. I couldn&#8217;t find it anywhere&#8230;. maybe they need some SEO&#8230; ;)</p>\n"
+		},
+		"link": "https://stevenbenner.com/2010/03/custom-link-click-tracking-using-omniture/#comment-80647",
+		"status": "approved",
+		"type": "comment",
+		"author_avatar_urls": {
+			"24": "https://secure.gravatar.com/avatar/c93784e2257fcf4bb4705948ca818296?s=24&d=mm&r=pg",
+			"48": "https://secure.gravatar.com/avatar/c93784e2257fcf4bb4705948ca818296?s=48&d=mm&r=pg",
+			"96": "https://secure.gravatar.com/avatar/c93784e2257fcf4bb4705948ca818296?s=96&d=mm&r=pg"
+		},
+		"meta": [],
+		"_links": {
+			"self": [
+				{
+					"href": "https://stevenbenner.com/wp-json/wp/v2/comments/80647"
+				}
+			],
+			"collection": [
+				{
+					"href": "https://stevenbenner.com/wp-json/wp/v2/comments"
+				}
+			],
+			"up": [
+				{
+					"embeddable": true,
+					"post_type": "post",
+					"href": "https://stevenbenner.com/wp-json/wp/v2/posts/633"
+				}
+			]
+		}
+	},
+	{
+		"id": 45418,
+		"post": 633,
+		"parent": 0,
+		"author": 0,
+		"author_name": "Richard Morgan",
+		"author_url": "http://www.richardmorgan.com",
+		"date": "2011-06-17T08:11:38",
+		"date_gmt": "2011-06-17T15:11:38",
+		"content": {
+			"rendered": "<p>&#8220;Use asynchronous script loading. The Omniture code is pretty large and requires a relatively long initialization time (which can be improved by not obfuscating). Why not use a short setup code with only basic information like account name and config options. Then load and execute the core code after the page has downloaded. This will speed up page loads and make client script easier to maintain. It has the added benefit of making clients think about the config items that they customize.&#8221;</p>\n<p>&#8212; I need to do exactly this. We are now loading all of our js files asynchronously except for s_code.js, and Firebug is showing that even though it&#8217;s right before our  tag, it is blocking most of our images. Just wondering if there are any pitfalls. Having trouble finding anyone who&#8217;s done this before.</p>\n"
+		},
+		"link": "https://stevenbenner.com/2010/03/custom-link-click-tracking-using-omniture/#comment-45418",
+		"status": "approved",
+		"type": "comment",
+		"author_avatar_urls": {
+			"24": "https://secure.gravatar.com/avatar/b1d2ce1365e5127329fd2738710131b8?s=24&d=mm&r=pg",
+			"48": "https://secure.gravatar.com/avatar/b1d2ce1365e5127329fd2738710131b8?s=48&d=mm&r=pg",
+			"96": "https://secure.gravatar.com/avatar/b1d2ce1365e5127329fd2738710131b8?s=96&d=mm&r=pg"
+		},
+		"meta": [],
+		"_links": {
+			"self": [
+				{
+					"href": "https://stevenbenner.com/wp-json/wp/v2/comments/45418"
+				}
+			],
+			"collection": [
+				{
+					"href": "https://stevenbenner.com/wp-json/wp/v2/comments"
+				}
+			],
+			"up": [
+				{
+					"embeddable": true,
+					"post_type": "post",
+					"href": "https://stevenbenner.com/wp-json/wp/v2/posts/633"
+				}
+			]
+		}
+	},
+	{
+		"id": 743,
+		"post": 633,
+		"parent": 0,
+		"author": 2,
+		"author_name": "Steven Benner",
+		"author_url": "http://stevenbenner.com/",
+		"date": "2010-04-13T21:33:26",
+		"date_gmt": "2010-04-14T04:33:26",
+		"content": {
+			"rendered": "<p>Hi John,</p>\n<p>I&#8217;ve played with the event capturing approach before, but I didn&#8217;t even think of using the event capturing technique when I built this. That&#8217;s a really good idea now that you mention it. Since I&#8217;m basing the search off of markup elements anyway I can rewrite this whole thing to use one event to capture every link. It would even fix the &#8220;Links added after page load&#8221; gotcha.</p>\n<p>Thanks for pointing that out! I can&#8217;t think of any downsides to using that technique for Omniture tracking. I know there were some event bubbling issues in older browsers but I don&#8217;t even bother supporting browsers that old anymore.</p>\n<p>Also, for the record I&#8217;ve used this script on pages with hundreds of links before and saw no visible delay, but I&#8217;ve never benchmarked it, and I&#8217;m always on fairly powerful computers.</p>\n"
+		},
+		"link": "https://stevenbenner.com/2010/03/custom-link-click-tracking-using-omniture/#comment-743",
+		"status": "approved",
+		"type": "comment",
+		"author_avatar_urls": {
+			"24": "https://secure.gravatar.com/avatar/5b09e09f1d9fed4c34e369d02f2edb74?s=24&d=mm&r=pg",
+			"48": "https://secure.gravatar.com/avatar/5b09e09f1d9fed4c34e369d02f2edb74?s=48&d=mm&r=pg",
+			"96": "https://secure.gravatar.com/avatar/5b09e09f1d9fed4c34e369d02f2edb74?s=96&d=mm&r=pg"
+		},
+		"meta": [],
+		"_links": {
+			"self": [
+				{
+					"href": "https://stevenbenner.com/wp-json/wp/v2/comments/743"
+				}
+			],
+			"collection": [
+				{
+					"href": "https://stevenbenner.com/wp-json/wp/v2/comments"
+				}
+			],
+			"author": [
+				{
+					"embeddable": true,
+					"href": "https://stevenbenner.com/wp-json/wp/v2/users/2"
+				}
+			],
+			"up": [
+				{
+					"embeddable": true,
+					"post_type": "post",
+					"href": "https://stevenbenner.com/wp-json/wp/v2/posts/633"
+				}
+			]
+		}
+	},
+	{
+		"id": 736,
+		"post": 633,
+		"parent": 0,
+		"author": 0,
+		"author_name": "John",
+		"author_url": "http://mobify.me",
+		"date": "2010-04-13T08:34:24",
+		"date_gmt": "2010-04-13T15:34:24",
+		"content": {
+			"rendered": "<p>Hey Steve,</p>\n<p>Thanks for the insightful post &#8211; but I&#8217;ve also good disagree with your implementation :)</p>\n<p>For many webpages, this script will be attaching hundreds (thousands?) of event handlers. That&#8217;s going to be slow.</p>\n<p>Plus if you dynamically add any links to the page after the fact, then you&#8217;re tracking code isn&#8217;t going to run on them.</p>\n<p>Much better to use an event delegation approach and attach a single event handler to the document element and then listen for clicks whose target is a link. This is how jQuery&#8217;s &#8220;live&#8221; method works.</p>\n<p><a href=\"http://api.jquery.com/live/\" rel=\"nofollow\">http://api.jquery.com/live/</a></p>\n<p>Karl Swedberg also wrote an excellent introduction to the technique on Learning jQuery:</p>\n<p><a href=\"http://www.learningjquery.com/2008/03/working-with-events-part-1\" rel=\"nofollow\">http://www.learningjquery.com/2008/03/working-with-events-part-1</a></p>\n<p>Cheers,</p>\n<p>John</p>\n"
+		},
+		"link": "https://stevenbenner.com/2010/03/custom-link-click-tracking-using-omniture/#comment-736",
+		"status": "approved",
+		"type": "comment",
+		"author_avatar_urls": {
+			"24": "https://secure.gravatar.com/avatar/c7d7bd971e478fbd5166e97f205ac651?s=24&d=mm&r=pg",
+			"48": "https://secure.gravatar.com/avatar/c7d7bd971e478fbd5166e97f205ac651?s=48&d=mm&r=pg",
+			"96": "https://secure.gravatar.com/avatar/c7d7bd971e478fbd5166e97f205ac651?s=96&d=mm&r=pg"
+		},
+		"meta": [],
+		"_links": {
+			"self": [
+				{
+					"href": "https://stevenbenner.com/wp-json/wp/v2/comments/736"
+				}
+			],
+			"collection": [
+				{
+					"href": "https://stevenbenner.com/wp-json/wp/v2/comments"
+				}
+			],
+			"up": [
+				{
+					"embeddable": true,
+					"post_type": "post",
+					"href": "https://stevenbenner.com/wp-json/wp/v2/posts/633"
+				}
+			]
+		}
+	},
+	{
+		"id": 327,
+		"post": 633,
+		"parent": 0,
+		"author": 2,
+		"author_name": "Steven Benner",
+		"author_url": "http://stevenbenner.com/",
+		"date": "2010-03-09T13:09:33",
+		"date_gmt": "2010-03-09T21:09:33",
+		"content": {
+			"rendered": "<p><strong>@Andreas</strong></p>\n<p>Thanks for the specifics. Very helpful. I&#8217;ll try to build a proof of concept with the info you gave me.</p>\n<p><em>> Why is RDC a pain to set up? &#8230; this is a fairly easy change.</em></p>\n<p>For normal situations, yeah it&#8217;s easy. But I would have to make that change for, well a lot of sites. My company has over 500 Omniture enabled sites live. Every little task becomes far more complex when you have that many sites. I will need to change how we do Omniture one day, but it will probably be a while before I can dedicate the time that it will take.</p>\n<p><strong>@Ben</strong></p>\n<p>I hope my suggestions will be helpful. Thanks for taking the time to review the article and my complaints about Omniture. I too am glad we got to have this conversation. I&#8217;ve learned quite a few things about Omniture from talking with you and Andreas.</p>\n<p>I&#8217;ve read your exit link article. The technique is very similar to mine but we have different coding styles. In fact the overall process is exactly the same, iterate through links, attach events, run events. We use some different keywords and structure, but overall they are very similar.</p>\n"
+		},
+		"link": "https://stevenbenner.com/2010/03/custom-link-click-tracking-using-omniture/#comment-327",
+		"status": "approved",
+		"type": "comment",
+		"author_avatar_urls": {
+			"24": "https://secure.gravatar.com/avatar/5b09e09f1d9fed4c34e369d02f2edb74?s=24&d=mm&r=pg",
+			"48": "https://secure.gravatar.com/avatar/5b09e09f1d9fed4c34e369d02f2edb74?s=48&d=mm&r=pg",
+			"96": "https://secure.gravatar.com/avatar/5b09e09f1d9fed4c34e369d02f2edb74?s=96&d=mm&r=pg"
+		},
+		"meta": [],
+		"_links": {
+			"self": [
+				{
+					"href": "https://stevenbenner.com/wp-json/wp/v2/comments/327"
+				}
+			],
+			"collection": [
+				{
+					"href": "https://stevenbenner.com/wp-json/wp/v2/comments"
+				}
+			],
+			"author": [
+				{
+					"embeddable": true,
+					"href": "https://stevenbenner.com/wp-json/wp/v2/users/2"
+				}
+			],
+			"up": [
+				{
+					"embeddable": true,
+					"post_type": "post",
+					"href": "https://stevenbenner.com/wp-json/wp/v2/posts/633"
+				}
+			]
+		}
+	},
+	{
+		"id": 321,
+		"post": 633,
+		"parent": 0,
+		"author": 0,
+		"author_name": "Ben Gaines",
+		"author_url": "http://blogs.omniture.com/author/bgaines",
+		"date": "2010-03-08T20:46:58",
+		"date_gmt": "2010-03-09T04:46:58",
+		"content": {
+			"rendered": "<p>Oh, I forgot to mention your point about multiple installs: I could not agree more. I would love to see this handled by allowing admin users to quickly and easily control the object name that their code is using. Using &#8216;s&#8217; could still be default, but other options could be made available. While an adept developer can make this change manually, we still recommend letting our ClientCare team generate code when using an object name other than &#8216;s&#8217;. That process could certainly be improved. Action item for me.</p>\n<p>Thanks again,<br />\nBen</p>\n"
+		},
+		"link": "https://stevenbenner.com/2010/03/custom-link-click-tracking-using-omniture/#comment-321",
+		"status": "approved",
+		"type": "comment",
+		"author_avatar_urls": {
+			"24": "https://secure.gravatar.com/avatar/22736b06762ab0a97a73780ced9cd425?s=24&d=mm&r=pg",
+			"48": "https://secure.gravatar.com/avatar/22736b06762ab0a97a73780ced9cd425?s=48&d=mm&r=pg",
+			"96": "https://secure.gravatar.com/avatar/22736b06762ab0a97a73780ced9cd425?s=96&d=mm&r=pg"
+		},
+		"meta": [],
+		"_links": {
+			"self": [
+				{
+					"href": "https://stevenbenner.com/wp-json/wp/v2/comments/321"
+				}
+			],
+			"collection": [
+				{
+					"href": "https://stevenbenner.com/wp-json/wp/v2/comments"
+				}
+			],
+			"up": [
+				{
+					"embeddable": true,
+					"post_type": "post",
+					"href": "https://stevenbenner.com/wp-json/wp/v2/posts/633"
+				}
+			]
+		}
+	},
+	{
+		"id": 320,
+		"post": 633,
+		"parent": 0,
+		"author": 0,
+		"author_name": "Ben Gaines",
+		"author_url": "http://blogs.omniture.com/author/bgaines",
+		"date": "2010-03-08T20:43:28",
+		"date_gmt": "2010-03-09T04:43:28",
+		"content": {
+			"rendered": "<p>Thanks for the update, Steven. I wasn&#8217;t commenting in an attempt to get you to remove any negative tone, per se, I just wanted to be clear about some changes, and about our attitude toward good developer feedback. (Incidentally, Andreas beat me to a few points, which is great. He probably knows the Omniture JavaScript code as well as just about anyone outside of Omniture.)</p>\n<p>I completely understand your point about form names. It looks like the site was using the &#8220;Form Analysis&#8221; plug-in, which is a nifty little code snippet that can, in cases such as these, be a complete nightmare. We actually don&#8217;t even give it out anymore unless the customer is working with our Omniture Consulting group so that we can help avoid situations like the one you described. In many, many cases, there are more efficient, more powerful, and just plain better ways to analyze form usage/abandon.</p>\n<p>As Andreas pointed out, we&#8217;ve made a number of code improvements over the past several years. H.5 code puts you, I believe, in late 2005; even H.17 is almost two years old now. Many of the incremental improvements we&#8217;ve made since then help to address some of the issues you mentioned; in any case, I will definitely be sharing your feedback (which was extremely detailed &#8212; you obviously know what kind of info developers need!) with our Engineering and Product Management teams. </p>\n<p>&gt; Why wasn’t 2o7.net simply converted to run this<br />\n&gt; system by default?</p>\n<p>That is a great question, and I don&#8217;t have the answer presently. I&#8217;ll do my best to find out and report back to you. Generally, though, we&#8217;ve tried to make the RDC transition as painless as possible.</p>\n<p>&gt; I’ve had some bad experiences with Omniture plugins<br />\n&gt; (for instance the form issue I cited earlier). Can<br />\n&gt; you point me to some documentation for this plugin?</p>\n<p>The linkHandler plug-in is fairly innocuous, but I am guessing it would actually be even easier for you to write your own &#8220;plug-in&#8221; to add an event handler to every link on the page. I did something similar for automatic exit link tracking a few months ago; you can read about it at <a href=\"http://is.gs/6n\" rel=\"nofollow\">http://is.gs/6n</a>. (NOTE: WordPress keeps deciding to replace my straight quotes with smart quotes, even inside of a &lt;pre&gt; and a &lt;code&gt;, so if you decide to use the code make sure to locate and change those to straight quotes.)</p>\n<p>Anyway, this is a fantastic conversation and, as I said, I will be circulating it around the office. Feel free to let me know if you have any other concerns that I might have missed.</p>\n<p>Thanks,<br />\nBen</p>\n"
+		},
+		"link": "https://stevenbenner.com/2010/03/custom-link-click-tracking-using-omniture/#comment-320",
+		"status": "approved",
+		"type": "comment",
+		"author_avatar_urls": {
+			"24": "https://secure.gravatar.com/avatar/22736b06762ab0a97a73780ced9cd425?s=24&d=mm&r=pg",
+			"48": "https://secure.gravatar.com/avatar/22736b06762ab0a97a73780ced9cd425?s=48&d=mm&r=pg",
+			"96": "https://secure.gravatar.com/avatar/22736b06762ab0a97a73780ced9cd425?s=96&d=mm&r=pg"
+		},
+		"meta": [],
+		"_links": {
+			"self": [
+				{
+					"href": "https://stevenbenner.com/wp-json/wp/v2/comments/320"
+				}
+			],
+			"collection": [
+				{
+					"href": "https://stevenbenner.com/wp-json/wp/v2/comments"
+				}
+			],
+			"up": [
+				{
+					"embeddable": true,
+					"post_type": "post",
+					"href": "https://stevenbenner.com/wp-json/wp/v2/posts/633"
+				}
+			]
+		}
+	},
+	{
+		"id": 319,
+		"post": 633,
+		"parent": 0,
+		"author": 0,
+		"author_name": "Andreas",
+		"author_url": "http://twitter.com/ad0815/",
+		"date": "2010-03-08T19:46:37",
+		"date_gmt": "2010-03-09T03:46:37",
+		"content": {
+			"rendered": "<p>Steven,<br />\nsince a single additional image/css/js/&#8230;-load is far above the ~83ms I don&#8217;t care about this insignificant time ;)<br />\nIf you see a lag for your tabs, just pass a &#8220;true&#8221; so the first param and you should be good.<br />\nWhy is RDC a pain to set up? Unless you&#8217;re using FPC this is a fairly easy change. Just get the approval from the AM and then change 1-2 lines of code. Can&#8217;t see any pain points here.<br />\nMake sure you&#8217;re using the s_doPlugins function. It get&#8217;s called on all clicks (+ s.t(l) calls + media calls). You can use var u=s.p_gh(); to get the URL of the element that was clicked. (s.p_gh is a utility function you need to add, just google it). Use var o=s.eo?s.eo:s.lnk; to get the object that was clicked. The s.linkHandler can be used to do some automatic filtering, e.g. var u=s.linkHandler(&#8216;/section/&#8217;) to only get links to a specific section. (there are also s.exitLinkHandler and s.downloadLinkHandler).</p>\n<p>Andreas</p>\n"
+		},
+		"link": "https://stevenbenner.com/2010/03/custom-link-click-tracking-using-omniture/#comment-319",
+		"status": "approved",
+		"type": "comment",
+		"author_avatar_urls": {
+			"24": "https://secure.gravatar.com/avatar/55c9808d63f71fbc1c70a67250728978?s=24&d=mm&r=pg",
+			"48": "https://secure.gravatar.com/avatar/55c9808d63f71fbc1c70a67250728978?s=48&d=mm&r=pg",
+			"96": "https://secure.gravatar.com/avatar/55c9808d63f71fbc1c70a67250728978?s=96&d=mm&r=pg"
+		},
+		"meta": [],
+		"_links": {
+			"self": [
+				{
+					"href": "https://stevenbenner.com/wp-json/wp/v2/comments/319"
+				}
+			],
+			"collection": [
+				{
+					"href": "https://stevenbenner.com/wp-json/wp/v2/comments"
+				}
+			],
+			"up": [
+				{
+					"embeddable": true,
+					"post_type": "post",
+					"href": "https://stevenbenner.com/wp-json/wp/v2/posts/633"
+				}
+			]
+		}
+	},
+	{
+		"id": 317,
+		"post": 633,
+		"parent": 0,
+		"author": 2,
+		"author_name": "Steven Benner",
+		"author_url": "http://stevenbenner.com/",
+		"date": "2010-03-08T14:55:02",
+		"date_gmt": "2010-03-08T22:55:02",
+		"content": {
+			"rendered": "<p><strong>@Andreas</strong></p>\n<p>Thanks for your input, it is really helpful to hear some other opinions and options.</p>\n<p><em>> I recently did some speed testing for my implemenations and my s_code (H20.3<br />\n> + tons of custom code) runs withing ~83ms in FF3.5 at the page load. I think<br />\n> that’s not too bad.</em></p>\n<p>83ms isn&#8217;t a terrible number, but it isn&#8217;t great either. That&#8217;s about the same number that my testing revealed.</p>\n<p><em>> Starting with H20.3 the pagecode is not obfuscated anymore</em></p>\n<p>Oh thank god. It&#8217;s about time. This is my single biggest complaint about Omniture. It&#8217;s just plain dumb to obfuscate a tracking script.</p>\n<p><em>> OMTR actually only adds the 500ms timeout if the link will be opened in the<br />\n> same window AND the timeout will be shortened if the image returns faster</em></p>\n<p>I wasn&#8217;t aware of this. In my experience there is a noticeable lag on dynamic links (like jQuery tabs) in pages when they get tracking code attached to them.</p>\n<p><em>> look into RDC to get fastest response times</em></p>\n<p>Omniture Regional Data Collection is something that I am looking into for a couple products. This is another huge improvement for the service. But it is a bit of a pain to set up and get running. From what I understand it works just like a CDN. Why wasn&#8217;t 2o7.net simply converted to run this system by default?</p>\n<p><em>> including this script as an additional file would add so much additional<br />\n> load time &#8230; add it to your existing Omniture script</em></p>\n<p>Ahh, yeah of course you are right on this one. I&#8217;ll fix that.</p>\n<p><em>> I’m not sure why you do not use existing Omniture code and so benefit from<br />\n> existing event handlers. I think in regards of saving execution time you<br />\n> should go that route.</em></p>\n<p>Can you be more specific? I don&#8217;t know of any way to hook into Omniture events to attach code like this.</p>\n<p><em>> Look into the s.linkHandler plugin</em></p>\n<p>I&#8217;ve had some bad experiences with Omniture plugins (for instance the form issue I cited earlier). Can you point me to some documentation for this plugin?</p>\n<p><strong>@Richard</strong></p>\n<p>Thanks for the link. I&#8217;ll have a look at them. The first thing I did was view source on their page, where I found this:</p>\n<p><code>// Yep, we use GA too, we do two very different things...for now. =)<br />\nvar gaJsHost...</code></p>\n<p>lol I like them already.</p>\n"
+		},
+		"link": "https://stevenbenner.com/2010/03/custom-link-click-tracking-using-omniture/#comment-317",
+		"status": "approved",
+		"type": "comment",
+		"author_avatar_urls": {
+			"24": "https://secure.gravatar.com/avatar/5b09e09f1d9fed4c34e369d02f2edb74?s=24&d=mm&r=pg",
+			"48": "https://secure.gravatar.com/avatar/5b09e09f1d9fed4c34e369d02f2edb74?s=48&d=mm&r=pg",
+			"96": "https://secure.gravatar.com/avatar/5b09e09f1d9fed4c34e369d02f2edb74?s=96&d=mm&r=pg"
+		},
+		"meta": [],
+		"_links": {
+			"self": [
+				{
+					"href": "https://stevenbenner.com/wp-json/wp/v2/comments/317"
+				}
+			],
+			"collection": [
+				{
+					"href": "https://stevenbenner.com/wp-json/wp/v2/comments"
+				}
+			],
+			"author": [
+				{
+					"embeddable": true,
+					"href": "https://stevenbenner.com/wp-json/wp/v2/users/2"
+				}
+			],
+			"up": [
+				{
+					"embeddable": true,
+					"post_type": "post",
+					"href": "https://stevenbenner.com/wp-json/wp/v2/posts/633"
+				}
+			]
+		}
+	},
+	{
+		"id": 312,
+		"post": 633,
+		"parent": 0,
+		"author": 0,
+		"author_name": "Richard",
+		"author_url": "",
+		"date": "2010-03-08T03:24:44",
+		"date_gmt": "2010-03-08T11:24:44",
+		"content": {
+			"rendered": "<p>Hey Steven &#8212;</p>\n<p>Have you tried using Mixpanel? <a href=\"http://mixpanel.com\" rel=\"nofollow\">http://mixpanel.com</a></p>\n<p>They are like a more modern analytics provider that does basically what you want!</p>\n<p>Richard</p>\n"
+		},
+		"link": "https://stevenbenner.com/2010/03/custom-link-click-tracking-using-omniture/#comment-312",
+		"status": "approved",
+		"type": "comment",
+		"author_avatar_urls": {
+			"24": "https://secure.gravatar.com/avatar/8d5e6aa5cb2fa5f0721bf4bd176d382b?s=24&d=mm&r=pg",
+			"48": "https://secure.gravatar.com/avatar/8d5e6aa5cb2fa5f0721bf4bd176d382b?s=48&d=mm&r=pg",
+			"96": "https://secure.gravatar.com/avatar/8d5e6aa5cb2fa5f0721bf4bd176d382b?s=96&d=mm&r=pg"
+		},
+		"meta": [],
+		"_links": {
+			"self": [
+				{
+					"href": "https://stevenbenner.com/wp-json/wp/v2/comments/312"
+				}
+			],
+			"collection": [
+				{
+					"href": "https://stevenbenner.com/wp-json/wp/v2/comments"
+				}
+			],
+			"up": [
+				{
+					"embeddable": true,
+					"post_type": "post",
+					"href": "https://stevenbenner.com/wp-json/wp/v2/posts/633"
+				}
+			]
+		}
+	},
+	{
+		"id": 307,
+		"post": 633,
+		"parent": 0,
+		"author": 0,
+		"author_name": "Andreas",
+		"author_url": "http://twitter.com/ad0815/",
+		"date": "2010-03-07T22:13:42",
+		"date_gmt": "2010-03-08T06:13:42",
+		"content": {
+			"rendered": "<p>Hi Steven,</p>\n<p>although I really like your Javascript coding style I don&#8217;t agree with alot of the points above.</p>\n<p>Let&#8217;s start at the beginning:<br />\n&gt;&gt; It’s slow, obfuscated (really? why do this?), bloated, impossible to debug and not built using modern practices.<br />\nI recently did some speed testing for my implemenations and my s_code (H20.3 + tons of custom code) runs withing ~83ms in FF3.5 at the page load. I think that&#8217;s not too bad.<br />\nStarting with H20.3 the pagecode is not obfuscated anymore and so can the transfer can be gzipped pretty well while loading.<br />\nI&#8217;m sure the script could be reduced by some bytes, but it does a great job for cross-browser compatibility. Since we have pretty fast internet connections these days, 1-2k extra are not too bad.<br />\nImpossible to debug &#8211; hm&#8230;by default I agree. But if there are really some problems with it, there are some ways to debug. Firebug is your friend.</p>\n<p>&gt;&gt; This object has many different methods and properties that are all ingeniously designed to confuse and torment would-be implementers.<br />\nI agree. BUT.. the functions coders should use are documented.</p>\n<p>&gt;&gt; 500ms link delay<br />\nIf you&#8217;re passing the &#8216;this&#8217; pointer to a href, OMTR actually only adds the 500ms timeout if the link will be opened in the same window AND the timeout will be shortened if the image returns faster than that. (look into RDC to get fastest response times)</p>\n<p>&gt;&gt; There is nothing about this in the documentation<br />\nThere is a whitepaper available talking about link tracking</p>\n<p>&gt;&gt; Use asynchronous script loading.<br />\nThis has pros and cons. Some users want to send tracking as soon as possible even if the page has not fully loaded.</p>\n<p>&gt;&gt; Save this code in a js file and link that file on every page in our Omniture-enabled web application<br />\nOuch! Don&#8217;t do it&#8230; I like your idea of saving execution time by tweaking the code but including this script as an additional file would add so much additional load time (TCP connection, load time, etc.) that any time-savings by tweaking are lost.<br />\nIf you really want to load this code on any page, add it to your existing Omniture script.</p>\n<p>Ok, let&#8217;s get back to the initial purpose of your code.<br />\nI&#8217;m not sure why you do not use existing Omniture code and so benefit from existing event handlers. I think in regards of saving execution time you should go that route.<br />\nLook into the s.linkHandler plugin and put your code into the s_doPlugins function. Omniture already observes all clicks onto the document and so there is no need to add additional handlers. Additionally you would get around your &#8220;Links added after page load&#8221; gotcha. If the link is added properly to the document event bubbling should do its job.</p>\n<p>Best,<br />\nAndreas</p>\n"
+		},
+		"link": "https://stevenbenner.com/2010/03/custom-link-click-tracking-using-omniture/#comment-307",
+		"status": "approved",
+		"type": "comment",
+		"author_avatar_urls": {
+			"24": "https://secure.gravatar.com/avatar/55c9808d63f71fbc1c70a67250728978?s=24&d=mm&r=pg",
+			"48": "https://secure.gravatar.com/avatar/55c9808d63f71fbc1c70a67250728978?s=48&d=mm&r=pg",
+			"96": "https://secure.gravatar.com/avatar/55c9808d63f71fbc1c70a67250728978?s=96&d=mm&r=pg"
+		},
+		"meta": [],
+		"_links": {
+			"self": [
+				{
+					"href": "https://stevenbenner.com/wp-json/wp/v2/comments/307"
+				}
+			],
+			"collection": [
+				{
+					"href": "https://stevenbenner.com/wp-json/wp/v2/comments"
+				}
+			],
+			"up": [
+				{
+					"embeddable": true,
+					"post_type": "post",
+					"href": "https://stevenbenner.com/wp-json/wp/v2/posts/633"
+				}
+			]
+		}
+	},
+	{
+		"id": 305,
+		"post": 633,
+		"parent": 0,
+		"author": 2,
+		"author_name": "Steven Benner",
+		"author_url": "http://stevenbenner.com/",
+		"date": "2010-03-07T20:37:25",
+		"date_gmt": "2010-03-08T04:37:25",
+		"content": {
+			"rendered": "<p>Hi Ben! Thanks for checking out my article. It wasn&#8217;t my intention to levy charges against Omniture in this post, but I can see why some of my quips could be taken that way.</p>\n<p>I&#8217;ve only been using Omniture for about 3 years. It is not my primary duty, but as the JavaScript guy I&#8217;m the one who gets to read the documentation and figure out the best way to accomplish the tracking goals that other people would like to see. I am a frequent user of the front-end code, but I don&#8217;t spend all that much time actually working with the reports in SiteCatalyst. I spend far more time looking over Google Analytics reports because those reports are far more interesting to a web developer like me. I leave the SiteCatalyst reports for marketing guys to try to improve their brands.</p>\n<p><em>> I haven’t found performance issues to be extremely widespread during my four<br />\n> years working with and supporting the tool, we’ve actually made a number of<br />\n> platform improvements over the past year that improve performance<br />\n> significantly.</em></p>\n<p>Okay, &#8220;woefully slow&#8221; is a bit of an overstatement, it is slow when compared to Google analytics but the Google product doesn&#8217;t have anywhere near as many fine grain selects. And Omniture is indeed faster than Piwik for absolutely any kind of report.</p>\n<p><em>> First, note that we’ve released a few “alternative” data collection methods<br />\n> (PHP, Java, XML Data Insertion) over the past couple of years</em></p>\n<p>I haven&#8217;t even heard about the XML Data Insertion API before. That sounds absolutely awesome. If I were to build a new app that used Omniture reporting this would be the method I check out first. I could see that being a great way to skip the front-end development and dependencies. I&#8217;ll look into this further with one of the projects I&#8217;m working on. I&#8217;ll do another how-to if I end up recommending and implementing it.</p>\n<p><em>> SiteCatalyst admins can set up their own correlations (as well as managing<br />\n> the majority of other settings) directly within the tool.</em></p>\n<p>As far as I know we still need to call Omniture client services to set up a custom collation report. I haven&#8217;t seen anywhere in the SiteCatalyst admin to build custom collations. But I could be wrong; I&#8217;ll dig around and see if I can find out for sure. Until then I&#8217;ve retracted the comment about having to call.</p>\n<p><strong>Problems</strong></p>\n<p>Indeed, most of the problems I&#8217;ve encountered with Omniture are the fault of the companies that use it, for some reason they never update. When I deal with the Omniture script I usually see H.5 through H.10 (circa 2006) because they never follow the updates. However, there have been so many problems that I&#8217;ve had to deal with it has left me a little jaded towards the script.</p>\n<p>For instance, recently I had a client with a site that had an inexplicable problem with a JavaScript form validation script. For some reason a validation event for one form was being run on every form on the page and always failing because those forms didn&#8217;t have the fields it was trying to validate. After a long diagnosis I found out it was because of the Omniture code on the page.</p>\n<p>This site had two Omniture scripts, version H.5 and H.17, the Omniture SiteCatalyst code (I believe the H.17) was storing existing form events in an array that uses the form name attribute as the key, specifically <code>s_c_il[1].fa.os</code>. Form name hasn&#8217;t been an acceptable identifier since the DHTML days so in modern XHTML markup it is always undefined or an empty string. This caused a problem where a submit event attached to one form was being run for every form on the page because Omniture was trying to pull the event from <code>s_c_il[1].fa.os['']</code>, which means that whatever happened to be to last form on the page with a submit event had that event run for every form on the page.</p>\n<p>I have only seen this happen once, but it took ages to diagnose. I assume it was due to a conflict, or someone screwed up the configuration, but I never found the real cause or solution to the problem. However it bugged me because this is simply the wrong way to handle multiple events. You should use the AddEvent technique I used here or create a new event and store the old event as a function inside the new event.</p>\n<p><strong>Suggestions</strong></p>\n<p>I&#8217;d love to offer my suggestions for improving your script. My big recommendations are:</p>\n<ul>\n<li>Don&#8217;t obfuscate the script. This is really pointless, there is nothing worth hiding and it just makes debugging a nightmare. Offer the same releases as every other JavaScript product, a minified version for live deployment and a well-formatted version for development and debugging.</li>\n<li>Use asynchronous script loading. The Omniture code is pretty large and requires a relatively long initialization time (which can be improved by not obfuscating). Why not use a short setup code with only basic information like account name and config options. Then load and execute the core code after the page has downloaded. This will speed up page loads and make client script easier to maintain. It has the added benefit of making clients think about the config items that they customize.</li>\n<li>Offer better support for multiple installs. I know this is a dumb complaint because there should be no reason to have multiple Omnitures on one site, but I see it all the time. I see it on clients who syndicate content or service providers that offer client customizations. Right now it is not uncommon to see two Omniture installs conflicting with each other. There are numerous ways to accomplish this, namespace objects by account name, use non-overriding event attachment, use overload methods that support account name, etc.</li>\n</ul>\n<p>There are other items that I think can use some love that will greatly improve the quality of your service but those are the big ones. I&#8217;m sure there are internal issues that I am not aware of, like backwards compatibility with your web service and old versions of SiteCatalyst, but even those can be overcome with some good planning.</p>\n<p>Thanks for commenting on my article. I&#8217;ve updated it to be a little bit less negative to your service without removing my complaints. The purpose of this article wasn&#8217;t to berate Omniture, I just feel obligated to mention such things when I talk about services.</p>\n"
+		},
+		"link": "https://stevenbenner.com/2010/03/custom-link-click-tracking-using-omniture/#comment-305",
+		"status": "approved",
+		"type": "comment",
+		"author_avatar_urls": {
+			"24": "https://secure.gravatar.com/avatar/5b09e09f1d9fed4c34e369d02f2edb74?s=24&d=mm&r=pg",
+			"48": "https://secure.gravatar.com/avatar/5b09e09f1d9fed4c34e369d02f2edb74?s=48&d=mm&r=pg",
+			"96": "https://secure.gravatar.com/avatar/5b09e09f1d9fed4c34e369d02f2edb74?s=96&d=mm&r=pg"
+		},
+		"meta": [],
+		"_links": {
+			"self": [
+				{
+					"href": "https://stevenbenner.com/wp-json/wp/v2/comments/305"
+				}
+			],
+			"collection": [
+				{
+					"href": "https://stevenbenner.com/wp-json/wp/v2/comments"
+				}
+			],
+			"author": [
+				{
+					"embeddable": true,
+					"href": "https://stevenbenner.com/wp-json/wp/v2/users/2"
+				}
+			],
+			"up": [
+				{
+					"embeddable": true,
+					"post_type": "post",
+					"href": "https://stevenbenner.com/wp-json/wp/v2/posts/633"
+				}
+			]
+		}
+	},
+	{
+		"id": 298,
+		"post": 633,
+		"parent": 0,
+		"author": 0,
+		"author_name": "Ben Gaines",
+		"author_url": "http://blogs.omniture.com/author/bgaines",
+		"date": "2010-03-07T14:46:10",
+		"date_gmt": "2010-03-07T22:46:10",
+		"content": {
+			"rendered": "<p>Steven,</p>\n<p>I hope you don&#8217;t mind me jumping in here; if you do, please feel free to delete this comment. :)</p>\n<p>Great technical post &#8212; thanks for sharing. Hopefully it will help some of your readers implement link tracking more effectively. Thanks for sharing your insights (and for linking back to my higher-level post on the topic from last year); this is an extremely useful technique for capturing just about anything that isn&#8217;t considered a Page View.</p>\n<p>I&#8217;m not sure whether you&#8217;re a frequent SiteCatalyst user or not, but I would like to respond to a few of the charges you&#8217;ve levied against the product.</p>\n<p>&gt; Their SiteCatalyst reporting application is<br />\n&gt; woefully slow and inept.</p>\n<p>While I haven&#8217;t found performance issues to be extremely widespread during my four years working with and supporting the tool, we&#8217;ve actually made a number of platform improvements over the past year that improve performance significantly. Massive reports (large date range, many metrics, tons of unique values, etc.) may return more slowly than others, but examples of this should be few and far between. Additionally, if users are experiencing reporting slowness, there absolutely ARE things that we can look into.</p>\n<p>&gt; If you want any kind of custom collation or<br />\n&gt; correlation report you have to call them and<br />\n&gt; have them custom craft the report for you. </p>\n<p>I don&#8217;t believe this has been true in at least a few years. SiteCatalyst admins can set up their own correlations (as well as managing the majority of other settings) directly within the tool. At the same time, if you&#8217;ve run into features that you cannot enable/manage within the Admin Console, please let me know and I&#8217;ll at least find out why the given feature is not managed there.</p>\n<p>&gt; But my biggest gripe is their tracking JavaScript<br />\n&gt; code, it’s just plain terrible. It’s slow,<br />\n&gt; obfuscated (really? why do this?), bloated,<br />\n&gt; impossible to debug and not built using modern<br />\n&gt; practices.</p>\n<p>A few things. First, note that we&#8217;ve released a few &#8220;alternative&#8221; data collection methods (PHP, Java, XML Data Insertion) over the past couple of years if you truly hate our JavaScript. Personally, the Data Insertion (XML) API is my favorite. Second, would you be open to further discussion on specific points of complaint (at the code level) regarding our JavaScript? We do have a team of qualified engineers who work on updating the functionality contained there. Who knows &#8212; your feedback may prove valuable in resolving some of the issues with the code that bother you. We&#8217;re always open to feedback and have an excellent track record of applying these requests into our code.</p>\n<p>Feel free to reach out to me directly at omniturecare at adobe dot com if you&#8217;d like to discuss further!</p>\n<p>Thanks,<br />\nBen Gaines<br />\nCommunity Manager<br />\nOmniture, an Adobe company</p>\n"
+		},
+		"link": "https://stevenbenner.com/2010/03/custom-link-click-tracking-using-omniture/#comment-298",
+		"status": "approved",
+		"type": "comment",
+		"author_avatar_urls": {
+			"24": "https://secure.gravatar.com/avatar/22736b06762ab0a97a73780ced9cd425?s=24&d=mm&r=pg",
+			"48": "https://secure.gravatar.com/avatar/22736b06762ab0a97a73780ced9cd425?s=48&d=mm&r=pg",
+			"96": "https://secure.gravatar.com/avatar/22736b06762ab0a97a73780ced9cd425?s=96&d=mm&r=pg"
+		},
+		"meta": [],
+		"_links": {
+			"self": [
+				{
+					"href": "https://stevenbenner.com/wp-json/wp/v2/comments/298"
+				}
+			],
+			"collection": [
+				{
+					"href": "https://stevenbenner.com/wp-json/wp/v2/comments"
+				}
+			],
+			"up": [
+				{
+					"embeddable": true,
+					"post_type": "post",
+					"href": "https://stevenbenner.com/wp-json/wp/v2/posts/633"
+				}
+			]
+		}
+	}
+]

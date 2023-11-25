@@ -1,0 +1,541 @@
+[
+	{
+		"id": 171353,
+		"post": 582,
+		"parent": 0,
+		"author": 0,
+		"author_name": "ScoDal",
+		"author_url": "http://www.scodal.com/",
+		"date": "2015-06-23T16:44:30",
+		"date_gmt": "2015-06-23T23:44:30",
+		"content": {
+			"rendered": "<p>I too hate css reset. I have absolutely no trouble developing a site from scratch without a css reset and making it look the same across every browser. Sometimes there is a small variation but it&#8217;s not due to the css reset. Like the anti aliasing of fonts or the way default check boxes look. Nothing that&#8217;s going to keep me up at night. Death to css reset</p>\n"
+		},
+		"link": "https://stevenbenner.com/2010/02/reset-cascading-style-sheets-are-bad-practice/#comment-171353",
+		"status": "approved",
+		"type": "comment",
+		"author_avatar_urls": {
+			"24": "https://secure.gravatar.com/avatar/dc735788a2e66bf534136b402f074b66?s=24&d=mm&r=pg",
+			"48": "https://secure.gravatar.com/avatar/dc735788a2e66bf534136b402f074b66?s=48&d=mm&r=pg",
+			"96": "https://secure.gravatar.com/avatar/dc735788a2e66bf534136b402f074b66?s=96&d=mm&r=pg"
+		},
+		"meta": [],
+		"_links": {
+			"self": [
+				{
+					"href": "https://stevenbenner.com/wp-json/wp/v2/comments/171353"
+				}
+			],
+			"collection": [
+				{
+					"href": "https://stevenbenner.com/wp-json/wp/v2/comments"
+				}
+			],
+			"up": [
+				{
+					"embeddable": true,
+					"post_type": "post",
+					"href": "https://stevenbenner.com/wp-json/wp/v2/posts/582"
+				}
+			]
+		}
+	},
+	{
+		"id": 99587,
+		"post": 582,
+		"parent": 0,
+		"author": 0,
+		"author_name": "Cristian Leonte",
+		"author_url": "http://crisleo.com",
+		"date": "2014-07-29T10:08:06",
+		"date_gmt": "2014-07-29T17:08:06",
+		"content": {
+			"rendered": "<p>There&#8217;s a reason why there are CSS standards and why those standards have default values. Writing your own reset.css to overwrite the defaults of CSS defaults is plain stupid. It&#8217;s like saying the hell with CSS standards, I know better!</p>\n"
+		},
+		"link": "https://stevenbenner.com/2010/02/reset-cascading-style-sheets-are-bad-practice/#comment-99587",
+		"status": "approved",
+		"type": "comment",
+		"author_avatar_urls": {
+			"24": "https://secure.gravatar.com/avatar/e27cf794f6a928c34c69568f045142a5?s=24&d=mm&r=pg",
+			"48": "https://secure.gravatar.com/avatar/e27cf794f6a928c34c69568f045142a5?s=48&d=mm&r=pg",
+			"96": "https://secure.gravatar.com/avatar/e27cf794f6a928c34c69568f045142a5?s=96&d=mm&r=pg"
+		},
+		"meta": [],
+		"_links": {
+			"self": [
+				{
+					"href": "https://stevenbenner.com/wp-json/wp/v2/comments/99587"
+				}
+			],
+			"collection": [
+				{
+					"href": "https://stevenbenner.com/wp-json/wp/v2/comments"
+				}
+			],
+			"up": [
+				{
+					"embeddable": true,
+					"post_type": "post",
+					"href": "https://stevenbenner.com/wp-json/wp/v2/posts/582"
+				}
+			]
+		}
+	},
+	{
+		"id": 83152,
+		"post": 582,
+		"parent": 0,
+		"author": 0,
+		"author_name": "AntoxaGray",
+		"author_url": "",
+		"date": "2012-08-15T22:29:14",
+		"date_gmt": "2012-08-16T05:29:14",
+		"content": {
+			"rendered": "<p>I guess people are too lazy to manually delete useless stuff from reset file (such as applet, accronym, center, wtf are they doing in reset? I never use these tags)</p>\n<p>2. Please show me browser that have div as not block and specify font styles. Why do reset files have display:block and font:inherit for divs??</p>\n<p>etc.</p>\n"
+		},
+		"link": "https://stevenbenner.com/2010/02/reset-cascading-style-sheets-are-bad-practice/#comment-83152",
+		"status": "approved",
+		"type": "comment",
+		"author_avatar_urls": {
+			"24": "https://secure.gravatar.com/avatar/e7b7abd8b240402827a19e540ec15be0?s=24&d=mm&r=pg",
+			"48": "https://secure.gravatar.com/avatar/e7b7abd8b240402827a19e540ec15be0?s=48&d=mm&r=pg",
+			"96": "https://secure.gravatar.com/avatar/e7b7abd8b240402827a19e540ec15be0?s=96&d=mm&r=pg"
+		},
+		"meta": [],
+		"_links": {
+			"self": [
+				{
+					"href": "https://stevenbenner.com/wp-json/wp/v2/comments/83152"
+				}
+			],
+			"collection": [
+				{
+					"href": "https://stevenbenner.com/wp-json/wp/v2/comments"
+				}
+			],
+			"up": [
+				{
+					"embeddable": true,
+					"post_type": "post",
+					"href": "https://stevenbenner.com/wp-json/wp/v2/posts/582"
+				}
+			]
+		}
+	},
+	{
+		"id": 83151,
+		"post": 582,
+		"parent": 0,
+		"author": 0,
+		"author_name": "AntoxaGray",
+		"author_url": "",
+		"date": "2012-08-15T22:25:54",
+		"date_gmt": "2012-08-16T05:25:54",
+		"content": {
+			"rendered": "<p>Every time I see big wall of selectors{font:inherit; }, it drives me bananas. Everyone who doing that, they should see how it looks in Firebug.</p>\n<p>What about stop using rough and primitive resets and use more smart, like html5boilerplate reset?</p>\n<p>p.s. firebug should implement option to not show specific css file to partially fix this problem.</p>\n"
+		},
+		"link": "https://stevenbenner.com/2010/02/reset-cascading-style-sheets-are-bad-practice/#comment-83151",
+		"status": "approved",
+		"type": "comment",
+		"author_avatar_urls": {
+			"24": "https://secure.gravatar.com/avatar/e7b7abd8b240402827a19e540ec15be0?s=24&d=mm&r=pg",
+			"48": "https://secure.gravatar.com/avatar/e7b7abd8b240402827a19e540ec15be0?s=48&d=mm&r=pg",
+			"96": "https://secure.gravatar.com/avatar/e7b7abd8b240402827a19e540ec15be0?s=96&d=mm&r=pg"
+		},
+		"meta": [],
+		"_links": {
+			"self": [
+				{
+					"href": "https://stevenbenner.com/wp-json/wp/v2/comments/83151"
+				}
+			],
+			"collection": [
+				{
+					"href": "https://stevenbenner.com/wp-json/wp/v2/comments"
+				}
+			],
+			"up": [
+				{
+					"embeddable": true,
+					"post_type": "post",
+					"href": "https://stevenbenner.com/wp-json/wp/v2/posts/582"
+				}
+			]
+		}
+	},
+	{
+		"id": 81923,
+		"post": 582,
+		"parent": 0,
+		"author": 0,
+		"author_name": "Stephan",
+		"author_url": "http://www.htmltweaks.com",
+		"date": "2012-04-23T03:43:48",
+		"date_gmt": "2012-04-23T10:43:48",
+		"content": {
+			"rendered": "<p>I think CSS reset files are a great way to save you a lot of debugging and browser testing time.<br />\nIf you want small code, then just add only the styles you really wish to reset and leave all others out.</p>\n<p>You have a point in the section Accessibility. But I always set the outlines to 0. Then later I can add accessibility by using :focus for example:</p>\n<p>input:focus {<br />\n  border-color:#0000ff;<br />\n}</p>\n<p>The reset file I use in most of my projects is just under 400 Bytes, so that should&#8217;t affect performance much. Heres a link if anyone cares:</p>\n<p><a href=\"http://www.htmltweaks.com/Reset_Browser-Specific_CSS_Styles\" rel=\"nofollow\">http://www.htmltweaks.com/Reset_Browser-Specific_CSS_Styles</a></p>\n"
+		},
+		"link": "https://stevenbenner.com/2010/02/reset-cascading-style-sheets-are-bad-practice/#comment-81923",
+		"status": "approved",
+		"type": "comment",
+		"author_avatar_urls": {
+			"24": "https://secure.gravatar.com/avatar/74333f9037a262a8d700e19c298ba8e7?s=24&d=mm&r=pg",
+			"48": "https://secure.gravatar.com/avatar/74333f9037a262a8d700e19c298ba8e7?s=48&d=mm&r=pg",
+			"96": "https://secure.gravatar.com/avatar/74333f9037a262a8d700e19c298ba8e7?s=96&d=mm&r=pg"
+		},
+		"meta": [],
+		"_links": {
+			"self": [
+				{
+					"href": "https://stevenbenner.com/wp-json/wp/v2/comments/81923"
+				}
+			],
+			"collection": [
+				{
+					"href": "https://stevenbenner.com/wp-json/wp/v2/comments"
+				}
+			],
+			"up": [
+				{
+					"embeddable": true,
+					"post_type": "post",
+					"href": "https://stevenbenner.com/wp-json/wp/v2/posts/582"
+				}
+			]
+		}
+	},
+	{
+		"id": 81511,
+		"post": 582,
+		"parent": 0,
+		"author": 0,
+		"author_name": "TC",
+		"author_url": "http://www.nvgo.com",
+		"date": "2012-02-09T09:17:38",
+		"date_gmt": "2012-02-09T17:17:38",
+		"content": {
+			"rendered": "<p>This is genius, so many issues with inheritance just got fixed by that simple fix.</p>\n"
+		},
+		"link": "https://stevenbenner.com/2010/02/reset-cascading-style-sheets-are-bad-practice/#comment-81511",
+		"status": "approved",
+		"type": "comment",
+		"author_avatar_urls": {
+			"24": "https://secure.gravatar.com/avatar/7f562c3aec1f54998d45bfab87e04972?s=24&d=mm&r=pg",
+			"48": "https://secure.gravatar.com/avatar/7f562c3aec1f54998d45bfab87e04972?s=48&d=mm&r=pg",
+			"96": "https://secure.gravatar.com/avatar/7f562c3aec1f54998d45bfab87e04972?s=96&d=mm&r=pg"
+		},
+		"meta": [],
+		"_links": {
+			"self": [
+				{
+					"href": "https://stevenbenner.com/wp-json/wp/v2/comments/81511"
+				}
+			],
+			"collection": [
+				{
+					"href": "https://stevenbenner.com/wp-json/wp/v2/comments"
+				}
+			],
+			"up": [
+				{
+					"embeddable": true,
+					"post_type": "post",
+					"href": "https://stevenbenner.com/wp-json/wp/v2/posts/582"
+				}
+			]
+		}
+	},
+	{
+		"id": 57891,
+		"post": 582,
+		"parent": 0,
+		"author": 0,
+		"author_name": "Parm",
+		"author_url": "",
+		"date": "2011-07-24T11:05:19",
+		"date_gmt": "2011-07-24T18:05:19",
+		"content": {
+			"rendered": "<p>I completely dis-agree</p>\n<p>Without the reset stylesheet the design process would be a nightmare in an environment where we have more browsers than ever.</p>\n<p>The accessibility argument is pointless.  If visual clues are required then there are tools out there that can accommodate. You yourself can even put code in there that can switch the style sheet.</p>\n<p>Css files are essentially text files. I fimd it hard to believe that download speed is even an issue. Even on dialup. I have aage that requires 20 css call( no kidding ). Believe me nobody cares that they have to wait for a milisecond longer. After which time the css is cached. </p>\n<p>If you are any good at css then there is no reason why your css cannot be just as clean. Mine is.</p>\n"
+		},
+		"link": "https://stevenbenner.com/2010/02/reset-cascading-style-sheets-are-bad-practice/#comment-57891",
+		"status": "approved",
+		"type": "comment",
+		"author_avatar_urls": {
+			"24": "https://secure.gravatar.com/avatar/b32c1fe3513b6238c0eb8f1e1af13fe0?s=24&d=mm&r=pg",
+			"48": "https://secure.gravatar.com/avatar/b32c1fe3513b6238c0eb8f1e1af13fe0?s=48&d=mm&r=pg",
+			"96": "https://secure.gravatar.com/avatar/b32c1fe3513b6238c0eb8f1e1af13fe0?s=96&d=mm&r=pg"
+		},
+		"meta": [],
+		"_links": {
+			"self": [
+				{
+					"href": "https://stevenbenner.com/wp-json/wp/v2/comments/57891"
+				}
+			],
+			"collection": [
+				{
+					"href": "https://stevenbenner.com/wp-json/wp/v2/comments"
+				}
+			],
+			"up": [
+				{
+					"embeddable": true,
+					"post_type": "post",
+					"href": "https://stevenbenner.com/wp-json/wp/v2/posts/582"
+				}
+			]
+		}
+	},
+	{
+		"id": 1557,
+		"post": 582,
+		"parent": 0,
+		"author": 0,
+		"author_name": "carol",
+		"author_url": "",
+		"date": "2010-06-01T15:15:07",
+		"date_gmt": "2010-06-01T22:15:07",
+		"content": {
+			"rendered": "<p>Thank you for the article, very informative with specific examples.  </p>\n<p>I have been a self-study XHTML, CSS, JavaScript student (some online classes and a very patient 30 yr career software engineer as a tutor) for about two years.  My mid-life career change.  I&#8217;ve had a couple of real breakthroughs lately, and in reading Meyer&#8217;s and others re: CSS reset, seemed as though I had better go along, because, well, two years of study and a couple of sites for local businesses&#8211;I&#8217;m not exactly in the big leagues&#8211;yet ;-D.</p>\n<p>But I kept asking myself, &#8220;Why am I adding all this?  Why not padding and margin at 0px&#8221;?</p>\n<p>And the work, time, tedium of adding *back* all the HTML default structure that was there in the first place&#8211;but I took it out so I could add  my CSS styles, to put it back in  most cases exactly as it would have been there&#8211;oh, and get very, very lost in a CSS labyrinth nightmare of my own creation????</p>\n<p>Didn&#8217;t seem to make sense, but, hey, I&#8217;m new at this. </p>\n<p>Now, of course, I&#8217;m sure lots of people don&#8217;t agree and want to start with the proverbial clean slate.  Fine.  As you say,  there are cases  where resetting everything may be the way to go.  But as a regular practice?  Couldn&#8217;t really call that BEST practice, I think.</p>\n<p>Thanks, again, for the informative article, based on (yes, true) logic!</p>\n"
+		},
+		"link": "https://stevenbenner.com/2010/02/reset-cascading-style-sheets-are-bad-practice/#comment-1557",
+		"status": "approved",
+		"type": "comment",
+		"author_avatar_urls": {
+			"24": "https://secure.gravatar.com/avatar/55b46171f2597909fed935491de1d624?s=24&d=mm&r=pg",
+			"48": "https://secure.gravatar.com/avatar/55b46171f2597909fed935491de1d624?s=48&d=mm&r=pg",
+			"96": "https://secure.gravatar.com/avatar/55b46171f2597909fed935491de1d624?s=96&d=mm&r=pg"
+		},
+		"meta": [],
+		"_links": {
+			"self": [
+				{
+					"href": "https://stevenbenner.com/wp-json/wp/v2/comments/1557"
+				}
+			],
+			"collection": [
+				{
+					"href": "https://stevenbenner.com/wp-json/wp/v2/comments"
+				}
+			],
+			"up": [
+				{
+					"embeddable": true,
+					"post_type": "post",
+					"href": "https://stevenbenner.com/wp-json/wp/v2/posts/582"
+				}
+			]
+		}
+	},
+	{
+		"id": 1123,
+		"post": 582,
+		"parent": 0,
+		"author": 0,
+		"author_name": "jitendra vyas",
+		"author_url": "http://twitter.com/jitendravyas",
+		"date": "2010-05-07T22:41:30",
+		"date_gmt": "2010-05-08T05:41:30",
+		"content": {
+			"rendered": "<p>your article has good points. well observed. now after reading your article i&#8217;m thinking to use *global reset in place of eric meyer stylesheet.</p>\n"
+		},
+		"link": "https://stevenbenner.com/2010/02/reset-cascading-style-sheets-are-bad-practice/#comment-1123",
+		"status": "approved",
+		"type": "comment",
+		"author_avatar_urls": {
+			"24": "https://secure.gravatar.com/avatar/5cce99e9bf6154703d8ecdf474a750bd?s=24&d=mm&r=pg",
+			"48": "https://secure.gravatar.com/avatar/5cce99e9bf6154703d8ecdf474a750bd?s=48&d=mm&r=pg",
+			"96": "https://secure.gravatar.com/avatar/5cce99e9bf6154703d8ecdf474a750bd?s=96&d=mm&r=pg"
+		},
+		"meta": [],
+		"_links": {
+			"self": [
+				{
+					"href": "https://stevenbenner.com/wp-json/wp/v2/comments/1123"
+				}
+			],
+			"collection": [
+				{
+					"href": "https://stevenbenner.com/wp-json/wp/v2/comments"
+				}
+			],
+			"up": [
+				{
+					"embeddable": true,
+					"post_type": "post",
+					"href": "https://stevenbenner.com/wp-json/wp/v2/posts/582"
+				}
+			]
+		}
+	},
+	{
+		"id": 605,
+		"post": 582,
+		"parent": 0,
+		"author": 0,
+		"author_name": "Tim",
+		"author_url": "",
+		"date": "2010-03-31T20:42:34",
+		"date_gmt": "2010-04-01T03:42:34",
+		"content": {
+			"rendered": "<p>Nice article &#8211; It’s good to see an alternative opinion to what seems to have become general consensus among the dev community.</p>\n<p>I&#8217;m also a user of the simple &#8216;margin &amp; padding only&#8217; reset. I&#8217;ve found that this coupled with some other basic formatting I have evolved over time, provides a pretty robust base from which to work.</p>\n<p>Having tried out a variety of popular resets on previous projects, I was left concluding they are just too intrusive for my liking.</p>\n<p>Speaking of bugbears, how about a nice article on the increasing misuse of JQuery etc. for unnecessary effect, in a similar vein to Flash circa 2002 :)</p>\n"
+		},
+		"link": "https://stevenbenner.com/2010/02/reset-cascading-style-sheets-are-bad-practice/#comment-605",
+		"status": "approved",
+		"type": "comment",
+		"author_avatar_urls": {
+			"24": "https://secure.gravatar.com/avatar/465263888ed1cf7f6ab647b02125b7cc?s=24&d=mm&r=pg",
+			"48": "https://secure.gravatar.com/avatar/465263888ed1cf7f6ab647b02125b7cc?s=48&d=mm&r=pg",
+			"96": "https://secure.gravatar.com/avatar/465263888ed1cf7f6ab647b02125b7cc?s=96&d=mm&r=pg"
+		},
+		"meta": [],
+		"_links": {
+			"self": [
+				{
+					"href": "https://stevenbenner.com/wp-json/wp/v2/comments/605"
+				}
+			],
+			"collection": [
+				{
+					"href": "https://stevenbenner.com/wp-json/wp/v2/comments"
+				}
+			],
+			"up": [
+				{
+					"embeddable": true,
+					"post_type": "post",
+					"href": "https://stevenbenner.com/wp-json/wp/v2/posts/582"
+				}
+			]
+		}
+	},
+	{
+		"id": 193,
+		"post": 582,
+		"parent": 0,
+		"author": 0,
+		"author_name": "Robert",
+		"author_url": "",
+		"date": "2010-02-22T09:19:18",
+		"date_gmt": "2010-02-22T17:19:18",
+		"content": {
+			"rendered": "<p>True.  Now if only Safari&#8217;s default buttons didn&#8217;t look the way they do&#8230;</p>\n"
+		},
+		"link": "https://stevenbenner.com/2010/02/reset-cascading-style-sheets-are-bad-practice/#comment-193",
+		"status": "approved",
+		"type": "comment",
+		"author_avatar_urls": {
+			"24": "https://secure.gravatar.com/avatar/c5cb1333bd5f4b0484248167e8a85fa8?s=24&d=mm&r=pg",
+			"48": "https://secure.gravatar.com/avatar/c5cb1333bd5f4b0484248167e8a85fa8?s=48&d=mm&r=pg",
+			"96": "https://secure.gravatar.com/avatar/c5cb1333bd5f4b0484248167e8a85fa8?s=96&d=mm&r=pg"
+		},
+		"meta": [],
+		"_links": {
+			"self": [
+				{
+					"href": "https://stevenbenner.com/wp-json/wp/v2/comments/193"
+				}
+			],
+			"collection": [
+				{
+					"href": "https://stevenbenner.com/wp-json/wp/v2/comments"
+				}
+			],
+			"up": [
+				{
+					"embeddable": true,
+					"post_type": "post",
+					"href": "https://stevenbenner.com/wp-json/wp/v2/posts/582"
+				}
+			]
+		}
+	},
+	{
+		"id": 183,
+		"post": 582,
+		"parent": 0,
+		"author": 2,
+		"author_name": "Steven Benner",
+		"author_url": "http://stevenbenner.com/",
+		"date": "2010-02-21T13:23:53",
+		"date_gmt": "2010-02-21T21:23:53",
+		"content": {
+			"rendered": "<p>Indeed, it would be nice to have all of the browsers agree on what the default styles should be. But, yeah I doubt that will ever happen.</p>\n<p>If the web browser is standards compliant, which even Internet Explorer is getting pretty close to in IE8, then the good old *{margin:0;padding:0;} will make the layout almost pixel-perfect-exact in every modern browser. The only place you would expect to see differences is in form fields.</p>\n"
+		},
+		"link": "https://stevenbenner.com/2010/02/reset-cascading-style-sheets-are-bad-practice/#comment-183",
+		"status": "approved",
+		"type": "comment",
+		"author_avatar_urls": {
+			"24": "https://secure.gravatar.com/avatar/5b09e09f1d9fed4c34e369d02f2edb74?s=24&d=mm&r=pg",
+			"48": "https://secure.gravatar.com/avatar/5b09e09f1d9fed4c34e369d02f2edb74?s=48&d=mm&r=pg",
+			"96": "https://secure.gravatar.com/avatar/5b09e09f1d9fed4c34e369d02f2edb74?s=96&d=mm&r=pg"
+		},
+		"meta": [],
+		"_links": {
+			"self": [
+				{
+					"href": "https://stevenbenner.com/wp-json/wp/v2/comments/183"
+				}
+			],
+			"collection": [
+				{
+					"href": "https://stevenbenner.com/wp-json/wp/v2/comments"
+				}
+			],
+			"author": [
+				{
+					"embeddable": true,
+					"href": "https://stevenbenner.com/wp-json/wp/v2/users/2"
+				}
+			],
+			"up": [
+				{
+					"embeddable": true,
+					"post_type": "post",
+					"href": "https://stevenbenner.com/wp-json/wp/v2/posts/582"
+				}
+			]
+		}
+	},
+	{
+		"id": 177,
+		"post": 582,
+		"parent": 0,
+		"author": 0,
+		"author_name": "Robert",
+		"author_url": "",
+		"date": "2010-02-20T19:19:45",
+		"date_gmt": "2010-02-21T03:19:45",
+		"content": {
+			"rendered": "<p>I&#8217;m surprised I haven&#8217;t seen more critics of reset styles, but I think part of the problem is that there are a lot of &#8220;developers&#8221; (read: designers who write code) who don&#8217;t understand the impact of reset styles.  The problem with this one is that the fix has far-reaching consequences.</p>\n<p>There needs to be a discussion in the web developer community that either:<br />\na) browsers will display slightly differently and end-users don&#8217;t care / don&#8217;t notice<br />\nor<br />\nb) there needs to be standardization across the board by browser makers for all default CSS values.</p>\n<p>I think we all know which one of those two is more realistic.</p>\n"
+		},
+		"link": "https://stevenbenner.com/2010/02/reset-cascading-style-sheets-are-bad-practice/#comment-177",
+		"status": "approved",
+		"type": "comment",
+		"author_avatar_urls": {
+			"24": "https://secure.gravatar.com/avatar/c5cb1333bd5f4b0484248167e8a85fa8?s=24&d=mm&r=pg",
+			"48": "https://secure.gravatar.com/avatar/c5cb1333bd5f4b0484248167e8a85fa8?s=48&d=mm&r=pg",
+			"96": "https://secure.gravatar.com/avatar/c5cb1333bd5f4b0484248167e8a85fa8?s=96&d=mm&r=pg"
+		},
+		"meta": [],
+		"_links": {
+			"self": [
+				{
+					"href": "https://stevenbenner.com/wp-json/wp/v2/comments/177"
+				}
+			],
+			"collection": [
+				{
+					"href": "https://stevenbenner.com/wp-json/wp/v2/comments"
+				}
+			],
+			"up": [
+				{
+					"embeddable": true,
+					"post_type": "post",
+					"href": "https://stevenbenner.com/wp-json/wp/v2/posts/582"
+				}
+			]
+		}
+	}
+]

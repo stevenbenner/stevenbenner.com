@@ -1,0 +1,84 @@
+[
+	{
+		"id": 10264,
+		"post": 319,
+		"parent": 0,
+		"author": 0,
+		"author_name": "Lorenzo",
+		"author_url": "",
+		"date": "2010-11-20T17:50:21",
+		"date_gmt": "2010-11-21T01:50:21",
+		"content": {
+			"rendered": "<p>Hello, in your article you write that external templates for PURE is not available, but in can be done. Could you show us how to implement external templates? I can&#8217;t get it working because DOM elements added live aren&#8217;t supported by PURE (or it seems so&#8230;).</p>\n<p>Thanks!</p>\n"
+		},
+		"link": "https://stevenbenner.com/2010/03/microsoft-ajax-4-0-dataview-templates-vs-jtemplates-and-pure/#comment-10264",
+		"status": "approved",
+		"type": "comment",
+		"author_avatar_urls": {
+			"24": "https://secure.gravatar.com/avatar/0798d789faedf5f1ced08ece8f17252f?s=24&d=mm&r=pg",
+			"48": "https://secure.gravatar.com/avatar/0798d789faedf5f1ced08ece8f17252f?s=48&d=mm&r=pg",
+			"96": "https://secure.gravatar.com/avatar/0798d789faedf5f1ced08ece8f17252f?s=96&d=mm&r=pg"
+		},
+		"meta": [],
+		"_links": {
+			"self": [
+				{
+					"href": "https://stevenbenner.com/wp-json/wp/v2/comments/10264"
+				}
+			],
+			"collection": [
+				{
+					"href": "https://stevenbenner.com/wp-json/wp/v2/comments"
+				}
+			],
+			"up": [
+				{
+					"embeddable": true,
+					"post_type": "post",
+					"href": "https://stevenbenner.com/wp-json/wp/v2/posts/319"
+				}
+			]
+		}
+	},
+	{
+		"id": 2375,
+		"post": 319,
+		"parent": 0,
+		"author": 0,
+		"author_name": "Mic",
+		"author_url": "http://beebole.com",
+		"date": "2010-07-14T07:58:18",
+		"date_gmt": "2010-07-14T14:58:18",
+		"content": {
+			"rendered": "<p>Thanks for your nice words about PURE.</p>\n<p>Just to mention, that the markup conventions you refers to is an option.<br />\nThere&#8217;s a declarative mode that allows you to totally separate the markup(HTML) and the data structure(JSON) using what we call directive.</p>\n<p>As described at: <a href=\"http://beebole.com/pure/documentation/rendering-with-directives\" rel=\"nofollow\">http://beebole.com/pure/documentation/rendering-with-directives</a></p>\n"
+		},
+		"link": "https://stevenbenner.com/2010/03/microsoft-ajax-4-0-dataview-templates-vs-jtemplates-and-pure/#comment-2375",
+		"status": "approved",
+		"type": "comment",
+		"author_avatar_urls": {
+			"24": "https://secure.gravatar.com/avatar/e2175c4e2336cb31bccee2c8b4108a57?s=24&d=mm&r=pg",
+			"48": "https://secure.gravatar.com/avatar/e2175c4e2336cb31bccee2c8b4108a57?s=48&d=mm&r=pg",
+			"96": "https://secure.gravatar.com/avatar/e2175c4e2336cb31bccee2c8b4108a57?s=96&d=mm&r=pg"
+		},
+		"meta": [],
+		"_links": {
+			"self": [
+				{
+					"href": "https://stevenbenner.com/wp-json/wp/v2/comments/2375"
+				}
+			],
+			"collection": [
+				{
+					"href": "https://stevenbenner.com/wp-json/wp/v2/comments"
+				}
+			],
+			"up": [
+				{
+					"embeddable": true,
+					"post_type": "post",
+					"href": "https://stevenbenner.com/wp-json/wp/v2/posts/319"
+				}
+			]
+		}
+	}
+]

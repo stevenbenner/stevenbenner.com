@@ -1,0 +1,336 @@
+[
+	{
+		"id": 82095,
+		"post": 185,
+		"parent": 0,
+		"author": 0,
+		"author_name": "Julian",
+		"author_url": "http://slideonline.com",
+		"date": "2012-07-16T05:21:57",
+		"date_gmt": "2012-07-16T12:21:57",
+		"content": {
+			"rendered": "<p>Interesting! I didn&#8217;t know people was using Dropbox as a source code repository.</p>\n"
+		},
+		"link": "https://stevenbenner.com/2010/02/poor-mans-source-code-repository-and-versioning-with-dropbox/#comment-82095",
+		"status": "approved",
+		"type": "comment",
+		"author_avatar_urls": {
+			"24": "https://secure.gravatar.com/avatar/141373b3fdf89adc427d2b2961932ea3?s=24&d=mm&r=pg",
+			"48": "https://secure.gravatar.com/avatar/141373b3fdf89adc427d2b2961932ea3?s=48&d=mm&r=pg",
+			"96": "https://secure.gravatar.com/avatar/141373b3fdf89adc427d2b2961932ea3?s=96&d=mm&r=pg"
+		},
+		"meta": [],
+		"_links": {
+			"self": [
+				{
+					"href": "https://stevenbenner.com/wp-json/wp/v2/comments/82095"
+				}
+			],
+			"collection": [
+				{
+					"href": "https://stevenbenner.com/wp-json/wp/v2/comments"
+				}
+			],
+			"up": [
+				{
+					"embeddable": true,
+					"post_type": "post",
+					"href": "https://stevenbenner.com/wp-json/wp/v2/posts/185"
+				}
+			]
+		}
+	},
+	{
+		"id": 73888,
+		"post": 185,
+		"parent": 0,
+		"author": 0,
+		"author_name": "Victor Shih",
+		"author_url": "http://blog.vicshih.com",
+		"date": "2011-09-10T18:13:47",
+		"date_gmt": "2011-09-11T01:13:47",
+		"content": {
+			"rendered": "<p>I wrote DropboxDiff, a Google Chrome extension which allows you to run a diff tool on your files in Dropbox.</p>\n<p><a href=\"http://blog.vicshih.com/2011/09/dropboxdiff-chrome-extension.html\" rel=\"nofollow\">http://blog.vicshih.com/2011/09/dropboxdiff-chrome-extension.html</a></p>\n"
+		},
+		"link": "https://stevenbenner.com/2010/02/poor-mans-source-code-repository-and-versioning-with-dropbox/#comment-73888",
+		"status": "approved",
+		"type": "comment",
+		"author_avatar_urls": {
+			"24": "https://secure.gravatar.com/avatar/9cc5d8a511f5c0f2ec0eb112bde2af80?s=24&d=mm&r=pg",
+			"48": "https://secure.gravatar.com/avatar/9cc5d8a511f5c0f2ec0eb112bde2af80?s=48&d=mm&r=pg",
+			"96": "https://secure.gravatar.com/avatar/9cc5d8a511f5c0f2ec0eb112bde2af80?s=96&d=mm&r=pg"
+		},
+		"meta": [],
+		"_links": {
+			"self": [
+				{
+					"href": "https://stevenbenner.com/wp-json/wp/v2/comments/73888"
+				}
+			],
+			"collection": [
+				{
+					"href": "https://stevenbenner.com/wp-json/wp/v2/comments"
+				}
+			],
+			"up": [
+				{
+					"embeddable": true,
+					"post_type": "post",
+					"href": "https://stevenbenner.com/wp-json/wp/v2/posts/185"
+				}
+			]
+		}
+	},
+	{
+		"id": 42343,
+		"post": 185,
+		"parent": 0,
+		"author": 0,
+		"author_name": "Terse Col",
+		"author_url": "http://terse-words.blogspot.com",
+		"date": "2011-06-08T09:38:58",
+		"date_gmt": "2011-06-08T16:38:58",
+		"content": {
+			"rendered": "<p>There are a few free Code repositories listed in this article which I&#8217;ve just written as well:</p>\n<p><a href=\"http://terse-words.blogspot.com/2011/06/review-of-free-code-repositories.html\" rel=\"nofollow\">http://terse-words.blogspot.com/2011/06/review-of-free-code-repositories.html</a></p>\n<p>I never really thought of using Dropbox I must confess.</p>\n<p>Col</p>\n"
+		},
+		"link": "https://stevenbenner.com/2010/02/poor-mans-source-code-repository-and-versioning-with-dropbox/#comment-42343",
+		"status": "approved",
+		"type": "comment",
+		"author_avatar_urls": {
+			"24": "https://secure.gravatar.com/avatar/044cb34514eb73c75052729fae6e5a17?s=24&d=mm&r=pg",
+			"48": "https://secure.gravatar.com/avatar/044cb34514eb73c75052729fae6e5a17?s=48&d=mm&r=pg",
+			"96": "https://secure.gravatar.com/avatar/044cb34514eb73c75052729fae6e5a17?s=96&d=mm&r=pg"
+		},
+		"meta": [],
+		"_links": {
+			"self": [
+				{
+					"href": "https://stevenbenner.com/wp-json/wp/v2/comments/42343"
+				}
+			],
+			"collection": [
+				{
+					"href": "https://stevenbenner.com/wp-json/wp/v2/comments"
+				}
+			],
+			"up": [
+				{
+					"embeddable": true,
+					"post_type": "post",
+					"href": "https://stevenbenner.com/wp-json/wp/v2/posts/185"
+				}
+			]
+		}
+	},
+	{
+		"id": 15576,
+		"post": 185,
+		"parent": 0,
+		"author": 0,
+		"author_name": "Miguel Mattos",
+		"author_url": "http://mmmattos.net",
+		"date": "2011-01-01T18:46:15",
+		"date_gmt": "2011-01-02T02:46:15",
+		"content": {
+			"rendered": "<p>Hi,</p>\n<p>Recently I found some new alternatives on “free” repositories for source code as mentioned in a friend´s blog.<br />\nIndeed, some of them offer a free plan, others don´t.<br />\nSupport for svn and git. Ticket tracking and more.</p>\n<p>Check them out here: <a href=\"http://goo.gl/m4J5s\" rel=\"nofollow\">http://goo.gl/m4J5s</a><br />\nHappy 2011!</p>\n"
+		},
+		"link": "https://stevenbenner.com/2010/02/poor-mans-source-code-repository-and-versioning-with-dropbox/#comment-15576",
+		"status": "approved",
+		"type": "comment",
+		"author_avatar_urls": {
+			"24": "https://secure.gravatar.com/avatar/d291715da161e063ca5a9b606d769a9a?s=24&d=mm&r=pg",
+			"48": "https://secure.gravatar.com/avatar/d291715da161e063ca5a9b606d769a9a?s=48&d=mm&r=pg",
+			"96": "https://secure.gravatar.com/avatar/d291715da161e063ca5a9b606d769a9a?s=96&d=mm&r=pg"
+		},
+		"meta": [],
+		"_links": {
+			"self": [
+				{
+					"href": "https://stevenbenner.com/wp-json/wp/v2/comments/15576"
+				}
+			],
+			"collection": [
+				{
+					"href": "https://stevenbenner.com/wp-json/wp/v2/comments"
+				}
+			],
+			"up": [
+				{
+					"embeddable": true,
+					"post_type": "post",
+					"href": "https://stevenbenner.com/wp-json/wp/v2/posts/185"
+				}
+			]
+		}
+	},
+	{
+		"id": 10812,
+		"post": 185,
+		"parent": 0,
+		"author": 0,
+		"author_name": "Miguel Mattos",
+		"author_url": "http://mmmattos.net/",
+		"date": "2010-11-25T08:18:27",
+		"date_gmt": "2010-11-25T16:18:27",
+		"content": {
+			"rendered": "<p>Update! These days browsing for dev tools I found the Bitbucket.org hosted repository.<br />\nCheck about it here : <a href=\"http://mmmattos.net/wordpress/?p=307\" rel=\"nofollow\">http://mmmattos.net/wordpress/?p=307</a><br />\nThanks,</p>\n"
+		},
+		"link": "https://stevenbenner.com/2010/02/poor-mans-source-code-repository-and-versioning-with-dropbox/#comment-10812",
+		"status": "approved",
+		"type": "comment",
+		"author_avatar_urls": {
+			"24": "https://secure.gravatar.com/avatar/d291715da161e063ca5a9b606d769a9a?s=24&d=mm&r=pg",
+			"48": "https://secure.gravatar.com/avatar/d291715da161e063ca5a9b606d769a9a?s=48&d=mm&r=pg",
+			"96": "https://secure.gravatar.com/avatar/d291715da161e063ca5a9b606d769a9a?s=96&d=mm&r=pg"
+		},
+		"meta": [],
+		"_links": {
+			"self": [
+				{
+					"href": "https://stevenbenner.com/wp-json/wp/v2/comments/10812"
+				}
+			],
+			"collection": [
+				{
+					"href": "https://stevenbenner.com/wp-json/wp/v2/comments"
+				}
+			],
+			"up": [
+				{
+					"embeddable": true,
+					"post_type": "post",
+					"href": "https://stevenbenner.com/wp-json/wp/v2/posts/185"
+				}
+			]
+		}
+	},
+	{
+		"id": 2123,
+		"post": 185,
+		"parent": 0,
+		"author": 0,
+		"author_name": "Tim",
+		"author_url": "",
+		"date": "2010-06-30T14:50:11",
+		"date_gmt": "2010-06-30T21:50:11",
+		"content": {
+			"rendered": "<p>After much soul-searching and far too much digging into SVN documentation, I finally decided to give Dropbox a try for a poor man&#8217;s repository. I&#8217;ve been using it previously for a while now to sync and move files to and from work, but using it as a repository seems to be great so far as well.</p>\n<p>There are problems with SVN that just don&#8217;t seem to be gracefully solved as a Flash developer (primarily); specifically: handling the needed .fla binary files, some of which can grow to ~8-10MB in size depending on how much assets are in the library (all code is in separate source files); and also handling the additional external assets (XML files, images, etc) needed locally to recreate the server environment during building/debugging.</p>\n<p>I&#8217;ve got my &#8220;repository&#8221; set up just like you would with a real repository &#8212; trunk/branches/tags folders within each /client/project/ folder &#8212; as well as a simple &#8216;history.txt&#8217; file in the tags folder to track changes for each new &#8216;tag&#8217; I add.</p>\n<p>All on-going work is done in the trunk folder; all stable releases are frozen as duped copies in the tags folder, and tests etc are done as branches. Sure, there&#8217;s no merging, locking, or clearer history tools, but as a mostly-lone developer with very little overlap this is just fine.</p>\n<p>The best part is that so long as I keep my structure tidy, I should have very little problem moving to SVN in the future shall the need arise. Right now it&#8217;s overkill by a large margin, so Dropbox is just perfect in the meantime.</p>\n<p>Anyway, [ramble ramble ramble], thanks for the post.</p>\n"
+		},
+		"link": "https://stevenbenner.com/2010/02/poor-mans-source-code-repository-and-versioning-with-dropbox/#comment-2123",
+		"status": "approved",
+		"type": "comment",
+		"author_avatar_urls": {
+			"24": "https://secure.gravatar.com/avatar/a40ad85b73eccc857d8b76f28e0a2583?s=24&d=mm&r=pg",
+			"48": "https://secure.gravatar.com/avatar/a40ad85b73eccc857d8b76f28e0a2583?s=48&d=mm&r=pg",
+			"96": "https://secure.gravatar.com/avatar/a40ad85b73eccc857d8b76f28e0a2583?s=96&d=mm&r=pg"
+		},
+		"meta": [],
+		"_links": {
+			"self": [
+				{
+					"href": "https://stevenbenner.com/wp-json/wp/v2/comments/2123"
+				}
+			],
+			"collection": [
+				{
+					"href": "https://stevenbenner.com/wp-json/wp/v2/comments"
+				}
+			],
+			"up": [
+				{
+					"embeddable": true,
+					"post_type": "post",
+					"href": "https://stevenbenner.com/wp-json/wp/v2/posts/185"
+				}
+			]
+		}
+	},
+	{
+		"id": 414,
+		"post": 185,
+		"parent": 0,
+		"author": 2,
+		"author_name": "Steven Benner",
+		"author_url": "http://stevenbenner.com/",
+		"date": "2010-03-17T13:45:00",
+		"date_gmt": "2010-03-17T20:45:00",
+		"content": {
+			"rendered": "<p>Personally, I do all of my work out of the DropBox folder, that way I can just work and forget about the syncs happening in the background. I&#8217;ve never had any issues, DropBox updates are just so fast, it syncs small files in a second or less after saving. Files that I have been editing do build of a large history fairly quickly. But since the free version only keeps this history for 30 days it isn&#8217;t a big deal to me.</p>\n<p>If I had a subscription version of DropBox I might consider doing a check-in/check-out kind of system, but it probably wouldn&#8217;t be worth the effort (for me). It&#8217;s easy to spot a bunch of minor updates in a file&#8217;s history, because they usually happen over the course of a couple minutes.</p>\n<p>The files with the most updates are also the files that you care the least about, objects, pdb&#8217;s, dll&#8217;s and executable files. I can see the history on these becoming huge but you will probably not find much use for the history of those files.</p>\n<p>This system is one of the &#8220;just works&#8221; tools for me. I set it up and forget about it. I just wish they would give out permanent history with the free version. :)</p>\n"
+		},
+		"link": "https://stevenbenner.com/2010/02/poor-mans-source-code-repository-and-versioning-with-dropbox/#comment-414",
+		"status": "approved",
+		"type": "comment",
+		"author_avatar_urls": {
+			"24": "https://secure.gravatar.com/avatar/5b09e09f1d9fed4c34e369d02f2edb74?s=24&d=mm&r=pg",
+			"48": "https://secure.gravatar.com/avatar/5b09e09f1d9fed4c34e369d02f2edb74?s=48&d=mm&r=pg",
+			"96": "https://secure.gravatar.com/avatar/5b09e09f1d9fed4c34e369d02f2edb74?s=96&d=mm&r=pg"
+		},
+		"meta": [],
+		"_links": {
+			"self": [
+				{
+					"href": "https://stevenbenner.com/wp-json/wp/v2/comments/414"
+				}
+			],
+			"collection": [
+				{
+					"href": "https://stevenbenner.com/wp-json/wp/v2/comments"
+				}
+			],
+			"author": [
+				{
+					"embeddable": true,
+					"href": "https://stevenbenner.com/wp-json/wp/v2/users/2"
+				}
+			],
+			"up": [
+				{
+					"embeddable": true,
+					"post_type": "post",
+					"href": "https://stevenbenner.com/wp-json/wp/v2/posts/185"
+				}
+			]
+		}
+	},
+	{
+		"id": 403,
+		"post": 185,
+		"parent": 0,
+		"author": 0,
+		"author_name": "Mike Wilson",
+		"author_url": "http://www.evolvedisv.com",
+		"date": "2010-03-16T19:19:08",
+		"date_gmt": "2010-03-17T02:19:08",
+		"content": {
+			"rendered": "<p>Great article, I love DropBox myself too :)</p>\n<p>Quick question: Do you work on your solution files within the DropBox folder or do you copy (as a backup/check in) to your DropBox folder after working from a different local folder?</p>\n<p>The reason I ask is that during the course of normal software development you will be saving minor changes to a whole array of files (minor like adding or removing whitespace) each time you run or compile your project that DropBox may get confused (does it?) and/or you end up with a rather huge history of files.</p>\n<p>Thanks :)</p>\n<p>Mike</p>\n"
+		},
+		"link": "https://stevenbenner.com/2010/02/poor-mans-source-code-repository-and-versioning-with-dropbox/#comment-403",
+		"status": "approved",
+		"type": "comment",
+		"author_avatar_urls": {
+			"24": "https://secure.gravatar.com/avatar/b2bd6b2ff7ad41b9bd455d0541248be3?s=24&d=mm&r=pg",
+			"48": "https://secure.gravatar.com/avatar/b2bd6b2ff7ad41b9bd455d0541248be3?s=48&d=mm&r=pg",
+			"96": "https://secure.gravatar.com/avatar/b2bd6b2ff7ad41b9bd455d0541248be3?s=96&d=mm&r=pg"
+		},
+		"meta": [],
+		"_links": {
+			"self": [
+				{
+					"href": "https://stevenbenner.com/wp-json/wp/v2/comments/403"
+				}
+			],
+			"collection": [
+				{
+					"href": "https://stevenbenner.com/wp-json/wp/v2/comments"
+				}
+			],
+			"up": [
+				{
+					"embeddable": true,
+					"post_type": "post",
+					"href": "https://stevenbenner.com/wp-json/wp/v2/posts/185"
+				}
+			]
+		}
+	}
+]

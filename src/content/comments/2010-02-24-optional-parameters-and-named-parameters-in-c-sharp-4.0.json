@@ -1,0 +1,43 @@
+[
+	{
+		"id": 343381,
+		"post": 619,
+		"parent": 0,
+		"author": 0,
+		"author_name": "Develux",
+		"author_url": "https://develux.com/",
+		"date": "2021-03-24T06:28:03",
+		"date_gmt": "2021-03-24T13:28:03",
+		"content": {
+			"rendered": "<p>Thanks, it&#8217;s very useful info</p>\n"
+		},
+		"link": "https://stevenbenner.com/2010/02/optional-parameters-and-named-parameters-in-c-4-0/#comment-343381",
+		"status": "approved",
+		"type": "comment",
+		"author_avatar_urls": {
+			"24": "https://secure.gravatar.com/avatar/345f8d46f8796af02339b94304cf2c26?s=24&d=mm&r=pg",
+			"48": "https://secure.gravatar.com/avatar/345f8d46f8796af02339b94304cf2c26?s=48&d=mm&r=pg",
+			"96": "https://secure.gravatar.com/avatar/345f8d46f8796af02339b94304cf2c26?s=96&d=mm&r=pg"
+		},
+		"meta": [],
+		"_links": {
+			"self": [
+				{
+					"href": "https://stevenbenner.com/wp-json/wp/v2/comments/343381"
+				}
+			],
+			"collection": [
+				{
+					"href": "https://stevenbenner.com/wp-json/wp/v2/comments"
+				}
+			],
+			"up": [
+				{
+					"embeddable": true,
+					"post_type": "post",
+					"href": "https://stevenbenner.com/wp-json/wp/v2/posts/619"
+				}
+			]
+		}
+	}
+]

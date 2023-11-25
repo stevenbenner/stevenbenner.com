@@ -1,0 +1,336 @@
+[
+	{
+		"id": 126212,
+		"post": 939,
+		"parent": 0,
+		"author": 0,
+		"author_name": "Mike M",
+		"author_url": "",
+		"date": "2014-11-05T16:28:17",
+		"date_gmt": "2014-11-06T00:28:17",
+		"content": {
+			"rendered": "<p>Steve,</p>\n<p>Many thanks for your hard work.</p>\n<p>I used your code in my &#8220;Indy Web Journal&#8221; which displays various quantities of thumbnail images. When the user clicks a thumbnail, I wanted the larger version of the image to pop up in the horizontal and vertical center of the viewport. It works perfectly!!! I embedded your code in my own JavaScript and credited you in various places in the code. Thanks again! &#8211; Mike M.</p>\n"
+		},
+		"link": "https://stevenbenner.com/2010/04/calculate-page-size-and-view-port-position-in-javascript/#comment-126212",
+		"status": "approved",
+		"type": "comment",
+		"author_avatar_urls": {
+			"24": "https://secure.gravatar.com/avatar/62e66f7870e7ce6e4afe9b1556aa2dc0?s=24&d=mm&r=pg",
+			"48": "https://secure.gravatar.com/avatar/62e66f7870e7ce6e4afe9b1556aa2dc0?s=48&d=mm&r=pg",
+			"96": "https://secure.gravatar.com/avatar/62e66f7870e7ce6e4afe9b1556aa2dc0?s=96&d=mm&r=pg"
+		},
+		"meta": [],
+		"_links": {
+			"self": [
+				{
+					"href": "https://stevenbenner.com/wp-json/wp/v2/comments/126212"
+				}
+			],
+			"collection": [
+				{
+					"href": "https://stevenbenner.com/wp-json/wp/v2/comments"
+				}
+			],
+			"up": [
+				{
+					"embeddable": true,
+					"post_type": "post",
+					"href": "https://stevenbenner.com/wp-json/wp/v2/posts/939"
+				}
+			]
+		}
+	},
+	{
+		"id": 83656,
+		"post": 939,
+		"parent": 0,
+		"author": 0,
+		"author_name": "Ade",
+		"author_url": "http://tinderboxim.com",
+		"date": "2013-02-18T16:24:53",
+		"date_gmt": "2013-02-19T00:24:53",
+		"content": {
+			"rendered": "<p>Hey!</p>\n<p>Excellent article! Very handy code&#8230; Thanks so much, sure it&#8217;ll help me out with my task ;)</p>\n"
+		},
+		"link": "https://stevenbenner.com/2010/04/calculate-page-size-and-view-port-position-in-javascript/#comment-83656",
+		"status": "approved",
+		"type": "comment",
+		"author_avatar_urls": {
+			"24": "https://secure.gravatar.com/avatar/e51d66e2b8d824a66389b121cc8b6883?s=24&d=mm&r=pg",
+			"48": "https://secure.gravatar.com/avatar/e51d66e2b8d824a66389b121cc8b6883?s=48&d=mm&r=pg",
+			"96": "https://secure.gravatar.com/avatar/e51d66e2b8d824a66389b121cc8b6883?s=96&d=mm&r=pg"
+		},
+		"meta": [],
+		"_links": {
+			"self": [
+				{
+					"href": "https://stevenbenner.com/wp-json/wp/v2/comments/83656"
+				}
+			],
+			"collection": [
+				{
+					"href": "https://stevenbenner.com/wp-json/wp/v2/comments"
+				}
+			],
+			"up": [
+				{
+					"embeddable": true,
+					"post_type": "post",
+					"href": "https://stevenbenner.com/wp-json/wp/v2/posts/939"
+				}
+			]
+		}
+	},
+	{
+		"id": 61732,
+		"post": 939,
+		"parent": 0,
+		"author": 0,
+		"author_name": "Pepinho",
+		"author_url": "http://lingua-franka.com",
+		"date": "2011-08-04T08:39:18",
+		"date_gmt": "2011-08-04T15:39:18",
+		"content": {
+			"rendered": "<p>This article JUST SAVED MY LIFE. Period. I implemented it to show a permanent, vertically-moving ads carousel and a main navigation bar for pages that are deeper than the browser window. Awesome and a million thanks!</p>\n"
+		},
+		"link": "https://stevenbenner.com/2010/04/calculate-page-size-and-view-port-position-in-javascript/#comment-61732",
+		"status": "approved",
+		"type": "comment",
+		"author_avatar_urls": {
+			"24": "https://secure.gravatar.com/avatar/7a19a39ab794aa81eeaa0cef9e9ec5be?s=24&d=mm&r=pg",
+			"48": "https://secure.gravatar.com/avatar/7a19a39ab794aa81eeaa0cef9e9ec5be?s=48&d=mm&r=pg",
+			"96": "https://secure.gravatar.com/avatar/7a19a39ab794aa81eeaa0cef9e9ec5be?s=96&d=mm&r=pg"
+		},
+		"meta": [],
+		"_links": {
+			"self": [
+				{
+					"href": "https://stevenbenner.com/wp-json/wp/v2/comments/61732"
+				}
+			],
+			"collection": [
+				{
+					"href": "https://stevenbenner.com/wp-json/wp/v2/comments"
+				}
+			],
+			"up": [
+				{
+					"embeddable": true,
+					"post_type": "post",
+					"href": "https://stevenbenner.com/wp-json/wp/v2/posts/939"
+				}
+			]
+		}
+	},
+	{
+		"id": 6059,
+		"post": 939,
+		"parent": 0,
+		"author": 0,
+		"author_name": "James",
+		"author_url": "",
+		"date": "2010-09-30T08:58:49",
+		"date_gmt": "2010-09-30T15:58:49",
+		"content": {
+			"rendered": "<p>Thanks for taking the time to prepare that, just what I needed. And saved in my bookmarks for future reference. James</p>\n"
+		},
+		"link": "https://stevenbenner.com/2010/04/calculate-page-size-and-view-port-position-in-javascript/#comment-6059",
+		"status": "approved",
+		"type": "comment",
+		"author_avatar_urls": {
+			"24": "https://secure.gravatar.com/avatar/41e7bfeec3eba4cddbbc9dc6f13a1146?s=24&d=mm&r=pg",
+			"48": "https://secure.gravatar.com/avatar/41e7bfeec3eba4cddbbc9dc6f13a1146?s=48&d=mm&r=pg",
+			"96": "https://secure.gravatar.com/avatar/41e7bfeec3eba4cddbbc9dc6f13a1146?s=96&d=mm&r=pg"
+		},
+		"meta": [],
+		"_links": {
+			"self": [
+				{
+					"href": "https://stevenbenner.com/wp-json/wp/v2/comments/6059"
+				}
+			],
+			"collection": [
+				{
+					"href": "https://stevenbenner.com/wp-json/wp/v2/comments"
+				}
+			],
+			"up": [
+				{
+					"embeddable": true,
+					"post_type": "post",
+					"href": "https://stevenbenner.com/wp-json/wp/v2/posts/939"
+				}
+			]
+		}
+	},
+	{
+		"id": 4962,
+		"post": 939,
+		"parent": 0,
+		"author": 0,
+		"author_name": "Shelby Moore",
+		"author_url": "",
+		"date": "2010-09-11T00:03:50",
+		"date_gmt": "2010-09-11T07:03:50",
+		"content": {
+			"rendered": "<p>The viewport size function on this page is wrong. Here is the corrected way to get the viewport consistently, and sans any visible scrollbar(s):</p>\n<p><a href=\"https://bugzilla.mozilla.org/show_bug.cgi?id=156388#c14\" rel=\"nofollow\">https://bugzilla.mozilla.org/show_bug.cgi?id=156388#c14</a><br />\n<a href=\"https://bugzilla.mozilla.org/show_bug.cgi?id=189112#c7\" rel=\"nofollow\">https://bugzilla.mozilla.org/show_bug.cgi?id=189112#c7</a></p>\n"
+		},
+		"link": "https://stevenbenner.com/2010/04/calculate-page-size-and-view-port-position-in-javascript/#comment-4962",
+		"status": "approved",
+		"type": "comment",
+		"author_avatar_urls": {
+			"24": "https://secure.gravatar.com/avatar/def49e4f02dea4911a431380ac6ec823?s=24&d=mm&r=pg",
+			"48": "https://secure.gravatar.com/avatar/def49e4f02dea4911a431380ac6ec823?s=48&d=mm&r=pg",
+			"96": "https://secure.gravatar.com/avatar/def49e4f02dea4911a431380ac6ec823?s=96&d=mm&r=pg"
+		},
+		"meta": [],
+		"_links": {
+			"self": [
+				{
+					"href": "https://stevenbenner.com/wp-json/wp/v2/comments/4962"
+				}
+			],
+			"collection": [
+				{
+					"href": "https://stevenbenner.com/wp-json/wp/v2/comments"
+				}
+			],
+			"up": [
+				{
+					"embeddable": true,
+					"post_type": "post",
+					"href": "https://stevenbenner.com/wp-json/wp/v2/posts/939"
+				}
+			]
+		}
+	},
+	{
+		"id": 4793,
+		"post": 939,
+		"parent": 0,
+		"author": 0,
+		"author_name": "Shelby Moore",
+		"author_url": "",
+		"date": "2010-09-08T20:23:45",
+		"date_gmt": "2010-09-09T03:23:45",
+		"content": {
+			"rendered": "<p>I think your pageSize() is incorrect in some scenarios, because it is relying on window.innerWidth/Height, which will include the size of any visible scroll bars.  As long as the DOCTYPE is declared Transistional, then ScrollWidth/Height is sufficient:</p>\n<p><a href=\"http://stackoverflow.com/questions/1091048/alternatives-to-window-scrollmaxy/1732727#1732727\" rel=\"nofollow\">http://stackoverflow.com/questions/1091048/alternatives-to-window-scrollmaxy/1732727#1732727</a></p>\n<p>Also it is incorrect to say that we can not detect the scrollbar sizes in all browsers other than IE, as this is window.innerwidth/Height &#8211; document.(body or documentElement).clientWidth/Height. Also we can detect the scroll bar sizes in IE also, but I will leave this for you to figure out.</p>\n"
+		},
+		"link": "https://stevenbenner.com/2010/04/calculate-page-size-and-view-port-position-in-javascript/#comment-4793",
+		"status": "approved",
+		"type": "comment",
+		"author_avatar_urls": {
+			"24": "https://secure.gravatar.com/avatar/def49e4f02dea4911a431380ac6ec823?s=24&d=mm&r=pg",
+			"48": "https://secure.gravatar.com/avatar/def49e4f02dea4911a431380ac6ec823?s=48&d=mm&r=pg",
+			"96": "https://secure.gravatar.com/avatar/def49e4f02dea4911a431380ac6ec823?s=96&d=mm&r=pg"
+		},
+		"meta": [],
+		"_links": {
+			"self": [
+				{
+					"href": "https://stevenbenner.com/wp-json/wp/v2/comments/4793"
+				}
+			],
+			"collection": [
+				{
+					"href": "https://stevenbenner.com/wp-json/wp/v2/comments"
+				}
+			],
+			"up": [
+				{
+					"embeddable": true,
+					"post_type": "post",
+					"href": "https://stevenbenner.com/wp-json/wp/v2/posts/939"
+				}
+			]
+		}
+	},
+	{
+		"id": 1083,
+		"post": 939,
+		"parent": 0,
+		"author": 2,
+		"author_name": "Steven Benner",
+		"author_url": "http://stevenbenner.com/",
+		"date": "2010-05-04T20:56:17",
+		"date_gmt": "2010-05-05T03:56:17",
+		"content": {
+			"rendered": "<p>You could use this code to set a wrapper div to the exact width and height of the browser view port, but that isn&#8217;t what I would recommend.</p>\n<p>The best way to support small screens is elastic design using nothing but CSS. There are many good tutorials out there on elastic design, but the technique is basically to use percentage and em measurements for the layout instead of pixels.</p>\n<p>If you really do need to be able to update some styles via JavaScript to fit the screen you can use the code from this article. Here&#8217;s an example:</p>\n<p>Let&#8217;s say that you want to adjust the width on a wrapper div, here&#8217;s what your document may look like:</p>\n<pre class=\"brush: xml; title: ; notranslate\" title=\"\">\r\n&lt;div id=&quot;wrapper&quot;&gt;\r\n\t&lt;!-- your content here --&gt;\r\n&lt;/div&gt;\r\n</pre>\n<p>Then this script will target the markup above and fit it to the screen:</p>\n<pre class=\"brush: jscript; title: ; notranslate\" title=\"\">\r\nfunction fitWrapperToScreen() {\r\n\tsb_windowTools.updateDimensions();\r\n\tvar div = document.getElementById('wrapper'); \r\n\tdiv.style.width = sb_windowTools.pageDimensions.windowWidth() + 'px';\r\n\tdiv.style.height = sb_windowTools.pageDimensions.windowHeight() + 'px';\r\n}\r\n</pre>\n<p>Again, this should be done with elastic techniques. You could skip all of this and get a better effect with the following CSS:</p>\n<pre class=\"brush: css; title: ; notranslate\" title=\"\">\r\n#wrapper {\r\n\twidth: 100%;\r\n\theight: 100%;\r\n}\r\n</pre>\n<p>If you needed to support other browsers there would probably be some extra issues, but I believe these should work fine in WebKit. If you are having a problem with your content pushing out the div just add <code>overflow: hidden;</code> or <code>overflow: scroll;</code>.</p>\n"
+		},
+		"link": "https://stevenbenner.com/2010/04/calculate-page-size-and-view-port-position-in-javascript/#comment-1083",
+		"status": "approved",
+		"type": "comment",
+		"author_avatar_urls": {
+			"24": "https://secure.gravatar.com/avatar/5b09e09f1d9fed4c34e369d02f2edb74?s=24&d=mm&r=pg",
+			"48": "https://secure.gravatar.com/avatar/5b09e09f1d9fed4c34e369d02f2edb74?s=48&d=mm&r=pg",
+			"96": "https://secure.gravatar.com/avatar/5b09e09f1d9fed4c34e369d02f2edb74?s=96&d=mm&r=pg"
+		},
+		"meta": [],
+		"_links": {
+			"self": [
+				{
+					"href": "https://stevenbenner.com/wp-json/wp/v2/comments/1083"
+				}
+			],
+			"collection": [
+				{
+					"href": "https://stevenbenner.com/wp-json/wp/v2/comments"
+				}
+			],
+			"author": [
+				{
+					"embeddable": true,
+					"href": "https://stevenbenner.com/wp-json/wp/v2/users/2"
+				}
+			],
+			"up": [
+				{
+					"embeddable": true,
+					"post_type": "post",
+					"href": "https://stevenbenner.com/wp-json/wp/v2/posts/939"
+				}
+			]
+		}
+	},
+	{
+		"id": 1078,
+		"post": 939,
+		"parent": 0,
+		"author": 0,
+		"author_name": "BenjoTLV",
+		"author_url": "",
+		"date": "2010-05-04T07:42:24",
+		"date_gmt": "2010-05-04T14:42:24",
+		"content": {
+			"rendered": "<p>Hi, very interesting and complete example, thanks a lot, really!</p>\n<p>I have few questions if you don&#8217;t mind:<br />\nI am using in a desktop application a light version of Google Chrome (chromium actually) that is based on webkit. The browser window size I incorporated in my app is pretty small and I need to achieve several things:</p>\n<p>1. detect the document height and width in order to give it to my app and handle the vertical scollbar outside of the browser &#8211; I think I can achieve that with the code you provided, right?<br />\n2. I need to force the document to have the width of my browser window to avoid horizontal scrollbars&#8230; do you see a way to force content/document to fit the width once I get the value through your technique?</p>\n<p>Thanks a lot again!</p>\n"
+		},
+		"link": "https://stevenbenner.com/2010/04/calculate-page-size-and-view-port-position-in-javascript/#comment-1078",
+		"status": "approved",
+		"type": "comment",
+		"author_avatar_urls": {
+			"24": "https://secure.gravatar.com/avatar/200a82a9fb07da7473fa49be613a58a8?s=24&d=mm&r=pg",
+			"48": "https://secure.gravatar.com/avatar/200a82a9fb07da7473fa49be613a58a8?s=48&d=mm&r=pg",
+			"96": "https://secure.gravatar.com/avatar/200a82a9fb07da7473fa49be613a58a8?s=96&d=mm&r=pg"
+		},
+		"meta": [],
+		"_links": {
+			"self": [
+				{
+					"href": "https://stevenbenner.com/wp-json/wp/v2/comments/1078"
+				}
+			],
+			"collection": [
+				{
+					"href": "https://stevenbenner.com/wp-json/wp/v2/comments"
+				}
+			],
+			"up": [
+				{
+					"embeddable": true,
+					"post_type": "post",
+					"href": "https://stevenbenner.com/wp-json/wp/v2/posts/939"
+				}
+			]
+		}
+	}
+]

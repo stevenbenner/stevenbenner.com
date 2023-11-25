@@ -1,0 +1,131 @@
+[
+	{
+		"id": 34080,
+		"post": 511,
+		"parent": 0,
+		"author": 0,
+		"author_name": "Tobs",
+		"author_url": "",
+		"date": "2011-05-12T10:15:19",
+		"date_gmt": "2011-05-12T17:15:19",
+		"content": {
+			"rendered": "<p>Have you tried this:</p>\n<p><a href=\"http://plugins.jquery.com/project/bookmark\" rel=\"nofollow\">http://plugins.jquery.com/project/bookmark</a></p>\n<p>Looks interesting</p>\n"
+		},
+		"link": "https://stevenbenner.com/2010/02/addthis-friendly-widget-and-brilliant-viral-tracking-scheme/#comment-34080",
+		"status": "approved",
+		"type": "comment",
+		"author_avatar_urls": {
+			"24": "https://secure.gravatar.com/avatar/412df34fd60e09f4614657efce88ee84?s=24&d=mm&r=pg",
+			"48": "https://secure.gravatar.com/avatar/412df34fd60e09f4614657efce88ee84?s=48&d=mm&r=pg",
+			"96": "https://secure.gravatar.com/avatar/412df34fd60e09f4614657efce88ee84?s=96&d=mm&r=pg"
+		},
+		"meta": [],
+		"_links": {
+			"self": [
+				{
+					"href": "https://stevenbenner.com/wp-json/wp/v2/comments/34080"
+				}
+			],
+			"collection": [
+				{
+					"href": "https://stevenbenner.com/wp-json/wp/v2/comments"
+				}
+			],
+			"up": [
+				{
+					"embeddable": true,
+					"post_type": "post",
+					"href": "https://stevenbenner.com/wp-json/wp/v2/posts/511"
+				}
+			]
+		}
+	},
+	{
+		"id": 150,
+		"post": 511,
+		"parent": 0,
+		"author": 2,
+		"author_name": "Steven Benner",
+		"author_url": "http://stevenbenner.com/",
+		"date": "2010-02-16T16:50:47",
+		"date_gmt": "2010-02-17T00:50:47",
+		"content": {
+			"rendered": "<p>Yeah a lot of people have reported problems with the flash injection from the widget script. It has also been known to cause issues with page layouts because of the extra markup it adds to the page. All around bad, and like you said, for no good reason.</p>\n<p>I&#8217;ve seen AddToAny around but I&#8217;ve never used it personally. I&#8217;ll check it out the next time I&#8217;m looking at social widgets.</p>\n"
+		},
+		"link": "https://stevenbenner.com/2010/02/addthis-friendly-widget-and-brilliant-viral-tracking-scheme/#comment-150",
+		"status": "approved",
+		"type": "comment",
+		"author_avatar_urls": {
+			"24": "https://secure.gravatar.com/avatar/5b09e09f1d9fed4c34e369d02f2edb74?s=24&d=mm&r=pg",
+			"48": "https://secure.gravatar.com/avatar/5b09e09f1d9fed4c34e369d02f2edb74?s=48&d=mm&r=pg",
+			"96": "https://secure.gravatar.com/avatar/5b09e09f1d9fed4c34e369d02f2edb74?s=96&d=mm&r=pg"
+		},
+		"meta": [],
+		"_links": {
+			"self": [
+				{
+					"href": "https://stevenbenner.com/wp-json/wp/v2/comments/150"
+				}
+			],
+			"collection": [
+				{
+					"href": "https://stevenbenner.com/wp-json/wp/v2/comments"
+				}
+			],
+			"author": [
+				{
+					"embeddable": true,
+					"href": "https://stevenbenner.com/wp-json/wp/v2/users/2"
+				}
+			],
+			"up": [
+				{
+					"embeddable": true,
+					"post_type": "post",
+					"href": "https://stevenbenner.com/wp-json/wp/v2/posts/511"
+				}
+			]
+		}
+	},
+	{
+		"id": 139,
+		"post": 511,
+		"parent": 0,
+		"author": 0,
+		"author_name": "Yola",
+		"author_url": "",
+		"date": "2010-02-14T14:26:54",
+		"date_gmt": "2010-02-14T22:26:54",
+		"content": {
+			"rendered": "<p>Thanks for exposing this.  I have never heard of LSOs before but that is a very nasty and clever hack by AddThis, so now I understand why some pages with their button crash people&#8217;s browsers&#8230; Flash loads for no good reason.  Another sharing service that doesn&#8217;t use Flash cookies is AddToAny, which I started using on all our blogs.  I like the look and feel of it better.  There are also some open source alternatives that work well but can be difficult to keep up to date&#8230;.  Maybe for those tinfoil hat wearers!</p>\n"
+		},
+		"link": "https://stevenbenner.com/2010/02/addthis-friendly-widget-and-brilliant-viral-tracking-scheme/#comment-139",
+		"status": "approved",
+		"type": "comment",
+		"author_avatar_urls": {
+			"24": "https://secure.gravatar.com/avatar/0b4fe7c118c5e36e0c91a9d5fe06a4b7?s=24&d=mm&r=pg",
+			"48": "https://secure.gravatar.com/avatar/0b4fe7c118c5e36e0c91a9d5fe06a4b7?s=48&d=mm&r=pg",
+			"96": "https://secure.gravatar.com/avatar/0b4fe7c118c5e36e0c91a9d5fe06a4b7?s=96&d=mm&r=pg"
+		},
+		"meta": [],
+		"_links": {
+			"self": [
+				{
+					"href": "https://stevenbenner.com/wp-json/wp/v2/comments/139"
+				}
+			],
+			"collection": [
+				{
+					"href": "https://stevenbenner.com/wp-json/wp/v2/comments"
+				}
+			],
+			"up": [
+				{
+					"embeddable": true,
+					"post_type": "post",
+					"href": "https://stevenbenner.com/wp-json/wp/v2/posts/511"
+				}
+			]
+		}
+	}
+]
