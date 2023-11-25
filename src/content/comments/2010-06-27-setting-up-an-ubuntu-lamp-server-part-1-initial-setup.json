@@ -1,131 +1,47 @@
 [
 	{
 		"id": 81935,
-		"post": 1074,
-		"parent": 0,
 		"author": 0,
 		"author_name": "Vik",
 		"author_url": "",
-		"date": "2012-04-24T07:30:15",
 		"date_gmt": "2012-04-24T14:30:15",
 		"content": {
 			"rendered": "<p>Hi Steve</p>\n<p>I am very new with setting up Ubuntu servers and have found your articles very helpful.</p>\n<p>One problem, however, that I have had is that when I try to configure the SSH server to allow a new user to connect I see the message &#8220;Server refused our key&#8221;. I have been able to successfully create the new user, add him to sudoers file, and allow him access to SSH via the /etc/ssh/sshd_config file, but I cannot get the user to connect. I can only connect with the ubuntu user. Any thoughts on how I should proceed. I have tried searching online, but to no avail.</p>\n<p>Many thanks in advance for your help.</p>\n"
 		},
-		"link": "https://stevenbenner.com/2010/06/setting-up-an-ubuntu-lamp-server-part-1-initial-setup/#comment-81935",
-		"status": "approved",
-		"type": "comment",
 		"author_avatar_urls": {
 			"24": "https://secure.gravatar.com/avatar/c45df735136c8cab39cdb2d18d821159?s=24&d=mm&r=pg",
 			"48": "https://secure.gravatar.com/avatar/c45df735136c8cab39cdb2d18d821159?s=48&d=mm&r=pg",
 			"96": "https://secure.gravatar.com/avatar/c45df735136c8cab39cdb2d18d821159?s=96&d=mm&r=pg"
-		},
-		"meta": [],
-		"_links": {
-			"self": [
-				{
-					"href": "https://stevenbenner.com/wp-json/wp/v2/comments/81935"
-				}
-			],
-			"collection": [
-				{
-					"href": "https://stevenbenner.com/wp-json/wp/v2/comments"
-				}
-			],
-			"up": [
-				{
-					"embeddable": true,
-					"post_type": "post",
-					"href": "https://stevenbenner.com/wp-json/wp/v2/posts/1074"
-				}
-			]
 		}
 	},
 	{
 		"id": 19767,
-		"post": 1074,
-		"parent": 0,
 		"author": 2,
 		"author_name": "Steven Benner",
 		"author_url": "http://stevenbenner.com/",
-		"date": "2011-02-01T18:34:35",
 		"date_gmt": "2011-02-02T02:34:35",
 		"content": {
 			"rendered": "<p>Sounds like a permissions issue to me.</p>\n<p><a href=\"http://www.linux.com/learn/tutorials/309527-understanding-linux-file-permissions\" rel=\"nofollow\">http://www.linux.com/learn/tutorials/309527-understanding-linux-file-permissions</a></p>\n<p>The web server usually runs under it&#8217;s own user account, www-data for apache on ubuntu. You need to set the permissions on the plugins folder so that any account on the system can write to is (chmod 777) or change the owner of the folder to the web server account (e.g. chown www-data plugins). I recommend setting the ownership because it&#8217;s just a better security practice.</p>\n<p>A quick google search yielded this article which may be of help to you:<br />\n<a href=\"http://robspencer.net/auto-update-wordpress-without-ftp/\" rel=\"nofollow\">http://robspencer.net/auto-update-wordpress-without-ftp/</a></p>\n<p>As for the FTP thing, you shouldn&#8217;t need to use the FTP feature in wordpress if you have permissions set up correctly.</p>\n"
 		},
-		"link": "https://stevenbenner.com/2010/06/setting-up-an-ubuntu-lamp-server-part-1-initial-setup/#comment-19767",
-		"status": "approved",
-		"type": "comment",
 		"author_avatar_urls": {
 			"24": "https://secure.gravatar.com/avatar/5b09e09f1d9fed4c34e369d02f2edb74?s=24&d=mm&r=pg",
 			"48": "https://secure.gravatar.com/avatar/5b09e09f1d9fed4c34e369d02f2edb74?s=48&d=mm&r=pg",
 			"96": "https://secure.gravatar.com/avatar/5b09e09f1d9fed4c34e369d02f2edb74?s=96&d=mm&r=pg"
-		},
-		"meta": [],
-		"_links": {
-			"self": [
-				{
-					"href": "https://stevenbenner.com/wp-json/wp/v2/comments/19767"
-				}
-			],
-			"collection": [
-				{
-					"href": "https://stevenbenner.com/wp-json/wp/v2/comments"
-				}
-			],
-			"author": [
-				{
-					"embeddable": true,
-					"href": "https://stevenbenner.com/wp-json/wp/v2/users/2"
-				}
-			],
-			"up": [
-				{
-					"embeddable": true,
-					"post_type": "post",
-					"href": "https://stevenbenner.com/wp-json/wp/v2/posts/1074"
-				}
-			]
 		}
 	},
 	{
 		"id": 19662,
-		"post": 1074,
-		"parent": 0,
 		"author": 0,
 		"author_name": "Sajib",
 		"author_url": "http://www.aisajib.com",
-		"date": "2011-02-01T00:29:38",
 		"date_gmt": "2011-02-01T08:29:38",
 		"content": {
 			"rendered": "<p>I like XAMPP install on Linux. It takes some command inputs on the terminal. But I&#8217;m quite happy with it. But I face some problems. For example, I installed WordPress on a local server then tried to upload plugin from dashboard. But it failed to create directory and do the stuff. Whenever I tried to upload the plugin, it asked me for my FTP details. I had to manually put the plugin on htdocs/wordpress/wp-content/plugins. </p>\n<p>Any idea why this might have happened?</p>\n"
 		},
-		"link": "https://stevenbenner.com/2010/06/setting-up-an-ubuntu-lamp-server-part-1-initial-setup/#comment-19662",
-		"status": "approved",
-		"type": "comment",
 		"author_avatar_urls": {
 			"24": "https://secure.gravatar.com/avatar/20133c756ec851e1d0dad22bd9dcfae8?s=24&d=mm&r=pg",
 			"48": "https://secure.gravatar.com/avatar/20133c756ec851e1d0dad22bd9dcfae8?s=48&d=mm&r=pg",
 			"96": "https://secure.gravatar.com/avatar/20133c756ec851e1d0dad22bd9dcfae8?s=96&d=mm&r=pg"
-		},
-		"meta": [],
-		"_links": {
-			"self": [
-				{
-					"href": "https://stevenbenner.com/wp-json/wp/v2/comments/19662"
-				}
-			],
-			"collection": [
-				{
-					"href": "https://stevenbenner.com/wp-json/wp/v2/comments"
-				}
-			],
-			"up": [
-				{
-					"embeddable": true,
-					"post_type": "post",
-					"href": "https://stevenbenner.com/wp-json/wp/v2/posts/1074"
-				}
-			]
 		}
 	}
 ]

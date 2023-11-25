@@ -1,125 +1,47 @@
 [
 	{
 		"id": 10148,
-		"post": 297,
-		"parent": 0,
 		"author": 0,
 		"author_name": "Webmaster",
 		"author_url": "http://www.netarhia.com",
-		"date": "2010-11-19T14:01:02",
 		"date_gmt": "2010-11-19T22:01:02",
 		"content": {
 			"rendered": "<p>I&#8217;d suggest SenSEO (<a href=\"https://addons.mozilla.org/en-US/firefox/addon/9403/\" rel=\"nofollow\">https://addons.mozilla.org/en-US/firefox/addon/9403/</a>), in my opinion SEO should be incorporated into the design itself.</p>\n"
 		},
-		"link": "https://stevenbenner.com/2010/01/must-have-firefox-add-ons-for-web-developers-designers/#comment-10148",
-		"status": "approved",
-		"type": "comment",
 		"author_avatar_urls": {
 			"24": "https://secure.gravatar.com/avatar/c94e760a683c70a75d7133c6cf2b9166?s=24&d=mm&r=pg",
 			"48": "https://secure.gravatar.com/avatar/c94e760a683c70a75d7133c6cf2b9166?s=48&d=mm&r=pg",
 			"96": "https://secure.gravatar.com/avatar/c94e760a683c70a75d7133c6cf2b9166?s=96&d=mm&r=pg"
-		},
-		"meta": [],
-		"_links": {
-			"self": [
-				{
-					"href": "https://stevenbenner.com/wp-json/wp/v2/comments/10148"
-				}
-			],
-			"collection": [
-				{
-					"href": "https://stevenbenner.com/wp-json/wp/v2/comments"
-				}
-			],
-			"up": [
-				{
-					"embeddable": true,
-					"post_type": "post",
-					"href": "https://stevenbenner.com/wp-json/wp/v2/posts/297"
-				}
-			]
 		}
 	},
 	{
 		"id": 2556,
-		"post": 297,
-		"parent": 0,
 		"author": 0,
 		"author_name": "Ben",
 		"author_url": "",
-		"date": "2010-07-21T05:13:46",
 		"date_gmt": "2010-07-21T12:13:46",
 		"content": {
 			"rendered": "<p>Hi, nice collection of addons. I can recomment HttpFox (<a href=\"https://addons.mozilla.org/en-US/firefox/addon/6647/\" rel=\"nofollow\">https://addons.mozilla.org/en-US/firefox/addon/6647/</a>) instead of TamperData.</p>\n"
 		},
-		"link": "https://stevenbenner.com/2010/01/must-have-firefox-add-ons-for-web-developers-designers/#comment-2556",
-		"status": "approved",
-		"type": "comment",
 		"author_avatar_urls": {
 			"24": "https://secure.gravatar.com/avatar/2da6fba2c2147ed484df20562e15de4d?s=24&d=mm&r=pg",
 			"48": "https://secure.gravatar.com/avatar/2da6fba2c2147ed484df20562e15de4d?s=48&d=mm&r=pg",
 			"96": "https://secure.gravatar.com/avatar/2da6fba2c2147ed484df20562e15de4d?s=96&d=mm&r=pg"
-		},
-		"meta": [],
-		"_links": {
-			"self": [
-				{
-					"href": "https://stevenbenner.com/wp-json/wp/v2/comments/2556"
-				}
-			],
-			"collection": [
-				{
-					"href": "https://stevenbenner.com/wp-json/wp/v2/comments"
-				}
-			],
-			"up": [
-				{
-					"embeddable": true,
-					"post_type": "post",
-					"href": "https://stevenbenner.com/wp-json/wp/v2/posts/297"
-				}
-			]
 		}
 	},
 	{
 		"id": 1897,
-		"post": 297,
-		"parent": 0,
 		"author": 0,
 		"author_name": "Twistys",
 		"author_url": "",
-		"date": "2010-06-19T08:58:01",
 		"date_gmt": "2010-06-19T15:58:01",
 		"content": {
 			"rendered": "<p>Thanks for listing all these plugins.<br />\nI never used Colorzilla and MeasureIt.I needed to take a screenshot and open it in a photoshop to see color info or measure pixels :)<br />\nThanks</p>\n"
 		},
-		"link": "https://stevenbenner.com/2010/01/must-have-firefox-add-ons-for-web-developers-designers/#comment-1897",
-		"status": "approved",
-		"type": "comment",
 		"author_avatar_urls": {
 			"24": "https://secure.gravatar.com/avatar/f584ab8130101141f830164ae48233f3?s=24&d=mm&r=pg",
 			"48": "https://secure.gravatar.com/avatar/f584ab8130101141f830164ae48233f3?s=48&d=mm&r=pg",
 			"96": "https://secure.gravatar.com/avatar/f584ab8130101141f830164ae48233f3?s=96&d=mm&r=pg"
-		},
-		"meta": [],
-		"_links": {
-			"self": [
-				{
-					"href": "https://stevenbenner.com/wp-json/wp/v2/comments/1897"
-				}
-			],
-			"collection": [
-				{
-					"href": "https://stevenbenner.com/wp-json/wp/v2/comments"
-				}
-			],
-			"up": [
-				{
-					"embeddable": true,
-					"post_type": "post",
-					"href": "https://stevenbenner.com/wp-json/wp/v2/posts/297"
-				}
-			]
 		}
 	}
 ]

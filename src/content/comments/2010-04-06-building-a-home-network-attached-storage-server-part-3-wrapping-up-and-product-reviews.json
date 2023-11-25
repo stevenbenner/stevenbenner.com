@@ -1,260 +1,92 @@
 [
 	{
 		"id": 8639,
-		"post": 865,
-		"parent": 0,
 		"author": 0,
 		"author_name": "Phil",
 		"author_url": "",
-		"date": "2010-11-01T15:40:11",
 		"date_gmt": "2010-11-01T22:40:11",
 		"content": {
 			"rendered": "<p>Great Article! Thanks for reviewing the entire process.</p>\n"
 		},
-		"link": "https://stevenbenner.com/2010/04/building-a-home-network-attached-storage-server-part-3-wrapping-up-and-product-reviews-2/#comment-8639",
-		"status": "approved",
-		"type": "comment",
 		"author_avatar_urls": {
 			"24": "https://secure.gravatar.com/avatar/2b79e276b4fbfada49b6d879e521280d?s=24&d=mm&r=pg",
 			"48": "https://secure.gravatar.com/avatar/2b79e276b4fbfada49b6d879e521280d?s=48&d=mm&r=pg",
 			"96": "https://secure.gravatar.com/avatar/2b79e276b4fbfada49b6d879e521280d?s=96&d=mm&r=pg"
-		},
-		"meta": [],
-		"_links": {
-			"self": [
-				{
-					"href": "https://stevenbenner.com/wp-json/wp/v2/comments/8639"
-				}
-			],
-			"collection": [
-				{
-					"href": "https://stevenbenner.com/wp-json/wp/v2/comments"
-				}
-			],
-			"up": [
-				{
-					"embeddable": true,
-					"post_type": "post",
-					"href": "https://stevenbenner.com/wp-json/wp/v2/posts/865"
-				}
-			]
 		}
 	},
 	{
 		"id": 1084,
-		"post": 865,
-		"parent": 0,
 		"author": 2,
 		"author_name": "Steven Benner",
 		"author_url": "http://stevenbenner.com/",
-		"date": "2010-05-04T21:16:45",
 		"date_gmt": "2010-05-05T04:16:45",
 		"content": {
 			"rendered": "<p>That is how it should work but I see the page file often getting used on Vista with few programs running. The only software I run on the NAS are some file verification and transfer software. However there are of course the many various Windows services always running.</p>\n<p>I don&#8217;t have any real evidence of what is happening or real knowledge of the Windows paging algorithm but with the paging file disabled I do see less drive activity even when the system is completely idle.</p>\n"
 		},
-		"link": "https://stevenbenner.com/2010/04/building-a-home-network-attached-storage-server-part-3-wrapping-up-and-product-reviews-2/#comment-1084",
-		"status": "approved",
-		"type": "comment",
 		"author_avatar_urls": {
 			"24": "https://secure.gravatar.com/avatar/5b09e09f1d9fed4c34e369d02f2edb74?s=24&d=mm&r=pg",
 			"48": "https://secure.gravatar.com/avatar/5b09e09f1d9fed4c34e369d02f2edb74?s=48&d=mm&r=pg",
 			"96": "https://secure.gravatar.com/avatar/5b09e09f1d9fed4c34e369d02f2edb74?s=96&d=mm&r=pg"
-		},
-		"meta": [],
-		"_links": {
-			"self": [
-				{
-					"href": "https://stevenbenner.com/wp-json/wp/v2/comments/1084"
-				}
-			],
-			"collection": [
-				{
-					"href": "https://stevenbenner.com/wp-json/wp/v2/comments"
-				}
-			],
-			"author": [
-				{
-					"embeddable": true,
-					"href": "https://stevenbenner.com/wp-json/wp/v2/users/2"
-				}
-			],
-			"up": [
-				{
-					"embeddable": true,
-					"post_type": "post",
-					"href": "https://stevenbenner.com/wp-json/wp/v2/posts/865"
-				}
-			]
 		}
 	},
 	{
 		"id": 1070,
-		"post": 865,
-		"parent": 0,
 		"author": 0,
 		"author_name": "Robert",
 		"author_url": "http://gh0stpreacher.com",
-		"date": "2010-05-03T16:46:48",
 		"date_gmt": "2010-05-03T23:46:48",
 		"content": {
 			"rendered": "<p>If I remember correctly, there&#8217;s be no need to completely disable the paging file on Windows. as it only ever uses it when you&#8217;re running applications and whatnot.  Do you have any information on this?</p>\n"
 		},
-		"link": "https://stevenbenner.com/2010/04/building-a-home-network-attached-storage-server-part-3-wrapping-up-and-product-reviews-2/#comment-1070",
-		"status": "approved",
-		"type": "comment",
 		"author_avatar_urls": {
 			"24": "https://secure.gravatar.com/avatar/c5cb1333bd5f4b0484248167e8a85fa8?s=24&d=mm&r=pg",
 			"48": "https://secure.gravatar.com/avatar/c5cb1333bd5f4b0484248167e8a85fa8?s=48&d=mm&r=pg",
 			"96": "https://secure.gravatar.com/avatar/c5cb1333bd5f4b0484248167e8a85fa8?s=96&d=mm&r=pg"
-		},
-		"meta": [],
-		"_links": {
-			"self": [
-				{
-					"href": "https://stevenbenner.com/wp-json/wp/v2/comments/1070"
-				}
-			],
-			"collection": [
-				{
-					"href": "https://stevenbenner.com/wp-json/wp/v2/comments"
-				}
-			],
-			"up": [
-				{
-					"embeddable": true,
-					"post_type": "post",
-					"href": "https://stevenbenner.com/wp-json/wp/v2/posts/865"
-				}
-			]
 		}
 	},
 	{
 		"id": 702,
-		"post": 865,
-		"parent": 0,
 		"author": 2,
 		"author_name": "Steven Benner",
 		"author_url": "http://stevenbenner.com/",
-		"date": "2010-04-10T03:07:14",
 		"date_gmt": "2010-04-10T10:07:14",
 		"content": {
 			"rendered": "<p>Hi Truman, thanks for your feedback. Sounds like your working on a pretty wicked HTPC build. I&#8217;m glad to hear that my articles were helpful.</p>\n<p><em>> I am curious, why not go with a modular power supply?</em></p>\n<p>Couple reasons, the first and biggest is price. I wanted a single rail PSU with plenty of wattage for as many drives I felt like adding. However this can get pricey fast and the only modular one that met my power needs was $150 more than the Corsair that I chose. The other reason is the number of SATA power connectors I needed. There were no modular units that had the 8 SATA power plugs that I needed and I didn&#8217;t want to use splitters if I could avoid it.</p>\n<p><em>> Also, what did you use for BBU?</em></p>\n<p>Oh my! I completely forgot the section about battery backups. That is rather critical to the article. I&#8217;ve updated the article with a section about UPS systems.</p>\n<p>I chose an APC Back-UPS XS 1300. It has lots of power and a nice LCD screen. It&#8217;s even pretty.</p>\n<p><em>> How many minutes did you decide on?</em></p>\n<p>If you mean minutes of run time then what&#8217;s written on the box is rarely accurate for whatever computer you&#8217;re using. VA rating is far more reliable. For your average desktop 1000VA is going to give you something in the 10-15 minute range. For a NAS (or RAID HTPC) pure run time is not your highest priority, all you are looking for is a buffer that will give you time to shut down safely so there is no risk to the array.</p>\n<p>I would say get the biggest VA unit your budget allows. In my case the 1300VA was the best compromise between run time and price.</p>\n<p><em>> thoughts on Win7-ult as the OS?</em></p>\n<p>Windows 7 has all of the benefits of Vista and more. If you can spring for 7 I say go for it! Again, the reason I went with Vista was for the sake of the budget (I already had a spare copy of Vista).</p>\n<p><em>> do you think I could just follow your choice of config for stripes and clusters?</em></p>\n<p>RAID settings are some kind of witchcraft, I really thought I had figured out the science of it but in the real world my calculated settings were a complete failure. The best plan for finding the right RAID configuration is to create the smallest partition you can and test it. Keep trying different settings until you find the best one for your system. My 64k/32k is probably a good place to start though.</p>\n<p><em>> are you backing your server up to anything? I realize RAID is intended to be<br />\n> fault tolerant, but, there’s quite a few companies who&#8217;s entire business is<br />\n> recovering RAID systems-failed, suggesting fault tolerant doesn&#8217;t mean<br />\n> impermeable.</em></p>\n<p>Sadly no, I&#8217;m not doing any backups right now, but indeed I should be. As you said, RAID is fault tolerance, not a backup. However, the size of the array makes backups less than practical. It would take weeks to mirror the data to external drives, then there&#8217;s the cost of 9TB of external hard drives. When I figure out a reasonable way to handle backups for this much data I&#8217;ll share it. Please let me know if you come up with a good solution.</p>\n"
 		},
-		"link": "https://stevenbenner.com/2010/04/building-a-home-network-attached-storage-server-part-3-wrapping-up-and-product-reviews-2/#comment-702",
-		"status": "approved",
-		"type": "comment",
 		"author_avatar_urls": {
 			"24": "https://secure.gravatar.com/avatar/5b09e09f1d9fed4c34e369d02f2edb74?s=24&d=mm&r=pg",
 			"48": "https://secure.gravatar.com/avatar/5b09e09f1d9fed4c34e369d02f2edb74?s=48&d=mm&r=pg",
 			"96": "https://secure.gravatar.com/avatar/5b09e09f1d9fed4c34e369d02f2edb74?s=96&d=mm&r=pg"
-		},
-		"meta": [],
-		"_links": {
-			"self": [
-				{
-					"href": "https://stevenbenner.com/wp-json/wp/v2/comments/702"
-				}
-			],
-			"collection": [
-				{
-					"href": "https://stevenbenner.com/wp-json/wp/v2/comments"
-				}
-			],
-			"author": [
-				{
-					"embeddable": true,
-					"href": "https://stevenbenner.com/wp-json/wp/v2/users/2"
-				}
-			],
-			"up": [
-				{
-					"embeddable": true,
-					"post_type": "post",
-					"href": "https://stevenbenner.com/wp-json/wp/v2/posts/865"
-				}
-			]
 		}
 	},
 	{
 		"id": 696,
-		"post": 865,
-		"parent": 0,
 		"author": 0,
 		"author_name": "Truman",
 		"author_url": "",
-		"date": "2010-04-09T10:09:38",
 		"date_gmt": "2010-04-09T17:09:38",
 		"content": {
 			"rendered": "<p>PS, thoughts on Win7-ult as the OS? Im versed in workstation OS, but I&#8217;m a fumbling, googling, beginner on server.. I realize i should start familiarizing with AD, but, this is going to have my precious data on it! Which, I&#8217;m entrusting to RAID5.. I guess I could get an external 2TB drive for the most important of it with differential back ups every so often.. are you backing your server up to anything? I realize RAID is intended to be fault tolerant, but, there&#8217;s quite a few companies who&#8217;s entire business is recovering RAID systems-failed, suggesting fault tolerant doesn&#8217;t mean impermeable. </p>\n<p>Again, can&#8217;t thank you enough for your detailed review. You&#8217;ve saved me countless hours and GB of discovery. I&#8217;m really surprised more people didn&#8217;t post &#8216;praise&#8217;.</p>\n"
 		},
-		"link": "https://stevenbenner.com/2010/04/building-a-home-network-attached-storage-server-part-3-wrapping-up-and-product-reviews-2/#comment-696",
-		"status": "approved",
-		"type": "comment",
 		"author_avatar_urls": {
 			"24": "https://secure.gravatar.com/avatar/61814d477dbcdea7214fa7c8aa1d2c40?s=24&d=mm&r=pg",
 			"48": "https://secure.gravatar.com/avatar/61814d477dbcdea7214fa7c8aa1d2c40?s=48&d=mm&r=pg",
 			"96": "https://secure.gravatar.com/avatar/61814d477dbcdea7214fa7c8aa1d2c40?s=96&d=mm&r=pg"
-		},
-		"meta": [],
-		"_links": {
-			"self": [
-				{
-					"href": "https://stevenbenner.com/wp-json/wp/v2/comments/696"
-				}
-			],
-			"collection": [
-				{
-					"href": "https://stevenbenner.com/wp-json/wp/v2/comments"
-				}
-			],
-			"up": [
-				{
-					"embeddable": true,
-					"post_type": "post",
-					"href": "https://stevenbenner.com/wp-json/wp/v2/posts/865"
-				}
-			]
 		}
 	},
 	{
 		"id": 695,
-		"post": 865,
-		"parent": 0,
 		"author": 0,
 		"author_name": "Truman",
 		"author_url": "",
-		"date": "2010-04-09T10:02:57",
 		"date_gmt": "2010-04-09T17:02:57",
 		"content": {
 			"rendered": "<p>AWESOME review. You&#8217;ve modified my product choices. I am curious, why not go with a modular power supply? Also, what did you use for BBU? How many minutes did you decide on? Since I have a nearly identical setup to yours sans (pun intended) 2tb in exchange for WD 1.5TB-64MB drives x 4 (plus 1 on standby), a Q9550 and an ATI 5770, do you think I could just follow your choice of config for stripes and clusters? As you can see I intend to run mine as a media PC and server in case you were wondering about the over-powered proc/gpu. Would greatly appreciate a sooner-than-later reply as this is a project I am presently making buy-decisions on. </p>\n<p>thanks</p>\n"
 		},
-		"link": "https://stevenbenner.com/2010/04/building-a-home-network-attached-storage-server-part-3-wrapping-up-and-product-reviews-2/#comment-695",
-		"status": "approved",
-		"type": "comment",
 		"author_avatar_urls": {
 			"24": "https://secure.gravatar.com/avatar/61814d477dbcdea7214fa7c8aa1d2c40?s=24&d=mm&r=pg",
 			"48": "https://secure.gravatar.com/avatar/61814d477dbcdea7214fa7c8aa1d2c40?s=48&d=mm&r=pg",
 			"96": "https://secure.gravatar.com/avatar/61814d477dbcdea7214fa7c8aa1d2c40?s=96&d=mm&r=pg"
-		},
-		"meta": [],
-		"_links": {
-			"self": [
-				{
-					"href": "https://stevenbenner.com/wp-json/wp/v2/comments/695"
-				}
-			],
-			"collection": [
-				{
-					"href": "https://stevenbenner.com/wp-json/wp/v2/comments"
-				}
-			],
-			"up": [
-				{
-					"embeddable": true,
-					"post_type": "post",
-					"href": "https://stevenbenner.com/wp-json/wp/v2/posts/865"
-				}
-			]
 		}
 	}
 ]

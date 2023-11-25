@@ -1,189 +1,62 @@
 [
 	{
 		"id": 44224,
-		"post": 27,
-		"parent": 0,
 		"author": 2,
 		"author_name": "Steven Benner",
 		"author_url": "http://stevenbenner.com/",
-		"date": "2011-06-13T16:10:16",
 		"date_gmt": "2011-06-13T23:10:16",
 		"content": {
 			"rendered": "<p>Hi Natalie,</p>\n<p><em>> Is it going to matter which hard drive I get?</em></p>\n<p>Not really. For just plain file storage any modern hard drive is about as good as any other.</p>\n<p><em>> I have seen some hard drives that say “Desktop RAID, FireWire 800- or<br />\n> eSATA-enabled external storage devices”. Does this mean they have a<br />\n> RAID controller card in them and can be used to the RAID I want to set<br />\n> up in the future?</em></p>\n<p>No hard drive has a RAID controller. RAID <em>(Redundant Array of Independent Discs)</em> is a feature of the controller that you plug the hard drives in to (on the motherboard or a special controller card). There are hard drives that are specifically made for use in RAID setups (e.g. <em>Western Digital RE</em> hard drives) but they are very expensive and you don&#8217;t really need those unless you&#8217;re running a serious data server.</p>\n<p>FireWire, eSATA and USB drive are just regular hard drives, but they’re external, you plug them into the outside of your computer. They are cheap a useful for portable storage.</p>\n<p>If you&#8217;re just looking for more temporary storage then a decent 1TB-2TB external hard drive is probably perfect for you. Just plug it into your computer and you have storage. But make sure your computer has ports for it. If your computer is really, really old then it may not have a FireWire connection. Even many newer computers don&#8217;t have eSATA plugs. However every computer made in the last 15 years has USB ports.</p>\n<p>If you need redundancy now then you should probably look at the little NAS box systems. They can get fairly pricey (few hundred bucks) but they will give you a safer place to store your files.</p>\n<p>Random one with decent reviews:<br />\n<a href=\"http://www.newegg.com/Product/Product.aspx?Item=N82E16822319003\" rel=\"nofollow\">http://www.newegg.com/Product/Product.aspx?Item=N82E16822319003</a></p>\n<p>I can&#8217;t vouch for this one, but it&#8217;s an example of what I&#8217;m talking about. You just plug it into your network, do some basic setup via a web browser and you have a NAS.</p>\n<p>They won&#8217;t be very fast over the network so you&#8217;ll probably have to copy large files to your computer before you start hacking at them with Photoshop. But if you set it up with RAID 1 then your data will survive a hard drive failure.</p>\n<p>One last thing I want to point out: RAID is <em>redundancy</em>, it is not a <em>backup</em>. RAID 1 or RAID 5 will protect your data from a single hard drive failure. It will not protect your data from a lightning strike, fire or other disaster. For a data backup you should copy your files to a portable hard drive and leave it at a friend&#8217;s house.</p>\n<p><em>> Or do I just need to get a good hard drive and once I set up the NAS<br />\n> get a separate RAID controller or RAID controller hardware?</em></p>\n<p>That&#8217;s exactly what I would recommend. Solve your immediate storage problems now. Technology changes too fast and hard drive prices are dropping too fast. If it&#8217;s going to be a year or more before you start building your NAS then there is no point in buying any hardware for it today.</p>\n<p>Save up the money so you can get matched sets of the best price/performance bargains you can find when you&#8217;re ready to start building.</p>\n"
 		},
-		"link": "https://stevenbenner.com/2009/12/building-a-home-network-attached-storage-server-part-1-hardware/#comment-44224",
-		"status": "approved",
-		"type": "comment",
 		"author_avatar_urls": {
 			"24": "https://secure.gravatar.com/avatar/5b09e09f1d9fed4c34e369d02f2edb74?s=24&d=mm&r=pg",
 			"48": "https://secure.gravatar.com/avatar/5b09e09f1d9fed4c34e369d02f2edb74?s=48&d=mm&r=pg",
 			"96": "https://secure.gravatar.com/avatar/5b09e09f1d9fed4c34e369d02f2edb74?s=96&d=mm&r=pg"
-		},
-		"meta": [],
-		"_links": {
-			"self": [
-				{
-					"href": "https://stevenbenner.com/wp-json/wp/v2/comments/44224"
-				}
-			],
-			"collection": [
-				{
-					"href": "https://stevenbenner.com/wp-json/wp/v2/comments"
-				}
-			],
-			"author": [
-				{
-					"embeddable": true,
-					"href": "https://stevenbenner.com/wp-json/wp/v2/users/2"
-				}
-			],
-			"up": [
-				{
-					"embeddable": true,
-					"post_type": "post",
-					"href": "https://stevenbenner.com/wp-json/wp/v2/posts/27"
-				}
-			]
 		}
 	},
 	{
 		"id": 44207,
-		"post": 27,
-		"parent": 0,
 		"author": 0,
 		"author_name": "Natalie Wendig",
 		"author_url": "http://nataliewsudio.weebly.com",
-		"date": "2011-06-13T15:25:05",
 		"date_gmt": "2011-06-13T22:25:05",
 		"content": {
 			"rendered": "<p>Hello Steven,</p>\n<p>I am glad I found your post.  I have a quick question (I hope)  Here is my backgroud first.  </p>\n<p>I am a professional photographer just starting my business.  Thus I require a lot of storage and request a lot of my computer because of all the Adobe programs I run and large file sizes I use.  Currently I have an old PC that is just getting me by until I have enough money to get a new one.  </p>\n<p>My goal is to get a better faster PC in a year.  And then eventually create a Network attached storage configured as a RAID for all my files.  Then I will have access to all my work and have it backed up.  </p>\n<p>The problem:  My current hard dive (500gb) is dangerously full.  I want to buy another hard drive (2tb or higher) to replace the current one for now until I have the money for the new computer and NAS system.  </p>\n<p>The question:  Is it going to matter which hard drive I get?  I have seen some hard drives that say &#8220;Desktop RAID, FireWire 800- or eSATA-enabled external storage devices&#8221;.  Does this mean they have a RAID controller card in them and can be used to the RAID I want to set up in the future?  Or do I just need to get a good hard drive and once I set up the NAS get a separate RAID controller or RAID controller hardware? </p>\n<p>Any help you can offer will be appreciated.<br />\nThanks,<br />\nNatalie</p>\n"
 		},
-		"link": "https://stevenbenner.com/2009/12/building-a-home-network-attached-storage-server-part-1-hardware/#comment-44207",
-		"status": "approved",
-		"type": "comment",
 		"author_avatar_urls": {
 			"24": "https://secure.gravatar.com/avatar/b2a49b0744a3306c57a752c87acaa7cf?s=24&d=mm&r=pg",
 			"48": "https://secure.gravatar.com/avatar/b2a49b0744a3306c57a752c87acaa7cf?s=48&d=mm&r=pg",
 			"96": "https://secure.gravatar.com/avatar/b2a49b0744a3306c57a752c87acaa7cf?s=96&d=mm&r=pg"
-		},
-		"meta": [],
-		"_links": {
-			"self": [
-				{
-					"href": "https://stevenbenner.com/wp-json/wp/v2/comments/44207"
-				}
-			],
-			"collection": [
-				{
-					"href": "https://stevenbenner.com/wp-json/wp/v2/comments"
-				}
-			],
-			"up": [
-				{
-					"embeddable": true,
-					"post_type": "post",
-					"href": "https://stevenbenner.com/wp-json/wp/v2/posts/27"
-				}
-			]
 		}
 	},
 	{
 		"id": 10982,
-		"post": 27,
-		"parent": 10942,
 		"author": 2,
 		"author_name": "Steven Benner",
 		"author_url": "http://stevenbenner.com/",
-		"date": "2010-11-26T18:43:17",
 		"date_gmt": "2010-11-27T02:43:17",
 		"content": {
 			"rendered": "<p>Yep, this server is still going strong. Just broke 8,500 hours of uptime. Performance is of course wicked fast. I still see 60-80 MB/s across the network.</p>\n<p>In case you missed it, be sure to check out <a href=\"http://stevenbenner.com/2010/01/building-a-home-network-attached-storage-server-part-2-raid-setup/\" rel=\"nofollow\">part 2</a> and <a href=\"http://stevenbenner.com/2010/04/building-a-home-network-attached-storage-server-part-3-wrapping-up-and-product-reviews-2/\" rel=\"nofollow\">part 3</a> of this article series.</p>\n"
 		},
-		"link": "https://stevenbenner.com/2009/12/building-a-home-network-attached-storage-server-part-1-hardware/#comment-10982",
-		"status": "approved",
-		"type": "comment",
 		"author_avatar_urls": {
 			"24": "https://secure.gravatar.com/avatar/5b09e09f1d9fed4c34e369d02f2edb74?s=24&d=mm&r=pg",
 			"48": "https://secure.gravatar.com/avatar/5b09e09f1d9fed4c34e369d02f2edb74?s=48&d=mm&r=pg",
 			"96": "https://secure.gravatar.com/avatar/5b09e09f1d9fed4c34e369d02f2edb74?s=96&d=mm&r=pg"
-		},
-		"meta": [],
-		"_links": {
-			"self": [
-				{
-					"href": "https://stevenbenner.com/wp-json/wp/v2/comments/10982"
-				}
-			],
-			"collection": [
-				{
-					"href": "https://stevenbenner.com/wp-json/wp/v2/comments"
-				}
-			],
-			"author": [
-				{
-					"embeddable": true,
-					"href": "https://stevenbenner.com/wp-json/wp/v2/users/2"
-				}
-			],
-			"up": [
-				{
-					"embeddable": true,
-					"post_type": "post",
-					"href": "https://stevenbenner.com/wp-json/wp/v2/posts/27"
-				}
-			],
-			"in-reply-to": [
-				{
-					"embeddable": true,
-					"href": "https://stevenbenner.com/wp-json/wp/v2/comments/10942"
-				}
-			]
 		}
 	},
 	{
 		"id": 10942,
-		"post": 27,
-		"parent": 0,
 		"author": 0,
 		"author_name": "Sri",
 		"author_url": "",
-		"date": "2010-11-26T08:33:07",
 		"date_gmt": "2010-11-26T16:33:07",
 		"content": {
 			"rendered": "<p>Hi,</p>\n<p>Are you still using this file server ? how is the performance ?</p>\n<p>Thanks,<br />\nSri</p>\n"
 		},
-		"link": "https://stevenbenner.com/2009/12/building-a-home-network-attached-storage-server-part-1-hardware/#comment-10942",
-		"status": "approved",
-		"type": "comment",
 		"author_avatar_urls": {
 			"24": "https://secure.gravatar.com/avatar/007cc78656ab2c990698c5e49f6bfb40?s=24&d=mm&r=pg",
 			"48": "https://secure.gravatar.com/avatar/007cc78656ab2c990698c5e49f6bfb40?s=48&d=mm&r=pg",
 			"96": "https://secure.gravatar.com/avatar/007cc78656ab2c990698c5e49f6bfb40?s=96&d=mm&r=pg"
-		},
-		"meta": [],
-		"_links": {
-			"self": [
-				{
-					"href": "https://stevenbenner.com/wp-json/wp/v2/comments/10942"
-				}
-			],
-			"collection": [
-				{
-					"href": "https://stevenbenner.com/wp-json/wp/v2/comments"
-				}
-			],
-			"up": [
-				{
-					"embeddable": true,
-					"post_type": "post",
-					"href": "https://stevenbenner.com/wp-json/wp/v2/posts/27"
-				}
-			],
-			"children": [
-				{
-					"href": "https://stevenbenner.com/wp-json/wp/v2/comments?parent=10942"
-				}
-			]
 		}
 	}
 ]

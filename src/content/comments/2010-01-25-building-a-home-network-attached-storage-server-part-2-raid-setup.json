@@ -1,1028 +1,362 @@
 [
 	{
 		"id": 1097,
-		"post": 256,
-		"parent": 0,
 		"author": 2,
 		"author_name": "Steven Benner",
 		"author_url": "http://stevenbenner.com/",
-		"date": "2010-05-05T11:05:18",
 		"date_gmt": "2010-05-05T18:05:18",
 		"content": {
 			"rendered": "<p>The array reports a drive a failed after a crash? That should not be happening, my NAS hasn&#8217;t had a blue screen crash yet, but it has been suddenly turned off a couple times (me accidently pulling the plug when messing with it) and both RAID arrays have come back in <em>nominal</em> condition.</p>\n<p>Is it always the same drive? Are you using Western Digital green drives by chance?</p>\n<p>The internal battery backup available for nice RAID controller cards is there to protect against write failures that can corrupt an array. If a system crashes when it is attempting to write data to the array then the data being written may be lost mid-write or worse, this could happen to the parity information, which can corrupt the array. If this were to happen it would report the entire array as <em>corrupt</em> or <em>failed</em>. It wouldn&#8217;t say that one drive has failed.</p>\n<p>Could you post your system log report of the error?</p>\n"
 		},
-		"link": "https://stevenbenner.com/2010/01/building-a-home-network-attached-storage-server-part-2-raid-setup/#comment-1097",
-		"status": "approved",
-		"type": "comment",
 		"author_avatar_urls": {
 			"24": "https://secure.gravatar.com/avatar/5b09e09f1d9fed4c34e369d02f2edb74?s=24&d=mm&r=pg",
 			"48": "https://secure.gravatar.com/avatar/5b09e09f1d9fed4c34e369d02f2edb74?s=48&d=mm&r=pg",
 			"96": "https://secure.gravatar.com/avatar/5b09e09f1d9fed4c34e369d02f2edb74?s=96&d=mm&r=pg"
-		},
-		"meta": [],
-		"_links": {
-			"self": [
-				{
-					"href": "https://stevenbenner.com/wp-json/wp/v2/comments/1097"
-				}
-			],
-			"collection": [
-				{
-					"href": "https://stevenbenner.com/wp-json/wp/v2/comments"
-				}
-			],
-			"author": [
-				{
-					"embeddable": true,
-					"href": "https://stevenbenner.com/wp-json/wp/v2/users/2"
-				}
-			],
-			"up": [
-				{
-					"embeddable": true,
-					"post_type": "post",
-					"href": "https://stevenbenner.com/wp-json/wp/v2/posts/256"
-				}
-			]
 		}
 	},
 	{
 		"id": 1095,
-		"post": 256,
-		"parent": 0,
 		"author": 0,
 		"author_name": "TrumanHW",
 		"author_url": "",
-		"date": "2010-05-05T09:45:44",
 		"date_gmt": "2010-05-05T16:45:44",
 		"content": {
 			"rendered": "<p>I&#8217;ve discovered a problem with using soft-RAID that&#8217;s a real bummer. If my system crashes, it&#8217;ll lose a drive and have to rebuild, for days. So any time I tinker with things, if it results in a crash, data integrity is at stake. I have a backup power unit, but the RAID needs one in the event of a system crash, not just in the event of a power outage. I really see no way in fixing this except getting a card with BBU. Even that however, I think may not work, as even with a BBU the drives will lose power if the system crashes.. This will be my next major purchase..</p>\n"
 		},
-		"link": "https://stevenbenner.com/2010/01/building-a-home-network-attached-storage-server-part-2-raid-setup/#comment-1095",
-		"status": "approved",
-		"type": "comment",
 		"author_avatar_urls": {
 			"24": "https://secure.gravatar.com/avatar/61814d477dbcdea7214fa7c8aa1d2c40?s=24&d=mm&r=pg",
 			"48": "https://secure.gravatar.com/avatar/61814d477dbcdea7214fa7c8aa1d2c40?s=48&d=mm&r=pg",
 			"96": "https://secure.gravatar.com/avatar/61814d477dbcdea7214fa7c8aa1d2c40?s=96&d=mm&r=pg"
-		},
-		"meta": [],
-		"_links": {
-			"self": [
-				{
-					"href": "https://stevenbenner.com/wp-json/wp/v2/comments/1095"
-				}
-			],
-			"collection": [
-				{
-					"href": "https://stevenbenner.com/wp-json/wp/v2/comments"
-				}
-			],
-			"up": [
-				{
-					"embeddable": true,
-					"post_type": "post",
-					"href": "https://stevenbenner.com/wp-json/wp/v2/posts/256"
-				}
-			]
 		}
 	},
 	{
 		"id": 1001,
-		"post": 256,
-		"parent": 0,
 		"author": 2,
 		"author_name": "Steven Benner",
 		"author_url": "http://stevenbenner.com/",
-		"date": "2010-04-28T21:48:33",
 		"date_gmt": "2010-04-29T04:48:33",
 		"content": {
 			"rendered": "<p><em>> I really recommend getting 3x 4&#8243; SATA cables and 3x 6&#8243; for your array</em></p>\n<p>Yeah, I just used a bunch of cables that I had laying around. Next time I order something from NewEgg I&#8217;ll add some short sata cables.</p>\n<p><em>> are you out of sata ports?</em></p>\n<p>Yep. 8 SATA hard drives.</p>\n<p><em>>does yours have additional SATA slots?</em></p>\n<p>My EP45-UD3R has 6 SATA ports on the ICH controller and 2 on the JMicron controller. 8 SATA ports total.</p>\n<p><em>> And, as far as your 750&#8217;s, they&#8217;re, &#8230; IDE? What about ROM drive? What are<br />\n> you using for that?</em></p>\n<p>No, the 750GB (boot) drives are SATA, in a RAID 1. The IDE cable goes to some random DVD drive, had to be IDE since I needed to use every SATA port.</p>\n<p><em>> What do you do with 1.5TB of an OS drive?? Do you use windows backup for<br />\n> your OS drive?</em></p>\n<p>In RAID 1 it&#8217;s only 750GB&#8230; I use it only for the operating system and as a temp location when I&#8217;m downloading files via the NAS. No backup, but there is nothing important on that array anyway. The only reason it is in a RAID is for availability, I wanted to reduce the risk of an OS crash during a write because of a failing system drive.</p>\n<p>They are way over sized for my needs but they were cheap and have reasonably good performance.</p>\n"
 		},
-		"link": "https://stevenbenner.com/2010/01/building-a-home-network-attached-storage-server-part-2-raid-setup/#comment-1001",
-		"status": "approved",
-		"type": "comment",
 		"author_avatar_urls": {
 			"24": "https://secure.gravatar.com/avatar/5b09e09f1d9fed4c34e369d02f2edb74?s=24&d=mm&r=pg",
 			"48": "https://secure.gravatar.com/avatar/5b09e09f1d9fed4c34e369d02f2edb74?s=48&d=mm&r=pg",
 			"96": "https://secure.gravatar.com/avatar/5b09e09f1d9fed4c34e369d02f2edb74?s=96&d=mm&r=pg"
-		},
-		"meta": [],
-		"_links": {
-			"self": [
-				{
-					"href": "https://stevenbenner.com/wp-json/wp/v2/comments/1001"
-				}
-			],
-			"collection": [
-				{
-					"href": "https://stevenbenner.com/wp-json/wp/v2/comments"
-				}
-			],
-			"author": [
-				{
-					"embeddable": true,
-					"href": "https://stevenbenner.com/wp-json/wp/v2/users/2"
-				}
-			],
-			"up": [
-				{
-					"embeddable": true,
-					"post_type": "post",
-					"href": "https://stevenbenner.com/wp-json/wp/v2/posts/256"
-				}
-			]
 		}
 	},
 	{
 		"id": 983,
-		"post": 256,
-		"parent": 0,
 		"author": 0,
 		"author_name": "TrumanHW",
 		"author_url": "",
-		"date": "2010-04-28T01:26:56",
 		"date_gmt": "2010-04-28T08:26:56",
 		"content": {
 			"rendered": "<p>Looks great steve. But truly.. I really recommend getting 3x 4&#8243; SATA cables and 3x 6&#8243; for your array.. are you out of sata ports? I didn&#8217;t realize but we have different motherboards; I&#8217;m on the X58.. does yours have additional SATA slots? And, as far as your 750&#8217;s, they&#8217;re, &#8230; IDE? What about ROM drive? What are you using for that? I&#8217;ve discovered (and prefer) booting win7 from USB pen drive..  What do you do with 1.5TB of an OS drive?? Do you use windows backup for your OS drive?</p>\n"
 		},
-		"link": "https://stevenbenner.com/2010/01/building-a-home-network-attached-storage-server-part-2-raid-setup/#comment-983",
-		"status": "approved",
-		"type": "comment",
 		"author_avatar_urls": {
 			"24": "https://secure.gravatar.com/avatar/61814d477dbcdea7214fa7c8aa1d2c40?s=24&d=mm&r=pg",
 			"48": "https://secure.gravatar.com/avatar/61814d477dbcdea7214fa7c8aa1d2c40?s=48&d=mm&r=pg",
 			"96": "https://secure.gravatar.com/avatar/61814d477dbcdea7214fa7c8aa1d2c40?s=96&d=mm&r=pg"
-		},
-		"meta": [],
-		"_links": {
-			"self": [
-				{
-					"href": "https://stevenbenner.com/wp-json/wp/v2/comments/983"
-				}
-			],
-			"collection": [
-				{
-					"href": "https://stevenbenner.com/wp-json/wp/v2/comments"
-				}
-			],
-			"up": [
-				{
-					"embeddable": true,
-					"post_type": "post",
-					"href": "https://stevenbenner.com/wp-json/wp/v2/posts/256"
-				}
-			]
 		}
 	},
 	{
 		"id": 979,
-		"post": 256,
-		"parent": 0,
 		"author": 2,
 		"author_name": "Steven Benner",
 		"author_url": "http://stevenbenner.com/",
-		"date": "2010-04-27T21:15:59",
 		"date_gmt": "2010-04-28T04:15:59",
 		"content": {
 			"rendered": "<p>Sorry for the delay! I&#8217;ve put a (single) picture of my build in the <b><a href=\"http://stevenbenner.com/2009/12/building-a-home-network-attached-storage-server-part-1-hardware/\" rel=\"nofollow\">first article</a></b>.</p>\n<p>I&#8217;ll take some more/better pictures of my computers eventually and make a post out of them.</p>\n"
 		},
-		"link": "https://stevenbenner.com/2010/01/building-a-home-network-attached-storage-server-part-2-raid-setup/#comment-979",
-		"status": "approved",
-		"type": "comment",
 		"author_avatar_urls": {
 			"24": "https://secure.gravatar.com/avatar/5b09e09f1d9fed4c34e369d02f2edb74?s=24&d=mm&r=pg",
 			"48": "https://secure.gravatar.com/avatar/5b09e09f1d9fed4c34e369d02f2edb74?s=48&d=mm&r=pg",
 			"96": "https://secure.gravatar.com/avatar/5b09e09f1d9fed4c34e369d02f2edb74?s=96&d=mm&r=pg"
-		},
-		"meta": [],
-		"_links": {
-			"self": [
-				{
-					"href": "https://stevenbenner.com/wp-json/wp/v2/comments/979"
-				}
-			],
-			"collection": [
-				{
-					"href": "https://stevenbenner.com/wp-json/wp/v2/comments"
-				}
-			],
-			"author": [
-				{
-					"embeddable": true,
-					"href": "https://stevenbenner.com/wp-json/wp/v2/users/2"
-				}
-			],
-			"up": [
-				{
-					"embeddable": true,
-					"post_type": "post",
-					"href": "https://stevenbenner.com/wp-json/wp/v2/posts/256"
-				}
-			]
 		}
 	},
 	{
 		"id": 969,
-		"post": 256,
-		"parent": 0,
 		"author": 0,
 		"author_name": "TrumanHW",
 		"author_url": "",
-		"date": "2010-04-27T08:12:35",
 		"date_gmt": "2010-04-27T15:12:35",
 		"content": {
 			"rendered": "<p>Yeah, heatsink IS massive.. but that was my point exactly. Keep it cold, eliminate CPU errors. As much as I hate the installation of that behemoth, I really trust it. </p>\n<p>The lights on the twelve are a bit annoying.. though, I can disable them. I&#8217;ve just been lazy about it. some people use lights/windows in their case as&#8230; status amongst their friends. I like elegent/streamlined things.. its tough though, as mfg have a compatible agenda with the people I just mentioned in that it promotes their product. Se la vie. </p>\n<p>Looking forward to your pictures.. will they be in a new article when you do it? PS&#8230; not to assume your photog knowledge, but, make sure you flood your server with light to get best possible picture quality. :)</p>\n"
 		},
-		"link": "https://stevenbenner.com/2010/01/building-a-home-network-attached-storage-server-part-2-raid-setup/#comment-969",
-		"status": "approved",
-		"type": "comment",
 		"author_avatar_urls": {
 			"24": "https://secure.gravatar.com/avatar/61814d477dbcdea7214fa7c8aa1d2c40?s=24&d=mm&r=pg",
 			"48": "https://secure.gravatar.com/avatar/61814d477dbcdea7214fa7c8aa1d2c40?s=48&d=mm&r=pg",
 			"96": "https://secure.gravatar.com/avatar/61814d477dbcdea7214fa7c8aa1d2c40?s=96&d=mm&r=pg"
-		},
-		"meta": [],
-		"_links": {
-			"self": [
-				{
-					"href": "https://stevenbenner.com/wp-json/wp/v2/comments/969"
-				}
-			],
-			"collection": [
-				{
-					"href": "https://stevenbenner.com/wp-json/wp/v2/comments"
-				}
-			],
-			"up": [
-				{
-					"embeddable": true,
-					"post_type": "post",
-					"href": "https://stevenbenner.com/wp-json/wp/v2/posts/256"
-				}
-			]
 		}
 	},
 	{
 		"id": 897,
-		"post": 256,
-		"parent": 0,
 		"author": 2,
 		"author_name": "Steven Benner",
 		"author_url": "http://stevenbenner.com/",
-		"date": "2010-04-23T11:49:52",
 		"date_gmt": "2010-04-23T18:49:52",
 		"content": {
 			"rendered": "<p><em>> You still going to post those pictures?</em></p>\n<p>Yes, I&#8217;ve got the pics, I just need to clean them up and integrate them into the article. I&#8217;ve had a hectic week, I&#8217;ll get them up this weekend.</p>\n<p><em>> Did you check out the CPU fan I mentioned? What were your thoughts..?</em></p>\n<p>Yes. Thoughts: HOLY MASSIVE METAL BLOCK, BATMAN! Well, it&#8217;s impossible to have too much surface area on a heat sink, so long as the air flows through it properly. If even so much as a gentle breeze manages through that thing you will never have to worry about heat issues unless you overclock it a lot. Which I do not recommend for any kind of server, overclocking increases the chance of processor errors, which can corrupt any data passing through it (such as parity calculations).</p>\n<p><em>> Do you have a proprietary DVR (as in, one you can’t save the media from) ..?</em></p>\n<p>Nope, everything I have has a simple file transfer system of some kind, with the possible exception of the video surveillance system, but that has a normal hard drive and a network connection so I can get the data off of it if I need to. I try to avoid anything that makes it difficult to get the data off of it. Hell, I haven&#8217;t even had a cable TV subscription in 5 years.</p>\n<p><em>> clearly image codes don’t work here.. was gonna try to make it easy for you..<br />\n> here are the links.</em></p>\n<p>Yeah image tags don&#8217;t work very well on blog comments, but the links work just fine.</p>\n<p>That looks like an awesome HTPC and the Antec 1200 looks amazing sitting with your media center. Though I don&#8217;t like how the stock Antec fans have LEDs, does the light bother you when you are watching a movie?</p>\n<p>It&#8217;s going to be hard to hide away most of those cables, there is room behind the motherboard tray but one of the downsides of having the power supply at the bottom is how far the cables have to go to reach the motherboard power connectors. Even with the power cables it still looks clean. That massive heat sink is, imposing, lol.</p>\n<p><em>> Hope this isn’t hijacking of your page.. would like to see your choices.</em></p>\n<p>Not hijacking at all, this is very relevant to the article! Thank you for taking the time to post these. This conversation has been very helpful, and I&#8217;m sure anyone who reads this article will find some of the points here quite valuable.</p>\n"
 		},
-		"link": "https://stevenbenner.com/2010/01/building-a-home-network-attached-storage-server-part-2-raid-setup/#comment-897",
-		"status": "approved",
-		"type": "comment",
 		"author_avatar_urls": {
 			"24": "https://secure.gravatar.com/avatar/5b09e09f1d9fed4c34e369d02f2edb74?s=24&d=mm&r=pg",
 			"48": "https://secure.gravatar.com/avatar/5b09e09f1d9fed4c34e369d02f2edb74?s=48&d=mm&r=pg",
 			"96": "https://secure.gravatar.com/avatar/5b09e09f1d9fed4c34e369d02f2edb74?s=96&d=mm&r=pg"
-		},
-		"meta": [],
-		"_links": {
-			"self": [
-				{
-					"href": "https://stevenbenner.com/wp-json/wp/v2/comments/897"
-				}
-			],
-			"collection": [
-				{
-					"href": "https://stevenbenner.com/wp-json/wp/v2/comments"
-				}
-			],
-			"author": [
-				{
-					"embeddable": true,
-					"href": "https://stevenbenner.com/wp-json/wp/v2/users/2"
-				}
-			],
-			"up": [
-				{
-					"embeddable": true,
-					"post_type": "post",
-					"href": "https://stevenbenner.com/wp-json/wp/v2/posts/256"
-				}
-			]
 		}
 	},
 	{
 		"id": 852,
-		"post": 256,
-		"parent": 0,
 		"author": 0,
 		"author_name": "TrumanHW",
 		"author_url": "",
-		"date": "2010-04-20T23:39:07",
 		"date_gmt": "2010-04-21T06:39:07",
 		"content": {
 			"rendered": "<p>PS &#8211; yes, I&#8217;m going to clean up the rats nest of a cable disaster after I get my new receiver. lol</p>\n<p>Please ignore the studio light in the bg.</p>\n"
 		},
-		"link": "https://stevenbenner.com/2010/01/building-a-home-network-attached-storage-server-part-2-raid-setup/#comment-852",
-		"status": "approved",
-		"type": "comment",
 		"author_avatar_urls": {
 			"24": "https://secure.gravatar.com/avatar/61814d477dbcdea7214fa7c8aa1d2c40?s=24&d=mm&r=pg",
 			"48": "https://secure.gravatar.com/avatar/61814d477dbcdea7214fa7c8aa1d2c40?s=48&d=mm&r=pg",
 			"96": "https://secure.gravatar.com/avatar/61814d477dbcdea7214fa7c8aa1d2c40?s=96&d=mm&r=pg"
-		},
-		"meta": [],
-		"_links": {
-			"self": [
-				{
-					"href": "https://stevenbenner.com/wp-json/wp/v2/comments/852"
-				}
-			],
-			"collection": [
-				{
-					"href": "https://stevenbenner.com/wp-json/wp/v2/comments"
-				}
-			],
-			"up": [
-				{
-					"embeddable": true,
-					"post_type": "post",
-					"href": "https://stevenbenner.com/wp-json/wp/v2/posts/256"
-				}
-			]
 		}
 	},
 	{
 		"id": 851,
-		"post": 256,
-		"parent": 0,
 		"author": 0,
 		"author_name": "TrumanHW",
 		"author_url": "",
-		"date": "2010-04-20T23:37:27",
 		"date_gmt": "2010-04-21T06:37:27",
 		"content": {
 			"rendered": "<p>clearly image codes don&#8217;t work here.. was gonna try to make it easy for you.. here are the links.</p>\n<p><a href=\"http://i74.photobucket.com/albums/i258/trumanhw/Antec_Server/PPL_9870.jpg\" rel=\"nofollow\">http://i74.photobucket.com/albums/i258/trumanhw/Antec_Server/PPL_9870.jpg</a></p>\n<p><a href=\"http://i74.photobucket.com/albums/i258/trumanhw/Antec_Server/PPL_9871.jpg\" rel=\"nofollow\">http://i74.photobucket.com/albums/i258/trumanhw/Antec_Server/PPL_9871.jpg</a></p>\n<p><a href=\"http://i74.photobucket.com/albums/i258/trumanhw/Antec_Server/PPL_9872.jpg\" rel=\"nofollow\">http://i74.photobucket.com/albums/i258/trumanhw/Antec_Server/PPL_9872.jpg</a></p>\n<p><a href=\"http://i74.photobucket.com/albums/i258/trumanhw/Antec_Server/PPL_9873.jpg\" rel=\"nofollow\">http://i74.photobucket.com/albums/i258/trumanhw/Antec_Server/PPL_9873.jpg</a></p>\n<p><a href=\"http://i74.photobucket.com/albums/i258/trumanhw/Antec_Server/PPL_9874.jpg\" rel=\"nofollow\">http://i74.photobucket.com/albums/i258/trumanhw/Antec_Server/PPL_9874.jpg</a></p>\n<p><a href=\"http://i74.photobucket.com/albums/i258/trumanhw/Antec_Server/PPL_9876.jpg\" rel=\"nofollow\">http://i74.photobucket.com/albums/i258/trumanhw/Antec_Server/PPL_9876.jpg</a></p>\n<p>In the mix.. you&#8217;ll see (not to imply you care..)</p>\n<p>Pic1: The Server &#8211; obviously, with BD-RW and removable HDD.<br />\nPic2: Close up pics of 4&#8243; cables to 3 SATA drives and 10&#8243; cable to OS HDD in cady.<br />\nPic3: Close up pics of 4&#8243; cables to 3 SATA drives<br />\nPic4: The back of the eSATA dock<br />\nPic5: The front of eSATA dock<br />\nPic6: From top to bottom per column: </p>\n<p> &#8211; Hauppage HD PVR (extract movies from DVR &#8211; DishTV in this case)<br />\n &#8211; VHS &#8211;&gt; DVD burner (convenience.. pretty much done with it)<br />\n &#8211; Pioneer Elite VSX-94THX receiver**<br />\n &#8211; 750GB Ext drive for DishTV<br />\n &#8211; DishTV DVR. Its the best out right now&#8230;<br />\n &#8211; Sony 400 Blu-Ray disc player &#8212; downloads all DVD/audio titles from internet.</p>\n<p>Center device is backup power supply for computer (nothing else attached). Tested to 13 minutes reserve.</p>\n<p>Receiver being repaired and replaced. Weak iPod management, poor network/DLNA support, and had a weak HDCP board that burnt out all HDMI ports during haphazard trial and error to discover that my ATI 5770 [might] be putting out a hot signal. Replacing with Onkyo TX-NR807 &#8212; has Audyssy (compresses dynamic range so that the volume used to hear dialog doesn&#8217;t result in annoying your neighbors during action scenes in movies.</p>\n<p>Hope this isn&#8217;t hijacking of your page.. would like to see your choices. </p>\n<p>Regards</p>\n"
 		},
-		"link": "https://stevenbenner.com/2010/01/building-a-home-network-attached-storage-server-part-2-raid-setup/#comment-851",
-		"status": "approved",
-		"type": "comment",
 		"author_avatar_urls": {
 			"24": "https://secure.gravatar.com/avatar/61814d477dbcdea7214fa7c8aa1d2c40?s=24&d=mm&r=pg",
 			"48": "https://secure.gravatar.com/avatar/61814d477dbcdea7214fa7c8aa1d2c40?s=48&d=mm&r=pg",
 			"96": "https://secure.gravatar.com/avatar/61814d477dbcdea7214fa7c8aa1d2c40?s=96&d=mm&r=pg"
-		},
-		"meta": [],
-		"_links": {
-			"self": [
-				{
-					"href": "https://stevenbenner.com/wp-json/wp/v2/comments/851"
-				}
-			],
-			"collection": [
-				{
-					"href": "https://stevenbenner.com/wp-json/wp/v2/comments"
-				}
-			],
-			"up": [
-				{
-					"embeddable": true,
-					"post_type": "post",
-					"href": "https://stevenbenner.com/wp-json/wp/v2/posts/256"
-				}
-			]
 		}
 	},
 	{
 		"id": 847,
-		"post": 256,
-		"parent": 0,
 		"author": 0,
 		"author_name": "TrumanHW",
 		"author_url": "",
-		"date": "2010-04-20T19:36:12",
 		"date_gmt": "2010-04-21T02:36:12",
 		"content": {
 			"rendered": "<p>Typo.. my reference to 2GB should be 2TB. </p>\n<p>You still going to post those pictures?</p>\n"
 		},
-		"link": "https://stevenbenner.com/2010/01/building-a-home-network-attached-storage-server-part-2-raid-setup/#comment-847",
-		"status": "approved",
-		"type": "comment",
 		"author_avatar_urls": {
 			"24": "https://secure.gravatar.com/avatar/61814d477dbcdea7214fa7c8aa1d2c40?s=24&d=mm&r=pg",
 			"48": "https://secure.gravatar.com/avatar/61814d477dbcdea7214fa7c8aa1d2c40?s=48&d=mm&r=pg",
 			"96": "https://secure.gravatar.com/avatar/61814d477dbcdea7214fa7c8aa1d2c40?s=96&d=mm&r=pg"
-		},
-		"meta": [],
-		"_links": {
-			"self": [
-				{
-					"href": "https://stevenbenner.com/wp-json/wp/v2/comments/847"
-				}
-			],
-			"collection": [
-				{
-					"href": "https://stevenbenner.com/wp-json/wp/v2/comments"
-				}
-			],
-			"up": [
-				{
-					"embeddable": true,
-					"post_type": "post",
-					"href": "https://stevenbenner.com/wp-json/wp/v2/posts/256"
-				}
-			]
 		}
 	},
 	{
 		"id": 846,
-		"post": 256,
-		"parent": 0,
 		"author": 0,
 		"author_name": "TrumanHW",
 		"author_url": "",
-		"date": "2010-04-20T19:34:54",
 		"date_gmt": "2010-04-21T02:34:54",
 		"content": {
 			"rendered": "<p>No, a SATA dock.. as in, eSATA. It plugs in to one of your motherboard&#8217;s available SATA slots, and you get the standard 3GB/s transfer rate. Of course, you&#8217;re limited by 2TB increments, but perhaps you organize your data as I do; Software, Back-Up, Media, etc &#8211; and could save your arrays cumulative information in these same logical groupings, by category that is. That said, I&#8217;d think having more than 2TB for each of these categories would be atypical.. but even then could be addressed. </p>\n<p>Yes, it [should] be wired.. but, I use external drives to move large amounts of data back and forth, but for nabbing files as I need them &#8211; wireless is fine for now. It defeats the purpose of having a notebook to tie it down &#8211; and if I weren&#8217;t going to use a notebook, 2TBs of space would negate the value of my server. </p>\n<p>I wasn&#8217;t aware fan speed could be controlled physically! Will fiddle with this evening!! :-)</p>\n<p>Did you check out the CPU fan I mentioned? What were your thoughts..?</p>\n<p>Do you have a proprietary DVR (as in, one you can&#8217;t save the media from) ..?</p>\n"
 		},
-		"link": "https://stevenbenner.com/2010/01/building-a-home-network-attached-storage-server-part-2-raid-setup/#comment-846",
-		"status": "approved",
-		"type": "comment",
 		"author_avatar_urls": {
 			"24": "https://secure.gravatar.com/avatar/61814d477dbcdea7214fa7c8aa1d2c40?s=24&d=mm&r=pg",
 			"48": "https://secure.gravatar.com/avatar/61814d477dbcdea7214fa7c8aa1d2c40?s=48&d=mm&r=pg",
 			"96": "https://secure.gravatar.com/avatar/61814d477dbcdea7214fa7c8aa1d2c40?s=96&d=mm&r=pg"
-		},
-		"meta": [],
-		"_links": {
-			"self": [
-				{
-					"href": "https://stevenbenner.com/wp-json/wp/v2/comments/846"
-				}
-			],
-			"collection": [
-				{
-					"href": "https://stevenbenner.com/wp-json/wp/v2/comments"
-				}
-			],
-			"up": [
-				{
-					"embeddable": true,
-					"post_type": "post",
-					"href": "https://stevenbenner.com/wp-json/wp/v2/posts/256"
-				}
-			]
 		}
 	},
 	{
 		"id": 839,
-		"post": 256,
-		"parent": 0,
 		"author": 2,
 		"author_name": "Steven Benner",
 		"author_url": "http://stevenbenner.com/",
-		"date": "2010-04-20T11:18:29",
 		"date_gmt": "2010-04-20T18:18:29",
 		"content": {
 			"rendered": "<p>Sorry for the delayed reply&#8230; Sounds like your system is coming together fairly nicely.</p>\n<p><em>> I also installed a wireless card</em></p>\n<p>Bah, servers should be wired. More reliable connection.</p>\n<p><em>> Have you seen sata docks? They hold any sata device…?</em></p>\n<p>If you&#8217;re talking about the USB SATA drive docks I think they are for hard drives only, but I can&#8217;t say for sure. We&#8217;ve got a couple at work but I&#8217;ve never used them before.</p>\n<p><em>> What do you use as software to control your fan speeds?</em></p>\n<p>None. The Antec Twelve Hundred has little speed controls on the fron&#8217;t of each drive cage and on the back of the case. Those are all I use. As I recall there were fan speed settings in the BIOS too, but I didn&#8217;t bother playing with those for this build.</p>\n<p><em>> you see the engadget article today? On 10 2TB drives tested</em></p>\n<p>Yep, sure did. That article said basically what I was expecting, my Seagate LPs aren&#8217;t the fastest, but they are not slow, and they are the best deal in storage.</p>\n"
 		},
-		"link": "https://stevenbenner.com/2010/01/building-a-home-network-attached-storage-server-part-2-raid-setup/#comment-839",
-		"status": "approved",
-		"type": "comment",
 		"author_avatar_urls": {
 			"24": "https://secure.gravatar.com/avatar/5b09e09f1d9fed4c34e369d02f2edb74?s=24&d=mm&r=pg",
 			"48": "https://secure.gravatar.com/avatar/5b09e09f1d9fed4c34e369d02f2edb74?s=48&d=mm&r=pg",
 			"96": "https://secure.gravatar.com/avatar/5b09e09f1d9fed4c34e369d02f2edb74?s=96&d=mm&r=pg"
-		},
-		"meta": [],
-		"_links": {
-			"self": [
-				{
-					"href": "https://stevenbenner.com/wp-json/wp/v2/comments/839"
-				}
-			],
-			"collection": [
-				{
-					"href": "https://stevenbenner.com/wp-json/wp/v2/comments"
-				}
-			],
-			"author": [
-				{
-					"embeddable": true,
-					"href": "https://stevenbenner.com/wp-json/wp/v2/users/2"
-				}
-			],
-			"up": [
-				{
-					"embeddable": true,
-					"post_type": "post",
-					"href": "https://stevenbenner.com/wp-json/wp/v2/posts/256"
-				}
-			]
 		}
 	},
 	{
 		"id": 795,
-		"post": 256,
-		"parent": 0,
 		"author": 0,
 		"author_name": "Truman",
 		"author_url": "",
-		"date": "2010-04-16T22:28:47",
 		"date_gmt": "2010-04-17T05:28:47",
 		"content": {
 			"rendered": "<p>What do you use as software to control your fan speeds? I think the gigabyte software doesn&#8217;t really do what I tell it to. Also, my CPU hovers at 35° celcius with this cooler..  When I start encoding video, I&#8217;ll take a screen shot of the histogram showing how many cores are utilized to what degree simultaneous to the software showing the temperature and RPMs. Mind you, this fan is truly silent at 10k. Whats NICE is, I can upgrade the size of my array by swapping out the drives 1 by 1, no brains involved. Or change them for faster drives, such as the Barracuda XT, which has insane rates. Did you see the engadget article today? On 10 2TB drives tested&#8230;</p>\n<p><a href=\"http://hothardware.com/Articles/Definitive-2TB-Hard-Drive-Roundup/?page=10\" rel=\"nofollow\">http://hothardware.com/Articles/Definitive-2TB-Hard-Drive-Roundup/?page=10</a></p>\n"
 		},
-		"link": "https://stevenbenner.com/2010/01/building-a-home-network-attached-storage-server-part-2-raid-setup/#comment-795",
-		"status": "approved",
-		"type": "comment",
 		"author_avatar_urls": {
 			"24": "https://secure.gravatar.com/avatar/61814d477dbcdea7214fa7c8aa1d2c40?s=24&d=mm&r=pg",
 			"48": "https://secure.gravatar.com/avatar/61814d477dbcdea7214fa7c8aa1d2c40?s=48&d=mm&r=pg",
 			"96": "https://secure.gravatar.com/avatar/61814d477dbcdea7214fa7c8aa1d2c40?s=96&d=mm&r=pg"
-		},
-		"meta": [],
-		"_links": {
-			"self": [
-				{
-					"href": "https://stevenbenner.com/wp-json/wp/v2/comments/795"
-				}
-			],
-			"collection": [
-				{
-					"href": "https://stevenbenner.com/wp-json/wp/v2/comments"
-				}
-			],
-			"up": [
-				{
-					"embeddable": true,
-					"post_type": "post",
-					"href": "https://stevenbenner.com/wp-json/wp/v2/posts/256"
-				}
-			]
 		}
 	},
 	{
 		"id": 794,
-		"post": 256,
-		"parent": 0,
 		"author": 0,
 		"author_name": "Truman",
 		"author_url": "",
-		"date": "2010-04-16T21:11:24",
 		"date_gmt": "2010-04-17T04:11:24",
 		"content": {
 			"rendered": "<p>Thanks for the quick and thorough reply. The &#8220;rotational density&#8221; is quite a good concept, and has reformed my view; thanks. And, yes, I agree that more drives [should] mean better performance, however, when i was looking at the add-on arrays like QNAP etc., they didn&#8217;t seem to scale in such a compelling matter. In the end, the cost benefit of it seemed questionable. Like many things in this realm, the synthetic (in vitro) theories of how something could perform rarely equate to real-life (en vivo) throughput. I have an SSD in the notebook Im replying to you on, and its performance wasn&#8217;t as noticeable as people postulate it [should] be. But, on the bright side, in having experimented with the IMM software it seeeemed like there was a possibility to migrate the array size &#8212; and on intel&#8217;s site, I believe I saw something about it as well. Whether it really works or not &#8211; takes a year to do, or causes data corruption in the process are all concerns to discover also. </p>\n<p>So far, Ive been quite conscientious about what I&#8217;ve done with my system since I&#8217;ve either been transferring large data-drives to it, formatting, or as of today, doing a data recovery project. All of these operations are multi-day-processes.. so risking a reboot/crash from anything has shied me away from more CPU intensive activities.. but I do want to see what this 920 can do in comparison to my Q9550. My immediate-to-follow project is going to be transferring from my DVR+750GB drive all my otherwise-locked-down-to-DishTV media that I&#8217;ve collected over the years. in fact, the reason I started on this ordained machine was to have a device powerful enough to encode H.264 streamed to it, capacious enough to store it all, and reliable enough to never lose it. The Hauppauge HD PVR is supposed to be able to extract.. or probably more accurately, siphon off the otherwise-HDCP media. I do wish it were a nicer looking device, did 1080p instead of 1080i, and had ANYTHING faster than USB 2.0, but, if all it needs is 2.0 thats fine, and if it will do 720p I&#8217;ll be elated. Also, once I strip off the commercials I&#8217;m going to have a FANTASTIC library. In fact, I&#8217;ll send you a picture of my entertainment center when I&#8217;m done with this project and the ugly hauppauge and what it&#8217;s wiring has done to the otherwise clean setup.. I also have a 400 bluray player that acquires from internet DB all the title info. </p>\n<p>I posted a link to my CPU cooler. I guess I should also have posted a link to it&#8217;s performance. Its about the awesome-est, best buy for a CPU cooler there is, and my machine with it is literall silent.  The Mugen-2 Rev.B &#8230; trust me.. it&#8217;s nice. Huge heatsink and ginormous fan. Its actually just.. neurosis that I even bother with a CPU monitor.. or geekdom. </p>\n<p>I hope I didn&#8217;t seem condescending or arrogant in my last email. I apologize if I was. :) </p>\n<p>Last night, after my formatting was complete and I finally wasn&#8217;t afraid to touch my system I installed some 6&#8243; sata cables. I have to say, they are PERFECT. In fact, I need to buy one more cable thats 4&#8243; shorter than the one I&#8217;m using for my boot drive and the inside of my case will be pretty much as clean as I can see making it without an engineering degree. Definitely pick up a set of those! Cheap cheap on ebay. </p>\n<p>I also installed a wireless card.. I&#8217;m using 1 routher for my server to connect to the internet, and another for LAN. Kinda bummed with the card. Its an N card, however, with the advantage of an external antenna and being closer than my laptop to the source, it has basically no signal. I&#8217;m wondering if being near the power supply, or all the AC cables I have passing near the back of the machine is somehow interfering with reception. I&#8217;m going to buy another N card and isolate it.. I bought the card from newegg and when I received it it said it was from &#8220;RMA&#8221; .. I couldn&#8217;t decide if they&#8217;d sent me a broken one from the beginning or if someone just had really poor awareness of the abbrev. of their company name and the industry phrase for broken shit. Everyone else said the card was good&#8230; so maybe I did get an RMA&#8217;s product. Or RMA is a drop shipper of neweggs&#8230; who cares right? Have you seen sata docks? They hold any sata device&#8230;?</p>\n<p>As this project comes to a close I feel some boredom creeping in. It was fun analyzing everything. </p>\n<p>Have a good weekend Steve.</p>\n"
 		},
-		"link": "https://stevenbenner.com/2010/01/building-a-home-network-attached-storage-server-part-2-raid-setup/#comment-794",
-		"status": "approved",
-		"type": "comment",
 		"author_avatar_urls": {
 			"24": "https://secure.gravatar.com/avatar/61814d477dbcdea7214fa7c8aa1d2c40?s=24&d=mm&r=pg",
 			"48": "https://secure.gravatar.com/avatar/61814d477dbcdea7214fa7c8aa1d2c40?s=48&d=mm&r=pg",
 			"96": "https://secure.gravatar.com/avatar/61814d477dbcdea7214fa7c8aa1d2c40?s=96&d=mm&r=pg"
-		},
-		"meta": [],
-		"_links": {
-			"self": [
-				{
-					"href": "https://stevenbenner.com/wp-json/wp/v2/comments/794"
-				}
-			],
-			"collection": [
-				{
-					"href": "https://stevenbenner.com/wp-json/wp/v2/comments"
-				}
-			],
-			"up": [
-				{
-					"embeddable": true,
-					"post_type": "post",
-					"href": "https://stevenbenner.com/wp-json/wp/v2/posts/256"
-				}
-			]
 		}
 	},
 	{
 		"id": 791,
-		"post": 256,
-		"parent": 0,
 		"author": 2,
 		"author_name": "Steven Benner",
 		"author_url": "http://stevenbenner.com/",
-		"date": "2010-04-16T17:20:59",
 		"date_gmt": "2010-04-17T00:20:59",
 		"content": {
 			"rendered": "<p><em>&gt; I looked at the page you provided for coretemp, but ultimately its not a<br />\n&gt; gadget, so I actively have to seek out that information, as opposed to it<br />\n&gt; constantly, passively being reported. Maybe there&#8217;s a way within &#8216;options&#8217;<br />\n&gt; to create an event, which then could cascade in to an emailed alert.. but<br />\n&gt; the gadget for me is my preference.. perhaps someone will make a coretemp<br />\n&gt; gadget that has emailed alerts within it!?</em></p>\n<p>Ahh, indeed Core Temp doesn&#8217;t do any kind of reporting to the event log, nor does it do email alerts. I use it as a tool to see how hot the CPU gets under full load for extended time. If you&#8217;re CPU is getting so hot that I can be a problem you need to take a second look at the cooling. With a good heat sink there is no reason a modern CPU should ever get above 75 degrees C, if it is properly installed and the air is flowing through it properly.</p>\n<p>My system got to ~65 degrees C after running prime95 for 24 hours. And that&#8217;s using a stock Intel cooler/heat sink.</p>\n<p>What exactly are the temperatures that you are seeing under full load?</p>\n<p><em>&gt; the options in the Intel RAID mgr that is loaded immediately after post gave<br />\n&gt; no options different than those available within windows</em></p>\n<p>A screenshot would help. Make sure you have the BIOS set to see the ICH drives as &#8220;RAID&#8221;, as opposed to IDE or AHCI.</p>\n<p><em>&gt; But in stark contrast to what you’ve said, I can use a 3-drive array for<br />\n&gt; RAID-5</em></p>\n<p>That&#8217;s great, for some reason I was under the impression that the ICH10R couldn&#8217;t do a 3-drive RAID 5 array. I stand corrected.</p>\n<p><em>&gt; I’m really looking forward to your pictures! I actually ordered some short<br />\n&gt; sata cables that are 6? to declutter my case. I’d really like to see where<br />\n&gt; you placed everything and how you organized it.</em></p>\n<p>My setup isn&#8217;t all that clean, basically I just stuffed all of the cables I could into the cable management space behind the motherboard plate. Good air flow through the case and a horrific rats-nest behind the mobo plate.</p>\n<p><em>&gt; user-rights and accounts. My plan is to create user accounts but hide them.<br />\n&gt; Access to the folders I want to provide it for, permissions invoked, but no<br />\n&gt; login option for the accounts</em></p>\n<p>My permissions system is simply using the native Windows networking permissions. Each network user that I want to have specific permissions for has an account on the machine with the same username and password that they use on their own computer. I can then set their permissions in the folder sharing configuration. Even without a domain Windows automatically has user information available to network shares so it works beautifully. I gave myself and one other person write permission. The shared folder has just read permissions to unknown and anonymous connections. That way if a friend comes over and I give him network access he can read files off of the NAS but doesn&#8217;t have the ability to delete, write, or overwrite. The private share folder (for quicken and the like) is only accessible to myself.</p>\n<p><em>&gt; I presume you’re aware that the more data you store on this array, the<br />\n&gt; slower it will become; linearly. And the bigger the volume is, the slower it<br />\n&gt; can get. That, I presume, is basis for smaller arrays… food for thought.</em></p>\n<p>It&#8217;s not exactly that simple. Standard hard drives to see slower read speeds as the become full because of the rotational speed against the heads is slower towards the spindle, so indeed hard drives to become far slower as they fill up, at least on any data that is stored further in on the platters. This is why a good defrag/drive-optimization software can work wonders on a standard drive, and why the best drive optimization you can do is to keep drives as empty as possible.</p>\n<p>This means that the bigger the hard drive the more data you can store on it without speed degradation because of lost rotational density. (Note: hard drive, not logical drive or partition)</p>\n<p>Unfortunately, where the data is stored on each platter on each drive isn&#8217;t something the operating system controls when you&#8217;re doing a RAID 5 array, the RAID controller determines this. So I can&#8217;t predict how fast the drives will be as the file system gets older. I also cannot say for sure if advanced drive optimization with software like MyDefrag actually helps (although defragmenting is always a good thing, even in RAID).</p>\n<p>Bigger volumes do not necessarily mean less speed, though there are situations where this can be the case. For RAID 5, volume size has little bearing on the speed that you will get from the array, in fact, the more drives on the array the faster it will read data, this is the benefit of stripes. Of course maximum speed is determined by the speed/efficiency or the controller, the I/O speed of the drives and the file-system. But for RAID 5 read speeds, in general, the more drives the better. However RAID configuration can throw a wrench in this idea.</p>\n<p><em>&gt; Let me know if you’d like to see pictures of my final setup: Interior and<br />\n&gt; Desktop, but you first. lol.</em></p>\n<p>Please! I love to see pictures of other people builds! It often gives me ideas and helps to improve my builds. I&#8217;ll try and take some pictures of mine over the weekend.</p>\n<p><em>&gt; Whats your opinion on Quick Formatting if I&#8217;ve chosen the wrong cluster size?</em></p>\n<p>Quick format is just as good as a full format as far as the file system is concerned. But a full format is an excellent test of the drives and array. It forces the system to go over every block on the drive and the system will notice (but probably not report) if it finds any dead blocks. Of course RAID initialization does an even more aggressive version of this since it has to calculate parity for every stripe.</p>\n<p>I used a quick format for my final array.</p>\n"
 		},
-		"link": "https://stevenbenner.com/2010/01/building-a-home-network-attached-storage-server-part-2-raid-setup/#comment-791",
-		"status": "approved",
-		"type": "comment",
 		"author_avatar_urls": {
 			"24": "https://secure.gravatar.com/avatar/5b09e09f1d9fed4c34e369d02f2edb74?s=24&d=mm&r=pg",
 			"48": "https://secure.gravatar.com/avatar/5b09e09f1d9fed4c34e369d02f2edb74?s=48&d=mm&r=pg",
 			"96": "https://secure.gravatar.com/avatar/5b09e09f1d9fed4c34e369d02f2edb74?s=96&d=mm&r=pg"
-		},
-		"meta": [],
-		"_links": {
-			"self": [
-				{
-					"href": "https://stevenbenner.com/wp-json/wp/v2/comments/791"
-				}
-			],
-			"collection": [
-				{
-					"href": "https://stevenbenner.com/wp-json/wp/v2/comments"
-				}
-			],
-			"author": [
-				{
-					"embeddable": true,
-					"href": "https://stevenbenner.com/wp-json/wp/v2/users/2"
-				}
-			],
-			"up": [
-				{
-					"embeddable": true,
-					"post_type": "post",
-					"href": "https://stevenbenner.com/wp-json/wp/v2/posts/256"
-				}
-			]
 		}
 	},
 	{
 		"id": 781,
-		"post": 256,
-		"parent": 0,
 		"author": 0,
 		"author_name": "Truman",
 		"author_url": "",
-		"date": "2010-04-15T23:57:01",
 		"date_gmt": "2010-04-16T06:57:01",
 		"content": {
 			"rendered": "<p>Whats your opinion on Quick Formatting if I&#8217;ve chosen the wrong cluster size?</p>\n"
 		},
-		"link": "https://stevenbenner.com/2010/01/building-a-home-network-attached-storage-server-part-2-raid-setup/#comment-781",
-		"status": "approved",
-		"type": "comment",
 		"author_avatar_urls": {
 			"24": "https://secure.gravatar.com/avatar/61814d477dbcdea7214fa7c8aa1d2c40?s=24&d=mm&r=pg",
 			"48": "https://secure.gravatar.com/avatar/61814d477dbcdea7214fa7c8aa1d2c40?s=48&d=mm&r=pg",
 			"96": "https://secure.gravatar.com/avatar/61814d477dbcdea7214fa7c8aa1d2c40?s=96&d=mm&r=pg"
-		},
-		"meta": [],
-		"_links": {
-			"self": [
-				{
-					"href": "https://stevenbenner.com/wp-json/wp/v2/comments/781"
-				}
-			],
-			"collection": [
-				{
-					"href": "https://stevenbenner.com/wp-json/wp/v2/comments"
-				}
-			],
-			"up": [
-				{
-					"embeddable": true,
-					"post_type": "post",
-					"href": "https://stevenbenner.com/wp-json/wp/v2/posts/256"
-				}
-			]
 		}
 	},
 	{
 		"id": 779,
-		"post": 256,
-		"parent": 0,
 		"author": 0,
 		"author_name": "Truman",
 		"author_url": "",
-		"date": "2010-04-15T23:22:01",
 		"date_gmt": "2010-04-16T06:22:01",
 		"content": {
 			"rendered": "<p>DAMMIT!!!! I didn&#8217;t experiment with cluster size because I forgot it was part of the FORMATTING process! not the RAID building itself. I feel like an idiot; I&#8217;m on day three right now with about 15% left to go for the 3TB volume. :-(</p>\n<p>I looked at the page you provided for coretemp, but ultimately its not a gadget, so I actively have to seek out that information, as opposed to it constantly, passively being reported. Maybe there&#8217;s a way within &#8216;options&#8217; to create an event, which then could cascade in to an emailed alert.. but the gadget for me is my preference.. perhaps someone will make a coretemp gadget that has emailed alerts within it!? One can hope. There appears to be a program that monitors multiple cores of a processor AND video aggregated in one gadget, however, the reviews suggest its not free. MSI afterburner seems decent. </p>\n<p>Nice advice on the monitor &#8211; USB! I wouldn&#8217;t have thought of it. </p>\n<p>Okay &#8211; for the RAID situation.. I&#8217;m going to HAVE to send you a screen shot. First off, the options in the Intel RAID mgr that is loaded immediately after post gave no options different than those available within windows. Moreover, But in stark contrast to what you&#8217;ve said, I can use a 3-drive array for RAID-5. I&#8217;m researched this, because I don&#8217;t like contradicting someone without being certain.. under the row of &#8220;3 or 4 drive RAID 5&#8221; .. scan over and you&#8217;ll see ICH10R. I can understand a configuration that doesn&#8217;t relate to your project not being something you memorized. :-)</p>\n<p><a href=\"http://www.intel.com/support/chipsets/imsm/sb/CS-022304.htm\" rel=\"nofollow\">http://www.intel.com/support/chipsets/imsm/sb/CS-022304.htm</a></p>\n<p>I&#8217;m really looking forward to your pictures! I actually ordered some short sata cables that are 6&#8243; to declutter my case. I&#8217;d really like to see where you placed everything and how you organized it.</p>\n<p>Finally!!! For sharing.. since I you have a monstrous capacity, I presume you have had to come up with something that NAS would have made more simplified; user-rights and accounts. My plan is to create user accounts but hide them. Access to the folders I want to provide it for, permissions invoked, but no login option for the accounts. Fracturing the RAID volume in to partitions commits me to the arrangement, whereas with folders I can use the capacity more efficiently.</p>\n<p>I presume you&#8217;re aware that the more data you store on this array, the slower it will become; linearly. And the bigger the volume is, the slower it can get. That, I presume, is basis for smaller arrays&#8230; food for thought. </p>\n<p>Let me know if you&#8217;d like to see pictures of my final setup: Interior and Desktop, but you first. lol. I want to see how embarrassed I should be with my diligence.</p>\n<p>Thanks for the reply &#8211; and yes, I know my writing was a disaster!</p>\n<p>Truman</p>\n"
 		},
-		"link": "https://stevenbenner.com/2010/01/building-a-home-network-attached-storage-server-part-2-raid-setup/#comment-779",
-		"status": "approved",
-		"type": "comment",
 		"author_avatar_urls": {
 			"24": "https://secure.gravatar.com/avatar/61814d477dbcdea7214fa7c8aa1d2c40?s=24&d=mm&r=pg",
 			"48": "https://secure.gravatar.com/avatar/61814d477dbcdea7214fa7c8aa1d2c40?s=48&d=mm&r=pg",
 			"96": "https://secure.gravatar.com/avatar/61814d477dbcdea7214fa7c8aa1d2c40?s=96&d=mm&r=pg"
-		},
-		"meta": [],
-		"_links": {
-			"self": [
-				{
-					"href": "https://stevenbenner.com/wp-json/wp/v2/comments/779"
-				}
-			],
-			"collection": [
-				{
-					"href": "https://stevenbenner.com/wp-json/wp/v2/comments"
-				}
-			],
-			"up": [
-				{
-					"embeddable": true,
-					"post_type": "post",
-					"href": "https://stevenbenner.com/wp-json/wp/v2/posts/256"
-				}
-			]
 		}
 	},
 	{
 		"id": 771,
-		"post": 256,
-		"parent": 0,
 		"author": 2,
 		"author_name": "Steven Benner",
 		"author_url": "http://stevenbenner.com/",
-		"date": "2010-04-15T10:50:06",
 		"date_gmt": "2010-04-15T17:50:06",
 		"content": {
 			"rendered": "<p>Hi Truman! Wow, lots of questions. Let&#8217;s see if I can give you some intelligent responses. :) Let me know if I missed anything. I&#8217;ll try to get back to you asap.</p>\n<p><em>> antec 1200 &#8230; doesn’t come with a basic speaker</em></p>\n<p>Yeah that&#8217;s true, more and more cases are skipping out on the motherboard speaker, though most motherboards come with the tiny &#8220;speaker on a wire&#8221; things. I had a couple of those laying around from previous builds.</p>\n<p>A quick Google search yielded this link:<br />\n<a href=\"http://www.goldmango.com/20523.html\" rel=\"nofollow\">http://www.goldmango.com/20523.html</a></p>\n<p>I can&#8217;t vouch for the site, but that exactly the kind of thing I use.</p>\n<p><em>> started experimenting with RAID configs.. but I only had available to me<br />\n> &#8216;stripe size&#8217; &#8230; then I realized that if I go to manage within Win, I can<br />\n> config the drive there for RAID.</em></p>\n<p>The Intel Matrix software can build the RAID array on the ICH controller. But I built my first array on this system from the controller BIOS (note: not the motherboard BIOS). You do need to go in to the main BIOS to tell the south bridge that the drives should be viewed as a RAID.</p>\n<p><em>> I don’t think it’ll do RAID 5 unless you have 4 drives, right?</em></p>\n<p>Indeed, the ICHx controllers require 4 drives for RAID 5, some more expensive controllers can do it with 3 drives, but it you&#8217;re using the on-board controller you&#8217;ll need at least 4 drives to build a RAID 5 array.</p>\n<p><em>> And you’re using the disk manager under the &#8220;manage&#8221; option of &#8220;My computer&#8221;<br />\n> do I understand it correctly?</em></p>\n<p>For building arrays? No, the only tool that can work with the ICH10R controller is the Intel Matrix Storage software. All the operating system sees is an Intel ICH device when the BIOS is set to see the south bridge controlled hard drives as a RAID. The only software that can see the drives through this RAID configuration is the Intel Matrix software that talks directly with the ICH controller.</p>\n<p>Make sure you have all of the drivers for the motherboard and it&#8217;s controllers installed then install the Matrix Storage Manager. This software probably came on your motherboard drivers disc, but you can also find it here:</p>\n<p><a href=\"http://downloadcenter.intel.com/Detail_Desc.aspx?agr=Y&#038;DwnldID=17882\" rel=\"nofollow\">http://downloadcenter.intel.com/Detail_Desc.aspx?agr=Y&#038;DwnldID=17882</a></p>\n<p><em>> I need to find the SMALLEST possible LCD or TFT</em></p>\n<p>I used a spare I had at work to use when I was setting up the computer. I haven&#8217;t had a monitor connected to it since I got all of the settings finalized.</p>\n<p>The problems you&#8217;re having with getting the TV to be recognized as the default monitor is probably a problem with the configuration of your video card. It&#8217;s hard to say for sure, but I can get my old ATI 4850 to recognize an S-Video connection as the default monitor. I don&#8217;t know enough to diagnose the issue.</p>\n<p>Either way you will need to have a regular DVI or VGA monitor to do the initial setup and configuration of the OS and video card. Once you have it all up and running you should be able to remove the regular monitor and run everything off of the TV and remote desktop.</p>\n<p>If you really need an extra monitor the smallest DVI/VGA you&#8217;ll be able to find anymore is a 17-inch, for which eBay or craigslist is probably your best bet for price, but here is a link to the cheapest 17-inch on NewEgg:</p>\n<p><a href=\"http://www.newegg.com/Product/Product.aspx?Item=N82E16824009185\" rel=\"nofollow\">http://www.newegg.com/Product/Product.aspx?Item=N82E16824009185</a></p>\n<p>If you want to have a TINY monitor always plugged in and don&#8217;t need a real DVI/VGA you can take a look at the USB ones, such as :</p>\n<p><a href=\"http://www.newegg.com/Product/Product.aspx?Item=N82E16824185013\" rel=\"nofollow\">http://www.newegg.com/Product/Product.aspx?Item=N82E16824185013</a></p>\n<p><em>> For backing your stuff up, I would use acronis</em></p>\n<p>That&#8217;s a bit pricey for a home server, and you still need a place to back stuff up to. That software looks like it is designed for servers with database snapshots and the like.</p>\n<p><em>> and I’d like to see pictures, inside, bothsides of inside</em></p>\n<p>Sure, that&#8217;s a good idea! I&#8217;ll dig up my camera and take some pics.</p>\n<p><em>> have you found a decent CPU temp app/GPU temp app?</em></p>\n<p>Oh yes, CoreTemp, the finest and most accurate CPU temperature monitor. However it doesn&#8217;t support any GPU&#8217;s, Both nVidia and ATI have temperature readouts in their software, which I&#8217;m sure is very accurate.</p>\n<p><a href=\"http://www.alcpu.com/CoreTemp/\" rel=\"nofollow\">http://www.alcpu.com/CoreTemp/</a></p>\n<p><em>> Do you mean expand the size of the RAID container by adding drives?</em></p>\n<p>No, that is a really difficult task to accomplish, and basically impossible since I have all 6 SATA ports filled with the current storage array. If I wanted to add more storage I can buy a PCI hardware RAID controller and build a second array in the same system. If I did that I&#8217;d probably move all of the data from the old ICH10R array to the new array.</p>\n<p><em>> Are you using RDC on this computer? If so, what method?</em></p>\n<p>Yes, remote desktop is the only way I can access the computer anymore, since I don&#8217;t have a monitor or keyboard/mouse hooked up to it. I use the normal Windows Remote Desktop Connection client. It works great!</p>\n<p><em>> have you done any tests with Write Caching enabled?</em></p>\n<p>Yeah, I did benchmarks with all three levels of write caching, but I didn&#8217;t bother to post (or save) the results. However it was just as I said, Write-Back cache (enabled in the Intel Matrix Storage software) is absolutely required to get reasonable speed, basic Windows write caching is a minor boost, worth it in my case, and full Windows lazy-writes gave no detectable/reproducible bonus and is just too risky so I keep the &#8220;Enable advanced performance&#8221; disabled.</p>\n<p><em>> Finally, you said &#8220;good hard drive cooling&#8221; .. are you using anything beyond<br />\n> the included fan? I’m assuming not, and neither am I.</em></p>\n<p>Correct, just having those 120mm fans blowing on the drive groups in each cage is ample cooling, especially for the LP (low-power) drives that I&#8217;m running. They run at nearly room temperature.</p>\n<p><em>> how do you control the cluster size??</em></p>\n<p>Cluster size is controlled from the Format Drive window. When you format a logical drive you&#8217;ll see an option for &#8220;Allocation unit size&#8221; this is the file-system cluster size.</p>\n"
 		},
-		"link": "https://stevenbenner.com/2010/01/building-a-home-network-attached-storage-server-part-2-raid-setup/#comment-771",
-		"status": "approved",
-		"type": "comment",
 		"author_avatar_urls": {
 			"24": "https://secure.gravatar.com/avatar/5b09e09f1d9fed4c34e369d02f2edb74?s=24&d=mm&r=pg",
 			"48": "https://secure.gravatar.com/avatar/5b09e09f1d9fed4c34e369d02f2edb74?s=48&d=mm&r=pg",
 			"96": "https://secure.gravatar.com/avatar/5b09e09f1d9fed4c34e369d02f2edb74?s=96&d=mm&r=pg"
-		},
-		"meta": [],
-		"_links": {
-			"self": [
-				{
-					"href": "https://stevenbenner.com/wp-json/wp/v2/comments/771"
-				}
-			],
-			"collection": [
-				{
-					"href": "https://stevenbenner.com/wp-json/wp/v2/comments"
-				}
-			],
-			"author": [
-				{
-					"embeddable": true,
-					"href": "https://stevenbenner.com/wp-json/wp/v2/users/2"
-				}
-			],
-			"up": [
-				{
-					"embeddable": true,
-					"post_type": "post",
-					"href": "https://stevenbenner.com/wp-json/wp/v2/posts/256"
-				}
-			]
 		}
 	},
 	{
 		"id": 751,
-		"post": 256,
-		"parent": 0,
 		"author": 0,
 		"author_name": "Truman",
 		"author_url": "",
-		"date": "2010-04-14T08:19:18",
 		"date_gmt": "2010-04-14T15:19:18",
 		"content": {
 			"rendered": "<p>I have looked absolutely everywhere I can think of; how do you control the cluster size??</p>\n"
 		},
-		"link": "https://stevenbenner.com/2010/01/building-a-home-network-attached-storage-server-part-2-raid-setup/#comment-751",
-		"status": "approved",
-		"type": "comment",
 		"author_avatar_urls": {
 			"24": "https://secure.gravatar.com/avatar/61814d477dbcdea7214fa7c8aa1d2c40?s=24&d=mm&r=pg",
 			"48": "https://secure.gravatar.com/avatar/61814d477dbcdea7214fa7c8aa1d2c40?s=48&d=mm&r=pg",
 			"96": "https://secure.gravatar.com/avatar/61814d477dbcdea7214fa7c8aa1d2c40?s=96&d=mm&r=pg"
-		},
-		"meta": [],
-		"_links": {
-			"self": [
-				{
-					"href": "https://stevenbenner.com/wp-json/wp/v2/comments/751"
-				}
-			],
-			"collection": [
-				{
-					"href": "https://stevenbenner.com/wp-json/wp/v2/comments"
-				}
-			],
-			"up": [
-				{
-					"embeddable": true,
-					"post_type": "post",
-					"href": "https://stevenbenner.com/wp-json/wp/v2/posts/256"
-				}
-			]
 		}
 	},
 	{
 		"id": 749,
-		"post": 256,
-		"parent": 0,
 		"author": 0,
 		"author_name": "Truman",
 		"author_url": "",
-		"date": "2010-04-14T08:01:03",
 		"date_gmt": "2010-04-14T15:01:03",
 		"content": {
 			"rendered": "<p>&#8220;Expandable base that I can add storage to when it become necessary&#8221; &#8212; Do you mean expand the size of the RAID container by adding drives? If that&#8217;s EVER crossed your mind, I have a SPECTACULAR read for you: <a href=\"http://tinyurl.com/y5pqhod\" rel=\"nofollow\">http://tinyurl.com/y5pqhod</a></p>\n<p>Are you using RDC on this computer? If so, what method? Windows native RDC, or 3rd party?</p>\n<p>More thoughts&#8230; have you done any tests with Write Caching enabled? </p>\n<p>Clearly, your goals are primarily for local and small use-groups (2-3 simultaneous connections, tops I assume), but there may be  some information on this thread you find relevant and consistent with experiences: <a href=\"http://tinyurl.com/y6cw5e9\" rel=\"nofollow\">http://tinyurl.com/y6cw5e9</a></p>\n<p>Finally, you said &#8220;good hard drive cooling&#8221; .. are you using anything beyond the included fan? I&#8217;m assuming not, and neither am I.</p>\n"
 		},
-		"link": "https://stevenbenner.com/2010/01/building-a-home-network-attached-storage-server-part-2-raid-setup/#comment-749",
-		"status": "approved",
-		"type": "comment",
 		"author_avatar_urls": {
 			"24": "https://secure.gravatar.com/avatar/61814d477dbcdea7214fa7c8aa1d2c40?s=24&d=mm&r=pg",
 			"48": "https://secure.gravatar.com/avatar/61814d477dbcdea7214fa7c8aa1d2c40?s=48&d=mm&r=pg",
 			"96": "https://secure.gravatar.com/avatar/61814d477dbcdea7214fa7c8aa1d2c40?s=96&d=mm&r=pg"
-		},
-		"meta": [],
-		"_links": {
-			"self": [
-				{
-					"href": "https://stevenbenner.com/wp-json/wp/v2/comments/749"
-				}
-			],
-			"collection": [
-				{
-					"href": "https://stevenbenner.com/wp-json/wp/v2/comments"
-				}
-			],
-			"up": [
-				{
-					"embeddable": true,
-					"post_type": "post",
-					"href": "https://stevenbenner.com/wp-json/wp/v2/posts/256"
-				}
-			]
 		}
 	},
 	{
 		"id": 748,
-		"post": 256,
-		"parent": 0,
 		"author": 0,
 		"author_name": "Truman",
 		"author_url": "",
-		"date": "2010-04-14T03:46:56",
 		"date_gmt": "2010-04-14T10:46:56",
 		"content": {
 			"rendered": "<p>also, have you found a decent CPU temp app/GPU temp app? </p>\n<p>I&#8217;m going to be ripping TONS of media for about a month straight&#8230; I&#8217;m firing Dish but I want my archived DVR&#8217;s and I have a device that&#8217;ll let me do that.. but ripping editing then encoding video is get everything HOT.</p>\n"
 		},
-		"link": "https://stevenbenner.com/2010/01/building-a-home-network-attached-storage-server-part-2-raid-setup/#comment-748",
-		"status": "approved",
-		"type": "comment",
 		"author_avatar_urls": {
 			"24": "https://secure.gravatar.com/avatar/61814d477dbcdea7214fa7c8aa1d2c40?s=24&d=mm&r=pg",
 			"48": "https://secure.gravatar.com/avatar/61814d477dbcdea7214fa7c8aa1d2c40?s=48&d=mm&r=pg",
 			"96": "https://secure.gravatar.com/avatar/61814d477dbcdea7214fa7c8aa1d2c40?s=96&d=mm&r=pg"
-		},
-		"meta": [],
-		"_links": {
-			"self": [
-				{
-					"href": "https://stevenbenner.com/wp-json/wp/v2/comments/748"
-				}
-			],
-			"collection": [
-				{
-					"href": "https://stevenbenner.com/wp-json/wp/v2/comments"
-				}
-			],
-			"up": [
-				{
-					"embeddable": true,
-					"post_type": "post",
-					"href": "https://stevenbenner.com/wp-json/wp/v2/posts/256"
-				}
-			]
 		}
 	},
 	{
 		"id": 747,
-		"post": 256,
-		"parent": 0,
 		"author": 0,
 		"author_name": "Truman",
 		"author_url": "",
-		"date": "2010-04-14T03:39:55",
 		"date_gmt": "2010-04-14T10:39:55",
 		"content": {
 			"rendered": "<p>I just proofed that.. and fell asleep a few times while proofing it. I&#8217;m SO tired right now I cant remember  athought long enough to complete the sentence. Please excuse the pigeon&#8230; I&#8217;m just really hopeful I&#8217;ll have a reply from you when I wake up. </p>\n<p>thanks again.</p>\n"
 		},
-		"link": "https://stevenbenner.com/2010/01/building-a-home-network-attached-storage-server-part-2-raid-setup/#comment-747",
-		"status": "approved",
-		"type": "comment",
 		"author_avatar_urls": {
 			"24": "https://secure.gravatar.com/avatar/61814d477dbcdea7214fa7c8aa1d2c40?s=24&d=mm&r=pg",
 			"48": "https://secure.gravatar.com/avatar/61814d477dbcdea7214fa7c8aa1d2c40?s=48&d=mm&r=pg",
 			"96": "https://secure.gravatar.com/avatar/61814d477dbcdea7214fa7c8aa1d2c40?s=96&d=mm&r=pg"
-		},
-		"meta": [],
-		"_links": {
-			"self": [
-				{
-					"href": "https://stevenbenner.com/wp-json/wp/v2/comments/747"
-				}
-			],
-			"collection": [
-				{
-					"href": "https://stevenbenner.com/wp-json/wp/v2/comments"
-				}
-			],
-			"up": [
-				{
-					"embeddable": true,
-					"post_type": "post",
-					"href": "https://stevenbenner.com/wp-json/wp/v2/posts/256"
-				}
-			]
 		}
 	},
 	{
 		"id": 746,
-		"post": 256,
-		"parent": 0,
 		"author": 0,
 		"author_name": "Truman",
 		"author_url": "",
-		"date": "2010-04-14T03:32:51",
 		"date_gmt": "2010-04-14T10:32:51",
 		"content": {
 			"rendered": "<p>Hey bud, I&#8217;m flat out EXHAUSTED. I&#8217;ve been going at this project for days on end.. last night I was up till 9am.. firstly, the antec 1200, which was a GREAT suggestion I took of yours. doesn&#8217;t come with a basic speaker! So, when I wasn&#8217;t getting video on my 46&#8243; LCD Sony using..</p>\n<p>Gigabyte X58 + i7<br />\nATI 5770</p>\n<p>vs.</p>\n<p>Gigabyte GA45 + Q9550<br />\nATI 5770</p>\n<p>It sent me in to a troubleshooting meltdown. First, I swapped out the vid card with my old system and tested it &#8211; worked. So I though, either the CM600 silent PSU was under powered, the CPU (Frys open box, last one) was bad, the MB was bad.. NO BEEPS to work with. Since the MB powered up and lights came on, assumed it wasn&#8217;t the MB (for now).. finally swapped monitors (obviously every consumer has to have 2 monitors sitting around to see if gigabyte changes their BIOS control for the LCD monitor.. and in this case, by LCD, I mean lowest common denominator; as in, WHY FUCK with 640&#215;480??? So, after troubleshooting for hours, I finally realized gigabyte did something stupid to the BIOS for inexplicable cause and to my detriment. Fine.. but, that doesn&#8217;t explain&#8230; the second problem! Joy. The computer will power on for say, 90 seconds, then stay on for 50, then 15, than 5, then nothing. WITH VIDEO. I&#8217;ve reset the firmware (repeatedly).. The only thing I could deduce from such linear behavior was that there was a heat build-up, and wouldn&#8217;t you know it?? Fry&#8217;s had sold me a used CPU where the thermal grease connection was inadequate. New CPU cooler, the Mugen-2 Rev.B; its the coldest running fastest cheapest combo. I analyzed that for over an hour last night..</p>\n<p><a href=\"http://tinyurl.com/y3778f6\" rel=\"nofollow\">http://tinyurl.com/y3778f6</a></p>\n<p>Anyway, system booting, 7 installed, and started experimenting with RAID configs.. but I only had available to me &#8216;stripe size&#8217; &#8230; then I realized that if I go to manage within Win, I can config the drive there for RAID.. however, I don&#8217;t think it&#8217;ll do RAID 5 unless you have 4 drives, right?  And you&#8217;re using the disk manager under the &#8220;manage&#8221; option of &#8220;My computer&#8221;&#8230; do I understand it correctly? </p>\n<p>So thats where I&#8217;m at&#8230; My system tho, I have to say, is SUPREMELY quiet for what its doing.I do need your advice though &#8211; I need to find the SMALLEST possible LCD or TFT, whatever, display to mount near this thing since the BIOS wont sync with my 46&#8221;, and because the smaller the monitor, the smaller the battery drain on the UPS. Also, this is going in a media center context, so I want it to be unobtrusive; the TV is the focal point.. and two identical images running is annoying. Also, the second tiny display will be a nice way to just manage a playlist, library, whatnot. </p>\n<p>For backing your stuff up, I would use (and I&#8217;ll give you details of with a youtube vid if you like after I do it) acronis, and segregate your RAID by topic! Or security level. For instance, I&#8217;m going to make 3 partitions; one for software I have on a network share&#8230; one for media, and a 3rd for my personal files. The beauty of this is that I can create policies per HDD of users, instead of folders.. and though I&#8217;m not at the stage of being fully up to date on administering access of read/write but not alter or delete for 2 entire volumes, and NO access for the volume for my back ups (recovery for both of my systems and my lifelong aggregate of personal files) &#8230; My naming convention will keep user rights clean and obvious I think, and with such a segregation, in your case, you could just&#8230; And though you think that the 12TB of space you have now is beyond what you could conveniently and cost effective to in 2TB increments.. I have supreme confidence that 3TB drives are 7months out, and 4 tb drives are not more than 14mths.. and if you can&#8217;t fit what&#8217;s critical to you in 8TB, and if RAID plus offline backup are not secure enough.. well, it just isn&#8217;t &#8220;budget&#8221; sized anymore. This stretches that term.</p>\n<p><a href=\"http://tinyurl.com/yypey9s\" rel=\"nofollow\">http://tinyurl.com/yypey9s</a></p>\n<p>use one of those and pick which topics are of importance to you.. Fault tolerant is probably an acceptable level for some percentage of files you have, whereas double coverage is better for you in others. And if that&#8217;s not enough, you could do occasional Mozy back ups.  </p>\n<p>Looking forward to your reply.. I&#8217;m actually racing against a deadline of a product that I can&#8217;t return that my friends got me that requires this system to be able to TEST if it works before the return policy ends! Ha.. that an taxes tomorrow. JOY!</p>\n<p>Goodnight man.. and I&#8217;d like to see pictures, inside, bothsides of inside.. I&#8217;ll do the same, but mine is certainly not a work of art in terms of tidiness. </p>\n<p>Talk to ya soon.. </p>\n<p>t</p>\n"
 		},
-		"link": "https://stevenbenner.com/2010/01/building-a-home-network-attached-storage-server-part-2-raid-setup/#comment-746",
-		"status": "approved",
-		"type": "comment",
 		"author_avatar_urls": {
 			"24": "https://secure.gravatar.com/avatar/61814d477dbcdea7214fa7c8aa1d2c40?s=24&d=mm&r=pg",
 			"48": "https://secure.gravatar.com/avatar/61814d477dbcdea7214fa7c8aa1d2c40?s=48&d=mm&r=pg",
 			"96": "https://secure.gravatar.com/avatar/61814d477dbcdea7214fa7c8aa1d2c40?s=96&d=mm&r=pg"
-		},
-		"meta": [],
-		"_links": {
-			"self": [
-				{
-					"href": "https://stevenbenner.com/wp-json/wp/v2/comments/746"
-				}
-			],
-			"collection": [
-				{
-					"href": "https://stevenbenner.com/wp-json/wp/v2/comments"
-				}
-			],
-			"up": [
-				{
-					"embeddable": true,
-					"post_type": "post",
-					"href": "https://stevenbenner.com/wp-json/wp/v2/posts/256"
-				}
-			]
 		}
 	},
 	{
 		"id": 58,
-		"post": 256,
-		"parent": 0,
 		"author": 0,
 		"author_name": "Vadigor",
 		"author_url": "",
-		"date": "2010-02-04T15:40:55",
 		"date_gmt": "2010-02-04T23:40:55",
 		"content": {
 			"rendered": "<p>An interesting read so far. I&#8217;m looking into setting up a smaller NAS of my own, and this is some good info. I look forward to reading part 3 when you get to it.</p>\n"
 		},
-		"link": "https://stevenbenner.com/2010/01/building-a-home-network-attached-storage-server-part-2-raid-setup/#comment-58",
-		"status": "approved",
-		"type": "comment",
 		"author_avatar_urls": {
 			"24": "https://secure.gravatar.com/avatar/a7b02f170a13767c3282e347a90aac1e?s=24&d=mm&r=pg",
 			"48": "https://secure.gravatar.com/avatar/a7b02f170a13767c3282e347a90aac1e?s=48&d=mm&r=pg",
 			"96": "https://secure.gravatar.com/avatar/a7b02f170a13767c3282e347a90aac1e?s=96&d=mm&r=pg"
-		},
-		"meta": [],
-		"_links": {
-			"self": [
-				{
-					"href": "https://stevenbenner.com/wp-json/wp/v2/comments/58"
-				}
-			],
-			"collection": [
-				{
-					"href": "https://stevenbenner.com/wp-json/wp/v2/comments"
-				}
-			],
-			"up": [
-				{
-					"embeddable": true,
-					"post_type": "post",
-					"href": "https://stevenbenner.com/wp-json/wp/v2/posts/256"
-				}
-			]
 		}
 	}
 ]

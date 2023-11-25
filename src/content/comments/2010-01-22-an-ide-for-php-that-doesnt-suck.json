@@ -1,330 +1,122 @@
 [
 	{
 		"id": 279651,
-		"post": 116,
-		"parent": 0,
 		"author": 0,
 		"author_name": "Rich",
 		"author_url": "",
-		"date": "2020-05-12T12:30:02",
 		"date_gmt": "2020-05-12T19:30:02",
 		"content": {
 			"rendered": "<p>Is there a way in phpDesigner to see your code and the output at the same time? I want to be able to press a keyboard shortcut, get instant feedback, then continue on. NetBeans lets you have your code on the top half of the screen, and the output on the bottom half. Looking for something like that, but from an IDE that doesn&#8217;t require Java :D</p>\n"
 		},
-		"link": "https://stevenbenner.com/2010/01/an-ide-for-php-that-doesnt-suck/#comment-279651",
-		"status": "approved",
-		"type": "comment",
 		"author_avatar_urls": {
 			"24": "https://secure.gravatar.com/avatar/a9a4d28a2680bc5a70ee89598181c33b?s=24&d=mm&r=pg",
 			"48": "https://secure.gravatar.com/avatar/a9a4d28a2680bc5a70ee89598181c33b?s=48&d=mm&r=pg",
 			"96": "https://secure.gravatar.com/avatar/a9a4d28a2680bc5a70ee89598181c33b?s=96&d=mm&r=pg"
-		},
-		"meta": [],
-		"_links": {
-			"self": [
-				{
-					"href": "https://stevenbenner.com/wp-json/wp/v2/comments/279651"
-				}
-			],
-			"collection": [
-				{
-					"href": "https://stevenbenner.com/wp-json/wp/v2/comments"
-				}
-			],
-			"up": [
-				{
-					"embeddable": true,
-					"post_type": "post",
-					"href": "https://stevenbenner.com/wp-json/wp/v2/posts/116"
-				}
-			]
 		}
 	},
 	{
 		"id": 180478,
-		"post": 116,
-		"parent": 0,
 		"author": 0,
 		"author_name": "wendy",
 		"author_url": "http://yourdog.nl",
-		"date": "2015-09-24T04:38:44",
 		"date_gmt": "2015-09-24T11:38:44",
 		"content": {
 			"rendered": "<p>Jetbrains is even better&#8230;</p>\n"
 		},
-		"link": "https://stevenbenner.com/2010/01/an-ide-for-php-that-doesnt-suck/#comment-180478",
-		"status": "approved",
-		"type": "comment",
 		"author_avatar_urls": {
 			"24": "https://secure.gravatar.com/avatar/353aad0b41c3b7a1d1383a39468b9bba?s=24&d=mm&r=pg",
 			"48": "https://secure.gravatar.com/avatar/353aad0b41c3b7a1d1383a39468b9bba?s=48&d=mm&r=pg",
 			"96": "https://secure.gravatar.com/avatar/353aad0b41c3b7a1d1383a39468b9bba?s=96&d=mm&r=pg"
-		},
-		"meta": [],
-		"_links": {
-			"self": [
-				{
-					"href": "https://stevenbenner.com/wp-json/wp/v2/comments/180478"
-				}
-			],
-			"collection": [
-				{
-					"href": "https://stevenbenner.com/wp-json/wp/v2/comments"
-				}
-			],
-			"up": [
-				{
-					"embeddable": true,
-					"post_type": "post",
-					"href": "https://stevenbenner.com/wp-json/wp/v2/posts/116"
-				}
-			]
 		}
 	},
 	{
 		"id": 83823,
-		"post": 116,
-		"parent": 0,
 		"author": 0,
 		"author_name": "Steven P",
 		"author_url": "",
-		"date": "2013-04-14T04:40:26",
 		"date_gmt": "2013-04-14T11:40:26",
 		"content": {
 			"rendered": "<p>cakePHP sucks. Why? Their own blog tutorial &#8211; ambiguously written &#8211; results invariably in error messages:</p>\n<p>Error: PostsController could not be found.<br />\nError: Create the class PostsController below in file: app\\controllers\\PostsController.php</p>\n<p>If those idiots cannot write out a simple &#8220;hello world&#8221; tutorial &#8230; one wonders what else they punted on.</p>\n<p>PHP is an old, old friend. codeigniter is not, but at least it works out of the box and is documented by humans rather than imbeciles.</p>\n"
 		},
-		"link": "https://stevenbenner.com/2010/01/an-ide-for-php-that-doesnt-suck/#comment-83823",
-		"status": "approved",
-		"type": "comment",
 		"author_avatar_urls": {
 			"24": "https://secure.gravatar.com/avatar/51a4e4a670384a82fdc62e8be483720a?s=24&d=mm&r=pg",
 			"48": "https://secure.gravatar.com/avatar/51a4e4a670384a82fdc62e8be483720a?s=48&d=mm&r=pg",
 			"96": "https://secure.gravatar.com/avatar/51a4e4a670384a82fdc62e8be483720a?s=96&d=mm&r=pg"
-		},
-		"meta": [],
-		"_links": {
-			"self": [
-				{
-					"href": "https://stevenbenner.com/wp-json/wp/v2/comments/83823"
-				}
-			],
-			"collection": [
-				{
-					"href": "https://stevenbenner.com/wp-json/wp/v2/comments"
-				}
-			],
-			"up": [
-				{
-					"embeddable": true,
-					"post_type": "post",
-					"href": "https://stevenbenner.com/wp-json/wp/v2/posts/116"
-				}
-			]
 		}
 	},
 	{
 		"id": 50332,
-		"post": 116,
-		"parent": 0,
 		"author": 0,
 		"author_name": "Steve",
 		"author_url": "",
-		"date": "2011-07-05T23:02:50",
 		"date_gmt": "2011-07-06T06:02:50",
 		"content": {
 			"rendered": "<p>Adobe Dreamweaver is actually a really good PHP development platform, especially since CS4.</p>\n"
 		},
-		"link": "https://stevenbenner.com/2010/01/an-ide-for-php-that-doesnt-suck/#comment-50332",
-		"status": "approved",
-		"type": "comment",
 		"author_avatar_urls": {
 			"24": "https://secure.gravatar.com/avatar/2529c7a350c7665df3acdcd073f75167?s=24&d=mm&r=pg",
 			"48": "https://secure.gravatar.com/avatar/2529c7a350c7665df3acdcd073f75167?s=48&d=mm&r=pg",
 			"96": "https://secure.gravatar.com/avatar/2529c7a350c7665df3acdcd073f75167?s=96&d=mm&r=pg"
-		},
-		"meta": [],
-		"_links": {
-			"self": [
-				{
-					"href": "https://stevenbenner.com/wp-json/wp/v2/comments/50332"
-				}
-			],
-			"collection": [
-				{
-					"href": "https://stevenbenner.com/wp-json/wp/v2/comments"
-				}
-			],
-			"up": [
-				{
-					"embeddable": true,
-					"post_type": "post",
-					"href": "https://stevenbenner.com/wp-json/wp/v2/posts/116"
-				}
-			]
 		}
 	},
 	{
 		"id": 22314,
-		"post": 116,
-		"parent": 0,
 		"author": 0,
 		"author_name": "Stas",
 		"author_url": "",
-		"date": "2011-02-21T00:17:37",
 		"date_gmt": "2011-02-21T08:17:37",
 		"content": {
 			"rendered": "<p>I use and recommend free PHP IDE &#8211; Codelobster PHP Edition (<a href=\"http://www.codelobster.com\" rel=\"nofollow\">http://www.codelobster.com</a>)<br />\nIn addition is haf special plug-ins for all popular CMS and frameworks: Drupal CMS, Joomla CMS, Smarty template engine, JQuery library, CodeIgniter framework, CakePHP framework and WordPress blogging platform.</p>\n"
 		},
-		"link": "https://stevenbenner.com/2010/01/an-ide-for-php-that-doesnt-suck/#comment-22314",
-		"status": "approved",
-		"type": "comment",
 		"author_avatar_urls": {
 			"24": "https://secure.gravatar.com/avatar/9b0e9db26c3ba045cb27965880747512?s=24&d=mm&r=pg",
 			"48": "https://secure.gravatar.com/avatar/9b0e9db26c3ba045cb27965880747512?s=48&d=mm&r=pg",
 			"96": "https://secure.gravatar.com/avatar/9b0e9db26c3ba045cb27965880747512?s=96&d=mm&r=pg"
-		},
-		"meta": [],
-		"_links": {
-			"self": [
-				{
-					"href": "https://stevenbenner.com/wp-json/wp/v2/comments/22314"
-				}
-			],
-			"collection": [
-				{
-					"href": "https://stevenbenner.com/wp-json/wp/v2/comments"
-				}
-			],
-			"up": [
-				{
-					"embeddable": true,
-					"post_type": "post",
-					"href": "https://stevenbenner.com/wp-json/wp/v2/posts/116"
-				}
-			]
 		}
 	},
 	{
 		"id": 10254,
-		"post": 116,
-		"parent": 0,
 		"author": 0,
 		"author_name": "dlsteuer",
 		"author_url": "",
-		"date": "2010-11-20T15:17:20",
 		"date_gmt": "2010-11-20T23:17:20",
 		"content": {
 			"rendered": "<p>I recently discovered PhpStorm from Jetbrains, I&#8217;ve been using it on an extremely large codebase that completely chokes netbeans, so far it has come through with flying colors.  Check it out at <a href=\"http://www.jetbrains.com/phpstorm/\" rel=\"nofollow\">http://www.jetbrains.com/phpstorm/</a></p>\n"
 		},
-		"link": "https://stevenbenner.com/2010/01/an-ide-for-php-that-doesnt-suck/#comment-10254",
-		"status": "approved",
-		"type": "comment",
 		"author_avatar_urls": {
 			"24": "https://secure.gravatar.com/avatar/7a62b949857ec7f2553eb3e6836127aa?s=24&d=mm&r=pg",
 			"48": "https://secure.gravatar.com/avatar/7a62b949857ec7f2553eb3e6836127aa?s=48&d=mm&r=pg",
 			"96": "https://secure.gravatar.com/avatar/7a62b949857ec7f2553eb3e6836127aa?s=96&d=mm&r=pg"
-		},
-		"meta": [],
-		"_links": {
-			"self": [
-				{
-					"href": "https://stevenbenner.com/wp-json/wp/v2/comments/10254"
-				}
-			],
-			"collection": [
-				{
-					"href": "https://stevenbenner.com/wp-json/wp/v2/comments"
-				}
-			],
-			"up": [
-				{
-					"embeddable": true,
-					"post_type": "post",
-					"href": "https://stevenbenner.com/wp-json/wp/v2/posts/116"
-				}
-			]
 		}
 	},
 	{
 		"id": 10210,
-		"post": 116,
-		"parent": 0,
 		"author": 0,
 		"author_name": "Moron",
 		"author_url": "",
-		"date": "2010-11-20T03:06:19",
 		"date_gmt": "2010-11-20T11:06:19",
 		"content": {
 			"rendered": "<p>I used to be a long time Zend Studio user but Komodo Edit (Free) and Komodo IDE (pay) from ActiveState get my vote these days. Great PHP support, FTP/SCP/SFTP etc too. I also appreciate the fact that when I need to write scripts in other languages the support is just as good.</p>\n"
 		},
-		"link": "https://stevenbenner.com/2010/01/an-ide-for-php-that-doesnt-suck/#comment-10210",
-		"status": "approved",
-		"type": "comment",
 		"author_avatar_urls": {
 			"24": "https://secure.gravatar.com/avatar/057e2eb392b95a2ecfc9d32d554e3917?s=24&d=mm&r=pg",
 			"48": "https://secure.gravatar.com/avatar/057e2eb392b95a2ecfc9d32d554e3917?s=48&d=mm&r=pg",
 			"96": "https://secure.gravatar.com/avatar/057e2eb392b95a2ecfc9d32d554e3917?s=96&d=mm&r=pg"
-		},
-		"meta": [],
-		"_links": {
-			"self": [
-				{
-					"href": "https://stevenbenner.com/wp-json/wp/v2/comments/10210"
-				}
-			],
-			"collection": [
-				{
-					"href": "https://stevenbenner.com/wp-json/wp/v2/comments"
-				}
-			],
-			"up": [
-				{
-					"embeddable": true,
-					"post_type": "post",
-					"href": "https://stevenbenner.com/wp-json/wp/v2/posts/116"
-				}
-			]
 		}
 	},
 	{
 		"id": 10149,
-		"post": 116,
-		"parent": 0,
 		"author": 0,
 		"author_name": "Webmaster",
 		"author_url": "http://www.netarhia.com",
-		"date": "2010-11-19T14:10:40",
 		"date_gmt": "2010-11-19T22:10:40",
 		"content": {
 			"rendered": "<p>I would strongly encourage you to look at NetBeans (<a href=\"http://netbeans.org/features/php/\" rel=\"nofollow\">http://netbeans.org/features/php/</a>). Although it is written in Java, is very fast on Windows. It&#8217;s a brilliant IDE, works great for PHP coding, integrates Mercurial, knows refactoring, etc..<br />\nI used to use Notepad++ exclusively, and decided to make the move, so I&#8217;ve tested several free IDEs, of which NetBeans gets the big prize. You&#8217;ll find that many PHP developers think NetBeans does a great job.</p>\n"
 		},
-		"link": "https://stevenbenner.com/2010/01/an-ide-for-php-that-doesnt-suck/#comment-10149",
-		"status": "approved",
-		"type": "comment",
 		"author_avatar_urls": {
 			"24": "https://secure.gravatar.com/avatar/c94e760a683c70a75d7133c6cf2b9166?s=24&d=mm&r=pg",
 			"48": "https://secure.gravatar.com/avatar/c94e760a683c70a75d7133c6cf2b9166?s=48&d=mm&r=pg",
 			"96": "https://secure.gravatar.com/avatar/c94e760a683c70a75d7133c6cf2b9166?s=96&d=mm&r=pg"
-		},
-		"meta": [],
-		"_links": {
-			"self": [
-				{
-					"href": "https://stevenbenner.com/wp-json/wp/v2/comments/10149"
-				}
-			],
-			"collection": [
-				{
-					"href": "https://stevenbenner.com/wp-json/wp/v2/comments"
-				}
-			],
-			"up": [
-				{
-					"embeddable": true,
-					"post_type": "post",
-					"href": "https://stevenbenner.com/wp-json/wp/v2/posts/116"
-				}
-			]
 		}
 	}
 ]

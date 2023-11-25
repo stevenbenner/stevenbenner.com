@@ -1,166 +1,62 @@
 [
 	{
 		"id": 83893,
-		"post": 894,
-		"parent": 0,
 		"author": 0,
 		"author_name": "jjsmith",
 		"author_url": "",
-		"date": "2013-07-03T06:25:53",
 		"date_gmt": "2013-07-03T13:25:53",
 		"content": {
 			"rendered": "<p>I agree. Most of us may not be aware of it but we need be extra careful when browsing online. We never know what would have happen next. The best way to make sure people don&#8217;t gather information from you online is to stay anonymous. You can use OpenVPN client with <a href=\"http://www.vpnbook.com\" rel=\"nofollow\">VpnBook</a> server.</p>\n"
 		},
-		"link": "https://stevenbenner.com/2010/05/how-to-circumvent-internet-filtering-and-enhance-privacy/#comment-83893",
-		"status": "approved",
-		"type": "comment",
 		"author_avatar_urls": {
 			"24": "https://secure.gravatar.com/avatar/2eb39df11534cc6f7d8c75818e8f12db?s=24&d=mm&r=pg",
 			"48": "https://secure.gravatar.com/avatar/2eb39df11534cc6f7d8c75818e8f12db?s=48&d=mm&r=pg",
 			"96": "https://secure.gravatar.com/avatar/2eb39df11534cc6f7d8c75818e8f12db?s=96&d=mm&r=pg"
-		},
-		"meta": [],
-		"_links": {
-			"self": [
-				{
-					"href": "https://stevenbenner.com/wp-json/wp/v2/comments/83893"
-				}
-			],
-			"collection": [
-				{
-					"href": "https://stevenbenner.com/wp-json/wp/v2/comments"
-				}
-			],
-			"up": [
-				{
-					"embeddable": true,
-					"post_type": "post",
-					"href": "https://stevenbenner.com/wp-json/wp/v2/posts/894"
-				}
-			]
 		}
 	},
 	{
 		"id": 83835,
-		"post": 894,
-		"parent": 0,
 		"author": 0,
 		"author_name": "rain",
 		"author_url": "",
-		"date": "2013-04-23T19:49:17",
 		"date_gmt": "2013-04-24T02:49:17",
 		"content": {
 			"rendered": "<p>I&#8217;m also sing Hotspot Shield Free VPN and it works good.<br />\n<a href=\"http://www.freshtechweb.com/10-online-resources-for-designers-for-free.html\" rel=\"nofollow\">http://www.freshtechweb.com/10-online-resources-for-designers-for-free.html</a></p>\n"
 		},
-		"link": "https://stevenbenner.com/2010/05/how-to-circumvent-internet-filtering-and-enhance-privacy/#comment-83835",
-		"status": "approved",
-		"type": "comment",
 		"author_avatar_urls": {
 			"24": "https://secure.gravatar.com/avatar/c6a25c9c5951fb05fccbe51498ab6990?s=24&d=mm&r=pg",
 			"48": "https://secure.gravatar.com/avatar/c6a25c9c5951fb05fccbe51498ab6990?s=48&d=mm&r=pg",
 			"96": "https://secure.gravatar.com/avatar/c6a25c9c5951fb05fccbe51498ab6990?s=96&d=mm&r=pg"
-		},
-		"meta": [],
-		"_links": {
-			"self": [
-				{
-					"href": "https://stevenbenner.com/wp-json/wp/v2/comments/83835"
-				}
-			],
-			"collection": [
-				{
-					"href": "https://stevenbenner.com/wp-json/wp/v2/comments"
-				}
-			],
-			"up": [
-				{
-					"embeddable": true,
-					"post_type": "post",
-					"href": "https://stevenbenner.com/wp-json/wp/v2/posts/894"
-				}
-			]
 		}
 	},
 	{
 		"id": 83828,
-		"post": 894,
-		"parent": 0,
 		"author": 0,
 		"author_name": "Mark",
 		"author_url": "",
-		"date": "2013-04-18T02:52:12",
 		"date_gmt": "2013-04-18T09:52:12",
 		"content": {
 			"rendered": "<p>Just download and install Hotspot Shield Free VPN. I am using it from past few months. </p>\n<p>Download it from here: <a href=\"http://www.hotspotshield.com\" rel=\"nofollow\">http://www.hotspotshield.com</a></p>\n"
 		},
-		"link": "https://stevenbenner.com/2010/05/how-to-circumvent-internet-filtering-and-enhance-privacy/#comment-83828",
-		"status": "approved",
-		"type": "comment",
 		"author_avatar_urls": {
 			"24": "https://secure.gravatar.com/avatar/fa554094c021f8a9553fadbe35629050?s=24&d=mm&r=pg",
 			"48": "https://secure.gravatar.com/avatar/fa554094c021f8a9553fadbe35629050?s=48&d=mm&r=pg",
 			"96": "https://secure.gravatar.com/avatar/fa554094c021f8a9553fadbe35629050?s=96&d=mm&r=pg"
-		},
-		"meta": [],
-		"_links": {
-			"self": [
-				{
-					"href": "https://stevenbenner.com/wp-json/wp/v2/comments/83828"
-				}
-			],
-			"collection": [
-				{
-					"href": "https://stevenbenner.com/wp-json/wp/v2/comments"
-				}
-			],
-			"up": [
-				{
-					"embeddable": true,
-					"post_type": "post",
-					"href": "https://stevenbenner.com/wp-json/wp/v2/posts/894"
-				}
-			]
 		}
 	},
 	{
 		"id": 63304,
-		"post": 894,
-		"parent": 0,
 		"author": 0,
 		"author_name": "Daniel",
 		"author_url": "",
-		"date": "2011-08-09T07:25:58",
 		"date_gmt": "2011-08-09T14:25:58",
 		"content": {
 			"rendered": "<p>I used OpenVPN some time ago, did not like the GUI much. Had to input password every time and it was not so easy to use. </p>\n<p>Now I`m using SSTP from this provider:<br />\n<a href=\"http://www.highspeedvpn.com/\" rel=\"nofollow\">http://www.highspeedvpn.com/</a></p>\n<p>It uses the builtin VPN client and can bypass my company firewall (OpenVPN and SSTP are the only VPNs that actually worked for me).</p>\n<p>Downside for SSTP is that it only works in W7&#8230;</p>\n"
 		},
-		"link": "https://stevenbenner.com/2010/05/how-to-circumvent-internet-filtering-and-enhance-privacy/#comment-63304",
-		"status": "approved",
-		"type": "comment",
 		"author_avatar_urls": {
 			"24": "https://secure.gravatar.com/avatar/10cdc3fb6df4ff14b60983028f68b325?s=24&d=mm&r=pg",
 			"48": "https://secure.gravatar.com/avatar/10cdc3fb6df4ff14b60983028f68b325?s=48&d=mm&r=pg",
 			"96": "https://secure.gravatar.com/avatar/10cdc3fb6df4ff14b60983028f68b325?s=96&d=mm&r=pg"
-		},
-		"meta": [],
-		"_links": {
-			"self": [
-				{
-					"href": "https://stevenbenner.com/wp-json/wp/v2/comments/63304"
-				}
-			],
-			"collection": [
-				{
-					"href": "https://stevenbenner.com/wp-json/wp/v2/comments"
-				}
-			],
-			"up": [
-				{
-					"embeddable": true,
-					"post_type": "post",
-					"href": "https://stevenbenner.com/wp-json/wp/v2/posts/894"
-				}
-			]
 		}
 	}
 ]

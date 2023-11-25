@@ -1,1631 +1,587 @@
 [
 	{
 		"id": 359493,
-		"post": 1068,
-		"parent": 0,
 		"author": 0,
 		"author_name": "Sam",
 		"author_url": "",
-		"date": "2022-04-24T07:42:34",
 		"date_gmt": "2022-04-24T14:42:34",
 		"content": {
 			"rendered": "<p>Nice</p>\n"
 		},
-		"link": "https://stevenbenner.com/2010/11/how-to-set-up-a-team-fortress-2-dedicated-server-on-ubuntu/#comment-359493",
-		"status": "approved",
-		"type": "comment",
 		"author_avatar_urls": {
 			"24": "https://secure.gravatar.com/avatar/ef030547c14241feaa500f72666e54b0?s=24&d=mm&r=pg",
 			"48": "https://secure.gravatar.com/avatar/ef030547c14241feaa500f72666e54b0?s=48&d=mm&r=pg",
 			"96": "https://secure.gravatar.com/avatar/ef030547c14241feaa500f72666e54b0?s=96&d=mm&r=pg"
-		},
-		"meta": [],
-		"_links": {
-			"self": [
-				{
-					"href": "https://stevenbenner.com/wp-json/wp/v2/comments/359493"
-				}
-			],
-			"collection": [
-				{
-					"href": "https://stevenbenner.com/wp-json/wp/v2/comments"
-				}
-			],
-			"up": [
-				{
-					"embeddable": true,
-					"post_type": "post",
-					"href": "https://stevenbenner.com/wp-json/wp/v2/posts/1068"
-				}
-			]
 		}
 	},
 	{
 		"id": 235358,
-		"post": 1068,
-		"parent": 0,
 		"author": 2,
 		"author_name": "Steven Benner",
 		"author_url": "https://stevenbenner.com/",
-		"date": "2018-05-19T16:37:52",
 		"date_gmt": "2018-05-19T23:37:52",
 		"content": {
 			"rendered": "<p>Unfortunately I don&#8217;t remember where I found the chalkboard background image. I did not make it and I have no claim to it. It would probably be best if you did not use it on a for-profit site, but I wouldn&#8217;t be too concerned about using on a personal for-fun site.</p>\n<p>It&#8217;s simple enough that you could easily make one from scratch with some basic image editing skills. Create an off-center radial gradient from light-gray to dark-gray, apply a distortion filter of some kind, then apply a thick gaussian blur.</p>\n"
 		},
-		"link": "https://stevenbenner.com/2010/11/how-to-set-up-a-team-fortress-2-dedicated-server-on-ubuntu/#comment-235358",
-		"status": "approved",
-		"type": "comment",
 		"author_avatar_urls": {
 			"24": "https://secure.gravatar.com/avatar/197823cd0e350320dd21ddb9199bc3a5?s=24&d=mm&r=pg",
 			"48": "https://secure.gravatar.com/avatar/197823cd0e350320dd21ddb9199bc3a5?s=48&d=mm&r=pg",
 			"96": "https://secure.gravatar.com/avatar/197823cd0e350320dd21ddb9199bc3a5?s=96&d=mm&r=pg"
-		},
-		"meta": [],
-		"_links": {
-			"self": [
-				{
-					"href": "https://stevenbenner.com/wp-json/wp/v2/comments/235358"
-				}
-			],
-			"collection": [
-				{
-					"href": "https://stevenbenner.com/wp-json/wp/v2/comments"
-				}
-			],
-			"author": [
-				{
-					"embeddable": true,
-					"href": "https://stevenbenner.com/wp-json/wp/v2/users/2"
-				}
-			],
-			"up": [
-				{
-					"embeddable": true,
-					"post_type": "post",
-					"href": "https://stevenbenner.com/wp-json/wp/v2/posts/1068"
-				}
-			]
 		}
 	},
 	{
 		"id": 235356,
-		"post": 1068,
-		"parent": 0,
 		"author": 0,
 		"author_name": "Lapiz",
 		"author_url": "",
-		"date": "2018-05-19T16:06:46",
 		"date_gmt": "2018-05-19T23:06:46",
 		"content": {
 			"rendered": "<p>this is the link to the photo <a href=\"https://www.google.com/search?sa=G&#038;hl=en&#038;q=tf2+plain+background&#038;tbm=isch&#038;tbs=simg:CAQSlQEJfDB2lKmawLAaiQELEKjU2AQaBAgUCAMMCxCwjKcIGmAKXggDEiY4lQY3mQGaEtkMjhKCGNQHmRLWKOUn1yifN4gn4CGsNuo36yeeNxowH77wj-uX8MqiycclBjscLiIkEu130RY2-5xok3yJv9JaVPOLVACthrnCZ8vhhvtRIAQMCxCOrv4IGgoKCAgBEgTj0jQCDA&#038;ved=0ahUKEwinmI7r75LbAhWm34MKHfKNCrIQwg4IJigA&#038;biw=1920&#038;bih=1012#imgrc=fDB2lKmawLBijM\" rel=\"nofollow\">https://www.google.com/search?sa=G&#038;hl=en&#038;q=tf2+plain+background&#038;tbm=isch&#038;tbs=simg:CAQSlQEJfDB2lKmawLAaiQELEKjU2AQaBAgUCAMMCxCwjKcIGmAKXggDEiY4lQY3mQGaEtkMjhKCGNQHmRLWKOUn1yifN4gn4CGsNuo36yeeNxowH77wj-uX8MqiycclBjscLiIkEu130RY2-5xok3yJv9JaVPOLVACthrnCZ8vhhvtRIAQMCxCOrv4IGgoKCAgBEgTj0jQCDA&#038;ved=0ahUKEwinmI7r75LbAhWm34MKHfKNCrIQwg4IJigA&#038;biw=1920&#038;bih=1012#imgrc=fDB2lKmawLBijM</a>:</p>\n"
 		},
-		"link": "https://stevenbenner.com/2010/11/how-to-set-up-a-team-fortress-2-dedicated-server-on-ubuntu/#comment-235356",
-		"status": "approved",
-		"type": "comment",
 		"author_avatar_urls": {
 			"24": "https://secure.gravatar.com/avatar/b3ae2c86b48dc1b08268db91446e7249?s=24&d=mm&r=pg",
 			"48": "https://secure.gravatar.com/avatar/b3ae2c86b48dc1b08268db91446e7249?s=48&d=mm&r=pg",
 			"96": "https://secure.gravatar.com/avatar/b3ae2c86b48dc1b08268db91446e7249?s=96&d=mm&r=pg"
-		},
-		"meta": [],
-		"_links": {
-			"self": [
-				{
-					"href": "https://stevenbenner.com/wp-json/wp/v2/comments/235356"
-				}
-			],
-			"collection": [
-				{
-					"href": "https://stevenbenner.com/wp-json/wp/v2/comments"
-				}
-			],
-			"up": [
-				{
-					"embeddable": true,
-					"post_type": "post",
-					"href": "https://stevenbenner.com/wp-json/wp/v2/posts/1068"
-				}
-			]
 		}
 	},
 	{
 		"id": 235355,
-		"post": 1068,
-		"parent": 0,
 		"author": 0,
 		"author_name": "Lapiz",
 		"author_url": "",
-		"date": "2018-05-19T16:06:10",
 		"date_gmt": "2018-05-19T23:06:10",
 		"content": {
 			"rendered": "<p>Hey I was looking for a picture of the TF2 Chalkboard by itself, and I wanted to use it as a background for my webpage. I did not want to steal anyone&#8217;s work, so I clicked on it and it brought me here. I was wondering if this image is subject to copy right, and if it is not can I use it for my Web Page?</p>\n"
 		},
-		"link": "https://stevenbenner.com/2010/11/how-to-set-up-a-team-fortress-2-dedicated-server-on-ubuntu/#comment-235355",
-		"status": "approved",
-		"type": "comment",
 		"author_avatar_urls": {
 			"24": "https://secure.gravatar.com/avatar/b3ae2c86b48dc1b08268db91446e7249?s=24&d=mm&r=pg",
 			"48": "https://secure.gravatar.com/avatar/b3ae2c86b48dc1b08268db91446e7249?s=48&d=mm&r=pg",
 			"96": "https://secure.gravatar.com/avatar/b3ae2c86b48dc1b08268db91446e7249?s=96&d=mm&r=pg"
-		},
-		"meta": [],
-		"_links": {
-			"self": [
-				{
-					"href": "https://stevenbenner.com/wp-json/wp/v2/comments/235355"
-				}
-			],
-			"collection": [
-				{
-					"href": "https://stevenbenner.com/wp-json/wp/v2/comments"
-				}
-			],
-			"up": [
-				{
-					"embeddable": true,
-					"post_type": "post",
-					"href": "https://stevenbenner.com/wp-json/wp/v2/posts/1068"
-				}
-			]
 		}
 	},
 	{
 		"id": 83938,
-		"post": 1068,
-		"parent": 0,
 		"author": 0,
 		"author_name": "Drew",
 		"author_url": "http://oraexcel.com",
-		"date": "2013-08-02T12:48:10",
 		"date_gmt": "2013-08-02T19:48:10",
 		"content": {
 			"rendered": "<p>Just got one started at the college I was at with a few of my friends. What happened after was the best fun that I have ever had in college. Stayed up the whole night playing with a group of friends.</p>\n"
 		},
-		"link": "https://stevenbenner.com/2010/11/how-to-set-up-a-team-fortress-2-dedicated-server-on-ubuntu/#comment-83938",
-		"status": "approved",
-		"type": "comment",
 		"author_avatar_urls": {
 			"24": "https://secure.gravatar.com/avatar/f83f45bb5de457b4687454faba0a4f26?s=24&d=mm&r=pg",
 			"48": "https://secure.gravatar.com/avatar/f83f45bb5de457b4687454faba0a4f26?s=48&d=mm&r=pg",
 			"96": "https://secure.gravatar.com/avatar/f83f45bb5de457b4687454faba0a4f26?s=96&d=mm&r=pg"
-		},
-		"meta": [],
-		"_links": {
-			"self": [
-				{
-					"href": "https://stevenbenner.com/wp-json/wp/v2/comments/83938"
-				}
-			],
-			"collection": [
-				{
-					"href": "https://stevenbenner.com/wp-json/wp/v2/comments"
-				}
-			],
-			"up": [
-				{
-					"embeddable": true,
-					"post_type": "post",
-					"href": "https://stevenbenner.com/wp-json/wp/v2/posts/1068"
-				}
-			]
 		}
 	},
 	{
 		"id": 83649,
-		"post": 1068,
-		"parent": 0,
 		"author": 0,
 		"author_name": "Adrian",
 		"author_url": "http://de-gamers.ch",
-		"date": "2013-02-07T02:51:05",
 		"date_gmt": "2013-02-07T10:51:05",
 		"content": {
 			"rendered": "<p>Hello</p>\n<p>I started my server with the user account tf2server and I wrote /etc/init.d/srcds start. PuTTY then writes the following: &#8220;Starting source dedicated server: SRCDS&#8221; I have to type in my Password for the tf2server user. After I typed it and pressed return, nothing more happens. The server is running, but how can I use the tf2 server console, e.g. for using &#8220;meta list&#8221; for checking if the metamod and the sourcemod plugins are running? And shouldn&#8217;t there be more things written in the PuTTY console?</p>\n"
 		},
-		"link": "https://stevenbenner.com/2010/11/how-to-set-up-a-team-fortress-2-dedicated-server-on-ubuntu/#comment-83649",
-		"status": "approved",
-		"type": "comment",
 		"author_avatar_urls": {
 			"24": "https://secure.gravatar.com/avatar/c04b13927af7537bfeaa0953eb2d87da?s=24&d=mm&r=pg",
 			"48": "https://secure.gravatar.com/avatar/c04b13927af7537bfeaa0953eb2d87da?s=48&d=mm&r=pg",
 			"96": "https://secure.gravatar.com/avatar/c04b13927af7537bfeaa0953eb2d87da?s=96&d=mm&r=pg"
-		},
-		"meta": [],
-		"_links": {
-			"self": [
-				{
-					"href": "https://stevenbenner.com/wp-json/wp/v2/comments/83649"
-				}
-			],
-			"collection": [
-				{
-					"href": "https://stevenbenner.com/wp-json/wp/v2/comments"
-				}
-			],
-			"up": [
-				{
-					"embeddable": true,
-					"post_type": "post",
-					"href": "https://stevenbenner.com/wp-json/wp/v2/posts/1068"
-				}
-			]
 		}
 	},
 	{
 		"id": 83645,
-		"post": 1068,
-		"parent": 0,
 		"author": 0,
 		"author_name": "theREALsaxtonHALE",
 		"author_url": "",
-		"date": "2013-01-17T04:04:18",
 		"date_gmt": "2013-01-17T12:04:18",
 		"content": {
 			"rendered": "<p>Nice guide but Outdated source dedicated server is broken (I think this occurred in the 2012 halloween update) and doesn&#8217;t work anymore. You can still run a dedicated server but now it&#8217;s more complicated and will not be on the public/online server list.</p>\n"
 		},
-		"link": "https://stevenbenner.com/2010/11/how-to-set-up-a-team-fortress-2-dedicated-server-on-ubuntu/#comment-83645",
-		"status": "approved",
-		"type": "comment",
 		"author_avatar_urls": {
 			"24": "https://secure.gravatar.com/avatar/8c48dbfb60cfb5784e160fe2f5f44cbc?s=24&d=mm&r=pg",
 			"48": "https://secure.gravatar.com/avatar/8c48dbfb60cfb5784e160fe2f5f44cbc?s=48&d=mm&r=pg",
 			"96": "https://secure.gravatar.com/avatar/8c48dbfb60cfb5784e160fe2f5f44cbc?s=96&d=mm&r=pg"
-		},
-		"meta": [],
-		"_links": {
-			"self": [
-				{
-					"href": "https://stevenbenner.com/wp-json/wp/v2/comments/83645"
-				}
-			],
-			"collection": [
-				{
-					"href": "https://stevenbenner.com/wp-json/wp/v2/comments"
-				}
-			],
-			"up": [
-				{
-					"embeddable": true,
-					"post_type": "post",
-					"href": "https://stevenbenner.com/wp-json/wp/v2/posts/1068"
-				}
-			]
 		}
 	},
 	{
 		"id": 83632,
-		"post": 1068,
-		"parent": 0,
 		"author": 0,
 		"author_name": "Bojidar",
 		"author_url": "",
-		"date": "2013-01-06T14:43:22",
 		"date_gmt": "2013-01-06T22:43:22",
 		"content": {
 			"rendered": "<p>I don&#8217;t have the addons folder</p>\n"
 		},
-		"link": "https://stevenbenner.com/2010/11/how-to-set-up-a-team-fortress-2-dedicated-server-on-ubuntu/#comment-83632",
-		"status": "approved",
-		"type": "comment",
 		"author_avatar_urls": {
 			"24": "https://secure.gravatar.com/avatar/8605282dc6f4a3d212bd3e7c6db46797?s=24&d=mm&r=pg",
 			"48": "https://secure.gravatar.com/avatar/8605282dc6f4a3d212bd3e7c6db46797?s=48&d=mm&r=pg",
 			"96": "https://secure.gravatar.com/avatar/8605282dc6f4a3d212bd3e7c6db46797?s=96&d=mm&r=pg"
-		},
-		"meta": [],
-		"_links": {
-			"self": [
-				{
-					"href": "https://stevenbenner.com/wp-json/wp/v2/comments/83632"
-				}
-			],
-			"collection": [
-				{
-					"href": "https://stevenbenner.com/wp-json/wp/v2/comments"
-				}
-			],
-			"up": [
-				{
-					"embeddable": true,
-					"post_type": "post",
-					"href": "https://stevenbenner.com/wp-json/wp/v2/posts/1068"
-				}
-			]
 		}
 	},
 	{
 		"id": 82195,
-		"post": 1068,
-		"parent": 0,
 		"author": 2,
 		"author_name": "Steven Benner",
 		"author_url": "http://stevenbenner.com/",
-		"date": "2012-07-19T03:01:49",
 		"date_gmt": "2012-07-19T10:01:49",
 		"content": {
 			"rendered": "<p><b>Update on the service script:</b></p>\n<p>I have created a repository for this script on GitHub. Please check there for the latest version. I would also appriciate it if you would submit issues and pull requests to help improve it!</p>\n<p><a href=\"https://github.com/stevenbenner/srcds-service\" rel=\"nofollow\">https://github.com/stevenbenner/srcds-service</a></p>\n"
 		},
-		"link": "https://stevenbenner.com/2010/11/how-to-set-up-a-team-fortress-2-dedicated-server-on-ubuntu/#comment-82195",
-		"status": "approved",
-		"type": "comment",
 		"author_avatar_urls": {
 			"24": "https://secure.gravatar.com/avatar/5b09e09f1d9fed4c34e369d02f2edb74?s=24&d=mm&r=pg",
 			"48": "https://secure.gravatar.com/avatar/5b09e09f1d9fed4c34e369d02f2edb74?s=48&d=mm&r=pg",
 			"96": "https://secure.gravatar.com/avatar/5b09e09f1d9fed4c34e369d02f2edb74?s=96&d=mm&r=pg"
-		},
-		"meta": [],
-		"_links": {
-			"self": [
-				{
-					"href": "https://stevenbenner.com/wp-json/wp/v2/comments/82195"
-				}
-			],
-			"collection": [
-				{
-					"href": "https://stevenbenner.com/wp-json/wp/v2/comments"
-				}
-			],
-			"author": [
-				{
-					"embeddable": true,
-					"href": "https://stevenbenner.com/wp-json/wp/v2/users/2"
-				}
-			],
-			"up": [
-				{
-					"embeddable": true,
-					"post_type": "post",
-					"href": "https://stevenbenner.com/wp-json/wp/v2/posts/1068"
-				}
-			]
 		}
 	},
 	{
 		"id": 82079,
-		"post": 1068,
-		"parent": 0,
 		"author": 0,
 		"author_name": "tweak",
 		"author_url": "",
-		"date": "2012-07-14T21:32:16",
 		"date_gmt": "2012-07-15T04:32:16",
 		"content": {
 			"rendered": "<p>Also I also do not have the server.cfg file did they change things with the pyro patch?</p>\n"
 		},
-		"link": "https://stevenbenner.com/2010/11/how-to-set-up-a-team-fortress-2-dedicated-server-on-ubuntu/#comment-82079",
-		"status": "approved",
-		"type": "comment",
 		"author_avatar_urls": {
 			"24": "https://secure.gravatar.com/avatar/f1ca9d6684b8aeec120905b30ccc2870?s=24&d=mm&r=pg",
 			"48": "https://secure.gravatar.com/avatar/f1ca9d6684b8aeec120905b30ccc2870?s=48&d=mm&r=pg",
 			"96": "https://secure.gravatar.com/avatar/f1ca9d6684b8aeec120905b30ccc2870?s=96&d=mm&r=pg"
-		},
-		"meta": [],
-		"_links": {
-			"self": [
-				{
-					"href": "https://stevenbenner.com/wp-json/wp/v2/comments/82079"
-				}
-			],
-			"collection": [
-				{
-					"href": "https://stevenbenner.com/wp-json/wp/v2/comments"
-				}
-			],
-			"up": [
-				{
-					"embeddable": true,
-					"post_type": "post",
-					"href": "https://stevenbenner.com/wp-json/wp/v2/posts/1068"
-				}
-			]
 		}
 	},
 	{
 		"id": 82078,
-		"post": 1068,
-		"parent": 0,
 		"author": 0,
 		"author_name": "tweak",
 		"author_url": "",
-		"date": "2012-07-14T21:31:31",
 		"date_gmt": "2012-07-15T04:31:31",
 		"content": {
 			"rendered": "<p>you need to resume your screen session<br />\ndo the following<br />\nscreen -ls (look for your screen session)<br />\nscreen -r [the name or your session]</p>\n"
 		},
-		"link": "https://stevenbenner.com/2010/11/how-to-set-up-a-team-fortress-2-dedicated-server-on-ubuntu/#comment-82078",
-		"status": "approved",
-		"type": "comment",
 		"author_avatar_urls": {
 			"24": "https://secure.gravatar.com/avatar/f1ca9d6684b8aeec120905b30ccc2870?s=24&d=mm&r=pg",
 			"48": "https://secure.gravatar.com/avatar/f1ca9d6684b8aeec120905b30ccc2870?s=48&d=mm&r=pg",
 			"96": "https://secure.gravatar.com/avatar/f1ca9d6684b8aeec120905b30ccc2870?s=96&d=mm&r=pg"
-		},
-		"meta": [],
-		"_links": {
-			"self": [
-				{
-					"href": "https://stevenbenner.com/wp-json/wp/v2/comments/82078"
-				}
-			],
-			"collection": [
-				{
-					"href": "https://stevenbenner.com/wp-json/wp/v2/comments"
-				}
-			],
-			"up": [
-				{
-					"embeddable": true,
-					"post_type": "post",
-					"href": "https://stevenbenner.com/wp-json/wp/v2/posts/1068"
-				}
-			]
 		}
 	},
 	{
 		"id": 82019,
-		"post": 1068,
-		"parent": 0,
 		"author": 0,
 		"author_name": "White Light",
 		"author_url": "",
-		"date": "2012-07-09T00:07:53",
 		"date_gmt": "2012-07-09T07:07:53",
 		"content": {
 			"rendered": "<p>Is there a way to possibly make it so that I can execute a server command while still using screen? I know that if I run the server software normally, I can input commands directly into the server, but with screen I can&#8217;t do that anymore. How could I do this without having to restart the server?</p>\n"
 		},
-		"link": "https://stevenbenner.com/2010/11/how-to-set-up-a-team-fortress-2-dedicated-server-on-ubuntu/#comment-82019",
-		"status": "approved",
-		"type": "comment",
 		"author_avatar_urls": {
 			"24": "https://secure.gravatar.com/avatar/d877348265aa900e7ed4c31cf8d7b770?s=24&d=mm&r=pg",
 			"48": "https://secure.gravatar.com/avatar/d877348265aa900e7ed4c31cf8d7b770?s=48&d=mm&r=pg",
 			"96": "https://secure.gravatar.com/avatar/d877348265aa900e7ed4c31cf8d7b770?s=96&d=mm&r=pg"
-		},
-		"meta": [],
-		"_links": {
-			"self": [
-				{
-					"href": "https://stevenbenner.com/wp-json/wp/v2/comments/82019"
-				}
-			],
-			"collection": [
-				{
-					"href": "https://stevenbenner.com/wp-json/wp/v2/comments"
-				}
-			],
-			"up": [
-				{
-					"embeddable": true,
-					"post_type": "post",
-					"href": "https://stevenbenner.com/wp-json/wp/v2/posts/1068"
-				}
-			]
 		}
 	},
 	{
 		"id": 82017,
-		"post": 1068,
-		"parent": 0,
 		"author": 0,
 		"author_name": "Josh",
 		"author_url": "",
-		"date": "2012-07-08T06:57:51",
 		"date_gmt": "2012-07-08T13:57:51",
 		"content": {
 			"rendered": "<p>How do I edit config.cfg?</p>\n<p>Also, I can&#8217;t find config.cfg!</p>\n<p>Here&#8217;s the files in /orangebox/tf/cfg</p>\n<p>root@10004:~/orangebox/tf/cfg# ls<br />\n360controller.cfg   heavyweapons.cfg       sfm_defaultanimationgroups.txt<br />\nchapter1.cfg        medic.cfg              sniper.cfg<br />\nchapter2.cfg        mtp.cfg                soldier.cfg<br />\nchapter3.cfg        pyro.cfg               spy.cfg<br />\nconfig.360.cfg      replay.cfg             undo360controller.cfg<br />\nconfig_arena.cfg    replay_ftp.cfg         user_default.scr<br />\nconfig_default.cfg  replay_local_http.cfg  valve.rc<br />\ndemoman.cfg         scout.cfg<br />\nengineer.cfg        settings_default.scr</p>\n"
 		},
-		"link": "https://stevenbenner.com/2010/11/how-to-set-up-a-team-fortress-2-dedicated-server-on-ubuntu/#comment-82017",
-		"status": "approved",
-		"type": "comment",
 		"author_avatar_urls": {
 			"24": "https://secure.gravatar.com/avatar/2eb73a44c4e82c347c24578dcc83be59?s=24&d=mm&r=pg",
 			"48": "https://secure.gravatar.com/avatar/2eb73a44c4e82c347c24578dcc83be59?s=48&d=mm&r=pg",
 			"96": "https://secure.gravatar.com/avatar/2eb73a44c4e82c347c24578dcc83be59?s=96&d=mm&r=pg"
-		},
-		"meta": [],
-		"_links": {
-			"self": [
-				{
-					"href": "https://stevenbenner.com/wp-json/wp/v2/comments/82017"
-				}
-			],
-			"collection": [
-				{
-					"href": "https://stevenbenner.com/wp-json/wp/v2/comments"
-				}
-			],
-			"up": [
-				{
-					"embeddable": true,
-					"post_type": "post",
-					"href": "https://stevenbenner.com/wp-json/wp/v2/posts/1068"
-				}
-			]
 		}
 	},
 	{
 		"id": 82010,
-		"post": 1068,
-		"parent": 0,
 		"author": 0,
 		"author_name": "J",
 		"author_url": "http://resshef.co.cc",
-		"date": "2012-06-23T19:12:05",
 		"date_gmt": "2012-06-24T02:12:05",
 		"content": {
 			"rendered": "<p>I found this to work better:</p>\n<p>#Daemon Name = SRCDS<br />\n# replace  with the user you created above<br />\nSRCDS_USER=&#8221;&#8221;<br />\n# Do not change this path<br />\nPATH=/bin:/usr/bin:/sbin:/usr/sbin<br />\n# The path to the game you want to host. example = /home/newuser/dod<br />\nDIR=/home//tf2/orangebox/<br />\nDAEMON=$DIR/srcds_run<br />\n# Change all PARAMS to your needs.<br />\nPARAMS=&#8221;-console -game tf +map ctf_2fort -maxplayers 30 -autoupdate&#8221;<br />\nNAME=SRCDS<br />\nDESC=&#8221;source dedicated server&#8221;<br />\ncase &#8220;$1&#8221; in<br />\nstart)<br />\n echo &#8220;Starting $DESC: $NAME&#8221;<br />\n if [ -e $DIR ];<br />\n then<br />\n  cd $DIR<br />\nsu $SRCDS_USER -l -c &#8220;screen -d -m -S $NAME $DAEMON $PARAMS&#8221;<br />\n else echo &#8220;No such directory: $DIR!&#8221;<br />\n fi<br />\n ;;<br />\nstop)<br />\n if su $SRCDS_USER -l -c &#8220;screen -ls |grep $NAME&#8221;<br />\n then<br />\n     echo -n &#8220;Stopping $DESC: $NAME&#8221;<br />\n     su $SRCDS_USER -l -c &#8220;screen -S SRCDS -X quit &#8221; #This kills the screen (SRCDS) and server process.<br />\n    echo &#8221; &#8230; done.&#8221;<br />\nelse<br />\n    echo &#8220;Couldn&#8217;t find a running $DESC&#8221;<br />\nfi<br />\n;;<br />\nrestart)<br />\n if su $SRCDS_USER -l -c &#8220;screen -ls |grep $NAME&#8221;<br />\n then<br />\n     echo -n &#8220;Stopping $DESC: $NAME&#8221;<br />\n     su $SRCDS_USER -l -c &#8220;screen -S SRCDS -X quit &#8221;<br />\n     echo &#8221; &#8230; done.&#8221;<br />\n else<br />\n     echo &#8220;Couldn&#8217;t find a running $DESC&#8221;<br />\n fi<br />\n echo -n &#8220;Starting $DESC: $NAME&#8221;<br />\n cd $DIR<br />\n su $SRCDS_USER -l -c &#8220;screen -d -m -S $NAME $DAEMON $PARAMS&#8221;  #This kills the screen (SRCDS) and server process.<br />\n echo &#8221; &#8230; done.&#8221;<br />\n ;;<br />\nstatus)<br />\n # Check whether there&#8217;s a &#8220;srcds&#8221; process<br />\n ps aux | grep -v grep | grep srcds_r > /dev/null<br />\n CHECK=$?<br />\n [ $CHECK -eq 0 ] &#038;&#038; echo &#8220;SRCDS is UP&#8221; || echo &#8220;SRCDS is DOWN&#8221;<br />\n ;;<br />\n*)<br />\n echo &#8220;Usage: $0 {start|stop|status|restart}&#8221;<br />\n exit 1<br />\n ;;<br />\nesac<br />\nexit 0</p>\n"
 		},
-		"link": "https://stevenbenner.com/2010/11/how-to-set-up-a-team-fortress-2-dedicated-server-on-ubuntu/#comment-82010",
-		"status": "approved",
-		"type": "comment",
 		"author_avatar_urls": {
 			"24": "https://secure.gravatar.com/avatar/1b2b44fc1f7b5047e228acbe403adec8?s=24&d=mm&r=pg",
 			"48": "https://secure.gravatar.com/avatar/1b2b44fc1f7b5047e228acbe403adec8?s=48&d=mm&r=pg",
 			"96": "https://secure.gravatar.com/avatar/1b2b44fc1f7b5047e228acbe403adec8?s=96&d=mm&r=pg"
-		},
-		"meta": [],
-		"_links": {
-			"self": [
-				{
-					"href": "https://stevenbenner.com/wp-json/wp/v2/comments/82010"
-				}
-			],
-			"collection": [
-				{
-					"href": "https://stevenbenner.com/wp-json/wp/v2/comments"
-				}
-			],
-			"up": [
-				{
-					"embeddable": true,
-					"post_type": "post",
-					"href": "https://stevenbenner.com/wp-json/wp/v2/posts/1068"
-				}
-			]
 		}
 	},
 	{
 		"id": 82007,
-		"post": 1068,
-		"parent": 0,
 		"author": 0,
 		"author_name": "Mike",
 		"author_url": "",
-		"date": "2012-06-21T09:52:02",
 		"date_gmt": "2012-06-21T16:52:02",
 		"content": {
 			"rendered": "<p>Has anyone tried this in 2012 (the instructions on this page are from 2010)?</p>\n<p>I&#8217;m at this step:</p>\n<p>$ ./srcds_run -game tf +map ctf_2fort<br />\nand it returns a lot of error messages:<br />\n&#8230;<br />\nNetwork: IP 10.222.156.24, mode MP, dedicated Yes, ports 27015 SV / 27005 CL<br />\nFailed to load $include VMT file (materials/TILE/FLOOR_TILE_001A.vmt)<br />\nFailed to load $include VMT file (materials/TILE/FLOOR_TILE_001A.vmt)<br />\nFailed to load $include VMT file (materials/TILE/FLOOR_TILE_001A.vmt)<br />\nFailed to load $include VMT file (materials/TILE/FLOOR_TILE_001A.vmt)<br />\n&#8230;etc and then ends on<br />\nLooking up breakpad interfaces from steamclient<br />\nCalling BreakpadMiniDumpSystemInit<br />\n&#8216;server.cfg&#8217; not present; not executing.<br />\n&#8216;ctf_2fort.cfg&#8217; not present; not executing.<br />\nConnection to Steam servers successful.<br />\n   Public IP is 99.111.39.126.<br />\nAssigned anonymous gameserver Steam ID [A-1:987911168(2997)].<br />\nVAC secure mode is activated.<br />\nConnection to game coordinator established.<br />\nCurrent item schema is up-to-date with version 6C7F42A0.<br />\ntf_server_identity_account_id not set; not logging into registered account</p>\n<p>Any idea on what&#8217;s going on or what I should do?</p>\n"
 		},
-		"link": "https://stevenbenner.com/2010/11/how-to-set-up-a-team-fortress-2-dedicated-server-on-ubuntu/#comment-82007",
-		"status": "approved",
-		"type": "comment",
 		"author_avatar_urls": {
 			"24": "https://secure.gravatar.com/avatar/ca4cb09fc990d2fb3b18d53bf4d10094?s=24&d=mm&r=pg",
 			"48": "https://secure.gravatar.com/avatar/ca4cb09fc990d2fb3b18d53bf4d10094?s=48&d=mm&r=pg",
 			"96": "https://secure.gravatar.com/avatar/ca4cb09fc990d2fb3b18d53bf4d10094?s=96&d=mm&r=pg"
-		},
-		"meta": [],
-		"_links": {
-			"self": [
-				{
-					"href": "https://stevenbenner.com/wp-json/wp/v2/comments/82007"
-				}
-			],
-			"collection": [
-				{
-					"href": "https://stevenbenner.com/wp-json/wp/v2/comments"
-				}
-			],
-			"up": [
-				{
-					"embeddable": true,
-					"post_type": "post",
-					"href": "https://stevenbenner.com/wp-json/wp/v2/posts/1068"
-				}
-			]
 		}
 	},
 	{
 		"id": 82005,
-		"post": 1068,
-		"parent": 0,
 		"author": 0,
 		"author_name": "Sindre",
 		"author_url": "",
-		"date": "2012-06-11T14:02:54",
 		"date_gmt": "2012-06-11T21:02:54",
 		"content": {
 			"rendered": "<p>Just a tip for saving time;<br />\ninstead of running<br />\n/etc/init.d/srcds (start/stop/restart)<br />\nyou can just run<br />\nservice srcds (start/stop/restart)</p>\n<p>also, if you get &#8220;command not found&#8221; you&#8217;ll need to run:<br />\nsudo chmod +x /etc/init.d/srcds<br />\nto make it executable :)</p>\n<p>Otherwise, very nice tutorial, it helped me alot. :)</p>\n"
 		},
-		"link": "https://stevenbenner.com/2010/11/how-to-set-up-a-team-fortress-2-dedicated-server-on-ubuntu/#comment-82005",
-		"status": "approved",
-		"type": "comment",
 		"author_avatar_urls": {
 			"24": "https://secure.gravatar.com/avatar/0f0b0ede3efd3b372a3eee864458959d?s=24&d=mm&r=pg",
 			"48": "https://secure.gravatar.com/avatar/0f0b0ede3efd3b372a3eee864458959d?s=48&d=mm&r=pg",
 			"96": "https://secure.gravatar.com/avatar/0f0b0ede3efd3b372a3eee864458959d?s=96&d=mm&r=pg"
-		},
-		"meta": [],
-		"_links": {
-			"self": [
-				{
-					"href": "https://stevenbenner.com/wp-json/wp/v2/comments/82005"
-				}
-			],
-			"collection": [
-				{
-					"href": "https://stevenbenner.com/wp-json/wp/v2/comments"
-				}
-			],
-			"up": [
-				{
-					"embeddable": true,
-					"post_type": "post",
-					"href": "https://stevenbenner.com/wp-json/wp/v2/posts/1068"
-				}
-			]
 		}
 	},
 	{
 		"id": 81995,
-		"post": 1068,
-		"parent": 0,
 		"author": 0,
 		"author_name": "Andrew",
 		"author_url": "",
-		"date": "2012-05-20T19:09:18",
 		"date_gmt": "2012-05-21T02:09:18",
 		"content": {
 			"rendered": "<p>To autoupdate in Linux, put -autoupdate somewhere in the terminal command that you use to start your server. There&#8217;s a YouTube video that shows this as well.</p>\n<p>My questions are 1) If I made changes to my server.cfg file and want them to go into immediate effect, do I have to stop the server or is there something fancy I can do to &#8220;restart&#8221; it so to speak?</p>\n"
 		},
-		"link": "https://stevenbenner.com/2010/11/how-to-set-up-a-team-fortress-2-dedicated-server-on-ubuntu/#comment-81995",
-		"status": "approved",
-		"type": "comment",
 		"author_avatar_urls": {
 			"24": "https://secure.gravatar.com/avatar/d1cf288b38c0871f7a212dd0b35207be?s=24&d=mm&r=pg",
 			"48": "https://secure.gravatar.com/avatar/d1cf288b38c0871f7a212dd0b35207be?s=48&d=mm&r=pg",
 			"96": "https://secure.gravatar.com/avatar/d1cf288b38c0871f7a212dd0b35207be?s=96&d=mm&r=pg"
-		},
-		"meta": [],
-		"_links": {
-			"self": [
-				{
-					"href": "https://stevenbenner.com/wp-json/wp/v2/comments/81995"
-				}
-			],
-			"collection": [
-				{
-					"href": "https://stevenbenner.com/wp-json/wp/v2/comments"
-				}
-			],
-			"up": [
-				{
-					"embeddable": true,
-					"post_type": "post",
-					"href": "https://stevenbenner.com/wp-json/wp/v2/posts/1068"
-				}
-			]
 		}
 	},
 	{
 		"id": 81919,
-		"post": 1068,
-		"parent": 0,
 		"author": 0,
 		"author_name": "Todd",
 		"author_url": "http://gameliberty.com",
-		"date": "2012-04-22T19:15:35",
 		"date_gmt": "2012-04-23T02:15:35",
 		"content": {
 			"rendered": "<p>I am trying to transition to Linux from windows. I have a couple questions. </p>\n<p>1. Does running srcds as a service restart the service if it locks up?<br />\n2. I also would like to know how to autoupdate in linux.</p>\n"
 		},
-		"link": "https://stevenbenner.com/2010/11/how-to-set-up-a-team-fortress-2-dedicated-server-on-ubuntu/#comment-81919",
-		"status": "approved",
-		"type": "comment",
 		"author_avatar_urls": {
 			"24": "https://secure.gravatar.com/avatar/3e93b3a7d4821c202c77de2930b0392c?s=24&d=mm&r=pg",
 			"48": "https://secure.gravatar.com/avatar/3e93b3a7d4821c202c77de2930b0392c?s=48&d=mm&r=pg",
 			"96": "https://secure.gravatar.com/avatar/3e93b3a7d4821c202c77de2930b0392c?s=96&d=mm&r=pg"
-		},
-		"meta": [],
-		"_links": {
-			"self": [
-				{
-					"href": "https://stevenbenner.com/wp-json/wp/v2/comments/81919"
-				}
-			],
-			"collection": [
-				{
-					"href": "https://stevenbenner.com/wp-json/wp/v2/comments"
-				}
-			],
-			"up": [
-				{
-					"embeddable": true,
-					"post_type": "post",
-					"href": "https://stevenbenner.com/wp-json/wp/v2/posts/1068"
-				}
-			]
 		}
 	},
 	{
 		"id": 81721,
-		"post": 1068,
-		"parent": 0,
 		"author": 0,
 		"author_name": "Andrew",
 		"author_url": "",
-		"date": "2012-03-26T10:26:52",
 		"date_gmt": "2012-03-26T17:26:52",
 		"content": {
 			"rendered": "<p>This is great! Thanks for the awesome guide!<br />\nI&#8217;m having a couple of issues with it though. The first is that when I use &#8220;screen -r SRCDS&#8221; and then detach the screen once I&#8217;m done (using ctrl-a d) if I try to stop the server the script can&#8217;t find the screen even though it appears in &#8220;screens -ls&#8221; as &#8220;.SRCDS&#8221;. I&#8217;m not sure whats happening there. The other is that on start up the server doesn&#8217;t run. I know that my user can&#8217;t use the &#8220;su&#8221; command which is used in the script. Can I change the script to use sudo instead or are there any other fixes?</p>\n"
 		},
-		"link": "https://stevenbenner.com/2010/11/how-to-set-up-a-team-fortress-2-dedicated-server-on-ubuntu/#comment-81721",
-		"status": "approved",
-		"type": "comment",
 		"author_avatar_urls": {
 			"24": "https://secure.gravatar.com/avatar/9bdc770437c40936a9e8893d3b7054ab?s=24&d=mm&r=pg",
 			"48": "https://secure.gravatar.com/avatar/9bdc770437c40936a9e8893d3b7054ab?s=48&d=mm&r=pg",
 			"96": "https://secure.gravatar.com/avatar/9bdc770437c40936a9e8893d3b7054ab?s=96&d=mm&r=pg"
-		},
-		"meta": [],
-		"_links": {
-			"self": [
-				{
-					"href": "https://stevenbenner.com/wp-json/wp/v2/comments/81721"
-				}
-			],
-			"collection": [
-				{
-					"href": "https://stevenbenner.com/wp-json/wp/v2/comments"
-				}
-			],
-			"up": [
-				{
-					"embeddable": true,
-					"post_type": "post",
-					"href": "https://stevenbenner.com/wp-json/wp/v2/posts/1068"
-				}
-			]
 		}
 	},
 	{
 		"id": 81508,
-		"post": 1068,
-		"parent": 0,
 		"author": 0,
 		"author_name": "avin",
 		"author_url": "",
-		"date": "2012-01-29T20:39:42",
 		"date_gmt": "2012-01-30T04:39:42",
 		"content": {
 			"rendered": "<p>@Cyrozap, Yaaa. Is working thanks<br />\n@Ape, Thanks to you. :)</p>\n"
 		},
-		"link": "https://stevenbenner.com/2010/11/how-to-set-up-a-team-fortress-2-dedicated-server-on-ubuntu/#comment-81508",
-		"status": "approved",
-		"type": "comment",
 		"author_avatar_urls": {
 			"24": "https://secure.gravatar.com/avatar/5fad3cd5ff463de7cfacb2ac57e89b93?s=24&d=mm&r=pg",
 			"48": "https://secure.gravatar.com/avatar/5fad3cd5ff463de7cfacb2ac57e89b93?s=48&d=mm&r=pg",
 			"96": "https://secure.gravatar.com/avatar/5fad3cd5ff463de7cfacb2ac57e89b93?s=96&d=mm&r=pg"
-		},
-		"meta": [],
-		"_links": {
-			"self": [
-				{
-					"href": "https://stevenbenner.com/wp-json/wp/v2/comments/81508"
-				}
-			],
-			"collection": [
-				{
-					"href": "https://stevenbenner.com/wp-json/wp/v2/comments"
-				}
-			],
-			"up": [
-				{
-					"embeddable": true,
-					"post_type": "post",
-					"href": "https://stevenbenner.com/wp-json/wp/v2/posts/1068"
-				}
-			]
 		}
 	},
 	{
 		"id": 81504,
-		"post": 1068,
-		"parent": 0,
 		"author": 0,
 		"author_name": "cyrozap",
 		"author_url": "http://cyrozap.com/",
-		"date": "2012-01-21T14:23:36",
 		"date_gmt": "2012-01-21T22:23:36",
 		"content": {
 			"rendered": "<p>@John Machacek</p>\n<p>Thank you! I was wondering why there were two instances running&#8230;</p>\n<p>@avin</p>\n<p>See John Machacek&#8217;s response to Ape.</p>\n"
 		},
-		"link": "https://stevenbenner.com/2010/11/how-to-set-up-a-team-fortress-2-dedicated-server-on-ubuntu/#comment-81504",
-		"status": "approved",
-		"type": "comment",
 		"author_avatar_urls": {
 			"24": "https://secure.gravatar.com/avatar/0a7581942d4f763e90276f570fa328bc?s=24&d=mm&r=pg",
 			"48": "https://secure.gravatar.com/avatar/0a7581942d4f763e90276f570fa328bc?s=48&d=mm&r=pg",
 			"96": "https://secure.gravatar.com/avatar/0a7581942d4f763e90276f570fa328bc?s=96&d=mm&r=pg"
-		},
-		"meta": [],
-		"_links": {
-			"self": [
-				{
-					"href": "https://stevenbenner.com/wp-json/wp/v2/comments/81504"
-				}
-			],
-			"collection": [
-				{
-					"href": "https://stevenbenner.com/wp-json/wp/v2/comments"
-				}
-			],
-			"up": [
-				{
-					"embeddable": true,
-					"post_type": "post",
-					"href": "https://stevenbenner.com/wp-json/wp/v2/posts/1068"
-				}
-			]
 		}
 	},
 	{
 		"id": 81492,
-		"post": 1068,
-		"parent": 0,
 		"author": 0,
 		"author_name": "avin",
 		"author_url": "",
-		"date": "2011-12-27T22:50:05",
 		"date_gmt": "2011-12-28T06:50:05",
 		"content": {
 			"rendered": "<p>when I sudo /etc/init.d/srcds1, it open 2 screen for me? (screen -ls). is this nomal?</p>\n"
 		},
-		"link": "https://stevenbenner.com/2010/11/how-to-set-up-a-team-fortress-2-dedicated-server-on-ubuntu/#comment-81492",
-		"status": "approved",
-		"type": "comment",
 		"author_avatar_urls": {
 			"24": "https://secure.gravatar.com/avatar/5fad3cd5ff463de7cfacb2ac57e89b93?s=24&d=mm&r=pg",
 			"48": "https://secure.gravatar.com/avatar/5fad3cd5ff463de7cfacb2ac57e89b93?s=48&d=mm&r=pg",
 			"96": "https://secure.gravatar.com/avatar/5fad3cd5ff463de7cfacb2ac57e89b93?s=96&d=mm&r=pg"
-		},
-		"meta": [],
-		"_links": {
-			"self": [
-				{
-					"href": "https://stevenbenner.com/wp-json/wp/v2/comments/81492"
-				}
-			],
-			"collection": [
-				{
-					"href": "https://stevenbenner.com/wp-json/wp/v2/comments"
-				}
-			],
-			"up": [
-				{
-					"embeddable": true,
-					"post_type": "post",
-					"href": "https://stevenbenner.com/wp-json/wp/v2/posts/1068"
-				}
-			]
 		}
 	},
 	{
 		"id": 80644,
-		"post": 1068,
-		"parent": 0,
 		"author": 0,
 		"author_name": "Jackson",
 		"author_url": "http://jacksonwalters.info",
-		"date": "2011-10-19T12:19:27",
 		"date_gmt": "2011-10-19T19:19:27",
 		"content": {
 			"rendered": "<p>Fantastic guide! Everything is working flawlessly. Thanks so much.</p>\n"
 		},
-		"link": "https://stevenbenner.com/2010/11/how-to-set-up-a-team-fortress-2-dedicated-server-on-ubuntu/#comment-80644",
-		"status": "approved",
-		"type": "comment",
 		"author_avatar_urls": {
 			"24": "https://secure.gravatar.com/avatar/a1a69828122eb5f6f2924a7131a83ce8?s=24&d=mm&r=pg",
 			"48": "https://secure.gravatar.com/avatar/a1a69828122eb5f6f2924a7131a83ce8?s=48&d=mm&r=pg",
 			"96": "https://secure.gravatar.com/avatar/a1a69828122eb5f6f2924a7131a83ce8?s=96&d=mm&r=pg"
-		},
-		"meta": [],
-		"_links": {
-			"self": [
-				{
-					"href": "https://stevenbenner.com/wp-json/wp/v2/comments/80644"
-				}
-			],
-			"collection": [
-				{
-					"href": "https://stevenbenner.com/wp-json/wp/v2/comments"
-				}
-			],
-			"up": [
-				{
-					"embeddable": true,
-					"post_type": "post",
-					"href": "https://stevenbenner.com/wp-json/wp/v2/posts/1068"
-				}
-			]
 		}
 	},
 	{
 		"id": 59539,
-		"post": 1068,
-		"parent": 0,
 		"author": 0,
 		"author_name": "Justin",
 		"author_url": "",
-		"date": "2011-07-28T18:17:33",
 		"date_gmt": "2011-07-29T01:17:33",
 		"content": {
 			"rendered": "<p>I&#8217;m getting a syntax error when I try to start the script.</p>\n<p>12: Syntax error: word unexpectd (expecting &#8220;in&#8221;)</p>\n<p>Mine line 12 reads exactly as shown on this page.</p>\n"
 		},
-		"link": "https://stevenbenner.com/2010/11/how-to-set-up-a-team-fortress-2-dedicated-server-on-ubuntu/#comment-59539",
-		"status": "approved",
-		"type": "comment",
 		"author_avatar_urls": {
 			"24": "https://secure.gravatar.com/avatar/a5f70a5813757b89129d31399e118260?s=24&d=mm&r=pg",
 			"48": "https://secure.gravatar.com/avatar/a5f70a5813757b89129d31399e118260?s=48&d=mm&r=pg",
 			"96": "https://secure.gravatar.com/avatar/a5f70a5813757b89129d31399e118260?s=96&d=mm&r=pg"
-		},
-		"meta": [],
-		"_links": {
-			"self": [
-				{
-					"href": "https://stevenbenner.com/wp-json/wp/v2/comments/59539"
-				}
-			],
-			"collection": [
-				{
-					"href": "https://stevenbenner.com/wp-json/wp/v2/comments"
-				}
-			],
-			"up": [
-				{
-					"embeddable": true,
-					"post_type": "post",
-					"href": "https://stevenbenner.com/wp-json/wp/v2/posts/1068"
-				}
-			]
 		}
 	},
 	{
 		"id": 50953,
-		"post": 1068,
-		"parent": 0,
 		"author": 0,
 		"author_name": "John Machacek",
 		"author_url": "",
-		"date": "2011-07-08T06:24:39",
 		"date_gmt": "2011-07-08T13:24:39",
 		"content": {
 			"rendered": "<p>Ape &#8211; I had the issue as well, I am no expert but my solution was to comment &#8216;#&#8217; out line 19</p>\n<p>replace &#8221;  screen -d -m -S $NAME $DAEMON $PARAMS &#8221; with &#8220;#   screen -d -m -S $NAME $DAEMON $PARAMS &#8221;  and I no longer have 2 instances.</p>\n<p>Steven &#8211; This is an AWESOME resource, thank you for taking the time to put this together!</p>\n"
 		},
-		"link": "https://stevenbenner.com/2010/11/how-to-set-up-a-team-fortress-2-dedicated-server-on-ubuntu/#comment-50953",
-		"status": "approved",
-		"type": "comment",
 		"author_avatar_urls": {
 			"24": "https://secure.gravatar.com/avatar/db951b0e91a0118108e1cf5e91b0c2bf?s=24&d=mm&r=pg",
 			"48": "https://secure.gravatar.com/avatar/db951b0e91a0118108e1cf5e91b0c2bf?s=48&d=mm&r=pg",
 			"96": "https://secure.gravatar.com/avatar/db951b0e91a0118108e1cf5e91b0c2bf?s=96&d=mm&r=pg"
-		},
-		"meta": [],
-		"_links": {
-			"self": [
-				{
-					"href": "https://stevenbenner.com/wp-json/wp/v2/comments/50953"
-				}
-			],
-			"collection": [
-				{
-					"href": "https://stevenbenner.com/wp-json/wp/v2/comments"
-				}
-			],
-			"up": [
-				{
-					"embeddable": true,
-					"post_type": "post",
-					"href": "https://stevenbenner.com/wp-json/wp/v2/posts/1068"
-				}
-			]
 		}
 	},
 	{
 		"id": 50015,
-		"post": 1068,
-		"parent": 0,
 		"author": 0,
 		"author_name": "Ape",
 		"author_url": "",
-		"date": "2011-07-04T19:26:50",
 		"date_gmt": "2011-07-05T02:26:50",
 		"content": {
 			"rendered": "<p>The init.d script in this tutorial starts 2 instances of SRCDS. It needs to be updated.</p>\n"
 		},
-		"link": "https://stevenbenner.com/2010/11/how-to-set-up-a-team-fortress-2-dedicated-server-on-ubuntu/#comment-50015",
-		"status": "approved",
-		"type": "comment",
 		"author_avatar_urls": {
 			"24": "https://secure.gravatar.com/avatar/b951786190f3685347cd2cd6889cf0ab?s=24&d=mm&r=pg",
 			"48": "https://secure.gravatar.com/avatar/b951786190f3685347cd2cd6889cf0ab?s=48&d=mm&r=pg",
 			"96": "https://secure.gravatar.com/avatar/b951786190f3685347cd2cd6889cf0ab?s=96&d=mm&r=pg"
-		},
-		"meta": [],
-		"_links": {
-			"self": [
-				{
-					"href": "https://stevenbenner.com/wp-json/wp/v2/comments/50015"
-				}
-			],
-			"collection": [
-				{
-					"href": "https://stevenbenner.com/wp-json/wp/v2/comments"
-				}
-			],
-			"up": [
-				{
-					"embeddable": true,
-					"post_type": "post",
-					"href": "https://stevenbenner.com/wp-json/wp/v2/posts/1068"
-				}
-			]
 		}
 	},
 	{
 		"id": 29021,
-		"post": 1068,
-		"parent": 0,
 		"author": 0,
 		"author_name": "GUANCH3",
 		"author_url": "",
-		"date": "2011-04-12T09:51:52",
 		"date_gmt": "2011-04-12T16:51:52",
 		"content": {
 			"rendered": "<p>very good tutorial, the best that I have read the tf2</p>\n"
 		},
-		"link": "https://stevenbenner.com/2010/11/how-to-set-up-a-team-fortress-2-dedicated-server-on-ubuntu/#comment-29021",
-		"status": "approved",
-		"type": "comment",
 		"author_avatar_urls": {
 			"24": "https://secure.gravatar.com/avatar/33f268239482c35672f2f7c774aa8f53?s=24&d=mm&r=pg",
 			"48": "https://secure.gravatar.com/avatar/33f268239482c35672f2f7c774aa8f53?s=48&d=mm&r=pg",
 			"96": "https://secure.gravatar.com/avatar/33f268239482c35672f2f7c774aa8f53?s=96&d=mm&r=pg"
-		},
-		"meta": [],
-		"_links": {
-			"self": [
-				{
-					"href": "https://stevenbenner.com/wp-json/wp/v2/comments/29021"
-				}
-			],
-			"collection": [
-				{
-					"href": "https://stevenbenner.com/wp-json/wp/v2/comments"
-				}
-			],
-			"up": [
-				{
-					"embeddable": true,
-					"post_type": "post",
-					"href": "https://stevenbenner.com/wp-json/wp/v2/posts/1068"
-				}
-			]
 		}
 	},
 	{
 		"id": 22188,
-		"post": 1068,
-		"parent": 0,
 		"author": 0,
 		"author_name": "Eric Reinsmidt",
 		"author_url": "http://gigaloop.com",
-		"date": "2011-02-19T22:58:18",
 		"date_gmt": "2011-02-20T06:58:18",
 		"content": {
 			"rendered": "<p>Just a heads up.  There is a typo in the &#8216;srcds&#8217; script.  Nothing major, but when you grep for when the process is running you need to look for &#8216;srcds_r&#8217; not &#8216;hlds_r&#8217; in this line:</p>\n<p> ps aux | grep -v grep | grep hlds_r &gt; /dev/null</p>\n<p>otherwise it shows the service as always down.</p>\n<p>Thanks for the succint intro on setting up a server.  I had my home TF2 server up and running in just a couple of hours!</p>\n"
 		},
-		"link": "https://stevenbenner.com/2010/11/how-to-set-up-a-team-fortress-2-dedicated-server-on-ubuntu/#comment-22188",
-		"status": "approved",
-		"type": "comment",
 		"author_avatar_urls": {
 			"24": "https://secure.gravatar.com/avatar/74abc3fa7120f87cf1a1abd1e6431fdd?s=24&d=mm&r=pg",
 			"48": "https://secure.gravatar.com/avatar/74abc3fa7120f87cf1a1abd1e6431fdd?s=48&d=mm&r=pg",
 			"96": "https://secure.gravatar.com/avatar/74abc3fa7120f87cf1a1abd1e6431fdd?s=96&d=mm&r=pg"
-		},
-		"meta": [],
-		"_links": {
-			"self": [
-				{
-					"href": "https://stevenbenner.com/wp-json/wp/v2/comments/22188"
-				}
-			],
-			"collection": [
-				{
-					"href": "https://stevenbenner.com/wp-json/wp/v2/comments"
-				}
-			],
-			"up": [
-				{
-					"embeddable": true,
-					"post_type": "post",
-					"href": "https://stevenbenner.com/wp-json/wp/v2/posts/1068"
-				}
-			]
 		}
 	},
 	{
 		"id": 20984,
-		"post": 1068,
-		"parent": 0,
 		"author": 0,
 		"author_name": "cralor",
 		"author_url": "",
-		"date": "2011-02-10T13:42:37",
 		"date_gmt": "2011-02-10T21:42:37",
 		"content": {
 			"rendered": "<p>nitramneb has a great tip!</p>\n<p>This fixed the permission issues I was having with 10.10!</p>\n<p>Thanks for the guide!</p>\n"
 		},
-		"link": "https://stevenbenner.com/2010/11/how-to-set-up-a-team-fortress-2-dedicated-server-on-ubuntu/#comment-20984",
-		"status": "approved",
-		"type": "comment",
 		"author_avatar_urls": {
 			"24": "https://secure.gravatar.com/avatar/b8f442bb4c80870af97f122028faebf6?s=24&d=mm&r=pg",
 			"48": "https://secure.gravatar.com/avatar/b8f442bb4c80870af97f122028faebf6?s=48&d=mm&r=pg",
 			"96": "https://secure.gravatar.com/avatar/b8f442bb4c80870af97f122028faebf6?s=96&d=mm&r=pg"
-		},
-		"meta": [],
-		"_links": {
-			"self": [
-				{
-					"href": "https://stevenbenner.com/wp-json/wp/v2/comments/20984"
-				}
-			],
-			"collection": [
-				{
-					"href": "https://stevenbenner.com/wp-json/wp/v2/comments"
-				}
-			],
-			"up": [
-				{
-					"embeddable": true,
-					"post_type": "post",
-					"href": "https://stevenbenner.com/wp-json/wp/v2/posts/1068"
-				}
-			]
 		}
 	},
 	{
 		"id": 20451,
-		"post": 1068,
-		"parent": 0,
 		"author": 0,
 		"author_name": "nitramneb",
 		"author_url": "",
-		"date": "2011-02-06T13:12:03",
 		"date_gmt": "2011-02-06T21:12:03",
 		"content": {
 			"rendered": "<p>Solved it with</p>\n<p>sudo chmod a+x /etc/init.d/srcds</p>\n"
 		},
-		"link": "https://stevenbenner.com/2010/11/how-to-set-up-a-team-fortress-2-dedicated-server-on-ubuntu/#comment-20451",
-		"status": "approved",
-		"type": "comment",
 		"author_avatar_urls": {
 			"24": "https://secure.gravatar.com/avatar/293bf5d40d8692931de62b90f03bb206?s=24&d=mm&r=pg",
 			"48": "https://secure.gravatar.com/avatar/293bf5d40d8692931de62b90f03bb206?s=48&d=mm&r=pg",
 			"96": "https://secure.gravatar.com/avatar/293bf5d40d8692931de62b90f03bb206?s=96&d=mm&r=pg"
-		},
-		"meta": [],
-		"_links": {
-			"self": [
-				{
-					"href": "https://stevenbenner.com/wp-json/wp/v2/comments/20451"
-				}
-			],
-			"collection": [
-				{
-					"href": "https://stevenbenner.com/wp-json/wp/v2/comments"
-				}
-			],
-			"up": [
-				{
-					"embeddable": true,
-					"post_type": "post",
-					"href": "https://stevenbenner.com/wp-json/wp/v2/posts/1068"
-				}
-			]
 		}
 	},
 	{
 		"id": 20449,
-		"post": 1068,
-		"parent": 0,
 		"author": 0,
 		"author_name": "nitramneb",
 		"author_url": "",
-		"date": "2011-02-06T12:22:01",
 		"date_gmt": "2011-02-06T20:22:01",
 		"content": {
 			"rendered": "<p>Hi Steve<br />\nI have been having the same trouble as Hobatter</p>\n<p>sudo /etc/init.d/srcds start</p>\n<p>gives me<br />\ncommand not found.</p>\n<p>Which is strange the file is defiantly in the directory I can see it in GUI and can do an LS in putty in the directory and see it as well.</p>\n<p>A friend of mine says it may be the permissions?? (i&#8217;m sure we gave the account full permission) or the type of file the GUI identifies it as a plain txt document everything else is ssh</p>\n"
 		},
-		"link": "https://stevenbenner.com/2010/11/how-to-set-up-a-team-fortress-2-dedicated-server-on-ubuntu/#comment-20449",
-		"status": "approved",
-		"type": "comment",
 		"author_avatar_urls": {
 			"24": "https://secure.gravatar.com/avatar/293bf5d40d8692931de62b90f03bb206?s=24&d=mm&r=pg",
 			"48": "https://secure.gravatar.com/avatar/293bf5d40d8692931de62b90f03bb206?s=48&d=mm&r=pg",
 			"96": "https://secure.gravatar.com/avatar/293bf5d40d8692931de62b90f03bb206?s=96&d=mm&r=pg"
-		},
-		"meta": [],
-		"_links": {
-			"self": [
-				{
-					"href": "https://stevenbenner.com/wp-json/wp/v2/comments/20449"
-				}
-			],
-			"collection": [
-				{
-					"href": "https://stevenbenner.com/wp-json/wp/v2/comments"
-				}
-			],
-			"up": [
-				{
-					"embeddable": true,
-					"post_type": "post",
-					"href": "https://stevenbenner.com/wp-json/wp/v2/posts/1068"
-				}
-			]
 		}
 	},
 	{
 		"id": 19765,
-		"post": 1068,
-		"parent": 0,
 		"author": 2,
 		"author_name": "Steven Benner",
 		"author_url": "http://stevenbenner.com/",
-		"date": "2011-01-29T18:22:53",
 		"date_gmt": "2011-01-30T02:22:53",
 		"content": {
 			"rendered": "<p><b>Less-than 50ms</b><br />\nYeah, had the wrong symbol in front of the 50ms number. Changed that to a less-than symbol.</p>\n<p><b>32 bit vs 64 bit OS</b><br />\nIf you&#8217;re going to have more than 4GB of memory then yes, you absolutely need to be running a 64 bit operating system. Though if the box is a dedicated to hlds then you don&#8217;t need that much ram anyway. In my experience the hlds process is more CPU hungry than RAM hungry.</p>\n<p>On the other hand, If you&#8217;re sure that you will never have more than 4GB of memory on that server (VPS, cheap dedicated server, or small home server) then you are much better off with a 32 bit operating system. It will take less memory overhead to run the OS, leaving more for services, and since the hlds process is 32 bit nothing will be gained by having it run on a 64 bit system.</p>\n<p>Personally, I can&#8217;t swing the money for a big dedicated server or a colocation contract, and my home DSL would never support a game server so I would never need a 64-bit OS on the server.</p>\n"
 		},
-		"link": "https://stevenbenner.com/2010/11/how-to-set-up-a-team-fortress-2-dedicated-server-on-ubuntu/#comment-19765",
-		"status": "approved",
-		"type": "comment",
 		"author_avatar_urls": {
 			"24": "https://secure.gravatar.com/avatar/5b09e09f1d9fed4c34e369d02f2edb74?s=24&d=mm&r=pg",
 			"48": "https://secure.gravatar.com/avatar/5b09e09f1d9fed4c34e369d02f2edb74?s=48&d=mm&r=pg",
 			"96": "https://secure.gravatar.com/avatar/5b09e09f1d9fed4c34e369d02f2edb74?s=96&d=mm&r=pg"
-		},
-		"meta": [],
-		"_links": {
-			"self": [
-				{
-					"href": "https://stevenbenner.com/wp-json/wp/v2/comments/19765"
-				}
-			],
-			"collection": [
-				{
-					"href": "https://stevenbenner.com/wp-json/wp/v2/comments"
-				}
-			],
-			"author": [
-				{
-					"embeddable": true,
-					"href": "https://stevenbenner.com/wp-json/wp/v2/users/2"
-				}
-			],
-			"up": [
-				{
-					"embeddable": true,
-					"post_type": "post",
-					"href": "https://stevenbenner.com/wp-json/wp/v2/posts/1068"
-				}
-			]
 		}
 	},
 	{
 		"id": 18067,
-		"post": 1068,
-		"parent": 0,
 		"author": 0,
 		"author_name": "IJ",
 		"author_url": "",
-		"date": "2011-01-20T10:16:37",
 		"date_gmt": "2011-01-20T18:16:37",
 		"content": {
 			"rendered": "<p>A couple of things:</p>\n<p>:Have a good ping (&gt;50ms)</p>\n<p>Don&#8217;t you mean &#8220;50ms&#8221; means &#8220;greater than 50 milliseconds&#8221;.</p>\n<p>If you&#8217;re using 64-bit Ubuntu like I am, you also need to do the following:</p>\n<p># apt-get install libc6-i386</p>\n<p>(I don&#8217;t use sudo, and please don&#8217;t preach to me about it.)</p>\n<p>However, if you are intent on sticking with 32-bit and you have 64-bit-capable hardware, you&#8217;re probably better served if you went 64-bit.  This is especially true if you do other things on that machine or you want to install a lot of memory (&gt;=4GB).  32-bit processors can only address 4GB of RAM, 3GB of it comfortably (certain segments are reserved for items such as video memory and the iike).  Even with PAE (Physical Address Extension) enabled, it still has to jump through hoops to use the additional memory.</p>\n<p>&#8211;IJ.</p>\n"
 		},
-		"link": "https://stevenbenner.com/2010/11/how-to-set-up-a-team-fortress-2-dedicated-server-on-ubuntu/#comment-18067",
-		"status": "approved",
-		"type": "comment",
 		"author_avatar_urls": {
 			"24": "https://secure.gravatar.com/avatar/85be5f6ce9dcef96f1aa9f8b076efc44?s=24&d=mm&r=pg",
 			"48": "https://secure.gravatar.com/avatar/85be5f6ce9dcef96f1aa9f8b076efc44?s=48&d=mm&r=pg",
 			"96": "https://secure.gravatar.com/avatar/85be5f6ce9dcef96f1aa9f8b076efc44?s=96&d=mm&r=pg"
-		},
-		"meta": [],
-		"_links": {
-			"self": [
-				{
-					"href": "https://stevenbenner.com/wp-json/wp/v2/comments/18067"
-				}
-			],
-			"collection": [
-				{
-					"href": "https://stevenbenner.com/wp-json/wp/v2/comments"
-				}
-			],
-			"up": [
-				{
-					"embeddable": true,
-					"post_type": "post",
-					"href": "https://stevenbenner.com/wp-json/wp/v2/posts/1068"
-				}
-			]
 		}
 	},
 	{
 		"id": 16086,
-		"post": 1068,
-		"parent": 0,
 		"author": 2,
 		"author_name": "Steven Benner",
 		"author_url": "http://stevenbenner.com/",
-		"date": "2010-12-16T11:13:30",
 		"date_gmt": "2010-12-16T19:13:30",
 		"content": {
 			"rendered": "<p>Fixed. Sorry about the .com/.net mix up!</p>\n"
 		},
-		"link": "https://stevenbenner.com/2010/11/how-to-set-up-a-team-fortress-2-dedicated-server-on-ubuntu/#comment-16086",
-		"status": "approved",
-		"type": "comment",
 		"author_avatar_urls": {
 			"24": "https://secure.gravatar.com/avatar/5b09e09f1d9fed4c34e369d02f2edb74?s=24&d=mm&r=pg",
 			"48": "https://secure.gravatar.com/avatar/5b09e09f1d9fed4c34e369d02f2edb74?s=48&d=mm&r=pg",
 			"96": "https://secure.gravatar.com/avatar/5b09e09f1d9fed4c34e369d02f2edb74?s=96&d=mm&r=pg"
-		},
-		"meta": [],
-		"_links": {
-			"self": [
-				{
-					"href": "https://stevenbenner.com/wp-json/wp/v2/comments/16086"
-				}
-			],
-			"collection": [
-				{
-					"href": "https://stevenbenner.com/wp-json/wp/v2/comments"
-				}
-			],
-			"author": [
-				{
-					"embeddable": true,
-					"href": "https://stevenbenner.com/wp-json/wp/v2/users/2"
-				}
-			],
-			"up": [
-				{
-					"embeddable": true,
-					"post_type": "post",
-					"href": "https://stevenbenner.com/wp-json/wp/v2/posts/1068"
-				}
-			]
 		}
 	},
 	{
 		"id": 13341,
-		"post": 1068,
-		"parent": 0,
 		"author": 0,
 		"author_name": "FreeNerd",
 		"author_url": "http://www.freenerd.net",
-		"date": "2010-12-15T14:40:17",
 		"date_gmt": "2010-12-15T22:40:17",
 		"content": {
 			"rendered": "<p>Hello.</p>\n<p>I am the gamer/nerd who wrote the guide on freenerd.net.  I don&#8217;t own freenerd.com which is what your article states after the link.  The link is to the correct site, but the comment after of .com will point users to a website I don&#8217;t control or own and they want a FORTUNE for.</p>\n<p>Glad you found the guide useful.</p>\n<p>I am working on a linux COD4 guide currently.  I have the server online and am in the process of running back over the steps taken to document the process.</p>\n<p>Check it out if you are a COD4 player, Friendly Fire Shire is the name of it.</p>\n"
 		},
-		"link": "https://stevenbenner.com/2010/11/how-to-set-up-a-team-fortress-2-dedicated-server-on-ubuntu/#comment-13341",
-		"status": "approved",
-		"type": "comment",
 		"author_avatar_urls": {
 			"24": "https://secure.gravatar.com/avatar/487dc86eeea3ad2831be1a6cfc743d26?s=24&d=mm&r=pg",
 			"48": "https://secure.gravatar.com/avatar/487dc86eeea3ad2831be1a6cfc743d26?s=48&d=mm&r=pg",
 			"96": "https://secure.gravatar.com/avatar/487dc86eeea3ad2831be1a6cfc743d26?s=96&d=mm&r=pg"
-		},
-		"meta": [],
-		"_links": {
-			"self": [
-				{
-					"href": "https://stevenbenner.com/wp-json/wp/v2/comments/13341"
-				}
-			],
-			"collection": [
-				{
-					"href": "https://stevenbenner.com/wp-json/wp/v2/comments"
-				}
-			],
-			"up": [
-				{
-					"embeddable": true,
-					"post_type": "post",
-					"href": "https://stevenbenner.com/wp-json/wp/v2/posts/1068"
-				}
-			]
 		}
 	},
 	{
 		"id": 11953,
-		"post": 1068,
-		"parent": 0,
 		"author": 2,
 		"author_name": "Steven Benner",
 		"author_url": "http://stevenbenner.com/",
-		"date": "2010-12-04T14:05:30",
 		"date_gmt": "2010-12-04T22:05:30",
 		"content": {
 			"rendered": "<p>Thanks for the feedback. Yeah I probably should tell people how to get these files on to their systems.</p>\n<p><b>On file transfers</b></p>\n<p>Personally I don&#8217;t run regular FTP servers on my systems, except for file hosting which will only accept anonymous logins. Allowing uploads through FTP is always a bad idea.</p>\n<p>I do use SFTP with FileZilla for secure uploads, but even this I have locked down pretty well. The only place I can upload files is to my home directory. I then have to use the shell to move files around and change their owners.</p>\n<p>I would recommend using SFTP or just wget to acquire files. Since you will be downloading files from the internet anyway wget will skip the middle step.</p>\n<p>When you&#8217;re SSH&#8217;ed in your home directory you can download and extract files like this:</p>\n<pre>wget http://some.domain/directory/filename.tar.gz\r\ntar xzvf filename.tar.gz</pre>\n<p>The wget command downloads the file and tar with the x flag extracts the contents to the current directory. For a nice (human readable) guide on tar check out <a href=\"http://aliyev.ws/?p=34\" rel=\"nofollow\">http://aliyev.ws/?p=34</a></p>\n<p>Once you have the files extracted you can move them around with the mv command.</p>\n<pre>mv mymod.smx orangebox/tf/addons/sourcemod/plugins</pre>\n<p>The first part is the file to move, the second part is the destination. You will have to sudo this if the destination directory doesn&#8217;t belong to your user/group.</p>\n<p><b>On your script error</b></p>\n<p>This should work on basically any version of Ubuntu&#8230; I&#8217;m not that great at shell scripting, but could you paste the exact error message you get when you try to run the srcds script?</p>\n<p>Generally, you shouldn&#8217;t need to sudo the script, but it should prompt your for a password. This will be the password for the user account that you have set it to run the srcds process under (either your regular account or hlds).</p>\n"
 		},
-		"link": "https://stevenbenner.com/2010/11/how-to-set-up-a-team-fortress-2-dedicated-server-on-ubuntu/#comment-11953",
-		"status": "approved",
-		"type": "comment",
 		"author_avatar_urls": {
 			"24": "https://secure.gravatar.com/avatar/5b09e09f1d9fed4c34e369d02f2edb74?s=24&d=mm&r=pg",
 			"48": "https://secure.gravatar.com/avatar/5b09e09f1d9fed4c34e369d02f2edb74?s=48&d=mm&r=pg",
 			"96": "https://secure.gravatar.com/avatar/5b09e09f1d9fed4c34e369d02f2edb74?s=96&d=mm&r=pg"
-		},
-		"meta": [],
-		"_links": {
-			"self": [
-				{
-					"href": "https://stevenbenner.com/wp-json/wp/v2/comments/11953"
-				}
-			],
-			"collection": [
-				{
-					"href": "https://stevenbenner.com/wp-json/wp/v2/comments"
-				}
-			],
-			"author": [
-				{
-					"embeddable": true,
-					"href": "https://stevenbenner.com/wp-json/wp/v2/users/2"
-				}
-			],
-			"up": [
-				{
-					"embeddable": true,
-					"post_type": "post",
-					"href": "https://stevenbenner.com/wp-json/wp/v2/posts/1068"
-				}
-			]
 		}
 	},
 	{
 		"id": 11844,
-		"post": 1068,
-		"parent": 0,
 		"author": 0,
 		"author_name": "Hobatter",
 		"author_url": "",
-		"date": "2010-12-03T12:56:23",
 		"date_gmt": "2010-12-03T20:56:23",
 		"content": {
 			"rendered": "<p>I use Putty generally to administer from a remote pc/netbook and was trying to get the point across about no detail in the FTP transfer (by default uploading is disabled in Ubuntu) and know of no Ubuntu package for sourcemod. You can directly download sourcemod/metamod  but in most of the instructions I see they say to extract it first from the compressed file then upload. In the article is says it is fairly easy. I would argue that for anyone with limited Linux experience. I came across this looking for how to run TF2 as a service and still had no luck. I have 10.4 and 10.10 loaded on 2 servers and both give me invalid command when I run<br />\nsudo /etc/init.d/srcds start<br />\n/etc/init.d/srcds start gives me premission errors<br />\nI have tried to load this using a root account and a user account.</p>\n"
 		},
-		"link": "https://stevenbenner.com/2010/11/how-to-set-up-a-team-fortress-2-dedicated-server-on-ubuntu/#comment-11844",
-		"status": "approved",
-		"type": "comment",
 		"author_avatar_urls": {
 			"24": "https://secure.gravatar.com/avatar/d89b22bb0c6459080c20b739ef8513de?s=24&d=mm&r=pg",
 			"48": "https://secure.gravatar.com/avatar/d89b22bb0c6459080c20b739ef8513de?s=48&d=mm&r=pg",
 			"96": "https://secure.gravatar.com/avatar/d89b22bb0c6459080c20b739ef8513de?s=96&d=mm&r=pg"
-		},
-		"meta": [],
-		"_links": {
-			"self": [
-				{
-					"href": "https://stevenbenner.com/wp-json/wp/v2/comments/11844"
-				}
-			],
-			"collection": [
-				{
-					"href": "https://stevenbenner.com/wp-json/wp/v2/comments"
-				}
-			],
-			"up": [
-				{
-					"embeddable": true,
-					"post_type": "post",
-					"href": "https://stevenbenner.com/wp-json/wp/v2/posts/1068"
-				}
-			]
 		}
 	},
 	{
 		"id": 11838,
-		"post": 1068,
-		"parent": 0,
 		"author": 0,
 		"author_name": "Random tech dude",
 		"author_url": "",
-		"date": "2010-12-03T11:34:37",
 		"date_gmt": "2010-12-03T19:34:37",
 		"content": {
 			"rendered": "<p>@Hobatter if you use any kind of decent SSH server (OpenSSH etc) to manage your box, you will know that they come with SFTP included which is very handy and fast. Plus you can install sourcemod by only using console commands, no FTP is really needed.</p>\n<p>For more info <a href=\"http://en.wikipedia.org/wiki/Secure_Shell\" rel=\"nofollow\">http://en.wikipedia.org/wiki/Secure_Shell</a></p>\n"
 		},
-		"link": "https://stevenbenner.com/2010/11/how-to-set-up-a-team-fortress-2-dedicated-server-on-ubuntu/#comment-11838",
-		"status": "approved",
-		"type": "comment",
 		"author_avatar_urls": {
 			"24": "https://secure.gravatar.com/avatar/1041656e0c456cb506c06edd46be5f34?s=24&d=mm&r=pg",
 			"48": "https://secure.gravatar.com/avatar/1041656e0c456cb506c06edd46be5f34?s=48&d=mm&r=pg",
 			"96": "https://secure.gravatar.com/avatar/1041656e0c456cb506c06edd46be5f34?s=96&d=mm&r=pg"
-		},
-		"meta": [],
-		"_links": {
-			"self": [
-				{
-					"href": "https://stevenbenner.com/wp-json/wp/v2/comments/11838"
-				}
-			],
-			"collection": [
-				{
-					"href": "https://stevenbenner.com/wp-json/wp/v2/comments"
-				}
-			],
-			"up": [
-				{
-					"embeddable": true,
-					"post_type": "post",
-					"href": "https://stevenbenner.com/wp-json/wp/v2/posts/1068"
-				}
-			]
 		}
 	},
 	{
 		"id": 11576,
-		"post": 1068,
-		"parent": 0,
 		"author": 0,
 		"author_name": "Hobatter",
 		"author_url": "",
-		"date": "2010-12-01T16:25:15",
 		"date_gmt": "2010-12-02T00:25:15",
 		"content": {
 			"rendered": "<p>A good base start for the TF2 install.<br />\nRunning TF2 as a service is a bit more in depth than described. For admins wanting this you may want to read how to use screen before you try. I could not get this to work on Maverick</p>\n<p> Also your Ubuntu setup guide does not tell a user to install &amp; configure the FTP server so you can add sourcemod which is a must to admin the TF2 server. Ubuntu you would<br />\nsudo apt get-install sftpd<br />\nYou will then have to edit the vsftpd.conf file and remove the # from the line to allow uploading. Not going into details on how because that is a tutorial of its own. Just a note</p>\n<p>Good job.</p>\n"
 		},
-		"link": "https://stevenbenner.com/2010/11/how-to-set-up-a-team-fortress-2-dedicated-server-on-ubuntu/#comment-11576",
-		"status": "approved",
-		"type": "comment",
 		"author_avatar_urls": {
 			"24": "https://secure.gravatar.com/avatar/d89b22bb0c6459080c20b739ef8513de?s=24&d=mm&r=pg",
 			"48": "https://secure.gravatar.com/avatar/d89b22bb0c6459080c20b739ef8513de?s=48&d=mm&r=pg",
 			"96": "https://secure.gravatar.com/avatar/d89b22bb0c6459080c20b739ef8513de?s=96&d=mm&r=pg"
-		},
-		"meta": [],
-		"_links": {
-			"self": [
-				{
-					"href": "https://stevenbenner.com/wp-json/wp/v2/comments/11576"
-				}
-			],
-			"collection": [
-				{
-					"href": "https://stevenbenner.com/wp-json/wp/v2/comments"
-				}
-			],
-			"up": [
-				{
-					"embeddable": true,
-					"post_type": "post",
-					"href": "https://stevenbenner.com/wp-json/wp/v2/posts/1068"
-				}
-			]
 		}
 	}
 ]

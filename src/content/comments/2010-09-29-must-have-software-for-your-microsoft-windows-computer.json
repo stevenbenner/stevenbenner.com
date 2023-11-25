@@ -1,1162 +1,422 @@
 [
 	{
 		"id": 86090,
-		"post": 991,
-		"parent": 0,
 		"author": 0,
 		"author_name": "Nestala",
 		"author_url": "",
-		"date": "2014-04-28T00:30:05",
 		"date_gmt": "2014-04-28T07:30:05",
 		"content": {
 			"rendered": "<p>Nice list, although I&#8217;m not agreeing on some programms.<br />\nA good alternative to mIRC is HexChat:<br />\n<a href=\"http://hexchat.github.io/index.html\" rel=\"nofollow\">http://hexchat.github.io/index.html</a></p>\n<p>I really don&#8217;t like uTorrent. It&#8217;s cluttered and I simply don&#8217;t like it. Deluge pleases me much more:<br />\n<a href=\"http://deluge-torrent.org/\" rel=\"nofollow\">http://deluge-torrent.org/</a></p>\n<p>Imo Notepad++ is nice, but Sublime Text is even better. You should check it out:<br />\n<a href=\"http://www.sublimetext.com/\" rel=\"nofollow\">http://www.sublimetext.com/</a></p>\n<p>I don&#8217;t know about NOD32, but a good free anti-virus is Avast!:<br />\n<a href=\"http://www.avast.com/de-de/index\" rel=\"nofollow\">http://www.avast.com/de-de/index</a></p>\n<p>KeePass is good, a nice web based solution would be LastPass (for Chrome and Firefox):<br />\n<a href=\"https://chrome.google.com/webstore/detail/lastpass-free-password-ma/hdokiejnpimakedhajhdlcegeplioahd?hl=de\" rel=\"nofollow\">https://chrome.google.com/webstore/detail/lastpass-free-password-ma/hdokiejnpimakedhajhdlcegeplioahd?hl=de</a></p>\n<p>I think instead of Core Temp, HWMonitor does everything better. You can get it here:<br />\n<a href=\"http://www.cpuid.com/softwares/hwmonitor.html\" rel=\"nofollow\">http://www.cpuid.com/softwares/hwmonitor.html</a></p>\n"
 		},
-		"link": "https://stevenbenner.com/2010/09/must-have-software-for-your-microsoft-windows-computer/#comment-86090",
-		"status": "approved",
-		"type": "comment",
 		"author_avatar_urls": {
 			"24": "https://secure.gravatar.com/avatar/8813dca527843d36f08e91e2669909d8?s=24&d=mm&r=pg",
 			"48": "https://secure.gravatar.com/avatar/8813dca527843d36f08e91e2669909d8?s=48&d=mm&r=pg",
 			"96": "https://secure.gravatar.com/avatar/8813dca527843d36f08e91e2669909d8?s=96&d=mm&r=pg"
-		},
-		"meta": [],
-		"_links": {
-			"self": [
-				{
-					"href": "https://stevenbenner.com/wp-json/wp/v2/comments/86090"
-				}
-			],
-			"collection": [
-				{
-					"href": "https://stevenbenner.com/wp-json/wp/v2/comments"
-				}
-			],
-			"up": [
-				{
-					"embeddable": true,
-					"post_type": "post",
-					"href": "https://stevenbenner.com/wp-json/wp/v2/posts/991"
-				}
-			]
 		}
 	},
 	{
 		"id": 84158,
-		"post": 991,
-		"parent": 0,
 		"author": 0,
 		"author_name": "Daniel",
 		"author_url": "",
-		"date": "2014-01-19T04:27:15",
 		"date_gmt": "2014-01-19T12:27:15",
 		"content": {
 			"rendered": "<p>winscp is many times better than filezilla</p>\n"
 		},
-		"link": "https://stevenbenner.com/2010/09/must-have-software-for-your-microsoft-windows-computer/#comment-84158",
-		"status": "approved",
-		"type": "comment",
 		"author_avatar_urls": {
 			"24": "https://secure.gravatar.com/avatar/16050210be7cb7610a473cf23cbafdcb?s=24&d=mm&r=pg",
 			"48": "https://secure.gravatar.com/avatar/16050210be7cb7610a473cf23cbafdcb?s=48&d=mm&r=pg",
 			"96": "https://secure.gravatar.com/avatar/16050210be7cb7610a473cf23cbafdcb?s=96&d=mm&r=pg"
-		},
-		"meta": [],
-		"_links": {
-			"self": [
-				{
-					"href": "https://stevenbenner.com/wp-json/wp/v2/comments/84158"
-				}
-			],
-			"collection": [
-				{
-					"href": "https://stevenbenner.com/wp-json/wp/v2/comments"
-				}
-			],
-			"up": [
-				{
-					"embeddable": true,
-					"post_type": "post",
-					"href": "https://stevenbenner.com/wp-json/wp/v2/posts/991"
-				}
-			]
 		}
 	},
 	{
 		"id": 84145,
-		"post": 991,
-		"parent": 0,
 		"author": 0,
 		"author_name": "Nicholas Orr",
 		"author_url": "http://nicholasorr.com",
-		"date": "2013-12-30T18:48:45",
 		"date_gmt": "2013-12-31T02:48:45",
 		"content": {
 			"rendered": "<p>So it is 2013 and back in 2010-2008 I had pretty similar list to yours.</p>\n<p>Now Chrome rules and I always used WinSCP/Lastpass instead.<br />\nUpgraded to Sublime Text Editor once E-Text Editor was abandoned.<br />\nPlus need some VirtualBox action as I always deployed to Gentoo so dev env was always Gentoo edited via SMB in Windows lands.</p>\n<p>I am envious of a couple of useful dev tools in OS X land from riothq.com, though they are mostly convenience rather than necessary. Same result is achievable on other platforms with a different workflow and tools to support.</p>\n<p>Curious to see how your list looks now ;)</p>\n<p>My trusty 4 year old XPS13 is being retired in a couple of weeks for a shiny new XPS15 with a 3200&#215;1800 screen. Complements my dual 2560&#215;1600 30&#8243; Dell screens on my desktop.</p>\n"
 		},
-		"link": "https://stevenbenner.com/2010/09/must-have-software-for-your-microsoft-windows-computer/#comment-84145",
-		"status": "approved",
-		"type": "comment",
 		"author_avatar_urls": {
 			"24": "https://secure.gravatar.com/avatar/d07cb7e4c1749e027447bd3b250c302f?s=24&d=mm&r=pg",
 			"48": "https://secure.gravatar.com/avatar/d07cb7e4c1749e027447bd3b250c302f?s=48&d=mm&r=pg",
 			"96": "https://secure.gravatar.com/avatar/d07cb7e4c1749e027447bd3b250c302f?s=96&d=mm&r=pg"
-		},
-		"meta": [],
-		"_links": {
-			"self": [
-				{
-					"href": "https://stevenbenner.com/wp-json/wp/v2/comments/84145"
-				}
-			],
-			"collection": [
-				{
-					"href": "https://stevenbenner.com/wp-json/wp/v2/comments"
-				}
-			],
-			"up": [
-				{
-					"embeddable": true,
-					"post_type": "post",
-					"href": "https://stevenbenner.com/wp-json/wp/v2/posts/991"
-				}
-			]
 		}
 	},
 	{
 		"id": 83548,
-		"post": 991,
-		"parent": 0,
 		"author": 0,
 		"author_name": "Jeff Darling",
 		"author_url": "http://www.polysyncronism.com/wordpress",
-		"date": "2012-12-01T08:54:27",
 		"date_gmt": "2012-12-01T16:54:27",
 		"content": {
 			"rendered": "<p>If you are in need of an excellent Windows HEX editor that can edit both disk files and memory and can open a file of any size and edit it immediately then check out WINHEX.</p>\n<p><a href=\"http://winhex.com/\" rel=\"nofollow\">http://winhex.com/</a></p>\n<p>I have opened files larger than 200GB with this program.</p>\n"
 		},
-		"link": "https://stevenbenner.com/2010/09/must-have-software-for-your-microsoft-windows-computer/#comment-83548",
-		"status": "approved",
-		"type": "comment",
 		"author_avatar_urls": {
 			"24": "https://secure.gravatar.com/avatar/c1e8834e40ef01f8902963f7ee5a1132?s=24&d=mm&r=pg",
 			"48": "https://secure.gravatar.com/avatar/c1e8834e40ef01f8902963f7ee5a1132?s=48&d=mm&r=pg",
 			"96": "https://secure.gravatar.com/avatar/c1e8834e40ef01f8902963f7ee5a1132?s=96&d=mm&r=pg"
-		},
-		"meta": [],
-		"_links": {
-			"self": [
-				{
-					"href": "https://stevenbenner.com/wp-json/wp/v2/comments/83548"
-				}
-			],
-			"collection": [
-				{
-					"href": "https://stevenbenner.com/wp-json/wp/v2/comments"
-				}
-			],
-			"up": [
-				{
-					"embeddable": true,
-					"post_type": "post",
-					"href": "https://stevenbenner.com/wp-json/wp/v2/posts/991"
-				}
-			]
 		}
 	},
 	{
 		"id": 80655,
-		"post": 991,
-		"parent": 0,
 		"author": 0,
 		"author_name": "Alexander",
 		"author_url": "",
-		"date": "2011-11-10T22:15:03",
 		"date_gmt": "2011-11-11T06:15:03",
 		"content": {
 			"rendered": "<p>Winscp  &#8211; secure ftp/ssh client.</p>\n<p>PHPStorm &#8211; amazing PHP editor &#8211; it costs 50$, but very useful, especially for refactoring your code.</p>\n"
 		},
-		"link": "https://stevenbenner.com/2010/09/must-have-software-for-your-microsoft-windows-computer/#comment-80655",
-		"status": "approved",
-		"type": "comment",
 		"author_avatar_urls": {
 			"24": "https://secure.gravatar.com/avatar/81f679a537356cf64aedfac751ea30ce?s=24&d=mm&r=pg",
 			"48": "https://secure.gravatar.com/avatar/81f679a537356cf64aedfac751ea30ce?s=48&d=mm&r=pg",
 			"96": "https://secure.gravatar.com/avatar/81f679a537356cf64aedfac751ea30ce?s=96&d=mm&r=pg"
-		},
-		"meta": [],
-		"_links": {
-			"self": [
-				{
-					"href": "https://stevenbenner.com/wp-json/wp/v2/comments/80655"
-				}
-			],
-			"collection": [
-				{
-					"href": "https://stevenbenner.com/wp-json/wp/v2/comments"
-				}
-			],
-			"up": [
-				{
-					"embeddable": true,
-					"post_type": "post",
-					"href": "https://stevenbenner.com/wp-json/wp/v2/posts/991"
-				}
-			]
 		}
 	},
 	{
 		"id": 50421,
-		"post": 991,
-		"parent": 0,
 		"author": 0,
 		"author_name": "Kevin",
 		"author_url": "",
-		"date": "2011-07-06T07:26:02",
 		"date_gmt": "2011-07-06T14:26:02",
 		"content": {
 			"rendered": "<p>Although it is in its infancy, Clementine (<a href=\"http://www.clementine-player.org/\" rel=\"nofollow\">http://www.clementine-player.org/</a>) is a good media player, with some very nice features planned for down the road. Anyone who liked Amarok 1.4 will appreciate what Clementine is bringing to Windows.</p>\n"
 		},
-		"link": "https://stevenbenner.com/2010/09/must-have-software-for-your-microsoft-windows-computer/#comment-50421",
-		"status": "approved",
-		"type": "comment",
 		"author_avatar_urls": {
 			"24": "https://secure.gravatar.com/avatar/c42aea4c9775db8db0c519dfe1dc4a57?s=24&d=mm&r=pg",
 			"48": "https://secure.gravatar.com/avatar/c42aea4c9775db8db0c519dfe1dc4a57?s=48&d=mm&r=pg",
 			"96": "https://secure.gravatar.com/avatar/c42aea4c9775db8db0c519dfe1dc4a57?s=96&d=mm&r=pg"
-		},
-		"meta": [],
-		"_links": {
-			"self": [
-				{
-					"href": "https://stevenbenner.com/wp-json/wp/v2/comments/50421"
-				}
-			],
-			"collection": [
-				{
-					"href": "https://stevenbenner.com/wp-json/wp/v2/comments"
-				}
-			],
-			"up": [
-				{
-					"embeddable": true,
-					"post_type": "post",
-					"href": "https://stevenbenner.com/wp-json/wp/v2/posts/991"
-				}
-			]
 		}
 	},
 	{
 		"id": 43019,
-		"post": 991,
-		"parent": 0,
 		"author": 0,
 		"author_name": "ToddZilla",
 		"author_url": "",
-		"date": "2011-06-10T07:01:32",
 		"date_gmt": "2011-06-10T14:01:32",
 		"content": {
 			"rendered": "<p>Ooops forgot Cobian Backup, this is   a great freeware backup tool<br />\n<a href=\"http://www.educ.umu.se/~cobian/cobianbackup.htm\" rel=\"nofollow\">http://www.educ.umu.se/~cobian/cobianbackup.htm</a></p>\n"
 		},
-		"link": "https://stevenbenner.com/2010/09/must-have-software-for-your-microsoft-windows-computer/#comment-43019",
-		"status": "approved",
-		"type": "comment",
 		"author_avatar_urls": {
 			"24": "https://secure.gravatar.com/avatar/0ce290201654da345bc0845c05c1a293?s=24&d=mm&r=pg",
 			"48": "https://secure.gravatar.com/avatar/0ce290201654da345bc0845c05c1a293?s=48&d=mm&r=pg",
 			"96": "https://secure.gravatar.com/avatar/0ce290201654da345bc0845c05c1a293?s=96&d=mm&r=pg"
-		},
-		"meta": [],
-		"_links": {
-			"self": [
-				{
-					"href": "https://stevenbenner.com/wp-json/wp/v2/comments/43019"
-				}
-			],
-			"collection": [
-				{
-					"href": "https://stevenbenner.com/wp-json/wp/v2/comments"
-				}
-			],
-			"up": [
-				{
-					"embeddable": true,
-					"post_type": "post",
-					"href": "https://stevenbenner.com/wp-json/wp/v2/posts/991"
-				}
-			]
 		}
 	},
 	{
 		"id": 43018,
-		"post": 991,
-		"parent": 0,
 		"author": 0,
 		"author_name": "ToddZilla",
 		"author_url": "",
-		"date": "2011-06-10T06:54:03",
 		"date_gmt": "2011-06-10T13:54:03",
 		"content": {
 			"rendered": "<p>This is a good list, however might want to add a couple:</p>\n<p>PS Pad a full feature FreeWareText Editor<br />\n<a href=\"http://www.pspad.com/en/download.php\" rel=\"nofollow\">http://www.pspad.com/en/download.php</a></p>\n<p>KeePass Password Manager<br />\nI like this program as you can keep the executable on a USB stick with the password database<br />\n<a href=\"http://keepass.info/download.html\" rel=\"nofollow\">http://keepass.info/download.html</a></p>\n<p>Eclipse J2EE Development Environment<br />\n<a href=\"http://www.eclipse.org/downloads/\" rel=\"nofollow\">http://www.eclipse.org/downloads/</a></p>\n"
 		},
-		"link": "https://stevenbenner.com/2010/09/must-have-software-for-your-microsoft-windows-computer/#comment-43018",
-		"status": "approved",
-		"type": "comment",
 		"author_avatar_urls": {
 			"24": "https://secure.gravatar.com/avatar/0ce290201654da345bc0845c05c1a293?s=24&d=mm&r=pg",
 			"48": "https://secure.gravatar.com/avatar/0ce290201654da345bc0845c05c1a293?s=48&d=mm&r=pg",
 			"96": "https://secure.gravatar.com/avatar/0ce290201654da345bc0845c05c1a293?s=96&d=mm&r=pg"
-		},
-		"meta": [],
-		"_links": {
-			"self": [
-				{
-					"href": "https://stevenbenner.com/wp-json/wp/v2/comments/43018"
-				}
-			],
-			"collection": [
-				{
-					"href": "https://stevenbenner.com/wp-json/wp/v2/comments"
-				}
-			],
-			"up": [
-				{
-					"embeddable": true,
-					"post_type": "post",
-					"href": "https://stevenbenner.com/wp-json/wp/v2/posts/991"
-				}
-			]
 		}
 	},
 	{
 		"id": 33369,
-		"post": 991,
-		"parent": 0,
 		"author": 0,
 		"author_name": "adil",
 		"author_url": "",
-		"date": "2011-05-10T02:06:12",
 		"date_gmt": "2011-05-10T09:06:12",
 		"content": {
 			"rendered": "<p>veery good list :D, thanks!</p>\n"
 		},
-		"link": "https://stevenbenner.com/2010/09/must-have-software-for-your-microsoft-windows-computer/#comment-33369",
-		"status": "approved",
-		"type": "comment",
 		"author_avatar_urls": {
 			"24": "https://secure.gravatar.com/avatar/12e4232e859aa0f86e27a7bc9aed7730?s=24&d=mm&r=pg",
 			"48": "https://secure.gravatar.com/avatar/12e4232e859aa0f86e27a7bc9aed7730?s=48&d=mm&r=pg",
 			"96": "https://secure.gravatar.com/avatar/12e4232e859aa0f86e27a7bc9aed7730?s=96&d=mm&r=pg"
-		},
-		"meta": [],
-		"_links": {
-			"self": [
-				{
-					"href": "https://stevenbenner.com/wp-json/wp/v2/comments/33369"
-				}
-			],
-			"collection": [
-				{
-					"href": "https://stevenbenner.com/wp-json/wp/v2/comments"
-				}
-			],
-			"up": [
-				{
-					"embeddable": true,
-					"post_type": "post",
-					"href": "https://stevenbenner.com/wp-json/wp/v2/posts/991"
-				}
-			]
 		}
 	},
 	{
 		"id": 23909,
-		"post": 991,
-		"parent": 0,
 		"author": 0,
 		"author_name": "Grant",
 		"author_url": "http://taggercat.com",
-		"date": "2011-03-05T14:44:41",
 		"date_gmt": "2011-03-05T22:44:41",
 		"content": {
 			"rendered": "<p>This is a very good list</p>\n<p>FileZilla is good, but I&#8217;ve found it can conflict with other installed apps. So, I started using the FireFtp FF extension, and really like it. </p>\n<p>Since it is just a browser extension, I can get it installed wherever I am; even in IT shops with over zealous sys-admins.</p>\n<p><a href=\"http://fireftp.mozdev.org/\" rel=\"nofollow\">http://fireftp.mozdev.org/</a></p>\n"
 		},
-		"link": "https://stevenbenner.com/2010/09/must-have-software-for-your-microsoft-windows-computer/#comment-23909",
-		"status": "approved",
-		"type": "comment",
 		"author_avatar_urls": {
 			"24": "https://secure.gravatar.com/avatar/c24126d331c167a57b3cd53759e06a0b?s=24&d=mm&r=pg",
 			"48": "https://secure.gravatar.com/avatar/c24126d331c167a57b3cd53759e06a0b?s=48&d=mm&r=pg",
 			"96": "https://secure.gravatar.com/avatar/c24126d331c167a57b3cd53759e06a0b?s=96&d=mm&r=pg"
-		},
-		"meta": [],
-		"_links": {
-			"self": [
-				{
-					"href": "https://stevenbenner.com/wp-json/wp/v2/comments/23909"
-				}
-			],
-			"collection": [
-				{
-					"href": "https://stevenbenner.com/wp-json/wp/v2/comments"
-				}
-			],
-			"up": [
-				{
-					"embeddable": true,
-					"post_type": "post",
-					"href": "https://stevenbenner.com/wp-json/wp/v2/posts/991"
-				}
-			]
 		}
 	},
 	{
 		"id": 20015,
-		"post": 991,
-		"parent": 0,
 		"author": 0,
 		"author_name": "Atlscrog",
 		"author_url": "http://www.illuminateandenumerate.com",
-		"date": "2011-02-03T07:38:17",
 		"date_gmt": "2011-02-03T15:38:17",
 		"content": {
 			"rendered": "<p>@ Steven Brenner</p>\n<p>LOL</p>\n"
 		},
-		"link": "https://stevenbenner.com/2010/09/must-have-software-for-your-microsoft-windows-computer/#comment-20015",
-		"status": "approved",
-		"type": "comment",
 		"author_avatar_urls": {
 			"24": "https://secure.gravatar.com/avatar/54d51b7116f9dbac615165e0b792cdaf?s=24&d=mm&r=pg",
 			"48": "https://secure.gravatar.com/avatar/54d51b7116f9dbac615165e0b792cdaf?s=48&d=mm&r=pg",
 			"96": "https://secure.gravatar.com/avatar/54d51b7116f9dbac615165e0b792cdaf?s=96&d=mm&r=pg"
-		},
-		"meta": [],
-		"_links": {
-			"self": [
-				{
-					"href": "https://stevenbenner.com/wp-json/wp/v2/comments/20015"
-				}
-			],
-			"collection": [
-				{
-					"href": "https://stevenbenner.com/wp-json/wp/v2/comments"
-				}
-			],
-			"up": [
-				{
-					"embeddable": true,
-					"post_type": "post",
-					"href": "https://stevenbenner.com/wp-json/wp/v2/posts/991"
-				}
-			]
 		}
 	},
 	{
 		"id": 19896,
-		"post": 991,
-		"parent": 0,
 		"author": 2,
 		"author_name": "Steven Benner",
 		"author_url": "http://stevenbenner.com/",
-		"date": "2011-02-02T12:43:03",
 		"date_gmt": "2011-02-02T20:43:03",
 		"content": {
 			"rendered": "<p><b>@penge</b></p>\n<p>Recently started using KeePass myself. That is the best password manager I have ever seen. Stupidly strong unique passwords for every login, it&#8217;s unnecessary, but so awesome.</p>\n<p><b>@JBENOIT</b></p>\n<p>I&#8217;ve tried to hop on the opera bandwagon a couple times over the years, but it just lacks the extensibility I need. Lack of developer tools, lack of extensions and lack of customizations. It&#8217;s reasonably fast and secure, but I&#8217;ll stick with Firefox.</p>\n<p><b>@Taylor</b></p>\n<p>Wow, I&#8217;ve never even heard of Sublime Text. I&#8217;m trying it out now and so far it is awesome. It&#8217;s not as&#8230; free, as Notepad++ and I have become very accustomed to the NP++ features, shortcuts and interface. But I&#8217;ll give this one a shot, first impression is very good.</p>\n<p><b>@Danny</b></p>\n<p>Haha, you&#8217;re right of course. I haven&#8217;t done any real C++ development in years, but I did completely give up on VS when I last tried, mostly because of the API to be honest. MFC made me cry every time I tried to do even simple tasks.</p>\n<p>On the topic of source control in Visual Studio, yeah, VSS can&#8217;t be compared to real cvs systems, but it&#8217;s hyper-simplicity does have its place, and that place is not enterprise code development. The latest Visual Studio for enterprise uses Team Foundation Server for versioning. It has many more features (such as, oh&#8230; real branches, finally), but it is slower. I haven&#8217;t done too much with it so far. It is simple for developers to work in, but slower and totally integrated into the environment. I can&#8217;t really say that I like it or I hate it, yet.</p>\n<p>For .NET development, VS2010 is the IDE that every other IDE wants to be. Development is so smooth and efficient. But I will admit that at this point everything about VS has been designed around improving the .NET developers&#8217; experience.</p>\n<p><b>@Atlscrog</b></p>\n<p>Cygwin, that&#8217;s a name I haven&#8217;t heard in years, other than a co-worker randomly mentioning it just this morning. My response was &#8220;1998 called, they want their linux emulator back&#8221; :) I don&#8217;t do much command line stuff on my Windows desktops. Windows search still sucks, but has gotten better. And for grep I use PowerGrep, not free but my company has a bazillion licenses for it.</p>\n"
 		},
-		"link": "https://stevenbenner.com/2010/09/must-have-software-for-your-microsoft-windows-computer/#comment-19896",
-		"status": "approved",
-		"type": "comment",
 		"author_avatar_urls": {
 			"24": "https://secure.gravatar.com/avatar/5b09e09f1d9fed4c34e369d02f2edb74?s=24&d=mm&r=pg",
 			"48": "https://secure.gravatar.com/avatar/5b09e09f1d9fed4c34e369d02f2edb74?s=48&d=mm&r=pg",
 			"96": "https://secure.gravatar.com/avatar/5b09e09f1d9fed4c34e369d02f2edb74?s=96&d=mm&r=pg"
-		},
-		"meta": [],
-		"_links": {
-			"self": [
-				{
-					"href": "https://stevenbenner.com/wp-json/wp/v2/comments/19896"
-				}
-			],
-			"collection": [
-				{
-					"href": "https://stevenbenner.com/wp-json/wp/v2/comments"
-				}
-			],
-			"author": [
-				{
-					"embeddable": true,
-					"href": "https://stevenbenner.com/wp-json/wp/v2/users/2"
-				}
-			],
-			"up": [
-				{
-					"embeddable": true,
-					"post_type": "post",
-					"href": "https://stevenbenner.com/wp-json/wp/v2/posts/991"
-				}
-			]
 		}
 	},
 	{
 		"id": 19877,
-		"post": 991,
-		"parent": 0,
 		"author": 0,
 		"author_name": "Atlscrog",
 		"author_url": "http://www.illuminateandenumerate.com",
-		"date": "2011-02-02T09:53:59",
 		"date_gmt": "2011-02-02T17:53:59",
 		"content": {
 			"rendered": "<p>I would also include Cygwin or the Windows ports of &#8216;find&#8217; and &#8216;grep&#8217;.  I also use Tortoise but have recently started learning git, which comes with an environment that looks to be built on Ming.</p>\n"
 		},
-		"link": "https://stevenbenner.com/2010/09/must-have-software-for-your-microsoft-windows-computer/#comment-19877",
-		"status": "approved",
-		"type": "comment",
 		"author_avatar_urls": {
 			"24": "https://secure.gravatar.com/avatar/54d51b7116f9dbac615165e0b792cdaf?s=24&d=mm&r=pg",
 			"48": "https://secure.gravatar.com/avatar/54d51b7116f9dbac615165e0b792cdaf?s=48&d=mm&r=pg",
 			"96": "https://secure.gravatar.com/avatar/54d51b7116f9dbac615165e0b792cdaf?s=96&d=mm&r=pg"
-		},
-		"meta": [],
-		"_links": {
-			"self": [
-				{
-					"href": "https://stevenbenner.com/wp-json/wp/v2/comments/19877"
-				}
-			],
-			"collection": [
-				{
-					"href": "https://stevenbenner.com/wp-json/wp/v2/comments"
-				}
-			],
-			"up": [
-				{
-					"embeddable": true,
-					"post_type": "post",
-					"href": "https://stevenbenner.com/wp-json/wp/v2/posts/991"
-				}
-			]
 		}
 	},
 	{
 		"id": 19846,
-		"post": 991,
-		"parent": 0,
 		"author": 0,
 		"author_name": "Danny",
 		"author_url": "",
-		"date": "2011-02-02T05:34:45",
 		"date_gmt": "2011-02-02T13:34:45",
 		"content": {
 			"rendered": "<p>Microsoft Visual Studio may be good for #C/Silverlight/.Net development, but for C/C++ development it&#8217;s downright *horrible*. It barely supports C89 (a 20+ year old standard) and there&#8217;s little chance of ever seeing C99 supported (much of which is just headers ffs).</p>\n<p>C++ support isn&#8217;t much better. VS2008 finally added support for C++ 2003 but VS2010 has issues with C++0x.</p>\n<p>The code editor is glitchy as hell with whole blocks of code occasionally disappearing. Intellisense is next to useless as is code navigation (the Goto Deceleration/Definition functions often fail to find symbols a few lines above).</p>\n<p>There are issues with nmake randomly issuing warnings about incompatible flags that don&#8217;t exist. </p>\n<p>Version control support is non-existent with the exception of VSS which should be considered dangerous.</p>\n<p>There is no undo within the IDE itself so accidently re-arranging the project tree cannot be undone. And tabbed/floating panel system is seriously glitchy.</p>\n<p>And have you seen the project settings dialogs? What a nightmare.</p>\n<p>The only decent things are the solid project management and the debugger (when it works).</p>\n"
 		},
-		"link": "https://stevenbenner.com/2010/09/must-have-software-for-your-microsoft-windows-computer/#comment-19846",
-		"status": "approved",
-		"type": "comment",
 		"author_avatar_urls": {
 			"24": "https://secure.gravatar.com/avatar/44dae06b7b5c0047bcd2b9c68c928ad2?s=24&d=mm&r=pg",
 			"48": "https://secure.gravatar.com/avatar/44dae06b7b5c0047bcd2b9c68c928ad2?s=48&d=mm&r=pg",
 			"96": "https://secure.gravatar.com/avatar/44dae06b7b5c0047bcd2b9c68c928ad2?s=96&d=mm&r=pg"
-		},
-		"meta": [],
-		"_links": {
-			"self": [
-				{
-					"href": "https://stevenbenner.com/wp-json/wp/v2/comments/19846"
-				}
-			],
-			"collection": [
-				{
-					"href": "https://stevenbenner.com/wp-json/wp/v2/comments"
-				}
-			],
-			"up": [
-				{
-					"embeddable": true,
-					"post_type": "post",
-					"href": "https://stevenbenner.com/wp-json/wp/v2/posts/991"
-				}
-			]
 		}
 	},
 	{
 		"id": 19701,
-		"post": 991,
-		"parent": 0,
 		"author": 0,
 		"author_name": "Taylor",
 		"author_url": "",
-		"date": "2011-02-01T07:07:04",
 		"date_gmt": "2011-02-01T15:07:04",
 		"content": {
 			"rendered": "<p>Check out the &#8220;Sublime Text&#8221; text editor. It&#8217;s a beauty!</p>\n"
 		},
-		"link": "https://stevenbenner.com/2010/09/must-have-software-for-your-microsoft-windows-computer/#comment-19701",
-		"status": "approved",
-		"type": "comment",
 		"author_avatar_urls": {
 			"24": "https://secure.gravatar.com/avatar/f30ff8ad2367afd407a1678e7d8d851f?s=24&d=mm&r=pg",
 			"48": "https://secure.gravatar.com/avatar/f30ff8ad2367afd407a1678e7d8d851f?s=48&d=mm&r=pg",
 			"96": "https://secure.gravatar.com/avatar/f30ff8ad2367afd407a1678e7d8d851f?s=96&d=mm&r=pg"
-		},
-		"meta": [],
-		"_links": {
-			"self": [
-				{
-					"href": "https://stevenbenner.com/wp-json/wp/v2/comments/19701"
-				}
-			],
-			"collection": [
-				{
-					"href": "https://stevenbenner.com/wp-json/wp/v2/comments"
-				}
-			],
-			"up": [
-				{
-					"embeddable": true,
-					"post_type": "post",
-					"href": "https://stevenbenner.com/wp-json/wp/v2/posts/991"
-				}
-			]
 		}
 	},
 	{
 		"id": 17143,
-		"post": 991,
-		"parent": 0,
 		"author": 0,
 		"author_name": "JBENOIT",
 		"author_url": "http://Notyet;)",
-		"date": "2011-01-14T04:13:02",
 		"date_gmt": "2011-01-14T12:13:02",
 		"content": {
 			"rendered": "<p>In my opinion, best browser is Opera, it is not very light, but so powerful !</p>\n"
 		},
-		"link": "https://stevenbenner.com/2010/09/must-have-software-for-your-microsoft-windows-computer/#comment-17143",
-		"status": "approved",
-		"type": "comment",
 		"author_avatar_urls": {
 			"24": "https://secure.gravatar.com/avatar/fdf8f8d4d9d4f91315e376d7b5ec03a2?s=24&d=mm&r=pg",
 			"48": "https://secure.gravatar.com/avatar/fdf8f8d4d9d4f91315e376d7b5ec03a2?s=48&d=mm&r=pg",
 			"96": "https://secure.gravatar.com/avatar/fdf8f8d4d9d4f91315e376d7b5ec03a2?s=96&d=mm&r=pg"
-		},
-		"meta": [],
-		"_links": {
-			"self": [
-				{
-					"href": "https://stevenbenner.com/wp-json/wp/v2/comments/17143"
-				}
-			],
-			"collection": [
-				{
-					"href": "https://stevenbenner.com/wp-json/wp/v2/comments"
-				}
-			],
-			"up": [
-				{
-					"embeddable": true,
-					"post_type": "post",
-					"href": "https://stevenbenner.com/wp-json/wp/v2/posts/991"
-				}
-			]
 		}
 	},
 	{
 		"id": 11221,
-		"post": 991,
-		"parent": 0,
 		"author": 0,
 		"author_name": "penge",
 		"author_url": "http://pbucka.blogspot.com",
-		"date": "2010-11-28T16:45:16",
 		"date_gmt": "2010-11-29T00:45:16",
 		"content": {
 			"rendered": "<p>KeePass &#8211; Password Manager,<br />\nGomPlayer &#8211; Movie Player,<br />\nTeraCopy &#8211; Seems to be good file transfer manager,<br />\nCesarFTP &#8211; Tiny, easy to control FTP Server,<br />\nACDSee &#8211; Photo Manager,<br />\nBlend &#8211;  WPF and Silverlight developer tool, SketchFlow creation.</p>\n"
 		},
-		"link": "https://stevenbenner.com/2010/09/must-have-software-for-your-microsoft-windows-computer/#comment-11221",
-		"status": "approved",
-		"type": "comment",
 		"author_avatar_urls": {
 			"24": "https://secure.gravatar.com/avatar/ad0afd9d2ffadc08f7d3c0bb4c9ab008?s=24&d=mm&r=pg",
 			"48": "https://secure.gravatar.com/avatar/ad0afd9d2ffadc08f7d3c0bb4c9ab008?s=48&d=mm&r=pg",
 			"96": "https://secure.gravatar.com/avatar/ad0afd9d2ffadc08f7d3c0bb4c9ab008?s=96&d=mm&r=pg"
-		},
-		"meta": [],
-		"_links": {
-			"self": [
-				{
-					"href": "https://stevenbenner.com/wp-json/wp/v2/comments/11221"
-				}
-			],
-			"collection": [
-				{
-					"href": "https://stevenbenner.com/wp-json/wp/v2/comments"
-				}
-			],
-			"up": [
-				{
-					"embeddable": true,
-					"post_type": "post",
-					"href": "https://stevenbenner.com/wp-json/wp/v2/posts/991"
-				}
-			]
 		}
 	},
 	{
 		"id": 11195,
-		"post": 991,
-		"parent": 0,
 		"author": 0,
 		"author_name": "T.Terlemez",
 		"author_url": "",
-		"date": "2010-11-28T11:44:58",
 		"date_gmt": "2010-11-28T19:44:58",
 		"content": {
 			"rendered": "<p>Very good list and share, thanks.</p>\n"
 		},
-		"link": "https://stevenbenner.com/2010/09/must-have-software-for-your-microsoft-windows-computer/#comment-11195",
-		"status": "approved",
-		"type": "comment",
 		"author_avatar_urls": {
 			"24": "https://secure.gravatar.com/avatar/62e96ad30bbea36d33582fbc270affca?s=24&d=mm&r=pg",
 			"48": "https://secure.gravatar.com/avatar/62e96ad30bbea36d33582fbc270affca?s=48&d=mm&r=pg",
 			"96": "https://secure.gravatar.com/avatar/62e96ad30bbea36d33582fbc270affca?s=96&d=mm&r=pg"
-		},
-		"meta": [],
-		"_links": {
-			"self": [
-				{
-					"href": "https://stevenbenner.com/wp-json/wp/v2/comments/11195"
-				}
-			],
-			"collection": [
-				{
-					"href": "https://stevenbenner.com/wp-json/wp/v2/comments"
-				}
-			],
-			"up": [
-				{
-					"embeddable": true,
-					"post_type": "post",
-					"href": "https://stevenbenner.com/wp-json/wp/v2/posts/991"
-				}
-			]
 		}
 	},
 	{
 		"id": 10456,
-		"post": 991,
-		"parent": 0,
 		"author": 0,
 		"author_name": "Chris",
 		"author_url": "",
-		"date": "2010-11-22T08:22:49",
 		"date_gmt": "2010-11-22T16:22:49",
 		"content": {
 			"rendered": "<p>Love your blog, and this post.  One that I&#8217;ve really loved for a while now is Fences.  </p>\n<p><a href=\"http://www.stardock.com/products/fences/downloads.asp\" rel=\"nofollow\">http://www.stardock.com/products/fences/downloads.asp</a></p>\n"
 		},
-		"link": "https://stevenbenner.com/2010/09/must-have-software-for-your-microsoft-windows-computer/#comment-10456",
-		"status": "approved",
-		"type": "comment",
 		"author_avatar_urls": {
 			"24": "https://secure.gravatar.com/avatar/5bb87c01df17fa2a3f65b5231bed34e2?s=24&d=mm&r=pg",
 			"48": "https://secure.gravatar.com/avatar/5bb87c01df17fa2a3f65b5231bed34e2?s=48&d=mm&r=pg",
 			"96": "https://secure.gravatar.com/avatar/5bb87c01df17fa2a3f65b5231bed34e2?s=96&d=mm&r=pg"
-		},
-		"meta": [],
-		"_links": {
-			"self": [
-				{
-					"href": "https://stevenbenner.com/wp-json/wp/v2/comments/10456"
-				}
-			],
-			"collection": [
-				{
-					"href": "https://stevenbenner.com/wp-json/wp/v2/comments"
-				}
-			],
-			"up": [
-				{
-					"embeddable": true,
-					"post_type": "post",
-					"href": "https://stevenbenner.com/wp-json/wp/v2/posts/991"
-				}
-			]
 		}
 	},
 	{
 		"id": 10359,
-		"post": 991,
-		"parent": 0,
 		"author": 2,
 		"author_name": "Steven Benner",
 		"author_url": "http://stevenbenner.com/",
-		"date": "2010-11-21T14:09:24",
 		"date_gmt": "2010-11-21T22:09:24",
 		"content": {
 			"rendered": "<p>Excellent tips! Thanks guys. I&#8217;m testing out TextCrawler, XChat and Araxis right now.</p>\n"
 		},
-		"link": "https://stevenbenner.com/2010/09/must-have-software-for-your-microsoft-windows-computer/#comment-10359",
-		"status": "approved",
-		"type": "comment",
 		"author_avatar_urls": {
 			"24": "https://secure.gravatar.com/avatar/5b09e09f1d9fed4c34e369d02f2edb74?s=24&d=mm&r=pg",
 			"48": "https://secure.gravatar.com/avatar/5b09e09f1d9fed4c34e369d02f2edb74?s=48&d=mm&r=pg",
 			"96": "https://secure.gravatar.com/avatar/5b09e09f1d9fed4c34e369d02f2edb74?s=96&d=mm&r=pg"
-		},
-		"meta": [],
-		"_links": {
-			"self": [
-				{
-					"href": "https://stevenbenner.com/wp-json/wp/v2/comments/10359"
-				}
-			],
-			"collection": [
-				{
-					"href": "https://stevenbenner.com/wp-json/wp/v2/comments"
-				}
-			],
-			"author": [
-				{
-					"embeddable": true,
-					"href": "https://stevenbenner.com/wp-json/wp/v2/users/2"
-				}
-			],
-			"up": [
-				{
-					"embeddable": true,
-					"post_type": "post",
-					"href": "https://stevenbenner.com/wp-json/wp/v2/posts/991"
-				}
-			]
 		}
 	},
 	{
 		"id": 10260,
-		"post": 991,
-		"parent": 0,
 		"author": 0,
 		"author_name": "Brian",
 		"author_url": "",
-		"date": "2010-11-20T16:45:49",
 		"date_gmt": "2010-11-21T00:45:49",
 		"content": {
 			"rendered": "<p>My recommendation for a diff/merge tool is Araxis.  I&#8217;ve unfortunately had to deal with lots of hairy integrations and Araxis has been the best at dealing with them by far.  Also integrates nicely with P4Win.</p>\n"
 		},
-		"link": "https://stevenbenner.com/2010/09/must-have-software-for-your-microsoft-windows-computer/#comment-10260",
-		"status": "approved",
-		"type": "comment",
 		"author_avatar_urls": {
 			"24": "https://secure.gravatar.com/avatar/485f08de61042d1fb5aa555fdb490cf6?s=24&d=mm&r=pg",
 			"48": "https://secure.gravatar.com/avatar/485f08de61042d1fb5aa555fdb490cf6?s=48&d=mm&r=pg",
 			"96": "https://secure.gravatar.com/avatar/485f08de61042d1fb5aa555fdb490cf6?s=96&d=mm&r=pg"
-		},
-		"meta": [],
-		"_links": {
-			"self": [
-				{
-					"href": "https://stevenbenner.com/wp-json/wp/v2/comments/10260"
-				}
-			],
-			"collection": [
-				{
-					"href": "https://stevenbenner.com/wp-json/wp/v2/comments"
-				}
-			],
-			"up": [
-				{
-					"embeddable": true,
-					"post_type": "post",
-					"href": "https://stevenbenner.com/wp-json/wp/v2/posts/991"
-				}
-			]
 		}
 	},
 	{
 		"id": 10239,
-		"post": 991,
-		"parent": 0,
 		"author": 0,
 		"author_name": "john",
 		"author_url": "http://viralnomore.com",
-		"date": "2010-11-20T11:14:01",
 		"date_gmt": "2010-11-20T19:14:01",
 		"content": {
 			"rendered": "<p>Foxit PDF Reader.  Good alternative to adobe.</p>\n"
 		},
-		"link": "https://stevenbenner.com/2010/09/must-have-software-for-your-microsoft-windows-computer/#comment-10239",
-		"status": "approved",
-		"type": "comment",
 		"author_avatar_urls": {
 			"24": "https://secure.gravatar.com/avatar/69b31d02993a8f08dc119c135548d800?s=24&d=mm&r=pg",
 			"48": "https://secure.gravatar.com/avatar/69b31d02993a8f08dc119c135548d800?s=48&d=mm&r=pg",
 			"96": "https://secure.gravatar.com/avatar/69b31d02993a8f08dc119c135548d800?s=96&d=mm&r=pg"
-		},
-		"meta": [],
-		"_links": {
-			"self": [
-				{
-					"href": "https://stevenbenner.com/wp-json/wp/v2/comments/10239"
-				}
-			],
-			"collection": [
-				{
-					"href": "https://stevenbenner.com/wp-json/wp/v2/comments"
-				}
-			],
-			"up": [
-				{
-					"embeddable": true,
-					"post_type": "post",
-					"href": "https://stevenbenner.com/wp-json/wp/v2/posts/991"
-				}
-			]
 		}
 	},
 	{
 		"id": 10179,
-		"post": 991,
-		"parent": 0,
 		"author": 0,
 		"author_name": "Gary",
 		"author_url": "",
-		"date": "2010-11-19T21:13:54",
 		"date_gmt": "2010-11-20T05:13:54",
 		"content": {
 			"rendered": "<p>Very helpful list. Though I disagree with the mIRC opinion, I use IRC pretty much 24/7 and XChat is the way to go on that front</p>\n"
 		},
-		"link": "https://stevenbenner.com/2010/09/must-have-software-for-your-microsoft-windows-computer/#comment-10179",
-		"status": "approved",
-		"type": "comment",
 		"author_avatar_urls": {
 			"24": "https://secure.gravatar.com/avatar/20e1731fb4cabc155696e601108d186f?s=24&d=mm&r=pg",
 			"48": "https://secure.gravatar.com/avatar/20e1731fb4cabc155696e601108d186f?s=48&d=mm&r=pg",
 			"96": "https://secure.gravatar.com/avatar/20e1731fb4cabc155696e601108d186f?s=96&d=mm&r=pg"
-		},
-		"meta": [],
-		"_links": {
-			"self": [
-				{
-					"href": "https://stevenbenner.com/wp-json/wp/v2/comments/10179"
-				}
-			],
-			"collection": [
-				{
-					"href": "https://stevenbenner.com/wp-json/wp/v2/comments"
-				}
-			],
-			"up": [
-				{
-					"embeddable": true,
-					"post_type": "post",
-					"href": "https://stevenbenner.com/wp-json/wp/v2/posts/991"
-				}
-			]
 		}
 	},
 	{
 		"id": 10169,
-		"post": 991,
-		"parent": 0,
 		"author": 0,
 		"author_name": "Raphael",
 		"author_url": "http://blog.rmontanaro.com/",
-		"date": "2010-11-19T19:43:21",
 		"date_gmt": "2010-11-20T03:43:21",
 		"content": {
 			"rendered": "<p>I&#8217;d add Launchy to this list. It&#8217;s a keystroker launcher, and makes a lot of sense using it if you&#8217;re still using XP (se7en has a built-in launcher, just hit the Windows key), saving you the time to search for some app.</p>\n"
 		},
-		"link": "https://stevenbenner.com/2010/09/must-have-software-for-your-microsoft-windows-computer/#comment-10169",
-		"status": "approved",
-		"type": "comment",
 		"author_avatar_urls": {
 			"24": "https://secure.gravatar.com/avatar/34a1f2de088cbe6366b699f1ff349984?s=24&d=mm&r=pg",
 			"48": "https://secure.gravatar.com/avatar/34a1f2de088cbe6366b699f1ff349984?s=48&d=mm&r=pg",
 			"96": "https://secure.gravatar.com/avatar/34a1f2de088cbe6366b699f1ff349984?s=96&d=mm&r=pg"
-		},
-		"meta": [],
-		"_links": {
-			"self": [
-				{
-					"href": "https://stevenbenner.com/wp-json/wp/v2/comments/10169"
-				}
-			],
-			"collection": [
-				{
-					"href": "https://stevenbenner.com/wp-json/wp/v2/comments"
-				}
-			],
-			"up": [
-				{
-					"embeddable": true,
-					"post_type": "post",
-					"href": "https://stevenbenner.com/wp-json/wp/v2/posts/991"
-				}
-			]
 		}
 	},
 	{
 		"id": 8034,
-		"post": 991,
-		"parent": 0,
 		"author": 0,
 		"author_name": "Ian",
 		"author_url": "",
-		"date": "2010-10-26T01:16:15",
 		"date_gmt": "2010-10-26T08:16:15",
 		"content": {
 			"rendered": "<p>Thanks for this. A couple on this list I didn&#8217;t have.</p>\n"
 		},
-		"link": "https://stevenbenner.com/2010/09/must-have-software-for-your-microsoft-windows-computer/#comment-8034",
-		"status": "approved",
-		"type": "comment",
 		"author_avatar_urls": {
 			"24": "https://secure.gravatar.com/avatar/37ff343d187c28c639a88d278352039e?s=24&d=mm&r=pg",
 			"48": "https://secure.gravatar.com/avatar/37ff343d187c28c639a88d278352039e?s=48&d=mm&r=pg",
 			"96": "https://secure.gravatar.com/avatar/37ff343d187c28c639a88d278352039e?s=96&d=mm&r=pg"
-		},
-		"meta": [],
-		"_links": {
-			"self": [
-				{
-					"href": "https://stevenbenner.com/wp-json/wp/v2/comments/8034"
-				}
-			],
-			"collection": [
-				{
-					"href": "https://stevenbenner.com/wp-json/wp/v2/comments"
-				}
-			],
-			"up": [
-				{
-					"embeddable": true,
-					"post_type": "post",
-					"href": "https://stevenbenner.com/wp-json/wp/v2/posts/991"
-				}
-			]
 		}
 	},
 	{
 		"id": 6963,
-		"post": 991,
-		"parent": 0,
 		"author": 0,
 		"author_name": "Daniel Powell",
 		"author_url": "",
-		"date": "2010-10-12T07:36:08",
 		"date_gmt": "2010-10-12T14:36:08",
 		"content": {
 			"rendered": "<p>Nice list, there&#8217;s a few on there I have not tried but plan to now.</p>\n<p>Here&#8217;s some other things I usually have installed:</p>\n<p>Process Monitor for troubleshooting 3rd party apps.</p>\n<p>TextCrawler is a really good freeware regular expression find and replace tool.</p>\n<p>IrfanView is a very lightweight image viewer and batch editor/converter and can make slideshows.  I use this instead of waiting for PhotoShop to open if I just need to convert/crop/resize a file.</p>\n<p>CutePDF for printing to PDF on systems that do not have Acrobat Pro.</p>\n"
 		},
-		"link": "https://stevenbenner.com/2010/09/must-have-software-for-your-microsoft-windows-computer/#comment-6963",
-		"status": "approved",
-		"type": "comment",
 		"author_avatar_urls": {
 			"24": "https://secure.gravatar.com/avatar/73216083e9f252ed99bbc6dd2cac0591?s=24&d=mm&r=pg",
 			"48": "https://secure.gravatar.com/avatar/73216083e9f252ed99bbc6dd2cac0591?s=48&d=mm&r=pg",
 			"96": "https://secure.gravatar.com/avatar/73216083e9f252ed99bbc6dd2cac0591?s=96&d=mm&r=pg"
-		},
-		"meta": [],
-		"_links": {
-			"self": [
-				{
-					"href": "https://stevenbenner.com/wp-json/wp/v2/comments/6963"
-				}
-			],
-			"collection": [
-				{
-					"href": "https://stevenbenner.com/wp-json/wp/v2/comments"
-				}
-			],
-			"up": [
-				{
-					"embeddable": true,
-					"post_type": "post",
-					"href": "https://stevenbenner.com/wp-json/wp/v2/posts/991"
-				}
-			]
 		}
 	},
 	{
 		"id": 6596,
-		"post": 991,
-		"parent": 0,
 		"author": 0,
 		"author_name": "Gary",
 		"author_url": "http://eckstein.id.au",
-		"date": "2010-10-06T17:23:28",
 		"date_gmt": "2010-10-07T00:23:28",
 		"content": {
 			"rendered": "<p>This is a very good list thanks! A few of these I haven&#8217;t tried however 7-Zip, Notepad++, CCleaner, Filezilla, Firefox, Dropbox and XAMPP are among my most used Apps.<br />\nOn your advice I&#8217;ll be giving MyDefrag a go right now.</p>\n"
 		},
-		"link": "https://stevenbenner.com/2010/09/must-have-software-for-your-microsoft-windows-computer/#comment-6596",
-		"status": "approved",
-		"type": "comment",
 		"author_avatar_urls": {
 			"24": "https://secure.gravatar.com/avatar/64777202bb6d589a6189647c38bfc739?s=24&d=mm&r=pg",
 			"48": "https://secure.gravatar.com/avatar/64777202bb6d589a6189647c38bfc739?s=48&d=mm&r=pg",
 			"96": "https://secure.gravatar.com/avatar/64777202bb6d589a6189647c38bfc739?s=96&d=mm&r=pg"
-		},
-		"meta": [],
-		"_links": {
-			"self": [
-				{
-					"href": "https://stevenbenner.com/wp-json/wp/v2/comments/6596"
-				}
-			],
-			"collection": [
-				{
-					"href": "https://stevenbenner.com/wp-json/wp/v2/comments"
-				}
-			],
-			"up": [
-				{
-					"embeddable": true,
-					"post_type": "post",
-					"href": "https://stevenbenner.com/wp-json/wp/v2/posts/991"
-				}
-			]
 		}
 	},
 	{
 		"id": 6467,
-		"post": 991,
-		"parent": 0,
 		"author": 0,
 		"author_name": "cran",
 		"author_url": "",
-		"date": "2010-10-05T06:09:03",
 		"date_gmt": "2010-10-05T13:09:03",
 		"content": {
 			"rendered": "<p>I am a happy windows user, and also quite like Vista but I echo the disappointment with the defrag tool included. I would have loved to retain the graphic display and also miss having some useful features which other defraggers seem to have, especially ability to defrag in low free space and run in the background non conflicting with other programs.</p>\n"
 		},
-		"link": "https://stevenbenner.com/2010/09/must-have-software-for-your-microsoft-windows-computer/#comment-6467",
-		"status": "approved",
-		"type": "comment",
 		"author_avatar_urls": {
 			"24": "https://secure.gravatar.com/avatar/cf5ba283819bb372d7b3a1cbda2af79f?s=24&d=mm&r=pg",
 			"48": "https://secure.gravatar.com/avatar/cf5ba283819bb372d7b3a1cbda2af79f?s=48&d=mm&r=pg",
 			"96": "https://secure.gravatar.com/avatar/cf5ba283819bb372d7b3a1cbda2af79f?s=96&d=mm&r=pg"
-		},
-		"meta": [],
-		"_links": {
-			"self": [
-				{
-					"href": "https://stevenbenner.com/wp-json/wp/v2/comments/6467"
-				}
-			],
-			"collection": [
-				{
-					"href": "https://stevenbenner.com/wp-json/wp/v2/comments"
-				}
-			],
-			"up": [
-				{
-					"embeddable": true,
-					"post_type": "post",
-					"href": "https://stevenbenner.com/wp-json/wp/v2/posts/991"
-				}
-			]
 		}
 	}
 ]

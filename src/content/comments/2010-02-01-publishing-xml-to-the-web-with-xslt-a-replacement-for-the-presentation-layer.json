@@ -1,301 +1,107 @@
 [
 	{
 		"id": 197288,
-		"post": 184,
-		"parent": 0,
 		"author": 0,
 		"author_name": "Lelouk",
 		"author_url": "",
-		"date": "2016-05-21T06:10:44",
 		"date_gmt": "2016-05-21T13:10:44",
 		"content": {
 			"rendered": "<p>currently im using XML sitemap for my opencart website in google webmaster. If i Include a XSLT stylesheet when i generate new sitemap, will it give any search engine benefit?</p>\n"
 		},
-		"link": "https://stevenbenner.com/2010/02/publishing-xml-to-the-web-with-xslt-a-replacement-for-the-presentation-layer/#comment-197288",
-		"status": "approved",
-		"type": "comment",
 		"author_avatar_urls": {
 			"24": "https://secure.gravatar.com/avatar/19d1f9425d53125ccf3c56b6b3ee2f7b?s=24&d=mm&r=pg",
 			"48": "https://secure.gravatar.com/avatar/19d1f9425d53125ccf3c56b6b3ee2f7b?s=48&d=mm&r=pg",
 			"96": "https://secure.gravatar.com/avatar/19d1f9425d53125ccf3c56b6b3ee2f7b?s=96&d=mm&r=pg"
-		},
-		"meta": [],
-		"_links": {
-			"self": [
-				{
-					"href": "https://stevenbenner.com/wp-json/wp/v2/comments/197288"
-				}
-			],
-			"collection": [
-				{
-					"href": "https://stevenbenner.com/wp-json/wp/v2/comments"
-				}
-			],
-			"up": [
-				{
-					"embeddable": true,
-					"post_type": "post",
-					"href": "https://stevenbenner.com/wp-json/wp/v2/posts/184"
-				}
-			]
 		}
 	},
 	{
 		"id": 80740,
-		"post": 184,
-		"parent": 0,
 		"author": 0,
 		"author_name": "Mitch Stokely",
 		"author_url": "",
-		"date": "2011-11-18T22:24:25",
 		"date_gmt": "2011-11-19T06:24:25",
 		"content": {
 			"rendered": "<p>This is a very good article. We need more developers explaining how and when t use XSLT driven web sites, because I think alot of young web kiddos have bought into the notion of the ECMAScript solutions&#8230;&#8230;creating these gigantic libraries of (often) compiled or scripted Javascript that they use to not only simulate some level of interactivity but then abolish the markup model of the web and use scripting API&#8217;s to move data back and forth over the wire between the page and the server. This effectively ruins the whole request-response web model as well! What a HUGE mess these kids are making of the web now!</p>\n<p>I say we need to drive home the importance like we did 10 years ago, of the XML and XSLT model, whereby now, we have a generation of browsers that are fully capable of supporting XSLT on the client. Which proper caching and content design, we can remove most of the need for these JQuery and scripted libraries and have kids start using XSLT. The promise is not only faster deliver, more reliable, repurposable content, but also smaller data packets between client and server! No, as content moves between devices in XML, we can plant custom XSLT and CSS text files on them and as users interact with the pages, post back XML and rely on cached XSLT and CSS as needed. One can begin to remove scripts and rely more on XML, as it should be. This is not to say API&#8217;s script libraries and &#8220;web app&#8221; systems cant be delivered to clients and are not needed. But it makes what is becoming a fat chunky API layer a much slimmer layer, as it was in the 1990&#8217;s and needs to be again today in correct web page architecture.</p>\n<p>The whole purpose of HTML and HTTP and the model behind the protocols and frameworks, and the new XML and XSLT model is just abstraction of layers&#8230;..its to have the whole thing run better and faster with less complexity and easier maintenance and delivery of content over the Internet. With new smart phones and many much smaller and &#8220;liter&#8221; wireless devices to come, we all need to move to the XML and XSLT model here soon; where delivery of data, not scripts and broken API junk, is all these devices will need to relay. Otherwise the &#8220;script kiddies&#8221; will end up building one giant web javascript app that replaces the browser entirely and we are back to not only the &#8220;desktop app&#8221; model from the 1980&#8217;s again, but we are building another API house of cards that hackers have free reign over. Lets all pound away online about the need for education in basic HTML, XHTML, XSL, XML, and XSLT designs&#8230;.and less Javascript!</p>\n"
 		},
-		"link": "https://stevenbenner.com/2010/02/publishing-xml-to-the-web-with-xslt-a-replacement-for-the-presentation-layer/#comment-80740",
-		"status": "approved",
-		"type": "comment",
 		"author_avatar_urls": {
 			"24": "https://secure.gravatar.com/avatar/d15e90c3c183362bfe4466634d8409f9?s=24&d=mm&r=pg",
 			"48": "https://secure.gravatar.com/avatar/d15e90c3c183362bfe4466634d8409f9?s=48&d=mm&r=pg",
 			"96": "https://secure.gravatar.com/avatar/d15e90c3c183362bfe4466634d8409f9?s=96&d=mm&r=pg"
-		},
-		"meta": [],
-		"_links": {
-			"self": [
-				{
-					"href": "https://stevenbenner.com/wp-json/wp/v2/comments/80740"
-				}
-			],
-			"collection": [
-				{
-					"href": "https://stevenbenner.com/wp-json/wp/v2/comments"
-				}
-			],
-			"up": [
-				{
-					"embeddable": true,
-					"post_type": "post",
-					"href": "https://stevenbenner.com/wp-json/wp/v2/posts/184"
-				}
-			]
 		}
 	},
 	{
 		"id": 80637,
-		"post": 184,
-		"parent": 0,
 		"author": 0,
 		"author_name": "Bernd Burkert",
 		"author_url": "http://onion.net",
-		"date": "2011-10-04T10:09:19",
 		"date_gmt": "2011-10-04T17:09:19",
 		"content": {
 			"rendered": "<p>Hi Steven,</p>\n<p>great article, I love your promoting the benefits of XSLT. </p>\n<p>When we started the development of our model-driven CMS onion.net, we decided to go for XSLT rendering according to the benefits you mentioned above. If any of your readers here like to play with XSLT rendering: I encourage you to donload the free evaluation license (productive use may  need a full license) of onion.net at <a href=\"http://onion.net/en/community-edition\" rel=\"nofollow\">http://onion.net/en/community-edition</a> and use it as a test-bed.</p>\n<p>I somewhat disagree with your statement on rendering performance. onion.net is getting more and more popular here in Germany and actually many customers praise its extreme speed &#8211; not only wrt to project development and training but especially wrt to web-page delivery. Take a look at <a href=\"http://www.alexa.com/siteinfo/gutscheincode.org#\" rel=\"nofollow\">http://www.alexa.com/siteinfo/gutscheincode.org#</a> which is a good example of a onion.net driven site with some traffic and a lot of dynamically placed contents.</p>\n<p>Actually I did a study comparing Alexa&#8217;s average load times of the product sites of the ~40 CMS systems featured by the WCM report of the Real Story Group <a href=\"http://www.realstorygroup.com/Reports/CMS/#lb-vendors-list\" rel=\"nofollow\">http://www.realstorygroup.com/Reports/CMS/#lb-vendors-list</a> It covers all the big brands, and most of them are not using XSLT rendering technology. Actually there was only one CMS featuring a similar speed like onion.net. Therefore, I would not sign that the delivery speed of XSLT poses any handicap in real-life CMS products.</p>\n<p>Keep that XSLT flag flying!</p>\n<p>Regards from Germany,<br />\nBernd</p>\n"
 		},
-		"link": "https://stevenbenner.com/2010/02/publishing-xml-to-the-web-with-xslt-a-replacement-for-the-presentation-layer/#comment-80637",
-		"status": "approved",
-		"type": "comment",
 		"author_avatar_urls": {
 			"24": "https://secure.gravatar.com/avatar/9ff68db2e971db1eeb323c92a0bf1c6d?s=24&d=mm&r=pg",
 			"48": "https://secure.gravatar.com/avatar/9ff68db2e971db1eeb323c92a0bf1c6d?s=48&d=mm&r=pg",
 			"96": "https://secure.gravatar.com/avatar/9ff68db2e971db1eeb323c92a0bf1c6d?s=96&d=mm&r=pg"
-		},
-		"meta": [],
-		"_links": {
-			"self": [
-				{
-					"href": "https://stevenbenner.com/wp-json/wp/v2/comments/80637"
-				}
-			],
-			"collection": [
-				{
-					"href": "https://stevenbenner.com/wp-json/wp/v2/comments"
-				}
-			],
-			"up": [
-				{
-					"embeddable": true,
-					"post_type": "post",
-					"href": "https://stevenbenner.com/wp-json/wp/v2/posts/184"
-				}
-			]
 		}
 	},
 	{
 		"id": 1291,
-		"post": 184,
-		"parent": 0,
 		"author": 2,
 		"author_name": "Steven Benner",
 		"author_url": "http://stevenbenner.com/",
-		"date": "2010-05-18T20:02:28",
 		"date_gmt": "2010-05-19T03:02:28",
 		"content": {
 			"rendered": "<p>Oh I see, yeah I guess I didn&#8217;t quite understand how you were abstracting the content. That&#8217;s an interesting approach. Thanks for the information!</p>\n"
 		},
-		"link": "https://stevenbenner.com/2010/02/publishing-xml-to-the-web-with-xslt-a-replacement-for-the-presentation-layer/#comment-1291",
-		"status": "approved",
-		"type": "comment",
 		"author_avatar_urls": {
 			"24": "https://secure.gravatar.com/avatar/5b09e09f1d9fed4c34e369d02f2edb74?s=24&d=mm&r=pg",
 			"48": "https://secure.gravatar.com/avatar/5b09e09f1d9fed4c34e369d02f2edb74?s=48&d=mm&r=pg",
 			"96": "https://secure.gravatar.com/avatar/5b09e09f1d9fed4c34e369d02f2edb74?s=96&d=mm&r=pg"
-		},
-		"meta": [],
-		"_links": {
-			"self": [
-				{
-					"href": "https://stevenbenner.com/wp-json/wp/v2/comments/1291"
-				}
-			],
-			"collection": [
-				{
-					"href": "https://stevenbenner.com/wp-json/wp/v2/comments"
-				}
-			],
-			"author": [
-				{
-					"embeddable": true,
-					"href": "https://stevenbenner.com/wp-json/wp/v2/users/2"
-				}
-			],
-			"up": [
-				{
-					"embeddable": true,
-					"post_type": "post",
-					"href": "https://stevenbenner.com/wp-json/wp/v2/posts/184"
-				}
-			]
 		}
 	},
 	{
 		"id": 1258,
-		"post": 184,
-		"parent": 0,
 		"author": 0,
 		"author_name": "Alejandro",
 		"author_url": "",
-		"date": "2010-05-17T08:07:04",
 		"date_gmt": "2010-05-17T15:07:04",
 		"content": {
 			"rendered": "<p>I have been misunderstood. In your example the XSLT stylesheet has embedded XHTML semantic. What I propose is to separate transformation (XSLT) from layout page (XHTML).<br />\nSo, do not lose any level of abstraction. In fact, we are adding a level: the connection by using XSLT.<br />\nXML (data, preferably in a standard vocabulary and not one designed ad-hot) &#8211; XHTML (layout for browsers) &#8211; XSLT (bindding) &#8211; and of course, CSS (design) &#8211; and EmacScript (behavior, if necessary)<br />\nIn this way, the whole design of the page for browsers can be done without taking into account the type of linkage with the data, taking full advantage of WYSIWYG editing with any software (not tying to only those that allow the addition of XSLT ), and allowing the separation of concerns in the development team.<br />\nRegarding IE6, for any XML document to be provided, the browser will remain in standard mode. In fact, the problem is with IE7. If the document resulting from the transformation does not have a DOCTYPE declaration, IE7 interprets the CSS stylesheet like IE6 (losing the ability to use the hover pseudoclass on any element, for example)<br />\nCheck out my site and see how all these minor problems are solved.</p>\n"
 		},
-		"link": "https://stevenbenner.com/2010/02/publishing-xml-to-the-web-with-xslt-a-replacement-for-the-presentation-layer/#comment-1258",
-		"status": "approved",
-		"type": "comment",
 		"author_avatar_urls": {
 			"24": "https://secure.gravatar.com/avatar/30c61ca01dff3c1100f60dc8541caf88?s=24&d=mm&r=pg",
 			"48": "https://secure.gravatar.com/avatar/30c61ca01dff3c1100f60dc8541caf88?s=48&d=mm&r=pg",
 			"96": "https://secure.gravatar.com/avatar/30c61ca01dff3c1100f60dc8541caf88?s=96&d=mm&r=pg"
-		},
-		"meta": [],
-		"_links": {
-			"self": [
-				{
-					"href": "https://stevenbenner.com/wp-json/wp/v2/comments/1258"
-				}
-			],
-			"collection": [
-				{
-					"href": "https://stevenbenner.com/wp-json/wp/v2/comments"
-				}
-			],
-			"up": [
-				{
-					"embeddable": true,
-					"post_type": "post",
-					"href": "https://stevenbenner.com/wp-json/wp/v2/posts/184"
-				}
-			]
 		}
 	},
 	{
 		"id": 1244,
-		"post": 184,
-		"parent": 0,
 		"author": 2,
 		"author_name": "Steven Benner",
 		"author_url": "http://stevenbenner.com/",
-		"date": "2010-05-16T13:05:11",
 		"date_gmt": "2010-05-16T20:05:11",
 		"content": {
 			"rendered": "<p>If you&#8217;re building an XHTML document anyway I don&#8217;t see the benefit of using XSLT to modify that document. You&#8217;re loosing the abstractions between data and layout and risking backwards compatibility issues with IE6. Only XHTML 1.1 specifically allows (and requires) XML declarations, but IE6 does not support XHTML 1.1 because of the XML declaration. The first line of any HTML document must be a DOCTYPE statement or IE6 reverts to quirks mode.</p>\n<p>All modern browsers support XHTML 1.1, but IE6 is still too common to ignore especially for a business. (Granted, this site doesn&#8217;t work with IE6)</p>\n<p>The only place XSLT can be reliably used if you need to support old browsers is on an XML document.</p>\n"
 		},
-		"link": "https://stevenbenner.com/2010/02/publishing-xml-to-the-web-with-xslt-a-replacement-for-the-presentation-layer/#comment-1244",
-		"status": "approved",
-		"type": "comment",
 		"author_avatar_urls": {
 			"24": "https://secure.gravatar.com/avatar/5b09e09f1d9fed4c34e369d02f2edb74?s=24&d=mm&r=pg",
 			"48": "https://secure.gravatar.com/avatar/5b09e09f1d9fed4c34e369d02f2edb74?s=48&d=mm&r=pg",
 			"96": "https://secure.gravatar.com/avatar/5b09e09f1d9fed4c34e369d02f2edb74?s=96&d=mm&r=pg"
-		},
-		"meta": [],
-		"_links": {
-			"self": [
-				{
-					"href": "https://stevenbenner.com/wp-json/wp/v2/comments/1244"
-				}
-			],
-			"collection": [
-				{
-					"href": "https://stevenbenner.com/wp-json/wp/v2/comments"
-				}
-			],
-			"author": [
-				{
-					"embeddable": true,
-					"href": "https://stevenbenner.com/wp-json/wp/v2/users/2"
-				}
-			],
-			"up": [
-				{
-					"embeddable": true,
-					"post_type": "post",
-					"href": "https://stevenbenner.com/wp-json/wp/v2/posts/184"
-				}
-			]
 		}
 	},
 	{
 		"id": 1204,
-		"post": 184,
-		"parent": 0,
 		"author": 0,
 		"author_name": "Alejandro",
 		"author_url": "",
-		"date": "2010-05-14T12:48:13",
 		"date_gmt": "2010-05-14T19:48:13",
 		"content": {
 			"rendered": "<p>Despite the fact that many deny the use of XSLT on the client, is a technology common to the vast majority of modern browsers. It is much more compatible than EmacScript between different browsers.<br />\nFor all tasks involving static modification of a DOM based on an XML document, XSLT is faster and easier than EmacsScript. The difficulty lies in learning the declarative programming approach.<br />\nOn the other hand, I would not recommend the use of the semantics of XHTML within the XSLT style sheet. It is better to provide separate XHTML page and data (in an XML document with standard vocabulary) allowing the XSLT stylesheet to make the connection.<br />\nIn example <a href=\"http://www.aranedabienesraices.com.ar\" rel=\"nofollow\">http://www.aranedabienesraices.com.ar</a></p>\n"
 		},
-		"link": "https://stevenbenner.com/2010/02/publishing-xml-to-the-web-with-xslt-a-replacement-for-the-presentation-layer/#comment-1204",
-		"status": "approved",
-		"type": "comment",
 		"author_avatar_urls": {
 			"24": "https://secure.gravatar.com/avatar/30c61ca01dff3c1100f60dc8541caf88?s=24&d=mm&r=pg",
 			"48": "https://secure.gravatar.com/avatar/30c61ca01dff3c1100f60dc8541caf88?s=48&d=mm&r=pg",
 			"96": "https://secure.gravatar.com/avatar/30c61ca01dff3c1100f60dc8541caf88?s=96&d=mm&r=pg"
-		},
-		"meta": [],
-		"_links": {
-			"self": [
-				{
-					"href": "https://stevenbenner.com/wp-json/wp/v2/comments/1204"
-				}
-			],
-			"collection": [
-				{
-					"href": "https://stevenbenner.com/wp-json/wp/v2/comments"
-				}
-			],
-			"up": [
-				{
-					"embeddable": true,
-					"post_type": "post",
-					"href": "https://stevenbenner.com/wp-json/wp/v2/posts/184"
-				}
-			]
 		}
 	}
 ]

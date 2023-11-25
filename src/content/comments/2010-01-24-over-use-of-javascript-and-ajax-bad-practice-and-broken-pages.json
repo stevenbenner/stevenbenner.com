@@ -1,213 +1,77 @@
 [
 	{
 		"id": 31130,
-		"post": 172,
-		"parent": 0,
 		"author": 0,
 		"author_name": "Jake",
 		"author_url": "",
-		"date": "2011-04-27T15:01:59",
 		"date_gmt": "2011-04-27T22:01:59",
 		"content": {
 			"rendered": "<p>This sentence:</p>\n<p>&#8220;Forcing users to download 81kB of script just so you can $(&#8216;a#next).click() is a complete waist.&#8221;</p>\n<p>has 2 errors in it:<br />\n  $(&#8216;a#next).click()  should be  $(&#8216;a#next&#8217;).click()<br />\n  &#8220;waist&#8221; should be &#8220;waste&#8221;</p>\n<p>Other than that, great article. I agree completely with what you said here (too often sites will use too much JavaScript (Twitter and Facebook are near the top of the list), and it can really harm the user experience).</p>\n"
 		},
-		"link": "https://stevenbenner.com/2010/01/over-use-of-javascript-and-ajax-bad-practice-and-broken-pages/#comment-31130",
-		"status": "approved",
-		"type": "comment",
 		"author_avatar_urls": {
 			"24": "https://secure.gravatar.com/avatar/3add24ee27529685d51a84e8e9e043dd?s=24&d=mm&r=pg",
 			"48": "https://secure.gravatar.com/avatar/3add24ee27529685d51a84e8e9e043dd?s=48&d=mm&r=pg",
 			"96": "https://secure.gravatar.com/avatar/3add24ee27529685d51a84e8e9e043dd?s=96&d=mm&r=pg"
-		},
-		"meta": [],
-		"_links": {
-			"self": [
-				{
-					"href": "https://stevenbenner.com/wp-json/wp/v2/comments/31130"
-				}
-			],
-			"collection": [
-				{
-					"href": "https://stevenbenner.com/wp-json/wp/v2/comments"
-				}
-			],
-			"up": [
-				{
-					"embeddable": true,
-					"post_type": "post",
-					"href": "https://stevenbenner.com/wp-json/wp/v2/posts/172"
-				}
-			]
 		}
 	},
 	{
 		"id": 11703,
-		"post": 172,
-		"parent": 0,
 		"author": 0,
 		"author_name": "Fredledingue",
 		"author_url": "http://www.htasoft.com",
-		"date": "2010-12-02T17:15:27",
 		"date_gmt": "2010-12-03T01:15:27",
 		"content": {
 			"rendered": "<p>The best practice is to do it server side because, there you are sure it will work as tested. With Javascript you never know how the client&#8217;s browser will react.</p>\n<p>Also you have operations obviousely suitable for the clients and others for the servers. It&#8217;s not difficult to know which ones.</p>\n<p>But the best practice is still to keep things simple. To ask yourself &#8220;is this realy necessary?&#8221;.</p>\n"
 		},
-		"link": "https://stevenbenner.com/2010/01/over-use-of-javascript-and-ajax-bad-practice-and-broken-pages/#comment-11703",
-		"status": "approved",
-		"type": "comment",
 		"author_avatar_urls": {
 			"24": "https://secure.gravatar.com/avatar/fe7af8110908929a4284fc59022c96e2?s=24&d=mm&r=pg",
 			"48": "https://secure.gravatar.com/avatar/fe7af8110908929a4284fc59022c96e2?s=48&d=mm&r=pg",
 			"96": "https://secure.gravatar.com/avatar/fe7af8110908929a4284fc59022c96e2?s=96&d=mm&r=pg"
-		},
-		"meta": [],
-		"_links": {
-			"self": [
-				{
-					"href": "https://stevenbenner.com/wp-json/wp/v2/comments/11703"
-				}
-			],
-			"collection": [
-				{
-					"href": "https://stevenbenner.com/wp-json/wp/v2/comments"
-				}
-			],
-			"up": [
-				{
-					"embeddable": true,
-					"post_type": "post",
-					"href": "https://stevenbenner.com/wp-json/wp/v2/posts/172"
-				}
-			]
 		}
 	},
 	{
 		"id": 10357,
-		"post": 172,
-		"parent": 0,
 		"author": 2,
 		"author_name": "Steven Benner",
 		"author_url": "http://stevenbenner.com/",
-		"date": "2010-11-21T13:55:02",
 		"date_gmt": "2010-11-21T21:55:02",
 		"content": {
 			"rendered": "<p>I completely agree that there are times when offloading some work to the client side can be a real help.</p>\n<p>For example, I&#8217;ve had to do this with portable ad calls before. We needed to show a random subset of the data to users (5 random ads) on every view, but the ad calls are hit so much that doing a random select for every hit was simply out of the question. To make this scale we did a random select of 50 ads and cached the results server-side for 10 minutes. Then on the client side I select 5 random ads from that data. The users see different random ads but I only need to query data once every 10 minutes, instead of querying data for every single hit.</p>\n<p>This was a compromise I had to make to get this feature to scale and support the traffic.</p>\n<p>However, in my experience cases like this are fairly rare. This had to be a JavaScript call to begin with, so there wasn&#8217;t any lost usability. A vast majority of the time the best practice is to do the work on the server and implement server side caching. Even highly dynamic web apps can use caching. In a very high traffic environment, even a thirty second cache might save you hundreds hits to the database. And will appear no less dynamic to the users.</p>\n<p>But as you said, it&#8217;s a judgment call. I guess I should point out that my golden rules can be bent or broken in places. But it&#8217;s best practice to avoid it unless necessary.</p>\n<p>What I was ranting about in this article was web developers who use JavaScript and AJAX, not as a tool to enhance the app or make it scale&#8230; but simply because they can. I don&#8217;t like seeing complete JavaScript dependence on front-facing web sites just because someone thinks it&#8217;s <em>cool</em>.</p>\n"
 		},
-		"link": "https://stevenbenner.com/2010/01/over-use-of-javascript-and-ajax-bad-practice-and-broken-pages/#comment-10357",
-		"status": "approved",
-		"type": "comment",
 		"author_avatar_urls": {
 			"24": "https://secure.gravatar.com/avatar/5b09e09f1d9fed4c34e369d02f2edb74?s=24&d=mm&r=pg",
 			"48": "https://secure.gravatar.com/avatar/5b09e09f1d9fed4c34e369d02f2edb74?s=48&d=mm&r=pg",
 			"96": "https://secure.gravatar.com/avatar/5b09e09f1d9fed4c34e369d02f2edb74?s=96&d=mm&r=pg"
-		},
-		"meta": [],
-		"_links": {
-			"self": [
-				{
-					"href": "https://stevenbenner.com/wp-json/wp/v2/comments/10357"
-				}
-			],
-			"collection": [
-				{
-					"href": "https://stevenbenner.com/wp-json/wp/v2/comments"
-				}
-			],
-			"author": [
-				{
-					"embeddable": true,
-					"href": "https://stevenbenner.com/wp-json/wp/v2/users/2"
-				}
-			],
-			"up": [
-				{
-					"embeddable": true,
-					"post_type": "post",
-					"href": "https://stevenbenner.com/wp-json/wp/v2/posts/172"
-				}
-			]
 		}
 	},
 	{
 		"id": 10209,
-		"post": 172,
-		"parent": 0,
 		"author": 0,
 		"author_name": "st33d",
 		"author_url": "",
-		"date": "2010-11-20T03:03:25",
 		"date_gmt": "2010-11-20T11:03:25",
 		"content": {
 			"rendered": "<p>&#8220;Do not use JavaScript when server-side coding can accomplish the same thing.&#8221;</p>\n<p>This is a nice idea until you have over a million visitors a month like we do. Then your server is screaming in pain and your hosting costs shoot through the roof.</p>\n<p>We found this out the hard way. Q.E.D.</p>\n<p>Balancing the load of server side cpu and client cpu is a judgement call. Not a rule.</p>\n"
 		},
-		"link": "https://stevenbenner.com/2010/01/over-use-of-javascript-and-ajax-bad-practice-and-broken-pages/#comment-10209",
-		"status": "approved",
-		"type": "comment",
 		"author_avatar_urls": {
 			"24": "https://secure.gravatar.com/avatar/b647fa61a4338aa5a5dd5b33cb06e019?s=24&d=mm&r=pg",
 			"48": "https://secure.gravatar.com/avatar/b647fa61a4338aa5a5dd5b33cb06e019?s=48&d=mm&r=pg",
 			"96": "https://secure.gravatar.com/avatar/b647fa61a4338aa5a5dd5b33cb06e019?s=96&d=mm&r=pg"
-		},
-		"meta": [],
-		"_links": {
-			"self": [
-				{
-					"href": "https://stevenbenner.com/wp-json/wp/v2/comments/10209"
-				}
-			],
-			"collection": [
-				{
-					"href": "https://stevenbenner.com/wp-json/wp/v2/comments"
-				}
-			],
-			"up": [
-				{
-					"embeddable": true,
-					"post_type": "post",
-					"href": "https://stevenbenner.com/wp-json/wp/v2/posts/172"
-				}
-			]
 		}
 	},
 	{
 		"id": 9773,
-		"post": 172,
-		"parent": 0,
 		"author": 0,
 		"author_name": "Fredledingue",
 		"author_url": "http://www.htasoft.com",
-		"date": "2010-11-14T16:43:31",
 		"date_gmt": "2010-11-15T00:43:31",
 		"content": {
 			"rendered": "<p>Hi, I appreciate that finaly someone says something about excessive use of javascript (not only AJAX).<br />\nFamous websites, and especialy &#8220;News&#8221; websites, are full of tons of scripts sometimes extremely slow.<br />\nThe more famous the more crappy and bloated they are.</p>\n<p>I can&#8217;t understand that because these scripts have, 99% of the time, no reason to be whatsoever. If you disable scripts totaly, everything is still there identical or almost.</p>\n<p>So why do they do that? Web designer hubris? Obsession on automation? Non monitored self-generating code?<br />\nAnyway, how much time and money have been waisted to code this crap is beyond me.</p>\n<p>Even if these codes are autogenerated by several separate entities, and multiplied without purpose just because nobody thought of deactivating them, still someone had to code them one day. Who did all these huge useless and terribly inneficient scripts, must be either maniac, schyzophere or something. So are all the webdesigners js maniacs like that? Why all the big companies and news sites hire them?<br />\nWhat do these companies managers wanted exactely with their websites? Sure, not &#8220;please write me a 5000-lines js code for the sake of coding&#8221;! I can&#8217;t even figure out the goal of these projects. Advertisement, of course, but why like this?</p>\n<p>Regards.</p>\n"
 		},
-		"link": "https://stevenbenner.com/2010/01/over-use-of-javascript-and-ajax-bad-practice-and-broken-pages/#comment-9773",
-		"status": "approved",
-		"type": "comment",
 		"author_avatar_urls": {
 			"24": "https://secure.gravatar.com/avatar/fe7af8110908929a4284fc59022c96e2?s=24&d=mm&r=pg",
 			"48": "https://secure.gravatar.com/avatar/fe7af8110908929a4284fc59022c96e2?s=48&d=mm&r=pg",
 			"96": "https://secure.gravatar.com/avatar/fe7af8110908929a4284fc59022c96e2?s=96&d=mm&r=pg"
-		},
-		"meta": [],
-		"_links": {
-			"self": [
-				{
-					"href": "https://stevenbenner.com/wp-json/wp/v2/comments/9773"
-				}
-			],
-			"collection": [
-				{
-					"href": "https://stevenbenner.com/wp-json/wp/v2/comments"
-				}
-			],
-			"up": [
-				{
-					"embeddable": true,
-					"post_type": "post",
-					"href": "https://stevenbenner.com/wp-json/wp/v2/posts/172"
-				}
-			]
 		}
 	}
 ]

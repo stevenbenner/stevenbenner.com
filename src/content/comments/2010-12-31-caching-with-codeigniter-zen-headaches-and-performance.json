@@ -1,336 +1,122 @@
 [
 	{
 		"id": 83570,
-		"post": 1452,
-		"parent": 0,
 		"author": 0,
 		"author_name": "Wayne Smallman",
 		"author_url": "",
-		"date": "2012-12-18T08:16:04",
 		"date_gmt": "2012-12-18T16:16:04",
 		"content": {
 			"rendered": "<p>Steven, thanks for the article.</p>\n<p>However, I do need to clarify something. I&#8217;ve enabled caching on the navigation (which is quite complex), but only within the display method for one controller; that being the one where most of the donkey work in the application is done.</p>\n<p>Would that one instruction to caching suffice, or would I need to do the same thing wherever the navigation is called?</p>\n"
 		},
-		"link": "https://stevenbenner.com/2010/12/caching-with-codeigniter-zen-headaches-and-performance/#comment-83570",
-		"status": "approved",
-		"type": "comment",
 		"author_avatar_urls": {
 			"24": "https://secure.gravatar.com/avatar/753b1e40ab9e54aa400e80da4522d41e?s=24&d=mm&r=pg",
 			"48": "https://secure.gravatar.com/avatar/753b1e40ab9e54aa400e80da4522d41e?s=48&d=mm&r=pg",
 			"96": "https://secure.gravatar.com/avatar/753b1e40ab9e54aa400e80da4522d41e?s=96&d=mm&r=pg"
-		},
-		"meta": [],
-		"_links": {
-			"self": [
-				{
-					"href": "https://stevenbenner.com/wp-json/wp/v2/comments/83570"
-				}
-			],
-			"collection": [
-				{
-					"href": "https://stevenbenner.com/wp-json/wp/v2/comments"
-				}
-			],
-			"up": [
-				{
-					"embeddable": true,
-					"post_type": "post",
-					"href": "https://stevenbenner.com/wp-json/wp/v2/posts/1452"
-				}
-			]
 		}
 	},
 	{
 		"id": 81835,
-		"post": 1452,
-		"parent": 0,
 		"author": 0,
 		"author_name": "Antonio Gallo",
 		"author_url": "http://www.antoniogallo.it",
-		"date": "2012-04-13T00:59:57",
 		"date_gmt": "2012-04-13T07:59:57",
 		"content": {
 			"rendered": "<p>The way i did isby  overriding the Output core class. You can copy &amp; paste my class from here: <a href=\"http://www.badpenguin.org/codeigniter-cache-disable\" rel=\"nofollow\">http://www.badpenguin.org/codeigniter-cache-disable</a></p>\n"
 		},
-		"link": "https://stevenbenner.com/2010/12/caching-with-codeigniter-zen-headaches-and-performance/#comment-81835",
-		"status": "approved",
-		"type": "comment",
 		"author_avatar_urls": {
 			"24": "https://secure.gravatar.com/avatar/220734c1fa34b9296cbdfb958952d9a3?s=24&d=mm&r=pg",
 			"48": "https://secure.gravatar.com/avatar/220734c1fa34b9296cbdfb958952d9a3?s=48&d=mm&r=pg",
 			"96": "https://secure.gravatar.com/avatar/220734c1fa34b9296cbdfb958952d9a3?s=96&d=mm&r=pg"
-		},
-		"meta": [],
-		"_links": {
-			"self": [
-				{
-					"href": "https://stevenbenner.com/wp-json/wp/v2/comments/81835"
-				}
-			],
-			"collection": [
-				{
-					"href": "https://stevenbenner.com/wp-json/wp/v2/comments"
-				}
-			],
-			"up": [
-				{
-					"embeddable": true,
-					"post_type": "post",
-					"href": "https://stevenbenner.com/wp-json/wp/v2/posts/1452"
-				}
-			]
 		}
 	},
 	{
 		"id": 80652,
-		"post": 1452,
-		"parent": 0,
 		"author": 0,
 		"author_name": "Nish",
 		"author_url": "http://www.betterhelpworld.com",
-		"date": "2011-11-03T05:06:43",
 		"date_gmt": "2011-11-03T12:06:43",
 		"content": {
 			"rendered": "<p>Thanks for the ideas. I have implemented caching in group and with conditions after referring the Codeigniter caching. But I want to extent my library to cache individual views rather than output, before sharing my library in to the public. Any one have any idea to start up?</p>\n"
 		},
-		"link": "https://stevenbenner.com/2010/12/caching-with-codeigniter-zen-headaches-and-performance/#comment-80652",
-		"status": "approved",
-		"type": "comment",
 		"author_avatar_urls": {
 			"24": "https://secure.gravatar.com/avatar/0ce104562ce6b85741236c6bcdee3cf4?s=24&d=mm&r=pg",
 			"48": "https://secure.gravatar.com/avatar/0ce104562ce6b85741236c6bcdee3cf4?s=48&d=mm&r=pg",
 			"96": "https://secure.gravatar.com/avatar/0ce104562ce6b85741236c6bcdee3cf4?s=96&d=mm&r=pg"
-		},
-		"meta": [],
-		"_links": {
-			"self": [
-				{
-					"href": "https://stevenbenner.com/wp-json/wp/v2/comments/80652"
-				}
-			],
-			"collection": [
-				{
-					"href": "https://stevenbenner.com/wp-json/wp/v2/comments"
-				}
-			],
-			"up": [
-				{
-					"embeddable": true,
-					"post_type": "post",
-					"href": "https://stevenbenner.com/wp-json/wp/v2/posts/1452"
-				}
-			]
 		}
 	},
 	{
 		"id": 29008,
-		"post": 1452,
-		"parent": 0,
 		"author": 0,
 		"author_name": "Frank",
 		"author_url": "http://trainingmobs.com",
-		"date": "2011-04-12T08:42:41",
 		"date_gmt": "2011-04-12T15:42:41",
 		"content": {
 			"rendered": "<p>Like others have said, great post!</p>\n<p>The problem I face with trainingmobs.com is that virtually everything is user-specific. Users have other users following them, they in turn follow other users, each user could potentially get a different view of the main page depending on their interests, physical location, usage history with the site, local time, etc.</p>\n<p>Most of the caching work I have implemented so far is at the model level, using memcached and the excellent Multicache library (<a href=\"http://www.haughin.com/2007/10/09/codeigniter-multicache-library-01/\" rel=\"nofollow\">http://www.haughin.com/2007/10/09/codeigniter-multicache-library-01/</a>) by Eliot Haughin.</p>\n<p>A model record is pulled out of the DB, turned into a row and then cached. Updates to that record (and updates to its relationships through many-to-many tables) cause cache invalidation. There is some more domain-specific considerations around this to squeeze every last bit of performance I can out of the most expensive operations, but thats the general idea.</p>\n<p>An interesting corollary of this is that it lets me use the config files to set TTLs for certain components on the page. So, for example, the most expensive operation on the site happens on the main page once a user logs in. I am willing to accept at most 5 minutes delay on new information shown to the user on this page, so I cache the entire output in memory (over and above caching the individual models that go into building this thing for a longer period of time). Since I control the logic of when and under what circumstances the cached records fall out of the in-memory cache, I can cache them for a day or whatever.</p>\n"
 		},
-		"link": "https://stevenbenner.com/2010/12/caching-with-codeigniter-zen-headaches-and-performance/#comment-29008",
-		"status": "approved",
-		"type": "comment",
 		"author_avatar_urls": {
 			"24": "https://secure.gravatar.com/avatar/d80bf1a0f0f65b0bda8ff4b1683f03f0?s=24&d=mm&r=pg",
 			"48": "https://secure.gravatar.com/avatar/d80bf1a0f0f65b0bda8ff4b1683f03f0?s=48&d=mm&r=pg",
 			"96": "https://secure.gravatar.com/avatar/d80bf1a0f0f65b0bda8ff4b1683f03f0?s=96&d=mm&r=pg"
-		},
-		"meta": [],
-		"_links": {
-			"self": [
-				{
-					"href": "https://stevenbenner.com/wp-json/wp/v2/comments/29008"
-				}
-			],
-			"collection": [
-				{
-					"href": "https://stevenbenner.com/wp-json/wp/v2/comments"
-				}
-			],
-			"up": [
-				{
-					"embeddable": true,
-					"post_type": "post",
-					"href": "https://stevenbenner.com/wp-json/wp/v2/posts/1452"
-				}
-			]
 		}
 	},
 	{
 		"id": 27935,
-		"post": 1452,
-		"parent": 0,
 		"author": 0,
 		"author_name": "Tim Cason",
 		"author_url": "http://timcasonjr.com",
-		"date": "2011-04-04T02:19:04",
 		"date_gmt": "2011-04-04T09:19:04",
 		"content": {
 			"rendered": "<p>Great post!</p>\n<p>I have been using caching with CI for a bit now. It helped me lighten the load on my tiny server.  Was certainly psyched about hitting better benchmarks!  Keep writing good articles.</p>\n<p>.tc</p>\n"
 		},
-		"link": "https://stevenbenner.com/2010/12/caching-with-codeigniter-zen-headaches-and-performance/#comment-27935",
-		"status": "approved",
-		"type": "comment",
 		"author_avatar_urls": {
 			"24": "https://secure.gravatar.com/avatar/68a2a6fe5870ca487862bfe8bfd469a2?s=24&d=mm&r=pg",
 			"48": "https://secure.gravatar.com/avatar/68a2a6fe5870ca487862bfe8bfd469a2?s=48&d=mm&r=pg",
 			"96": "https://secure.gravatar.com/avatar/68a2a6fe5870ca487862bfe8bfd469a2?s=96&d=mm&r=pg"
-		},
-		"meta": [],
-		"_links": {
-			"self": [
-				{
-					"href": "https://stevenbenner.com/wp-json/wp/v2/comments/27935"
-				}
-			],
-			"collection": [
-				{
-					"href": "https://stevenbenner.com/wp-json/wp/v2/comments"
-				}
-			],
-			"up": [
-				{
-					"embeddable": true,
-					"post_type": "post",
-					"href": "https://stevenbenner.com/wp-json/wp/v2/posts/1452"
-				}
-			]
 		}
 	},
 	{
 		"id": 27255,
-		"post": 1452,
-		"parent": 0,
 		"author": 0,
 		"author_name": "John_Betong",
 		"author_url": "http://johns-jokes.com",
-		"date": "2011-03-30T00:14:09",
 		"date_gmt": "2011-03-30T07:14:09",
 		"content": {
 			"rendered": "<p>Very interesting article and I will try to implement more of your suggestions.</p>\n<p>I had an infuriating problem with caching. I was using &#8220;Email a friend&#8221; feature which sent an email with an included URL.  Unfortunately the popup window was not sending any URL. I managed to get round this by trapping the URL and not setting the cache:</p>\n<p>// MY_Controller<br />\n//==================================================<br />\nfunction __construct()<br />\n{<br />\n  parent::__construct();</p>\n<p>  $pages_not_cached = array<br />\n  (<br />\n    &#8216;test_to_see_if_it_works&#8217;,<br />\n    &#8216;popup_email_new&#8217;<br />\n  );</p>\n<p>  if( in_array($this-&gt;uri-&gt;segment(1),  $pages_not_cached) )<br />\n  {<br />\n    // do nothing<br />\n  }else{<br />\n    $minutes = LOCALHOST ? 0 : 11;<br />\n    $this-&gt;output-&gt;cache($minutes);<br />\n  }</p>\n<p>}//endfunc</p>\n"
 		},
-		"link": "https://stevenbenner.com/2010/12/caching-with-codeigniter-zen-headaches-and-performance/#comment-27255",
-		"status": "approved",
-		"type": "comment",
 		"author_avatar_urls": {
 			"24": "https://secure.gravatar.com/avatar/a8470a4ce0f471289be39d37c81cd605?s=24&d=mm&r=pg",
 			"48": "https://secure.gravatar.com/avatar/a8470a4ce0f471289be39d37c81cd605?s=48&d=mm&r=pg",
 			"96": "https://secure.gravatar.com/avatar/a8470a4ce0f471289be39d37c81cd605?s=96&d=mm&r=pg"
-		},
-		"meta": [],
-		"_links": {
-			"self": [
-				{
-					"href": "https://stevenbenner.com/wp-json/wp/v2/comments/27255"
-				}
-			],
-			"collection": [
-				{
-					"href": "https://stevenbenner.com/wp-json/wp/v2/comments"
-				}
-			],
-			"up": [
-				{
-					"embeddable": true,
-					"post_type": "post",
-					"href": "https://stevenbenner.com/wp-json/wp/v2/posts/1452"
-				}
-			]
 		}
 	},
 	{
 		"id": 16087,
-		"post": 1452,
-		"parent": 0,
 		"author": 2,
 		"author_name": "Steven Benner",
 		"author_url": "http://stevenbenner.com/",
-		"date": "2011-01-05T19:27:37",
 		"date_gmt": "2011-01-06T03:27:37",
 		"content": {
 			"rendered": "<p>Yeah I&#8217;ve been keeping an eye on the state of CodeIgniter Reactor. I wish I could have been part of the team that&#8217;s doing the work. There&#8217;s several little areas that have some room for improvement, such a caching.</p>\n<p>But I am also worried that Reactor will introduce bloat in places that I don&#8217;t think need expansion. The fact that an admin generator and themes are number 4 and 5 on the top voted list worries me greatly. Personally, those are things that I believe belong in CMS territory.</p>\n<p>We&#8217;ll see. I use raw CodeIgniter 2.0 right now, but if the community branch is kept as tight and clean then I may end up migrating over.</p>\n"
 		},
-		"link": "https://stevenbenner.com/2010/12/caching-with-codeigniter-zen-headaches-and-performance/#comment-16087",
-		"status": "approved",
-		"type": "comment",
 		"author_avatar_urls": {
 			"24": "https://secure.gravatar.com/avatar/5b09e09f1d9fed4c34e369d02f2edb74?s=24&d=mm&r=pg",
 			"48": "https://secure.gravatar.com/avatar/5b09e09f1d9fed4c34e369d02f2edb74?s=48&d=mm&r=pg",
 			"96": "https://secure.gravatar.com/avatar/5b09e09f1d9fed4c34e369d02f2edb74?s=96&d=mm&r=pg"
-		},
-		"meta": [],
-		"_links": {
-			"self": [
-				{
-					"href": "https://stevenbenner.com/wp-json/wp/v2/comments/16087"
-				}
-			],
-			"collection": [
-				{
-					"href": "https://stevenbenner.com/wp-json/wp/v2/comments"
-				}
-			],
-			"author": [
-				{
-					"embeddable": true,
-					"href": "https://stevenbenner.com/wp-json/wp/v2/users/2"
-				}
-			],
-			"up": [
-				{
-					"embeddable": true,
-					"post_type": "post",
-					"href": "https://stevenbenner.com/wp-json/wp/v2/posts/1452"
-				}
-			]
 		}
 	},
 	{
 		"id": 16064,
-		"post": 1452,
-		"parent": 0,
 		"author": 0,
 		"author_name": "Mitchell McKenna",
 		"author_url": "http://mitchmckenna.com",
-		"date": "2011-01-05T14:48:40",
 		"date_gmt": "2011-01-05T22:48:40",
 		"content": {
 			"rendered": "<p>Great article on the state of caching in the codeigniter world, glad you mentioned a couple of the good 3rd party libraries. I&#8217;m betting improvements to the built-in cache functionality will be one of the focuses for the new <a href=\"http://codeigniter.com/news/the_official_codeigniter_community_branch\" rel=\"nofollow\">CodeIgniter Community Branch</a>, it&#8217;s in the top 15 <a href=\"http://codeigniter.uservoice.com/forums/40508-codeigniter-reactor/topics/40927-codeigniter-needs-so-that-/filter/top\" rel=\"nofollow\">feature requests</a>.</p>\n"
 		},
-		"link": "https://stevenbenner.com/2010/12/caching-with-codeigniter-zen-headaches-and-performance/#comment-16064",
-		"status": "approved",
-		"type": "comment",
 		"author_avatar_urls": {
 			"24": "https://secure.gravatar.com/avatar/2cfb86049fb46b1223005469cc35d733?s=24&d=mm&r=pg",
 			"48": "https://secure.gravatar.com/avatar/2cfb86049fb46b1223005469cc35d733?s=48&d=mm&r=pg",
 			"96": "https://secure.gravatar.com/avatar/2cfb86049fb46b1223005469cc35d733?s=96&d=mm&r=pg"
-		},
-		"meta": [],
-		"_links": {
-			"self": [
-				{
-					"href": "https://stevenbenner.com/wp-json/wp/v2/comments/16064"
-				}
-			],
-			"collection": [
-				{
-					"href": "https://stevenbenner.com/wp-json/wp/v2/comments"
-				}
-			],
-			"up": [
-				{
-					"embeddable": true,
-					"post_type": "post",
-					"href": "https://stevenbenner.com/wp-json/wp/v2/posts/1452"
-				}
-			]
 		}
 	}
 ]
