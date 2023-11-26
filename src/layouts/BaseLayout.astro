@@ -15,7 +15,7 @@ const { pageTitle } = Astro.props;
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<link rel="alternate" type="application/rss+xml" title={`${site.name} RSS feed`} href={site.rss} />
 		<link rel="sitemap" href="/sitemap-index.xml" />
-		<title>{pageTitle}</title>
+		<title>{`${pageTitle} « ${site.name}`}</title>
 	</head>
 	<body>
 		<main>
