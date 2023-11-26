@@ -86,4 +86,7 @@ main > article img {
 	main > article {
 		padding: 2rem 3rem;
 	}
+	.thumbnail {
+		max-width: 20rem;
+	}
 }
