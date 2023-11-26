@@ -1,8 +1,8 @@
 ---
 title: 'Poor man’s code repository and versioning with Dropbox'
 slug: 2010/02/poor-mans-source-code-repository-and-versioning-with-dropbox
-pubDate: 2010-02-07T19:38:30+00:00
-modDate: 2010-03-17T13:50:51+00:00
+pubDate: 2010-02-08T03:38:30Z
+modDate: 2010-03-17T20:50:51Z
 image:
   src: '../../assets/thumbnails/dropbox-logo.png'
   alt: 'Dropbox logo'

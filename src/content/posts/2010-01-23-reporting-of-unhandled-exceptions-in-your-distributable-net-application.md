@@ -1,8 +1,8 @@
 ---
 title: 'Reporting of unhandled exceptions in your distributable .NET desktop application'
 slug: 2010/01/reporting-of-unhandled-exceptions-in-your-distributable-net-application
-pubDate: 2010-01-23T13:35:23+00:00
-modDate: 2010-03-07T12:57:33+00:00
+pubDate: 2010-01-23T21:35:23Z
+modDate: 2010-03-07T20:57:33Z
 image:
   src: '../../assets/thumbnails/dotnet-logo.gif'
   alt: 'Microsoft .NET logo'

@@ -1,8 +1,8 @@
 ---
 title: 'Must have software for your Microsoft Windows computer'
 slug: 2010/09/must-have-software-for-your-microsoft-windows-computer
-pubDate: 2010-09-29T03:10:29+00:00
-modDate: 2012-07-25T21:41:43+00:00
+pubDate: 2010-09-29T10:10:29Z
+modDate: 2012-07-26T04:41:43Z
 image:
   src: '../../assets/thumbnails/windows-logo.jpg'
   alt: 'Microsoft Windows logo'

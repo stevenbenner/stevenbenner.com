@@ -1,8 +1,8 @@
 ---
 title: 'Uprading from MediaWiki 1.6.12'
 slug: 2009/08/uprading-from-mediawiki-1-6-12
-pubDate: 2009-08-27T20:26:41+00:00
-modDate: 2010-03-07T12:58:04+00:00
+pubDate: 2009-08-28T04:26:41Z
+modDate: 2010-03-07T20:58:04Z
 image:
   src: '../../assets/thumbnails/wikipedia-logo.png'
   alt: 'Wikipedia logo'

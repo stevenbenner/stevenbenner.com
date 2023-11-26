@@ -1,8 +1,8 @@
 ---
 title: 'Custom link click tracking using Omniture'
 slug: 2010/03/custom-link-click-tracking-using-omniture
-pubDate: 2010-03-07T12:55:28+00:00
-modDate: 2010-04-13T23:00:31+00:00
+pubDate: 2010-03-07T20:55:28Z
+modDate: 2010-04-14T06:00:31Z
 image:
   src: '../../assets/thumbnails/omniture-logo.gif'
   alt: 'Omniture logo'

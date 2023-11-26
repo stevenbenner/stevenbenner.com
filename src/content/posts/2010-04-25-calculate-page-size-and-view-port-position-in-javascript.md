@@ -1,8 +1,8 @@
 ---
 title: 'Calculate page size and view port position in JavaScript'
 slug: 2010/04/calculate-page-size-and-view-port-position-in-javascript
-pubDate: 2010-04-25T16:45:50+00:00
-modDate: 2010-04-25T16:58:16+00:00
+pubDate: 2010-04-25T23:45:50Z
+modDate: 2010-04-25T23:58:16Z
 image:
   src: '../../assets/thumbnails/page-size-code.png'
   alt: 'Screenshot of JavaScript code'

@@ -1,8 +1,8 @@
 ---
 title: 'Optional parameters and named parameters in C# 4.0'
 slug: 2010/02/optional-parameters-and-named-parameters-in-c-4-0
-pubDate: 2010-02-24T14:12:19+00:00
-modDate: 2010-03-03T11:04:29+00:00
+pubDate: 2010-02-24T22:12:19Z
+modDate: 2010-03-03T19:04:29Z
 image:
   src: '../../assets/thumbnails/csharp.png'
   alt: 'C#'

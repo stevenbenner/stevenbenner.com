@@ -1,8 +1,8 @@
 ---
 title: 'Building a home Network Attached Storage server. Part 2: RAID Setup'
 slug: 2010/01/building-a-home-network-attached-storage-server-part-2-raid-setup
-pubDate: 2010-01-25T16:03:12+00:00
-modDate: 2015-08-02T18:24:15+00:00
+pubDate: 2010-01-26T00:03:12Z
+modDate: 2015-08-03T01:24:15Z
 image:
   src: '../../assets/thumbnails/raid5.png'
   alt: 'RAID5 balancing diagram'

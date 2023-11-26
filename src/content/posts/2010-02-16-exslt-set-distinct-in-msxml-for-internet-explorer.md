@@ -1,8 +1,8 @@
 ---
 title: 'EXSLT set:distinct in MSXML for Internet Explorer'
 slug: 2010/02/exslt-set-distinct-in-msxml-for-internet-explorer
-pubDate: 2010-02-16T16:01:21+00:00
-modDate: 2010-03-07T12:56:47+00:00
+pubDate: 2010-02-17T00:01:21Z
+modDate: 2010-03-07T20:56:47Z
 image:
   src: '../../assets/thumbnails/jscript-screenshot.png'
   alt: 'Screenshot of JScript code'

@@ -1,8 +1,8 @@
 ---
 title: 'Caching with CodeIgniter: Zen, headaches and performance'
 slug: 2010/12/caching-with-codeigniter-zen-headaches-and-performance
-pubDate: 2010-12-31T20:47:01+00:00
-modDate: 2012-07-17T08:18:52+00:00
+pubDate: 2011-01-01T04:47:01Z
+modDate: 2012-07-17T15:18:52Z
 image:
   src: '../../assets/thumbnails/codeigniter-fade-logo.png'
   alt: 'CodeIgniter logo'

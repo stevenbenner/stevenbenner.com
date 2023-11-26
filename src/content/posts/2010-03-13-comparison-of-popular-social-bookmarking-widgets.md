@@ -1,8 +1,8 @@
 ---
 title: 'Comparison of popular social bookmarking widgets'
 slug: 2010/03/comparison-of-popular-social-bookmarking-widgets
-pubDate: 2010-03-13T15:47:06+00:00
-modDate: 2011-06-05T13:28:49+00:00
+pubDate: 2010-03-13T23:47:06Z
+modDate: 2011-06-05T20:28:49Z
 image:
   src: '../../assets/thumbnails/social-bookmarking-service-logos.png'
   alt: 'Social bookmarking service logos'

@@ -1,8 +1,8 @@
 ---
 title: 'Setting up an Ubuntu LAMP server. Part 1: Initial setup'
 slug: 2010/06/setting-up-an-ubuntu-lamp-server-part-1-initial-setup
-pubDate: 2010-06-27T16:23:43+00:00
-modDate: 2013-02-27T07:13:25+00:00
+pubDate: 2010-06-27T23:23:43Z
+modDate: 2013-02-27T15:13:25Z
 image:
   src: '../../assets/thumbnails/ubuntu-logo.png'
   alt: 'Ubuntu logo'

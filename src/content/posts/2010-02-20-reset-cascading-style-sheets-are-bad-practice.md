@@ -1,8 +1,8 @@
 ---
 title: 'Reset cascading style sheets are bad practice'
 slug: 2010/02/reset-cascading-style-sheets-are-bad-practice
-pubDate: 2010-02-20T15:29:31+00:00
-modDate: 2010-12-04T18:00:21+00:00
+pubDate: 2010-02-20T23:29:31Z
+modDate: 2010-12-05T02:00:21Z
 image:
   src: '../../assets/thumbnails/firebug-reset-css.png'
   alt: 'Screenshot of reset CSS in Firebug'

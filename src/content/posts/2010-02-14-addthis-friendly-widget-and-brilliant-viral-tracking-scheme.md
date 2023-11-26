@@ -1,8 +1,8 @@
 ---
 title: 'AddThis: friendly widget and brilliant viral tracking scheme'
 slug: 2010/02/addthis-friendly-widget-and-brilliant-viral-tracking-scheme
-pubDate: 2010-02-14T00:15:15+00:00
-modDate: 2010-03-03T11:04:06+00:00
+pubDate: 2010-02-14T08:15:15Z
+modDate: 2010-03-07T21:00:19Z
 image:
   src: '../../assets/thumbnails/addthis-logo.png'
   alt: 'AddThis logo'

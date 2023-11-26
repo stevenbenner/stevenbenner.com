@@ -1,8 +1,8 @@
 ---
 title: 'JavaScript regex trick: Parse a query string into an object'
 slug: 2010/03/javascript-regex-trick-parse-a-query-string-into-an-object
-pubDate: 2010-03-03T10:42:02+00:00
-modDate: 2011-06-05T13:48:52+00:00
+pubDate: 2010-03-03T18:42:02Z
+modDate: 2011-06-05T20:48:52Z
 image:
   src: '../../assets/thumbnails/js-qs-code.png'
   alt: 'Screenshot of a JavaScript code snippet'

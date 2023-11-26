@@ -1,8 +1,8 @@
 ---
 title: 'How to circumvent internet filtering and enhance privacy'
 slug: 2010/05/how-to-circumvent-internet-filtering-and-enhance-privacy
-pubDate: 2010-05-09T16:30:36+00:00
-modDate: 2010-05-09T16:32:03+00:00
+pubDate: 2010-05-09T23:30:36Z
+modDate: 2010-05-09T23:32:03Z
 image:
   src: '../../assets/thumbnails/censored.png'
   alt: 'Censored'

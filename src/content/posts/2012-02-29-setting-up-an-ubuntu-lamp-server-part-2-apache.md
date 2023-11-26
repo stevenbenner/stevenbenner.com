@@ -1,8 +1,8 @@
 ---
 title: 'Setting up an Ubuntu LAMP server. Part 2: Apache'
 slug: 2012/02/setting-up-an-ubuntu-lamp-server-part-2-apache
-pubDate: 2012-02-29T19:34:18+00:00
-modDate: 2012-07-11T12:21:51+00:00
+pubDate: 2012-03-01T03:34:18Z
+modDate: 2012-07-11T19:21:51Z
 image:
   src: '../../assets/thumbnails/apache-logo.png'
   alt: 'Apache HTTP server logo'

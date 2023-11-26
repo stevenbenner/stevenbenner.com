@@ -1,8 +1,8 @@
 ---
 title: 'PHP needs an IDE and a membership provider'
 slug: 2009/09/php-needs-an-ide-and-a-membership-provider
-pubDate: 2009-09-06T00:24:17+00:00
-modDate: 2010-02-07T19:44:21+00:00
+pubDate: 2009-09-06T08:24:17Z
+modDate: 2010-02-08T03:44:21Z
 image:
   src: '../../assets/thumbnails/php-logo.png'
   alt: 'PHP logo'

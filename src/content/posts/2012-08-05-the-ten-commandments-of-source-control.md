@@ -1,8 +1,8 @@
 ---
 title: 'The Ten Commandments of Source Control'
 slug: 2012/08/the-ten-commandments-of-source-control
-pubDate: 2012-08-05T02:47:56+00:00
-modDate: 2012-12-10T16:49:33+00:00
+pubDate: 2012-08-05T09:47:56Z
+modDate: 2012-12-11T00:49:33Z
 image:
   src: '../../assets/thumbnails/victory.png'
   alt: 'Victory'

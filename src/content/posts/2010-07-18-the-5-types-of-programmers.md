@@ -1,8 +1,8 @@
 ---
 title: 'The 5 types of programmers'
 slug: 2010/07/the-5-types-of-programmers
-pubDate: 2010-07-18T15:11:45+00:00
-modDate: 2010-07-18T15:25:29+00:00
+pubDate: 2010-07-18T22:11:45Z
+modDate: 2010-07-18T22:25:29Z
 image:
   src: '../../assets/thumbnails/awesomecode.png'
   alt: 'Awesome code'

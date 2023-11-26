@@ -1,8 +1,8 @@
 ---
 title: 'External templates for the DataView control: Microsoft Ajax Library 4.0'
 slug: 2010/01/external-templates-for-the-dataview-control-microsoft-ajax-library-4-0
-pubDate: 2010-01-29T20:59:20+00:00
-modDate: 2010-03-07T12:57:19+00:00
+pubDate: 2010-01-30T04:59:20Z
+modDate: 2010-03-07T20:57:19Z
 image:
   src: '../../assets/thumbnails/aspdotnet-ajax.png'
   alt: 'Microsoft ASP.NET AJAX logo'

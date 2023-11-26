@@ -1,8 +1,8 @@
 ---
 title: 'Firewall script tool for iptables'
 slug: 2009/09/firewall-script-tool-for-iptables
-pubDate: 2009-09-26T00:34:12+00:00
-modDate: 2010-03-03T11:04:06+00:00
+pubDate: 2009-09-26T08:34:12Z
+modDate: 2010-03-03T19:04:06Z
 image:
   src: '../../assets/thumbnails/iptables2.png'
   alt: 'iptables rules script'

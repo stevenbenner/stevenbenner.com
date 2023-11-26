@@ -1,8 +1,8 @@
 ---
 title: 'Publishing XML to the web with XSLT: a replacement for the presentation layer'
 slug: 2010/02/publishing-xml-to-the-web-with-xslt-a-replacement-for-the-presentation-layer
-pubDate: 2010-02-01T22:39:54+00:00
-modDate: 2010-03-07T12:57:07+00:00
+pubDate: 2010-02-02T06:39:54Z
+modDate: 2010-03-07T20:57:07Z
 image:
   src: '../../assets/thumbnails/xslt.png'
   alt: 'XSLT'

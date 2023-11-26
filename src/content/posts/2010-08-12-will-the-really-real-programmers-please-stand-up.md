@@ -1,8 +1,8 @@
 ---
 title: 'Will the really real programmers please stand up?'
 slug: 2010/08/will-the-really-real-programmers-please-stand-up
-pubDate: 2010-08-12T11:00:56+00:00
-modDate: 2011-02-03T23:19:31+00:00
+pubDate: 2010-08-12T18:00:56Z
+modDate: 2011-02-04T07:19:31Z
 image:
   src: '../../assets/thumbnails/get-real.png'
   alt: 'Get real'

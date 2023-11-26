@@ -1,8 +1,8 @@
 ---
 title: 'Building a home Network Attached Storage server. Part 3: Wrapping up and product reviews'
 slug: 2010/04/building-a-home-network-attached-storage-server-part-3-wrapping-up-and-product-reviews-2
-pubDate: 2010-04-06T16:05:15+00:00
-modDate: 2015-08-02T18:46:34+00:00
+pubDate: 2010-04-06T23:05:15Z
+modDate: 2015-08-03T01:46:34Z
 categories:
 - System Administration
 tags:

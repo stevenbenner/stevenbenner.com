@@ -1,8 +1,8 @@
 ---
 title: 'Excessive JavaScript and AJAX: bad practice & broken pages'
 slug: 2010/01/over-use-of-javascript-and-ajax-bad-practice-and-broken-pages
-pubDate: 2010-01-24T14:07:29+00:00
-modDate: 2011-04-27T15:44:06+00:00
+pubDate: 2010-01-24T22:07:29Z
+modDate: 2011-04-27T22:44:06Z
 image:
   src: '../../assets/thumbnails/ajax-logo.png'
   alt: 'AJAX logo'

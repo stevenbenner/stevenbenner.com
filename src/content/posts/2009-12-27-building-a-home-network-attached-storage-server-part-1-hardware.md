@@ -1,8 +1,8 @@
 ---
 title: 'Building a home Network Attached Storage server. Part 1: Hardware'
 slug: 2009/12/building-a-home-network-attached-storage-server-part-1-hardware
-pubDate: 2009-12-27T16:37:29+00:00
-modDate: 2015-08-02T18:30:10+00:00
+pubDate: 2009-12-28T00:37:29Z
+modDate: 2015-08-03T01:30:10Z
 image:
   src: '../../assets/thumbnails/antec-1200.jpg'
   alt: 'Antec 1200 computer case'

@@ -1,8 +1,8 @@
 ---
 title: 'Friendly URLs in an ASP.NET app'
 slug: 2010/02/friendly-urls-in-an-asp-net-app
-pubDate: 2010-02-04T19:04:13+00:00
-modDate: 2010-03-07T12:56:58+00:00
+pubDate: 2010-02-05T03:04:13Z
+modDate: 2010-03-07T20:56:58Z
 image:
   src: '../../assets/thumbnails/aspdotnet-logo.gif'
   alt: 'Microsoft ASP.NET logo'

@@ -1,8 +1,8 @@
 ---
 title: 'MS Ajax 4.0 DataView Templates vs. jTemplates and PURE'
 slug: 2010/03/microsoft-ajax-4-0-dataview-templates-vs-jtemplates-and-pure
-pubDate: 2010-03-26T20:00:18+00:00
-modDate: 2010-03-26T20:00:07+00:00
+pubDate: 2010-03-27T03:00:18Z
+modDate: 2010-03-27T03:00:07Z
 image:
   src: '../../assets/thumbnails/aspajax-jquery.png'
   alt: 'ASP.NET AJAX and jQuery logos'

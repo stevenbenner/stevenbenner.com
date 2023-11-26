@@ -1,8 +1,8 @@
 ---
 title: 'Must-have Firefox Add-ons for Web Developers & Designers'
 slug: 2010/01/must-have-firefox-add-ons-for-web-developers-designers
-pubDate: 2010-01-27T11:51:41+00:00
-modDate: 2010-12-04T18:00:29+00:00
+pubDate: 2010-01-27T19:51:41Z
+modDate: 2010-12-05T02:00:29Z
 image:
   src: '../../assets/thumbnails/firefox-logo.png'
   alt: 'Firefox logo'

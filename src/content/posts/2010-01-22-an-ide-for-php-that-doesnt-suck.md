@@ -1,8 +1,8 @@
 ---
 title: 'An IDE for PHP that doesn’t suck'
 slug: 2010/01/an-ide-for-php-that-doesnt-suck
-pubDate: 2010-01-22T18:53:42+00:00
-modDate: 2010-02-07T19:43:19+00:00
+pubDate: 2010-01-23T02:53:42Z
+modDate: 2010-02-08T03:43:19Z
 image:
   src: '../../assets/thumbnails/phpdesigner.jpg'
   alt: 'phpDesigner logo'

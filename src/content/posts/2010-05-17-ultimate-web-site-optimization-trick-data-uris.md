@@ -1,8 +1,8 @@
 ---
 title: 'Ultimate web site optimization trick: data URIs'
 slug: 2010/05/ultimate-web-site-optimization-trick-data-uris
-pubDate: 2010-05-17T21:15:46+00:00
-modDate: 2012-07-29T20:43:43+00:00
+pubDate: 2010-05-18T04:15:46Z
+modDate: 2012-07-30T03:43:43Z
 image:
   src: '../../assets/thumbnails/base64.png'
   alt: 'Screenshot of base64 encoded data'

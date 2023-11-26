@@ -1,8 +1,8 @@
 ---
 title: 'Graceful degradation theory, IE and CSS3'
 slug: 2010/01/graceful-degradation-theory-ie-and-css3
-pubDate: 2010-01-21T15:13:00+00:00
-modDate: 2010-12-04T18:00:36+00:00
+pubDate: 2010-01-21T23:13:00Z
+modDate: 2010-12-05T02:00:36Z
 image:
   src: '../../assets/thumbnails/css3.png'
   alt: 'CSS3'
