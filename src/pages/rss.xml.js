@@ -14,7 +14,7 @@ export async function GET(context) {
 		site: context.site,
 		items: postsCollection.map((post) => ({
 			link: `/${post.slug}/`,
-			customData: '<language>en-US</language>',
+			customData: `<language>${site.language}</language>`,
 			content: sanitizeHtml(parser.render(post.body)),
 			...post.data
 		}))

@@ -1,4 +1,6 @@
 ---
+import { site } from '../data/config.json';
+
 const { title, url, pubDate } = Astro.props
 ---
 
@@ -6,7 +8,7 @@ const { title, url, pubDate } = Astro.props
 	<article>
 		<p>
 			<a href={url}>{title}</a><br />
-			<time datetime={pubDate.toISOString()}>{pubDate.toLocaleDateString('en-US')}</time>
+			<time datetime={pubDate.toISOString()}>{pubDate.toLocaleDateString(site.language)}</time>
 		</p>
 	</article>
 </li>

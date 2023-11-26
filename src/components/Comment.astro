@@ -1,5 +1,6 @@
 ---
 import { Image } from 'astro:assets';
+import { site } from '../data/config.json';
 
 const { author, isPostAuthor, url, avatar, date, content } = Astro.props
 ---
@@ -9,7 +10,7 @@ const { author, isPostAuthor, url, avatar, date, content } = Astro.props
 		<Image src={avatar} alt={`${author}’s avatar`} width="48" height="48" />
 		{ url ? <cite><a href={url} rel="external nofollow">{author}</a></cite> : <cite>{author}</cite> }
 		<br />
-		<time datetime={date.toISOString()}>{date.toLocaleDateString('en-US')} {date.toLocaleTimeString('en-US')}</time>
+		<time datetime={date.toISOString()}>{date.toLocaleDateString(site.language)} {date.toLocaleTimeString(site.language)}</time>
 	</div>
 	<Fragment set:html={content} />
 </section>
