@@ -9,6 +9,9 @@ body {
 a {
 	color: #0859dd;
 }
+a:visited {
+	color: #7f06ee;
+}
 article h2 {
 	padding-bottom: 1rem;
 	margin-top: 0;
