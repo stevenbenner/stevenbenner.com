@@ -142,4 +142,4 @@ If I wanted to continue to use the 2TB drives I could purchase a purpose-built f
 
 I’m sure all of this will be completely deprecated in 5 years when we all have 10gig home networks and 10TB SSD drives for $150. But I suspect this will hold me over until that time comes.
 
-**Continued in <a href="/2010/01/building-a-home-network-attached-storage-server-part-2-raid-setup/">Part 2: RAID Setup</a>.**
+**Continued in [Part 2: RAID Setup](/2010/01/building-a-home-network-attached-storage-server-part-2-raid-setup/).**
