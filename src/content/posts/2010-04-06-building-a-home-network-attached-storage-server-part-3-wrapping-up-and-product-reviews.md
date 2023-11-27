@@ -2,7 +2,7 @@
 title: 'Building a home Network Attached Storage server. Part 3: Wrapping up and product reviews'
 slug: 2010/04/building-a-home-network-attached-storage-server-part-3-wrapping-up-and-product-reviews-2
 pubDate: 2010-04-06T23:05:15Z
-modDate: 2015-08-03T01:46:34Z
+modDate: 2023-11-27T15:34:59Z
 categories:
 - System Administration
 tags:
@@ -11,7 +11,7 @@ tags:
 - Reviews
 ---
 
-It’s taken me a quarter of a year to write this series, partially because I wanted to make sure I got it right, partially because I’m a lazy writer. But now the wait is over, here is the third and final installment of the *[NAS series](/tag/nas/)* about my home NAS server build.
+It’s taken me a quarter of a year to write this series, partially because I wanted to make sure I got it right, partially because I’m a lazy writer. But now the wait is over, here is the third and final installment of the series about my home NAS server build. The previous installments are [Part 1: Hardware](/2009/12/building-a-home-network-attached-storage-server-part-1-hardware/) and [Part 2: RAID Setup](/2010/01/building-a-home-network-attached-storage-server-part-2-raid-setup/).
 
 <div style="text-align: center;">
 
