@@ -20,6 +20,8 @@ By now just about everyone knows about *[Dropbox](https://www.dropbox.com/)*, th
 
 But did you think about using it as a poor man’s CVS? It’s actually a really good solution for personal projects, or for a small group of people working on a project. I have fallen in love with the service for several reasons.
 
+<!-- more -->
+
 ### DropBox features
 
 **It’s free.** Your free account will give you 2GB of storage to start, if you play their new user game or viral marking game then you can easily get 3GB on your free account, which is far more than you will ever use for source code. If you do end up needing more space, they offer pay subscriptions for 50GB and 100GB, costing $10/month and $20/month. Personally, I’m sticking with the free plan.

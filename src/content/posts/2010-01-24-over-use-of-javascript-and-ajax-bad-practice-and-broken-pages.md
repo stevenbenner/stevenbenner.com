@@ -21,6 +21,8 @@ I’ve written tens of thousands of lines of JavaScript code and I love the lang
 
 However, for the last few years it feels like I’ve had to spend more time explaining why we should not use JavaScript than I do actually writing scripts. This is a trend that I’ve noticed more and more as the web matures. An ever increasing number people believe that JavaScript is the solution to everything. Many take this idea so far that they believe it’s okay to say that we don’t support users without JavaScript.
 
+<!-- more -->
+
 Often it’s because someone wants to use words like *“AJAX”*, *“JSON”*, *“dynamic”*, and *“Web 2.0”* in marking materials. Sometimes it’s because people believe that scripts are somehow more maintainable than the code behind. The rest of the time it’s just pure laziness.
 
 **These are the golden rules of JavaScript:**

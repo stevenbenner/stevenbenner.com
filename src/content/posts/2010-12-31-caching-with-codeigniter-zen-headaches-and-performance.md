@@ -23,6 +23,8 @@ However, if you have any degree of interactive or dynamic content, total output 
 
 Let me provide you with an overview of the caching systems available and a few of my tricks.
 
+<!-- more -->
+
 ### CodeIgniter Output Caching
 
 CodeIgniter’s [output caching](http://codeigniter.com/user_guide/general/caching.html) system will take the completely rendered output of your views and save them to disk. It’s a very simple idea, and simple is good for performance. When a page is cached there is no need to talk to the database or process anything.

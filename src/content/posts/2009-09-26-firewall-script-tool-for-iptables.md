@@ -22,3 +22,5 @@ If you run a public linux server of any kind then you should have a firewall run
 If you’re just getting started with iptables and you want a good strong rule set to use or learn from then check out the [Easy Firewall Generator for IPTables](http://easyfwgen.morizot.net/gen/). This is a great little tool that will give you a shell script with a very nice rule set.
 
 Just fill out the form and save the script to your server. Run the shell script and you have a great firewall with good logging. Though don’t auto-run the script on bootup until you are absolutely sure that you have the rules perfect, iptables can and will happily lock you out of your own server for good.
+
+<!-- more -->

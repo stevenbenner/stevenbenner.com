@@ -20,6 +20,8 @@ I have heard several companies bragging about having interview scripts like this
 
 But more to the point, I think that this is the wrong way to define a real programmer. Allow me to present you with my definition of a real programmer.
 
+<!-- more -->
+
 ### What is a real programmer?
 
 This comes from one of my favorite quotes in all of history:

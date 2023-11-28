@@ -19,6 +19,8 @@ Despite the many criticisms levied against the Windows operating system (many co
 
 This is my personal list of must have software for your Microsoft Windows computer. When I set up a new computer every item on this list gets installed, and I can do everything that I want to do. This list is valid for Windows XP, Vista or 7.
 
+<!-- more -->
+
 ### Internet applications
 
 <figure>

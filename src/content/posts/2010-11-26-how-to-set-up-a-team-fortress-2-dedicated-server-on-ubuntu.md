@@ -21,6 +21,8 @@ All Valve multiplayer games run off of the same base server software, *Source De
 
 This article will give you a walk though guide for installing and configuring srcds on Ubuntu. I am writing specifically about TF2 here, but much of this information will apply to other Source games such as Counter Strike: Source, Left 4 Dead, and Half-Life 2: Deathmatch.
 
+<!-- more -->
+
 ### Basic server information
 
 First off a few notes about the software:

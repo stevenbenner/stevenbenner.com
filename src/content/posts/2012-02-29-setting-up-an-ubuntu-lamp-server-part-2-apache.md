@@ -24,6 +24,8 @@ If you are setting up a web server then you are probably best off running Apache
 
 There are arguments to be made for the merits of nginx and lighthttpd, but I get everything I need out of Apache and enjoy using it. I really cannot say enough good things about Apache, I love it and it is my web server of choice. I recommend it as the starting point for all web servers.
 
+<!-- more -->
+
 ### About Apache
 
 The internet runs on Apache, simple as that. There are other notable web servers that have been gaining popularity over the years, and they do offer some performance benefits, however Apache is the benchmark by which they are all judged.

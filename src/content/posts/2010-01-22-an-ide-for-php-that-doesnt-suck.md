@@ -19,6 +19,8 @@ A few months ago I commented on how [PHP needs an IDE and a membership provider]
 
 This development environment isn’t perfect, that is to say it’s not Visual Studio smooth, but it is far better than anything else that I’ve tried for PHP. It has all of the basic features that I’ve been looking for in a PHP IDE that runs on Windows.
 
+<!-- more -->
+
  * First and foremost, it is **not** written in Java, like Aptana and Eclipse. That means that it actually runs at an acceptable speed on Windows.
  * It has a reasonably good form of intellisense code completion. It could be better, but most of the time it gives me exactly what I’m looking for.
  * There is a good inline error detection system. It highlights lines of code that have PHP or syntax errors.

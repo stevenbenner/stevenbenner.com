@@ -17,6 +17,8 @@ In my code journeys and programming adventures I’ve encountered many strange f
 
 However they all have their place in the pantheon of software development. Without a healthy mix of these different programming styles you’ll probably find your projects either take too long to complete, are not stable enough or are too perfect for humans to look upon.
 
+<!-- more -->
+
 ### The duct tape programmer
 
 <figure style="max-width: 10rem;">

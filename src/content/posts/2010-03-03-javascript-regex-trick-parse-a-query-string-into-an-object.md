@@ -17,6 +17,8 @@ Have you ever needed to get query string values using JavaScript? This task is u
 
 Here is a really sweet way to parse the query string into a JavaScript object with two lines of code using regular expressions to populate an object. I discovered this trick a few years ago and filed it away in my code snippets folder.
 
+<!-- more -->
+
 ### The Code
 
 The JavaScript code itself uses the `replace()` method with a regular expression to target the name/value pairs in the URI string that you are working with. The replace value is actually a function which will be executed for each pair. This little function simply pushes the name/value pair into the `queryString` object.

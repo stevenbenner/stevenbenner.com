@@ -21,6 +21,8 @@ I selected to use the new binary database format during install. After copying o
 
  > Warning: you requested the mysql5-binary schema, but the existing database has the mysql4 schema. This upgrade script can’t convert it, so it will remain mysql4.
 
+<!-- more -->
+
 Now this is really just a minor problem, it wont affect the functionality of your wiki install at all. However, binary data makes more sense than the old UTF-8 format for a couple of reasons:
 
  * Characters are stored exactly as they are entered, so if you use non-English or unusual characters often they will be better preserved.  In MySQL 4, the UTF-8 format only covered characters in the [Basic Multilingual Plane](https://en.wikipedia.org/wiki/Mapping_of_Unicode_character_planes) (BMP). Anything outside of those standard characters would be saved as jibberish if you did a mysqldump of the database.

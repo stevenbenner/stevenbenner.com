@@ -20,6 +20,8 @@ I’ve built a couple nifty tools in JavaScript that need to know the exact dime
 
 In this article I will show you how I support all modern (and not so modern) browsers with one function and I will explain a little about exactly what techniques I’m using to accomplish this.
 
+<!-- more -->
+
 ### When do you need to know page and view port dimensions?
 
 Basically, whenever you are going to dynamically place absolute positioned elements on the document. I have built several JavaScript features that needed to know this information.

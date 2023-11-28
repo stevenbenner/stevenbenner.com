@@ -21,6 +21,8 @@ However few have heard of *[XSLT](http://www.w3.org/TR/xslt)*, a standard langua
 
 Simply put, if your web application has been built to produce XML for feeds or APIs, then you do not need to build another set of logic to make a web version. You can let web browsers hit the service, just as you would for feeds or APIs. Just create an XSLT and link it from your XML document. All modern browsers will render the XSLT and display it as a normal web page.
 
+<!-- more -->
+
 The most famous example of this technique in action is the [World of Warcraft](http://www.worldofwarcraft.com/) home page. Blizzard publishes a minimum amount of data in a XML document which includes a reference to an XSLT stylesheet. The XSLT takes this minimum of data and uses it to build the XHTML document in the users’ web browser. This means that instead of having a complicated and slow CMS solution they can serve the entire (very high-traffic) home page from flat text files. When they change the content, all they need to do is publish the tiny XML file with the new data. When they want to change the look and feel they simply change the XSLT file.
 
 This provides a nice level of abstraction between the data and the layout. Your application can focus on data, leaving the work of presentation to the XSLT.

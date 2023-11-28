@@ -21,6 +21,8 @@ If you want to have a default set of arguments for a function or constructor the
 
 This will no longer be the case in C# 4.0 with the addition of *optional parameters* and *named parameters* features. This is one little change I am really looking forward to in a big way.
 
+<!-- more -->
+
 ### Traditional overloads
 
 The use of good old fashioned overload functions isn’t going to be completely replaced by the new optional parameters system, but you will almost never need them again.

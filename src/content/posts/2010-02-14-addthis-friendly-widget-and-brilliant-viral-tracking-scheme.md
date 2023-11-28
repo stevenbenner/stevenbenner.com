@@ -23,6 +23,8 @@ I’m no tinfoil hat paranoid, but I was a bit surprised at the scale and power 
 
 So lets reduce it’s tracking ability with a couple lines of JavaScript.
 
+<!-- more -->
+
 ### Neutering the AddThis widget (a little)
 
 You can greatly reduce their tracking abilities by adding two simple configuration options to the AddThis settings.

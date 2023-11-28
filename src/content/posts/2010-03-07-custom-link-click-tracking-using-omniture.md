@@ -20,6 +20,8 @@ Admittedly, I am not that big a fan of Omniture. Their *SiteCatalyst* reporting 
 
 This article is simply a straight how-to for building a custom link tracking JavaScript in the hopes that I can save some other JavaScript developer out there the headaches and tears usually associated with learning advanced Omniture implementations.
 
+<!-- more -->
+
 ### Omniture basics
 
 The Omniture JavaScript does all of its work through the `s` object. This object has many different methods and properties that are all ingeniously designed to confuse and torment would-be implementers.
