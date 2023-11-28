@@ -19,6 +19,8 @@ There are three major players in the social bookmarking widget world, [AddThis](
 
 This begs the question, which one is best? As usual it depends on what your needs are and how you will be using it. However I’ll try to take away the dartboard selection process that you’re using now by providing some reviews and a performance comparison for these different services.
 
+<!-- more -->
+
 ### Performance chart
 
 I started off by creating pages that contain absolutely nothing but the widget. With these completely empty pages I can get a much more accurate reflection on load time. I used Mozilla Firefox with the Firebug, YSlow, PageSpeed and Tamper Data add-on’s to to determine the number of connections, load time and weight for each widget. These are some of my [recommended Firefox add-on’s for all web guys](/2010/01/must-have-firefox-add-ons-for-web-developers-designers/).

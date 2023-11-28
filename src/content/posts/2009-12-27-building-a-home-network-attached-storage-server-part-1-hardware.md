@@ -30,6 +30,8 @@ I’ve had plenty of time to define exactly what I needed in a file server, and 
 
 This is the story of my particular NAS build and some of the stuff I learned during the course of this project.
 
+<!-- more -->
+
 I’m glad to say that I have managed to build a system that has met my requirements. But I did have to make some sacrifices for the budget, most notably on the RAID controller. I had really wanted to go with a real hardware RAID controller such as the [Adaptec 5805](http://www.newegg.com/Product/Product.aspx?Item=N82E16816103099). But that would have blown my budget way over my $2k limit. So I had to make do with the onboard Intel ICH10R raid controller.
 
 There are a great many benefits to using a real hardware RAID controller, but I just couldn’t justify the price for a home NAS, or at least not just yet.

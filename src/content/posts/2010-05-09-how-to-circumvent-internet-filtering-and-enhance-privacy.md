@@ -23,6 +23,8 @@ This is a terrible, and dangerous trend. I for one hope the aussies block the fo
 
 I think it is important to know how to get around censorship schemes and I believe that the greater the number of people with this knowledge the better off the internet, and the world will be. So here’s how to circumvent internet censorship, the *VPN*.
 
+<!-- more -->
+
 In several countries it is illegal to even attempt to circumvent government authorized internet censorship. You can and will go to jail if you get caught bypassing official filters in such countries. As much as I want to promote internet free speech I do not want any of my readers to go to jail. Please read up on your countries laws regarding net filtering and, of course, I do not advise you to attempt anything illegal.
 
 *Disclaimer: This site is not intended for distribution to, or use by, any person or entity in any jurisdiction or country where such distribution or use would be contrary to local law or regulation.*

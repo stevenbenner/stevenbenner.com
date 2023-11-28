@@ -21,6 +21,8 @@ PHP has a lot going for it, it is powerful, scale-able, easy to work with, and f
 
 But PHP does have some drawbacks. A large PHP project can be a nasty endeavor to catch up on. As a developer I always find it difficult coming into a PHP project and trying to figure out what is where. The conventions are simply the whims of whatever the original developer(s) were used to (sometimes none at all).
 
+<!-- more -->
+
 Also, the trouble with working on large projects. I know that intelisense and “Go To Definition” have spoiled me horribly, but really, that is what the standard should be. Don’t even think about saying “Aptana”, that is the worst IDE I’ve ever had to use. I’ve never seen such a leaky, slow, and bloated excuse for an IDE before. Of course it doesn’t help that the JRE is so terrible on windows.
 
 There are two things that are woefully missing from PHP right now.

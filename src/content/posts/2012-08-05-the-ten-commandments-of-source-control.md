@@ -19,6 +19,8 @@ When I asked what task he would have me to do, *Gitsvn* bestowed upon me two inv
 
 And so I present the holy commandments of source control, with my understanding of their meanings.
 
+<!-- more -->
+
 ### Commit bad code by proxy
 
 <figure>

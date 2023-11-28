@@ -20,6 +20,8 @@ Allow me to broaden your optimization toolbox with the ultimate HTTP connection 
 
 This article will explain what data URIs are, how to use them, and how to properly implement them.
 
+<!-- more -->
+
 ### What exactly are data URIs?
 
 The data URI scheme (*aka data: URLs*) is a method to include data in-line in a URI.

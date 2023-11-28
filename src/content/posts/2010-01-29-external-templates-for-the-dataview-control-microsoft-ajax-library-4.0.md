@@ -23,6 +23,8 @@ The new *DataView* control in the latest beta of the [Microsoft Ajax Library](ht
 
 This is one technique that I came up with for importing a template file into a page. This lets me have one (or a selection of) template files that I can use everywhere for a portable JavaScript widget. It has no dependencies other than the Microsoft Ajax Library.
 
+<!-- more -->
+
 You can save your template as an html or xml file in your project and then, using an AJAX connection, download the template and insert it into the page. Once the template has been inserted into the page you can create the DataView control and generate the widget.
 
 First off create the JavaScript file, in this case `MyWidget.js`:

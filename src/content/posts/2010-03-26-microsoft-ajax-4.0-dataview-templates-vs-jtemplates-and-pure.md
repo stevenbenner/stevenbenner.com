@@ -29,6 +29,8 @@ Now there is a new option coming out along with the new Microsoft .NET Framework
 
 I’ve been playing around with this new system and have been pleasantly surprised. Templates are relatively easy to construct, implementation is straight forward, and it works quite well. There are some pros, and some cons when compared to the other template systems.
 
+<!-- more -->
+
 Of course there are actually many other [template plugins](http://plugins.jquery.com/search/node/templates+type%3Aproject_project) for jQuery, however PURE and jTemplates have the best documentation, best syntax and the most recent updates. Almost all of the other template systems have been abandoned or deprecated by their creators.
 
 ### Comparison table

@@ -19,6 +19,8 @@ CSS3 offers a wide array of very important and useful features. All of which wil
 
 But I can tell you about the ones that I’ve fallen in love with and offer up some theory and advice on using them in the wild world of the web.
 
+<!-- more -->
+
 ### The big ones
 
 To me personally, these are the greatest pieces of technology offered in the current CSS3 spec:

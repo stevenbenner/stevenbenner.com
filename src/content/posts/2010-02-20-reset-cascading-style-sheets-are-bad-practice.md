@@ -20,6 +20,8 @@ The idea of the reset style sheet is to globally target every markup element and
 
 I’m sure that I am one of the small minority of web developers who’s saying this, but reset style sheets are bad practice, and it’s time to stop using them.
 
+<!-- more -->
+
 ### Why are reset style sheets so popular?
 
 The trend of using a reset CSS wasn’t always so prevalent, not long ago they were practically unheard of. But in recent years the reset trend has absolutely exploded. Now every CSS framework and many large web sites use them as the base for everything they put on the web.

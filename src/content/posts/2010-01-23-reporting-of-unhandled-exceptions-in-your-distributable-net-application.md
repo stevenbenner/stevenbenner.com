@@ -21,6 +21,8 @@ This can save you a lot of headaches when dealing with users complaining about p
 
 My method for handling exceptions and reporting them is very simple. However, it does require a little extra work to setup. I’ll walk you through my particular method and give you the basic C# code that I use.
 
+<!-- more -->
+
 ### The system
 
 There are four pieces to this reporting system:

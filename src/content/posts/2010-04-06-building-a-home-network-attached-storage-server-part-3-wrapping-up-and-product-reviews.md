@@ -13,6 +13,10 @@ tags:
 
 It’s taken me a quarter of a year to write this series, partially because I wanted to make sure I got it right, partially because I’m a lazy writer. But now the wait is over, here is the third and final installment of the series about my home NAS server build. The previous installments are [Part 1: Hardware](/2009/12/building-a-home-network-attached-storage-server-part-1-hardware/) and [Part 2: RAID Setup](/2010/01/building-a-home-network-attached-storage-server-part-2-raid-setup/).
 
+In this article I will discuss the final garnishing that you need to do to get you NAS to fire and forget server status. I will also give you my reviews of the various pieces of hardware that I used and offer a general wrap up statement on the project.
+
+<!-- more -->
+
 <div style="text-align: center;">
 
 ![80MB/s Network Throughput!](../../assets/postimages/nas/nas-transfer.png)
@@ -20,8 +24,6 @@ It’s taken me a quarter of a year to write this series, partially because I wa
 **80MB/sec across the network!**
 
 </div>
-
-In this article I will discuss the final garnishing that you need to do to get you NAS to fire and forget server status. I will also give you my reviews of the various pieces of hardware that I used and offer a general wrap up statement on the project.
 
 ### Surprises
 

@@ -19,6 +19,8 @@ Mozilla Firefox is by far my favorite web browser. It is secure, feature packed,
 
 This is an arbitrary list of my favorite Firefox add-ons for web development. These tools have fundamentally changed how I design and develop web pages. With these tools I can accomplish tasks in minutes that would have taken me hours just four years ago.
 
+<!-- more -->
+
 ### Firebug
 
 This is the end-all-be-all tool for web development and design. If you don’t already have it you are missing out on what every other web developer in the world discovered years ago.

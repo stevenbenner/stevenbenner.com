@@ -22,6 +22,8 @@ Once you have your Ubuntu operating system installed there are still a few thing
 
 Without further ado, lets get this show on the road. Start by connecting to your system via SSH and logging in to the root account. (For Windows users I recommend [PuTTY](http://www.chiark.greenend.org.uk/~sgtatham/putty/) as an SSH client)
 
+<!-- more -->
+
 ### Create your account
 
 The first thing to do is to create your account. Logging in as root is bad and you should never do it after you create a personal account. Create a new account with the *adduser* command.

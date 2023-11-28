@@ -23,6 +23,8 @@ One item that really needs to be mentioned is that if you use Windows computers 
 
 The first step is deciding what RAID controller you are going to use for the system.
 
+<!-- more -->
+
 ### RAID controller options
 
 There are several options for RAID arrays on the NAS server, the most obvious, and the one I chose was RAID 5 using the on-board Intel ICH10R and Promise RAID controllers. Software RAID has the reputation of being even slower than fake-RAID. Though I can’t comment on it in this instance because I didn’t bother trying it and running benchmarks. Here is my take on the RAID controller options:

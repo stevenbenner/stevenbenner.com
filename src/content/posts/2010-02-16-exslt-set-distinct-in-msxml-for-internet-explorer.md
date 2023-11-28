@@ -25,6 +25,8 @@ The most common (and difficult to replicate) EXSLT function that I use is *[set:
 
 This function is not available in any form in MSXML, so I decided to build it.
 
+<!-- more -->
+
 ### Building a custom function is MSXML
 
 The MSXSL spec in MSXML does have one powerful feature that can help us rectify some of these problems, *[msxsl:script](http://msdn.microsoft.com/en-us/library/ms256042.aspx)*. This feature allows you to build script extensions inside your XSLT style sheet. Of course it only exists in the Microsoft spec, so really it’s only obvious use is spending weeks hand-crafting the standard extension functions that Microsoft decided that they didn’t need to support.

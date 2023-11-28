@@ -28,6 +28,8 @@ This is a much leaner and cleaner looking link. Really better in every way, thou
 
 If your web application is consumer facing and relies on search engines for traffic then you should probably implement friendly URLs in some form for your app.
 
+<!-- more -->
+
 Using friendly URLs is by no means required. They have been proven to increase relevancy in search engines because the keywords in the URL adds weight to the result for any matching keywords. But this really is the only benefit that can be used to justify the time and maintenance it takes to deal with using friendly URL strings. If your web application is behind a login screen, or doesn’t need to be ranked in search engines then friendly URLs are probably not worth the trouble.
 
 ### Options
