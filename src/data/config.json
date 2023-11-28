@@ -5,5 +5,9 @@
 		"url": "https://stevenbenner.com",
 		"language": "en-US",
 		"rss": "/rss.xml"
+	},
+	"pagination": {
+		"pageSize": 5,
+		"maxPageLinks": 5
 	}
 }
