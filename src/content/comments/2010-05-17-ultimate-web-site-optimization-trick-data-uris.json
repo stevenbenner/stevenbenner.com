@@ -1,0 +1,152 @@
+[
+	{
+		"id": 149315,
+		"author": 0,
+		"author_name": "Tung Nguyen",
+		"author_url": "http://Tungnt.net",
+		"date_gmt": "2015-02-22T13:51:04",
+		"content": {
+			"rendered": "<p>Nice post Steven. Thanks for sharing.</p>\n"
+		},
+		"author_avatar_urls": {
+			"24": "https://secure.gravatar.com/avatar/3114b5b29be3e610183d38fb29afda3a?s=24&d=mm&r=pg",
+			"48": "https://secure.gravatar.com/avatar/3114b5b29be3e610183d38fb29afda3a?s=48&d=mm&r=pg",
+			"96": "https://secure.gravatar.com/avatar/3114b5b29be3e610183d38fb29afda3a?s=96&d=mm&r=pg"
+		}
+	},
+	{
+		"id": 9444,
+		"author": 0,
+		"author_name": "Satya Prakash",
+		"author_url": "http://www.satya-weblog.com",
+		"date_gmt": "2010-11-10T17:55:04",
+		"content": {
+			"rendered": "<p>I am using picasa for referring to image. So, I think this may not be useful for me.</p>\n"
+		},
+		"author_avatar_urls": {
+			"24": "https://secure.gravatar.com/avatar/982393a6cd5920abde07b05333a904e5?s=24&d=mm&r=pg",
+			"48": "https://secure.gravatar.com/avatar/982393a6cd5920abde07b05333a904e5?s=48&d=mm&r=pg",
+			"96": "https://secure.gravatar.com/avatar/982393a6cd5920abde07b05333a904e5?s=96&d=mm&r=pg"
+		}
+	},
+	{
+		"id": 1539,
+		"author": 2,
+		"author_name": "Steven Benner",
+		"author_url": "http://stevenbenner.com/",
+		"date_gmt": "2010-06-01T02:29:00",
+		"content": {
+			"rendered": "<p>But that&#8217;s the best part of data URIs! You can still use your sprites, except even more effectively. Data URIs enhance what you&#8217;re trying to accomplish with sprites. I&#8217;ve taken to embedding my sprites into the CSS file, with a graceful degradation fallback to the standard sprite image on the server.</p>\n<p>So long as your server is properly configured for optimal caching then a CSS file will cache just as well as an image. With this technique there&#8217;s one less request for modern browsers.</p>\n<p>Maintainability is slightly reduced because you have to remember to update the CSS file whenever you update the sprite, but sprites themselves are a <em>huge</em> maintainability sacrifice. Since you have to keep a master composite image and append new images as needed. What&#8217;s even worse, if you need to remove one image then you also have to modify the CSS background-position for every image that follows it.</p>\n<p>But we&#8217;ve all accepted this as an acceptable trade off for the reduced number of HTTP connections. I think data URI&#8217;s are just one more little step in this direction.</p>\n"
+		},
+		"author_avatar_urls": {
+			"24": "https://secure.gravatar.com/avatar/5b09e09f1d9fed4c34e369d02f2edb74?s=24&d=mm&r=pg",
+			"48": "https://secure.gravatar.com/avatar/5b09e09f1d9fed4c34e369d02f2edb74?s=48&d=mm&r=pg",
+			"96": "https://secure.gravatar.com/avatar/5b09e09f1d9fed4c34e369d02f2edb74?s=96&d=mm&r=pg"
+		}
+	},
+	{
+		"id": 1534,
+		"author": 0,
+		"author_name": "Loige",
+		"author_url": "http://loige.posterous.com",
+		"date_gmt": "2010-05-31T21:27:29",
+		"content": {
+			"rendered": "<p>I prefer to use the CSS sprite technique to reduce the number of request required to load my pages.<br />\nIn my opinion it caches better and don&#8217;t compromises the maintainability of the markup.<br />\nHowever thanks for the great tutorial and for the simple tool to calculate the base64 encoding ;)</p>\n"
+		},
+		"author_avatar_urls": {
+			"24": "https://secure.gravatar.com/avatar/31386a2cb727d54ee9388649b439b311?s=24&d=mm&r=pg",
+			"48": "https://secure.gravatar.com/avatar/31386a2cb727d54ee9388649b439b311?s=48&d=mm&r=pg",
+			"96": "https://secure.gravatar.com/avatar/31386a2cb727d54ee9388649b439b311?s=96&d=mm&r=pg"
+		}
+	},
+	{
+		"id": 1479,
+		"author": 0,
+		"author_name": "Cany0000n",
+		"author_url": "",
+		"date_gmt": "2010-05-28T21:59:22",
+		"content": {
+			"rendered": "<p>I like it. Thanks</p>\n"
+		},
+		"author_avatar_urls": {
+			"24": "https://secure.gravatar.com/avatar/f8f8123546de01246d2a2f8d7085a0c5?s=24&d=mm&r=pg",
+			"48": "https://secure.gravatar.com/avatar/f8f8123546de01246d2a2f8d7085a0c5?s=48&d=mm&r=pg",
+			"96": "https://secure.gravatar.com/avatar/f8f8123546de01246d2a2f8d7085a0c5?s=96&d=mm&r=pg"
+		}
+	},
+	{
+		"id": 1312,
+		"author": 2,
+		"author_name": "Steven Benner",
+		"author_url": "http://stevenbenner.com/",
+		"date_gmt": "2010-05-19T17:48:52",
+		"content": {
+			"rendered": "<p>@Alex</p>\n<p>Interesting project! I don&#8217;t use Java but I&#8217;m sure someone reading this will find it useful. Thanks for the link.</p>\n<p>@Aaron</p>\n<p>Ahh, of course you are <em>technically</em> correct, the best kind of correct. The <code>return</code> should be outside of the <code>using</code> statement. I just updated the function. For the record the original version compiles and runs just fine. :)</p>\n"
+		},
+		"author_avatar_urls": {
+			"24": "https://secure.gravatar.com/avatar/5b09e09f1d9fed4c34e369d02f2edb74?s=24&d=mm&r=pg",
+			"48": "https://secure.gravatar.com/avatar/5b09e09f1d9fed4c34e369d02f2edb74?s=48&d=mm&r=pg",
+			"96": "https://secure.gravatar.com/avatar/5b09e09f1d9fed4c34e369d02f2edb74?s=96&d=mm&r=pg"
+		}
+	},
+	{
+		"id": 1311,
+		"author": 0,
+		"author_name": "Aaron",
+		"author_url": "http://www.amcgowan.ca",
+		"date_gmt": "2010-05-19T16:51:51",
+		"content": {
+			"rendered": "<p>I just wanted to point out that you have an error in your C# code. You are missing a return and or your return is in the wrong scope (depending on how you look at it). :)</p>\n"
+		},
+		"author_avatar_urls": {
+			"24": "https://secure.gravatar.com/avatar/074ecf7a4ce046dcb402bab943ba8cbd?s=24&d=mm&r=pg",
+			"48": "https://secure.gravatar.com/avatar/074ecf7a4ce046dcb402bab943ba8cbd?s=48&d=mm&r=pg",
+			"96": "https://secure.gravatar.com/avatar/074ecf7a4ce046dcb402bab943ba8cbd?s=96&d=mm&r=pg"
+		}
+	},
+	{
+		"id": 1309,
+		"author": 0,
+		"author_name": "Alex",
+		"author_url": "http://code.google.com/p/wro4j",
+		"date_gmt": "2010-05-19T16:19:30",
+		"content": {
+			"rendered": "<p>Wro4j (Web Resource Optimizer) framework provides support for data uri when dealing with image backgrounds in css. Besides that, it merge, minimize &amp; gzip the static resources (css &amp; javascripts): <a href=\"http://code.google.com/p/wro4j/wiki/Base64DataUriSupport\" rel=\"nofollow\">http://code.google.com/p/wro4j/wiki/Base64DataUriSupport</a></p>\n<p>Alex</p>\n"
+		},
+		"author_avatar_urls": {
+			"24": "https://secure.gravatar.com/avatar/909892a9a8f332145fc01b6547cd3a3a?s=24&d=mm&r=pg",
+			"48": "https://secure.gravatar.com/avatar/909892a9a8f332145fc01b6547cd3a3a?s=48&d=mm&r=pg",
+			"96": "https://secure.gravatar.com/avatar/909892a9a8f332145fc01b6547cd3a3a?s=96&d=mm&r=pg"
+		}
+	},
+	{
+		"id": 1290,
+		"author": 2,
+		"author_name": "Steven Benner",
+		"author_url": "http://stevenbenner.com/",
+		"date_gmt": "2010-05-19T02:56:31",
+		"content": {
+			"rendered": "<p>Hi Rob, Thanks for the comment!</p>\n<p>Indeed, gzip is very important to the equation. Most commercial hosts are set to gzip CSS files by default. This will greatly reduce the download size of the files and make the data URIs very efficient.</p>\n<p>For people running their own Apache server who don&#8217;t know the syntax, you enable gzip compression by enabling mod_deflate and adding the following line to your config file:</p>\n<p><code>AddOutputFilterByType DEFLATE text/html text/plain text/xml text/css application/x-javascript</code></p>\n<p>I don&#8217;t remember off hand how to do it in IIS but it is very simple, just google it.</p>\n"
+		},
+		"author_avatar_urls": {
+			"24": "https://secure.gravatar.com/avatar/5b09e09f1d9fed4c34e369d02f2edb74?s=24&d=mm&r=pg",
+			"48": "https://secure.gravatar.com/avatar/5b09e09f1d9fed4c34e369d02f2edb74?s=48&d=mm&r=pg",
+			"96": "https://secure.gravatar.com/avatar/5b09e09f1d9fed4c34e369d02f2edb74?s=96&d=mm&r=pg"
+		}
+	},
+	{
+		"id": 1287,
+		"author": 0,
+		"author_name": "Rob Flaherty",
+		"author_url": "http://www.ravelrumba.com",
+		"date_gmt": "2010-05-18T22:38:02",
+		"content": {
+			"rendered": "<p>Steven,</p>\n<p>Very nice write-up.  One other thing to mention is the importance of gzipping any stylesheets that contain data URIs.  The base64 encoding will increase file size by about 33%, but once you apply compression, the file size will return to roughly the original size.</p>\n"
+		},
+		"author_avatar_urls": {
+			"24": "https://secure.gravatar.com/avatar/7fa6e5af2fd78ece17f6871d9bd30a05?s=24&d=mm&r=pg",
+			"48": "https://secure.gravatar.com/avatar/7fa6e5af2fd78ece17f6871d9bd30a05?s=48&d=mm&r=pg",
+			"96": "https://secure.gravatar.com/avatar/7fa6e5af2fd78ece17f6871d9bd30a05?s=96&d=mm&r=pg"
+		}
+	}
+]

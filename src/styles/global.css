@@ -1,0 +1,95 @@
+html {
+	font-family: sans-serif;
+}
+body {
+	background: #132329 linear-gradient(to bottom, #39687b 0%, #132329 30rem) no-repeat;
+	margin: 0;
+}
+
+a {
+	color: #0859dd;
+}
+a:visited {
+	color: #7f06ee;
+}
+article h2 {
+	padding-bottom: 1rem;
+	margin-top: 0;
+	border-bottom: 1px solid #000;
+}
+time {
+	font-style: italic;
+}
+blockquote {
+	background-color: #eee;
+	font-style: italic;
+	padding: 0.5rem 2rem;
+	border-radius: 0.2rem;
+	border-left: 0.5rem solid #ccc;
+}
+pre {
+	padding: 1rem;
+	border-radius: 0.3rem;
+	tab-size: 4;
+}
+code:not(pre code) {
+	background-color: #f0f8ff;
+	padding: 0.2rem;
+	border: 1px solid #eee;
+	border-radius: 0.2rem;
+}
+th, td {
+	padding: 0 1rem 0.3rem 0;
+}
+li {
+	margin-bottom: 0.6rem;
+}
+figure {
+	display: inline-block;
+	float: right;
+	padding: 0.4rem;
+	border: 1px solid #ccc;
+	border-radius: 0.2rem;
+}
+figure img {
+	display: block;
+}
+figure p {
+	margin: 0;
+}
+figcaption {
+	background-color: #333;
+	padding: 0.4rem;
+	color: #fff;
+	font-style: italic;
+	text-align: center;
+}
+main > article {
+	background-color: #fff;
+	padding: 1rem;
+	overflow: hidden;
+}
+main > article img {
+	max-width: 100%;
+	height: auto;
+}
+
+.thumbnail {
+	float: right;
+	margin: 0 0 1rem 1rem;
+}
+
+@media (min-width: 600px) {
+	main {
+		margin: 0 auto;
+		max-width: 75rem;
+		box-shadow: 0 0 1rem 0.1rem #000;
+		border-radius: 0.5rem;
+	}
+	main > article {
+		padding: 2rem 3rem;
+	}
+	.thumbnail {
+		max-width: 20rem;
+	}
+}

@@ -1,0 +1,73 @@
+---
+import { pagination } from '../data/config.json';
+
+const { currentPage, totalPages, baseUrl, prevUrl, nextUrl } = Astro.props;
+
+const pageLinkSpread = Number.parseInt(pagination.maxPageLinks / 2); // max number of page links to show before/after current page
+const totalPrevPages = currentPage - 1;
+const totalNextPages = totalPages - currentPage;
+const lowestPage = Math.max(
+	1,
+	totalNextPages < pageLinkSpread ?
+		currentPage - pagination.maxPageLinks + totalNextPages + 1 :
+		currentPage - pageLinkSpread
+);
+const highestPage = Math.min(
+	totalPages,
+	totalPrevPages < pageLinkSpread ?
+		currentPage + pagination.maxPageLinks - totalPrevPages - 1 :
+		currentPage + pageLinkSpread
+);
+const pageArray = Array.from(
+	{ length: highestPage - lowestPage + 1 },
+	(v, i) => i + lowestPage
+);
+---
+
+<nav>
+	<ol>
+		{ currentPage > pageLinkSpread + 1 && <li class="first"><a href={baseUrl}>« First</a></li> }
+		{ prevUrl && <li><a href={prevUrl}>« Previous</a></li> }
+		{
+			pageArray.map((pageNum) => (
+				<li>
+					<a href={pageNum === 1 ? baseUrl : `${baseUrl}${pageNum}`} class={pageNum === currentPage && 'current'}>{pageNum}</a>
+				</li>
+			))
+		}
+		{ nextUrl && <li><a href={nextUrl}>Next »</a></li> }
+		{ currentPage < totalPages - pageLinkSpread && <li class="last"><a href={`${baseUrl}${totalPages}`}>Last »</a></li> }
+	</ol>
+</nav>
+
+<style>
+	nav {
+		text-align: center;
+	}
+	ol {
+		list-style-type: none;
+		padding: 0;
+	}
+	li {
+		display: inline;
+	}
+	li.first, li.last {
+		display: none;
+	}
+	a {
+		color: #fff;
+		background: linear-gradient(to bottom, #a64040 0%, #982323 100%);
+		padding: 0.3rem 0.7rem 0.25rem;
+		border-bottom: 1px solid rgba(0, 0, 0, 0.25);
+		border-radius: 0.3rem;
+		text-decoration: none;
+	}
+	a.current {
+		background: linear-gradient(to bottom, #727272 0%, #5c5c5c 100%);
+	}
+	@media (min-width: 600px) {
+		li.first, li.last {
+			display: inline;
+		}
+	}
+</style>

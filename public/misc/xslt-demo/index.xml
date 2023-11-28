@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="layout.xsl"?>
+<searchdata>
+	<query>
+		<search>XSLT</search>
+	</query>
+	<results>
+		<class id="12" name="XSLT 101">
+			<datetime>Feb 1, 2010 8:00pm PST</datetime>
+			<description>A basic introduction to XSLT.</description>
+			<teacher>Steven Benner</teacher>
+		</class>
+		<class id="18" name="Advanced XSLT">
+			<datetime>Feb 2, 2010 8:00pm PST</datetime>
+			<description>Advanced XSLT techniques and concepts.</description>
+			<teacher>Steven Benner</teacher>
+		</class>
+		<class id="35" name="XSLT History">
+			<datetime>Feb 1, 2010 2:00pm PST</datetime>
+			<description>The history of XSLT.</description>
+			<teacher>Steven Benner</teacher>
+		</class>
+	</results>
+</searchdata>

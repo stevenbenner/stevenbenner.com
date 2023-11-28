@@ -1,0 +1,42 @@
+---
+import { Image } from 'astro:assets';
+import { site } from '../data/config.json';
+
+const { author, isPostAuthor, url, avatar, date, content } = Astro.props
+---
+
+<section class={isPostAuthor && 'postauthor'}>
+	<div>
+		<Image src={avatar} alt={`${author}’s avatar`} width="48" height="48" />
+		{ url ? <cite><a href={url} rel="external nofollow">{author}</a></cite> : <cite>{author}</cite> }
+		<br />
+		<time datetime={date.toISOString()}>{date.toLocaleDateString(site.language)} {date.toLocaleTimeString(site.language)}</time>
+	</div>
+	<Fragment set:html={content} />
+</section>
+
+<style>
+	section {
+		background-color: #f9f9f5;
+		padding: 1rem;
+		margin-bottom: 1rem;
+		border-radius: 0.2rem;
+	}
+	section.postauthor {
+		background-color: #f9f8ec;
+	}
+	div {
+		position: relative;
+		padding: 0.4rem 0 0 3.6rem;
+		overflow: hidden;
+		min-height: 3rem;
+	}
+	img {
+		position: absolute;
+		top: 0;
+		left: 0;
+	}
+	cite {
+		font-weight: bold;
+	}
+</style>

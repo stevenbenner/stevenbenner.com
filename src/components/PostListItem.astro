@@ -1,0 +1,39 @@
+---
+import { Image } from 'astro:assets';
+import { site } from '../data/config.json';
+
+const { title, url, pubDate, thumbnail, postExcerpt } = Astro.props
+---
+
+<li>
+	<article>
+		<hgroup>
+			<h3><a href={url}>{title}</a></h3>
+			<p><time datetime={pubDate.toISOString()}>{pubDate.toLocaleDateString(site.language)}</time></p>
+		</hgroup>
+		{ thumbnail && <Image src={thumbnail.src} alt={thumbnail.alt} class="thumbnail" /> }
+		<Fragment set:html={postExcerpt} />
+		<p><a href={url}>Read more…</a></p>
+	</article>
+</li>
+
+<style>
+	li {
+		margin-bottom: 2rem;
+	}
+	h3 {
+		margin-bottom: 0.5rem;
+	}
+	hgroup p {
+		margin-top: 0;
+	}
+	.thumbnail {
+		display: none;
+	}
+	@media (min-width: 600px) {
+		.thumbnail {
+			display: block;
+			max-width: 10rem;
+		}
+	}
+</style>

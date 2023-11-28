@@ -1,0 +1,47 @@
+[
+	{
+		"id": 294989,
+		"author": 0,
+		"author_name": "Stas",
+		"author_url": "",
+		"date_gmt": "2020-07-15T13:27:44",
+		"content": {
+			"rendered": "<p>My choice is Codelobster IDE &#8211; <a href=\"http://www.codelobster.com\" rel=\"nofollow\">http://www.codelobster.com</a></p>\n"
+		},
+		"author_avatar_urls": {
+			"24": "https://secure.gravatar.com/avatar/bdfb87bea07dd1dfbb56c7792798ab78?s=24&d=mm&r=pg",
+			"48": "https://secure.gravatar.com/avatar/bdfb87bea07dd1dfbb56c7792798ab78?s=48&d=mm&r=pg",
+			"96": "https://secure.gravatar.com/avatar/bdfb87bea07dd1dfbb56c7792798ab78?s=96&d=mm&r=pg"
+		}
+	},
+	{
+		"id": 80651,
+		"author": 0,
+		"author_name": "OtaK",
+		"author_url": "http://www.otak-arts.com/",
+		"date_gmt": "2011-11-02T09:41:05",
+		"content": {
+			"rendered": "<p>Use PhpStorm. Best PHP IDE I ever used, and best one I&#8217;ll ever use, for sure. Code completion, VCS integration (SVN, Git (+GitHub), CVS, Mercurial, Perforce, the rest through plugins), support of JS libraries, PHP libraries, language injection, support of task servers (like Redmine, Trac and such) and so on, really a LOT of functionalities.</p>\n<p>You can, of course, try the trial version before thinking about it, but it&#8217;s a really great tool.</p>\n"
+		},
+		"author_avatar_urls": {
+			"24": "https://secure.gravatar.com/avatar/e6347ac3692509d85e8c6bc3fcf3ca7f?s=24&d=mm&r=pg",
+			"48": "https://secure.gravatar.com/avatar/e6347ac3692509d85e8c6bc3fcf3ca7f?s=48&d=mm&r=pg",
+			"96": "https://secure.gravatar.com/avatar/e6347ac3692509d85e8c6bc3fcf3ca7f?s=96&d=mm&r=pg"
+		}
+	},
+	{
+		"id": 10144,
+		"author": 0,
+		"author_name": "Fuse",
+		"author_url": "",
+		"date_gmt": "2010-11-19T20:23:53",
+		"content": {
+			"rendered": "<p>What about KDevelop?</p>\n"
+		},
+		"author_avatar_urls": {
+			"24": "https://secure.gravatar.com/avatar/af98d42edcb2579337094f106f3b4e6b?s=24&d=mm&r=pg",
+			"48": "https://secure.gravatar.com/avatar/af98d42edcb2579337094f106f3b4e6b?s=48&d=mm&r=pg",
+			"96": "https://secure.gravatar.com/avatar/af98d42edcb2579337094f106f3b4e6b?s=96&d=mm&r=pg"
+		}
+	}
+]

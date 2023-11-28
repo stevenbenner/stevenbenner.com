@@ -1,0 +1,32 @@
+[
+	{
+		"id": 83545,
+		"author": 0,
+		"author_name": "Richard",
+		"author_url": "http://www.willis-owen.co.uk",
+		"date_gmt": "2012-11-21T15:45:41",
+		"content": {
+			"rendered": "<p>I found this useful &#8211; thanks for posting.</p>\n"
+		},
+		"author_avatar_urls": {
+			"24": "https://secure.gravatar.com/avatar/a12eaf78c327cc815d6ad6088ee00c6e?s=24&d=mm&r=pg",
+			"48": "https://secure.gravatar.com/avatar/a12eaf78c327cc815d6ad6088ee00c6e?s=48&d=mm&r=pg",
+			"96": "https://secure.gravatar.com/avatar/a12eaf78c327cc815d6ad6088ee00c6e?s=96&d=mm&r=pg"
+		}
+	},
+	{
+		"id": 81746,
+		"author": 0,
+		"author_name": "Boitumelo",
+		"author_url": "http://www.facebook.com/profile.php?id=100003405677140",
+		"date_gmt": "2012-03-30T08:00:03",
+		"content": {
+			"rendered": "<p>I have done this now on several times and can rpttey much confirm that it works just fine.I am running the J2EE (Multiserver Configuration) setup on Ubuntu Server (Dapper) which has been turned into a developer workstation running Gnome deskop, Eclispe WTP, etc.No issues as yet and stable like you would not believe.Tied in with Apache it really is the best way to develop web applications with ColdFusion, considering most good things will eventually be served on production Linux boxes, it makes sense to develop on the same too.Ethan CaneWeb Developer</p>\n"
+		},
+		"author_avatar_urls": {
+			"24": "https://secure.gravatar.com/avatar/35eca345c550c151e2b52cf2efc5c86b?s=24&d=mm&r=pg",
+			"48": "https://secure.gravatar.com/avatar/35eca345c550c151e2b52cf2efc5c86b?s=48&d=mm&r=pg",
+			"96": "https://secure.gravatar.com/avatar/35eca345c550c151e2b52cf2efc5c86b?s=96&d=mm&r=pg"
+		}
+	}
+]

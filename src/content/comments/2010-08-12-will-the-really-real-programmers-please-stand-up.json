@@ -1,0 +1,917 @@
+[
+	{
+		"id": 85179,
+		"author": 0,
+		"author_name": "ParhamO",
+		"author_url": "",
+		"date_gmt": "2014-04-22T09:29:04",
+		"content": {
+			"rendered": "<p>Hi, I see a lot of mixed feelings in the comments and actually I&#8217;m not sure why.<br />\nI believe we can all agree that the fundamental think that we are looking for in a candidate is his problem solving skills (including his ability to find a solution if he does not have it), after all that is why we are hiring&#8230;<br />\nI like this approach (build small realistic project at home) because the candidate is not nervous at home so I would expect he will perform his best and I can review his implementation when I get a chance.<br />\nAlso another approach, similar to this, is to create <a href=\"http://testdome.com/\" rel=\"nofollow\">a programming test</a> online which the candidate would take and if he passes then I will review his test, his problem solving implementations or bug fixing or whatever.</p>\n"
+		},
+		"author_avatar_urls": {
+			"24": "https://secure.gravatar.com/avatar/f926dd429e37b22337fc7baa317d3569?s=24&d=mm&r=pg",
+			"48": "https://secure.gravatar.com/avatar/f926dd429e37b22337fc7baa317d3569?s=48&d=mm&r=pg",
+			"96": "https://secure.gravatar.com/avatar/f926dd429e37b22337fc7baa317d3569?s=96&d=mm&r=pg"
+		}
+	},
+	{
+		"id": 84206,
+		"author": 0,
+		"author_name": "Keith",
+		"author_url": "",
+		"date_gmt": "2014-03-03T05:51:07",
+		"content": {
+			"rendered": "<p>Good blog entry, if only there were more &#8216;good&#8217; managers to do the recruitment. I too have been on both sides of the desk, recruiting and being recruited. Unfortunately in too many corporations the first interview is conducted by juniors fresh out of college and still remember each line of whichever computer language manual they&#8217;ve read. I&#8217;ve lost count of the numbers of languages I&#8217;ve developed in in my career that spans 30 years of development. When I recruit, I tend to ask questions that probe whether I can work with the guy or gal and how they will behave in the team. Hard code technical skills is absolutely secondary. When I started this game there were not that many computer science graduates, we had to recruit graduates majoring in other disciplines. The fact that some of the best developer I know are English and History majors tells me something.</p>\n"
+		},
+		"author_avatar_urls": {
+			"24": "https://secure.gravatar.com/avatar/019cd179182e45741633f140b4f697b4?s=24&d=mm&r=pg",
+			"48": "https://secure.gravatar.com/avatar/019cd179182e45741633f140b4f697b4?s=48&d=mm&r=pg",
+			"96": "https://secure.gravatar.com/avatar/019cd179182e45741633f140b4f697b4?s=96&d=mm&r=pg"
+		}
+	},
+	{
+		"id": 83824,
+		"author": 0,
+		"author_name": "Jeremy Collake",
+		"author_url": "http://bitsum.com",
+		"date_gmt": "2013-04-15T07:29:07",
+		"content": {
+			"rendered": "<p>Good points! In my years, I&#8217;ve struggled to &#8216;find my place&#8217; as a programmer. There is a lot of arrogance in computer science, lots of critics, and lots of egos battling it out. Nobody knows as much as they think they do, and, as most people can relate to, with every passing year it is easy to look back and scoff at how little your old self knew!</p>\n<p>There&#8217;s an infinite amount of things that can be learned, and an infinite number of specialties.</p>\n<p>At the end of the day, it boils down to this.</p>\n<p>If I was hiring, I&#8217;d look for these qualities:<br />\n1. *Humility* &#8211; Egos are a barrier to learning and writing good code, as well as collaborating with others.<br />\n2. *Enthusasism* &#8211; Without enthusiasm, you&#8217;ll get lazy, lose interest, and writing good code is very difficult if you&#8217;re not enthusiastic about programming, and learning. Companies should be particularly careful not to quell the enthusiasm of its programmers. Critics and perfectionism can stifle enthusiasm very quickly.<br />\n3. *Pragmatism* &#8211; People often get caught up in writing &#8216;perfect&#8217; code, or nit picking other people&#8217;s code, which is really a function of their ego. They feel if they release anything not perfect, they&#8217;ll be criticized, and their ego can&#8217;t take that. GOOD CODE doesn&#8217;t need to be PERFECT.</p>\n"
+		},
+		"author_avatar_urls": {
+			"24": "https://secure.gravatar.com/avatar/353b8e94f39fd05315eb7412d1b81f5f?s=24&d=mm&r=pg",
+			"48": "https://secure.gravatar.com/avatar/353b8e94f39fd05315eb7412d1b81f5f?s=48&d=mm&r=pg",
+			"96": "https://secure.gravatar.com/avatar/353b8e94f39fd05315eb7412d1b81f5f?s=96&d=mm&r=pg"
+		}
+	},
+	{
+		"id": 83547,
+		"author": 0,
+		"author_name": "Jeff Darling",
+		"author_url": "http://www.polysyncronism.com/wordpress",
+		"date_gmt": "2012-12-01T13:15:56",
+		"content": {
+			"rendered": "<p>I read half way through your post and knew that I had to post a comment.  I especially liked the term you used code_by_google.  I&#8217;ve never seen anyone use that before, but I know exactly what you are talking about because I&#8217;ve coded by google many times.  Especially in a language that I just needed to use for one particular project.  If job recruiters do not know this concept of coding by google they should! </p>\n<p>Never stop learning my friend.</p>\n"
+		},
+		"author_avatar_urls": {
+			"24": "https://secure.gravatar.com/avatar/c1e8834e40ef01f8902963f7ee5a1132?s=24&d=mm&r=pg",
+			"48": "https://secure.gravatar.com/avatar/c1e8834e40ef01f8902963f7ee5a1132?s=48&d=mm&r=pg",
+			"96": "https://secure.gravatar.com/avatar/c1e8834e40ef01f8902963f7ee5a1132?s=96&d=mm&r=pg"
+		}
+	},
+	{
+		"id": 81766,
+		"author": 0,
+		"author_name": "Ian Vehrmt",
+		"author_url": "http://www.unmorph.com",
+		"date_gmt": "2012-04-03T18:26:12",
+		"content": {
+			"rendered": "<p>Thanks for reminding me what my calling in life is. I agree that being an encyclopedia of CS theory is useless, but I do support actually having gone through it at some point.</p>\n<p>Initiative and creativity is the answer, in the end.</p>\n"
+		},
+		"author_avatar_urls": {
+			"24": "https://secure.gravatar.com/avatar/191249e10a68a130af42a0db4b690b09?s=24&d=mm&r=pg",
+			"48": "https://secure.gravatar.com/avatar/191249e10a68a130af42a0db4b690b09?s=48&d=mm&r=pg",
+			"96": "https://secure.gravatar.com/avatar/191249e10a68a130af42a0db4b690b09?s=96&d=mm&r=pg"
+		}
+	},
+	{
+		"id": 80639,
+		"author": 0,
+		"author_name": "eiriatem",
+		"author_url": "",
+		"date_gmt": "2011-10-07T15:06:08",
+		"content": {
+			"rendered": "<p>There is an additionnal type of developper :</p>\n<p> Eclipse dev who lose their time to start &amp; stop the Eclipse App</p>\n"
+		},
+		"author_avatar_urls": {
+			"24": "https://secure.gravatar.com/avatar/68ffd86b33175ca6af40ef8aa33129a6?s=24&d=mm&r=pg",
+			"48": "https://secure.gravatar.com/avatar/68ffd86b33175ca6af40ef8aa33129a6?s=48&d=mm&r=pg",
+			"96": "https://secure.gravatar.com/avatar/68ffd86b33175ca6af40ef8aa33129a6?s=96&d=mm&r=pg"
+		}
+	},
+	{
+		"id": 63349,
+		"author": 0,
+		"author_name": "RFDaemoniac",
+		"author_url": "",
+		"date_gmt": "2011-08-09T17:18:56",
+		"content": {
+			"rendered": "<p>I think that this is a wonderful explanation of how to find programmers that you should hire, though I do think that academic-oriented programming and CS theory still have their place in the world. I am a new programmer, going into my second year of university, but I already know from 4 months of work with start-ups that if I have to write websites and their data backend for the rest of my life, I&#8217;d be a very depressed man&#8230;</p>\n<p>&#8220;Real Programmers&#8221; does not have to be limited to corporate or start-up usable programmers. People trying to solve NP hard problems are very useful in furthering the computer sciences and their applications.</p>\n"
+		},
+		"author_avatar_urls": {
+			"24": "https://secure.gravatar.com/avatar/3a8b957d039eb546451aa18bf3c13118?s=24&d=mm&r=pg",
+			"48": "https://secure.gravatar.com/avatar/3a8b957d039eb546451aa18bf3c13118?s=48&d=mm&r=pg",
+			"96": "https://secure.gravatar.com/avatar/3a8b957d039eb546451aa18bf3c13118?s=96&d=mm&r=pg"
+		}
+	},
+	{
+		"id": 55958,
+		"author": 0,
+		"author_name": "Interesting Points",
+		"author_url": "",
+		"date_gmt": "2011-07-19T19:00:42",
+		"content": {
+			"rendered": "<p>&#8220;People who are more interested in the buzz words and CS theory than actual experience and a history of practical application of skills are a perpetual thorn in the side of the programming industry.&#8221;</p>\n<p>Yes!  If you are this person, please go away.  The rest of us don&#8217;t want you.</p>\n<p>&#8220;Don’t look down on other programmers because they don’t fit your model definition of a programmer, they just might be better than you.&#8221;</p>\n<p>Search for Paula Bean.  She&#8217;s apparently &#8216;brillant&#8217;.</p>\n<p>&#8220;If 99 out of 100 candidates fail your interview then you are looking for something that doesn’t exist.&#8221;</p>\n<p>They probably exist.  They just don&#8217;t want to work for you for some reason.  Most likely reason:  Insufficient pay for the requested skill set.  Either lower the bar and offer on-the-job training or offer more money.</p>\n<p>&#8220;If you ever finish learning, then your career as a programmer is over. Go study law.&#8221;</p>\n<p>Interestingly, I know a whole slew of programmers who randomly went to study law once they reached 40-ish.  Guess they got tired of programming.  Sure hope I don&#8217;t.</p>\n"
+		},
+		"author_avatar_urls": {
+			"24": "https://secure.gravatar.com/avatar/bbc60ab4288ef77d1f430b0d1dfbc22b?s=24&d=mm&r=pg",
+			"48": "https://secure.gravatar.com/avatar/bbc60ab4288ef77d1f430b0d1dfbc22b?s=48&d=mm&r=pg",
+			"96": "https://secure.gravatar.com/avatar/bbc60ab4288ef77d1f430b0d1dfbc22b?s=96&d=mm&r=pg"
+		}
+	},
+	{
+		"id": 38033,
+		"author": 0,
+		"author_name": "Garwin Pryce",
+		"author_url": "",
+		"date_gmt": "2011-05-25T20:51:47",
+		"content": {
+			"rendered": "<p>Must admit, I totally agree.</p>\n"
+		},
+		"author_avatar_urls": {
+			"24": "https://secure.gravatar.com/avatar/8e7ae0408d08b40ea82fbbbfafcb5122?s=24&d=mm&r=pg",
+			"48": "https://secure.gravatar.com/avatar/8e7ae0408d08b40ea82fbbbfafcb5122?s=48&d=mm&r=pg",
+			"96": "https://secure.gravatar.com/avatar/8e7ae0408d08b40ea82fbbbfafcb5122?s=96&d=mm&r=pg"
+		}
+	},
+	{
+		"id": 36644,
+		"author": 0,
+		"author_name": "cneah",
+		"author_url": "",
+		"date_gmt": "2011-05-20T22:19:02",
+		"content": {
+			"rendered": "<p>Memorization is about answers. Your focus on applying the same technique over and over. You can then combine several techniques into a combination and &#8216;solve'( really respond to well known situations. The author here in my opinion is talking about a different type of person. A problem solver. These kind of individuals love problems more than answers. Today let&#8217;s mine the data from users to see why features they really are using. Tomorrow we need to &#8220;find&#8221; the correct algorithm for a statistical method to help the marketing dept. next week we will write some c functions for our postgres database that we just installed last week to help the GIS dept. this kind of person can tell you everything ( and indeed memorizes almost everything about the answers) as long as he is working on the problem. Once he is moved on to the next problem&#8230; forget it. He remembers problems with clarity, but not the details of how he solved it. Many businesses don&#8217;t really know how to handle this kind of employee and indeed some of the bosses are threatened by them. they would be in r&amp;d if not in a business world. many times they are borderline ADD. these two types are not better or worse. they have different uses.</p>\n"
+		},
+		"author_avatar_urls": {
+			"24": "https://secure.gravatar.com/avatar/495c26b9bcf1ed370dae7d128ea732be?s=24&d=mm&r=pg",
+			"48": "https://secure.gravatar.com/avatar/495c26b9bcf1ed370dae7d128ea732be?s=48&d=mm&r=pg",
+			"96": "https://secure.gravatar.com/avatar/495c26b9bcf1ed370dae7d128ea732be?s=96&d=mm&r=pg"
+		}
+	},
+	{
+		"id": 36576,
+		"author": 0,
+		"author_name": "Bob the Chef",
+		"author_url": "",
+		"date_gmt": "2011-05-20T16:24:38",
+		"content": {
+			"rendered": "<p>&#8220;Did they do anything cool to show off?&#8221; </p>\n<p>Come on. Any programmer who is more interested in being flashy, shifting focus from the subject onto himself is not a real programmer. If he&#8217;s happy to share what he&#8217;s done because he finds his discovery intriguing (with a realistic assessment of his contribution in proportion with the grand scheme of the universe and human existence &#8212; and I&#8217;m not talking about eager-to-please brown nosers who also fail) then you&#8217;ve got someone who is interested in helping improve the situation, instead of flashing his peepee around the office, which no one cares about (expect for maybe a few idiot groupies). </p>\n<p>I came across a company you might want to slam a bit while googling around. Actually two, but one is a subsidiary I believe. D. E. Shaw Group, and D. E. Shaw Research. They ask for things like GPA or SAT scores and brag about having demanding standards,  which made me chuckle and sigh. </p>\n<p>It does well to remember that programming is a trade, a practical discipline in the practical service of something. And like anything, it does well to wrestle personal thought and experience with tradition.</p>\n"
+		},
+		"author_avatar_urls": {
+			"24": "https://secure.gravatar.com/avatar/c048375b9161029bf5dffc57ab5717e8?s=24&d=mm&r=pg",
+			"48": "https://secure.gravatar.com/avatar/c048375b9161029bf5dffc57ab5717e8?s=48&d=mm&r=pg",
+			"96": "https://secure.gravatar.com/avatar/c048375b9161029bf5dffc57ab5717e8?s=96&d=mm&r=pg"
+		}
+	},
+	{
+		"id": 31304,
+		"author": 0,
+		"author_name": "cimofj2",
+		"author_url": "",
+		"date_gmt": "2011-04-28T19:58:46",
+		"content": {
+			"rendered": "<p>I also had to learn LISP for my Masters Project!!!!!</p>\n"
+		},
+		"author_avatar_urls": {
+			"24": "https://secure.gravatar.com/avatar/2ec51d16b337fe40152cad1cb1693eea?s=24&d=mm&r=pg",
+			"48": "https://secure.gravatar.com/avatar/2ec51d16b337fe40152cad1cb1693eea?s=48&d=mm&r=pg",
+			"96": "https://secure.gravatar.com/avatar/2ec51d16b337fe40152cad1cb1693eea?s=96&d=mm&r=pg"
+		}
+	},
+	{
+		"id": 31303,
+		"author": 0,
+		"author_name": "cimofj2",
+		"author_url": "",
+		"date_gmt": "2011-04-28T19:56:59",
+		"content": {
+			"rendered": "<p>All these folk are really making me feel OLD!!!!!<br />\nI first learned Fortran when it was called &#8220;NCE Load-and-Go&#8221; &amp; ran on an IBM1620!!!!!</p>\n"
+		},
+		"author_avatar_urls": {
+			"24": "https://secure.gravatar.com/avatar/2ec51d16b337fe40152cad1cb1693eea?s=24&d=mm&r=pg",
+			"48": "https://secure.gravatar.com/avatar/2ec51d16b337fe40152cad1cb1693eea?s=48&d=mm&r=pg",
+			"96": "https://secure.gravatar.com/avatar/2ec51d16b337fe40152cad1cb1693eea?s=96&d=mm&r=pg"
+		}
+	},
+	{
+		"id": 27143,
+		"author": 0,
+		"author_name": "Max",
+		"author_url": "",
+		"date_gmt": "2011-03-29T17:21:37",
+		"content": {
+			"rendered": "<p>As a teacher I can only agree with your statements. Programming is not the most difficult part of building software applications. Finding solutions for problems is much harder for my students.</p>\n"
+		},
+		"author_avatar_urls": {
+			"24": "https://secure.gravatar.com/avatar/c3b2fe63f80d99fb60ce74ceed91bb75?s=24&d=mm&r=pg",
+			"48": "https://secure.gravatar.com/avatar/c3b2fe63f80d99fb60ce74ceed91bb75?s=48&d=mm&r=pg",
+			"96": "https://secure.gravatar.com/avatar/c3b2fe63f80d99fb60ce74ceed91bb75?s=96&d=mm&r=pg"
+		}
+	},
+	{
+		"id": 20111,
+		"author": 0,
+		"author_name": "pEz",
+		"author_url": "",
+		"date_gmt": "2011-02-04T07:06:03",
+		"content": {
+			"rendered": "<p>Thank you! As a budding programmer looking for work this was a great morale booster, I&#8217;m happy it seems I&#8217;m moving in the right direction. :) I love your articles!</p>\n"
+		},
+		"author_avatar_urls": {
+			"24": "https://secure.gravatar.com/avatar/45b5efe914fce9f3ebd7070eae298ecb?s=24&d=mm&r=pg",
+			"48": "https://secure.gravatar.com/avatar/45b5efe914fce9f3ebd7070eae298ecb?s=48&d=mm&r=pg",
+			"96": "https://secure.gravatar.com/avatar/45b5efe914fce9f3ebd7070eae298ecb?s=96&d=mm&r=pg"
+		}
+	},
+	{
+		"id": 19930,
+		"author": 0,
+		"author_name": "Blessed Geek",
+		"author_url": "",
+		"date_gmt": "2011-02-03T01:11:50",
+		"content": {
+			"rendered": "<p>Once upon a time there was a church group that went with the name &#8220;the church&#8221;.</p>\n<p>Then, some of them felt that members of &#8220;the church&#8221; on the whole were not churchy enough. So they decided to form a caucus within &#8220;the church&#8221; and soon enough they broke away from &#8220;the church&#8221; and formed their own church called &#8220;the church of jesus christ&#8221;.</p>\n<p>OK, &#8220;the church of jesus christ&#8221; was humble accepting, and soon their members swelled. Then some members of &#8220;the church of jesus christ&#8221; decided that their church was not churchy enough. They, then like the founders of &#8220;the church of jesus christ&#8221;, formed their own caucus and soon enough splintered out of their church to form &#8220;the real church of jesus christ&#8221;.</p>\n<p>OK, OK, &#8220;the real church of jesus christ&#8221; was humble humble and accepting accepting and soon soon their members swelled and swelled. Dissatisfaction again prompted the formation of a caucus which then again splintered towards forming a new church called &#8220;the true real church of jesus christ&#8221;.</p>\n<p>OK, OK. OK, &#8230;.. OKn. After n number of iterations, there were more and more holier-than-the-holiest churches. The true^n real^n church of jesus christ^n.</p>\n<p>So AlQaeda think they are holier than other muslims. And so you think you are the true true real programmer? Among the chosen ones, the ones who snob at others because others have only tasted Americanized or Europeanised Thai food &#8211; you on the other hand, know what authentic Thai food is all about. Snub up your nose, eh?</p>\n"
+		},
+		"author_avatar_urls": {
+			"24": "https://secure.gravatar.com/avatar/9b0721c1da4f00e69cd58a4cc909768c?s=24&d=mm&r=pg",
+			"48": "https://secure.gravatar.com/avatar/9b0721c1da4f00e69cd58a4cc909768c?s=48&d=mm&r=pg",
+			"96": "https://secure.gravatar.com/avatar/9b0721c1da4f00e69cd58a4cc909768c?s=96&d=mm&r=pg"
+		}
+	},
+	{
+		"id": 16426,
+		"author": 0,
+		"author_name": "Jonathan",
+		"author_url": "http://www.universyoga.com",
+		"date_gmt": "2011-01-09T01:32:36",
+		"content": {
+			"rendered": "<p>I think you&#8217;re right in most of the points you said,</p>\n<p>in my company I know a guy who is too much interested into informatic theory and you know what..he&#8217;s the worst programmer I ever seen..</p>\n<p>My only question now is&#8230;WHERE FIND A PROGRAMMER WHO CORRESPONDS WITH WHAT YOU WROTE ??</p>\n<p>LOL :)</p>\n"
+		},
+		"author_avatar_urls": {
+			"24": "https://secure.gravatar.com/avatar/aac4945c818731e6d62f9f6953c41ad8?s=24&d=mm&r=pg",
+			"48": "https://secure.gravatar.com/avatar/aac4945c818731e6d62f9f6953c41ad8?s=48&d=mm&r=pg",
+			"96": "https://secure.gravatar.com/avatar/aac4945c818731e6d62f9f6953c41ad8?s=96&d=mm&r=pg"
+		}
+	},
+	{
+		"id": 11533,
+		"author": 0,
+		"author_name": "Algo Mec",
+		"author_url": "",
+		"date_gmt": "2010-12-01T17:57:44",
+		"content": {
+			"rendered": "<p>المبرمج العربي &amp; khiro :</p>\n<p>Man We know you&#8217;re the same dude<br />\nEven if I do understand arabic a little this is a comment that a baby won&#8217;t even write<br />\nSo please let this topic stay far away from this kind of &#8220;joking&#8221; and go play with someones that are really like you<br />\nThinks ..<br />\n&#8212;&#8212;-</p>\n<p>Sorry for that , Topic is very good as first fast read . Will leave a comment after a real reading this time :D</p>\n"
+		},
+		"author_avatar_urls": {
+			"24": "https://secure.gravatar.com/avatar/b4db42e2b7df55c7955c8294d0bbef76?s=24&d=mm&r=pg",
+			"48": "https://secure.gravatar.com/avatar/b4db42e2b7df55c7955c8294d0bbef76?s=48&d=mm&r=pg",
+			"96": "https://secure.gravatar.com/avatar/b4db42e2b7df55c7955c8294d0bbef76?s=96&d=mm&r=pg"
+		}
+	},
+	{
+		"id": 11505,
+		"author": 0,
+		"author_name": "المبرمج العربي",
+		"author_url": "http://startimes",
+		"date_gmt": "2010-12-01T11:49:51",
+		"content": {
+			"rendered": "<p>اواه نتا باين خاطيك البروجراماسيون هههه</p>\n"
+		},
+		"author_avatar_urls": {
+			"24": "https://secure.gravatar.com/avatar/97ba877743ba96e67cec8f1bfbd8dd10?s=24&d=mm&r=pg",
+			"48": "https://secure.gravatar.com/avatar/97ba877743ba96e67cec8f1bfbd8dd10?s=48&d=mm&r=pg",
+			"96": "https://secure.gravatar.com/avatar/97ba877743ba96e67cec8f1bfbd8dd10?s=96&d=mm&r=pg"
+		}
+	},
+	{
+		"id": 11497,
+		"author": 0,
+		"author_name": "MS4Ever",
+		"author_url": "",
+		"date_gmt": "2010-12-01T11:14:46",
+		"content": {
+			"rendered": "<p>merciiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii</p>\n"
+		},
+		"author_avatar_urls": {
+			"24": "https://secure.gravatar.com/avatar/bc76e11bc55ba861ecaca32cfcb12344?s=24&d=mm&r=pg",
+			"48": "https://secure.gravatar.com/avatar/bc76e11bc55ba861ecaca32cfcb12344?s=48&d=mm&r=pg",
+			"96": "https://secure.gravatar.com/avatar/bc76e11bc55ba861ecaca32cfcb12344?s=96&d=mm&r=pg"
+		}
+	},
+	{
+		"id": 11422,
+		"author": 0,
+		"author_name": "khiro",
+		"author_url": "",
+		"date_gmt": "2010-11-30T22:49:39",
+		"content": {
+			"rendered": "<p>مشكووووور  هههه</p>\n"
+		},
+		"author_avatar_urls": {
+			"24": "https://secure.gravatar.com/avatar/bc76e11bc55ba861ecaca32cfcb12344?s=24&d=mm&r=pg",
+			"48": "https://secure.gravatar.com/avatar/bc76e11bc55ba861ecaca32cfcb12344?s=48&d=mm&r=pg",
+			"96": "https://secure.gravatar.com/avatar/bc76e11bc55ba861ecaca32cfcb12344?s=96&d=mm&r=pg"
+		}
+	},
+	{
+		"id": 11298,
+		"author": 0,
+		"author_name": "Mason Matthews",
+		"author_url": "",
+		"date_gmt": "2010-11-29T18:45:33",
+		"content": {
+			"rendered": "<p>A great read; thanks for posting this!  I have a lot of thoughts on this, but in short, I think I disagree slightly.  To me, you definitely have to be WILLING to learn at all times, but I don&#8217;t think it has to be your driver.  For instance, I have a developer who is worth his weight in gold, but his excellence comes in taking his existing toolset and leveraging the heck out of it.  He works best when someone else is feeding him new ideas and technology, and I don&#8217;t fault him for it.</p>\n<p>I think your article got closest to my view when you quoted Confucious:  “Real knowledge is to know the extent of ones ignorance”.  I may be biased based on my experience (aren&#8217;t we all), but to me, two major marks of a real programmer are being able to (a) accurately judge how well you understand something, and (b) know when you&#8217;re making assumptions (assumptions aren&#8217;t bad, just important to note and verify).  I also think that&#8217;s why (as the article references) some people think memorization is key: they&#8217;ve inverting a quality of the worst programmers to find the best, and the worst programmers don&#8217;t REALIZE they&#8217;re forgetting things.  In essence, I think it&#8217;s more about good (and speedy) self-reflection than a drive to learn.</p>\n<p>Thanks again!</p>\n"
+		},
+		"author_avatar_urls": {
+			"24": "https://secure.gravatar.com/avatar/c7c8576edd9bfc3bbeca9a01a06cd1bf?s=24&d=mm&r=pg",
+			"48": "https://secure.gravatar.com/avatar/c7c8576edd9bfc3bbeca9a01a06cd1bf?s=48&d=mm&r=pg",
+			"96": "https://secure.gravatar.com/avatar/c7c8576edd9bfc3bbeca9a01a06cd1bf?s=96&d=mm&r=pg"
+		}
+	},
+	{
+		"id": 10786,
+		"author": 0,
+		"author_name": "Mike Jancar",
+		"author_url": "",
+		"date_gmt": "2010-11-25T14:00:48",
+		"content": {
+			"rendered": "<p>Thank you.  You&#8217;ve basically laid out my personal beliefs for the foundation of great programming.  A true programmer should always want to learn more and never think that their way is the only way.  My personal pet peeve is the developer that thinks they know everything there is to know and can&#8217;t find room in their mind for another&#8217;s way of doing things.  There&#8217;s a place for developers like that &#8211; a college campus &#8211; a beautiful place where they can discuss theory all day and not have to deal with real world situations.</p>\n"
+		},
+		"author_avatar_urls": {
+			"24": "https://secure.gravatar.com/avatar/1f70f965cc2a86dd49988f9cd9a6692a?s=24&d=mm&r=pg",
+			"48": "https://secure.gravatar.com/avatar/1f70f965cc2a86dd49988f9cd9a6692a?s=48&d=mm&r=pg",
+			"96": "https://secure.gravatar.com/avatar/1f70f965cc2a86dd49988f9cd9a6692a?s=96&d=mm&r=pg"
+		}
+	},
+	{
+		"id": 10496,
+		"author": 0,
+		"author_name": "Flip",
+		"author_url": "",
+		"date_gmt": "2010-11-22T23:46:21",
+		"content": {
+			"rendered": "<p>I agree wholeheartedly about how learning is the most important thing an engineer does. In fact I believe it so much &#8211; it&#8217;s the main point my resume&#8217; makes. Then again &#8211; it may explain why I&#8217;m still at the same job 29 years later. I&#8217;ve always said &#8211; even back when I was in school, that majoring in CS is not too many steps from majoring in &#8220;Hammer&#8221; &#8211; you need an application for that tool. Fortunately, though,  if you&#8217;re good with a hammer &#8211; it&#8217;s not too hard to learn to hit something new.</p>\n"
+		},
+		"author_avatar_urls": {
+			"24": "https://secure.gravatar.com/avatar/e3d2a4ca0c86852714c29f3d55d754ea?s=24&d=mm&r=pg",
+			"48": "https://secure.gravatar.com/avatar/e3d2a4ca0c86852714c29f3d55d754ea?s=48&d=mm&r=pg",
+			"96": "https://secure.gravatar.com/avatar/e3d2a4ca0c86852714c29f3d55d754ea?s=96&d=mm&r=pg"
+		}
+	},
+	{
+		"id": 10478,
+		"author": 0,
+		"author_name": "Gary Huckabone",
+		"author_url": "http://www.bangtailsoftware.com",
+		"date_gmt": "2010-11-22T18:50:31",
+		"content": {
+			"rendered": "<p>As I read your article I wanted to highlight parts and send it to some people. Then I realized the whole thing would be highlighted &#8211; thus, they will get a link! Excellent! I&#8217;ve been coding since Fortran 77 and continue to learn and enjoy to this day. My motto has always been &#8220;gotta have aptitude and enthusiasm&#8221; &#8211; just get the job done. Thanks for a great article.</p>\n"
+		},
+		"author_avatar_urls": {
+			"24": "https://secure.gravatar.com/avatar/6123237b4d6e901a2f58e7c0bbd883a7?s=24&d=mm&r=pg",
+			"48": "https://secure.gravatar.com/avatar/6123237b4d6e901a2f58e7c0bbd883a7?s=48&d=mm&r=pg",
+			"96": "https://secure.gravatar.com/avatar/6123237b4d6e901a2f58e7c0bbd883a7?s=96&d=mm&r=pg"
+		}
+	},
+	{
+		"id": 10476,
+		"author": 0,
+		"author_name": "cimofj2",
+		"author_url": "",
+		"date_gmt": "2010-11-22T18:46:18",
+		"content": {
+			"rendered": "<p>I agree 100%  In my 35 years working with Process Control Computers, I can say I &#8220;never stop learning&#8221; because it those 35 years I have worked on over 35 different Computers, 35 different Operating Systems, &amp; have LEARNED &amp; USED 35 different Programming Languages! I am retired now, but I am still doing developement &amp; had to LEARN XML!</p>\n"
+		},
+		"author_avatar_urls": {
+			"24": "https://secure.gravatar.com/avatar/2ec51d16b337fe40152cad1cb1693eea?s=24&d=mm&r=pg",
+			"48": "https://secure.gravatar.com/avatar/2ec51d16b337fe40152cad1cb1693eea?s=48&d=mm&r=pg",
+			"96": "https://secure.gravatar.com/avatar/2ec51d16b337fe40152cad1cb1693eea?s=96&d=mm&r=pg"
+		}
+	},
+	{
+		"id": 10473,
+		"author": 0,
+		"author_name": "Roopesh",
+		"author_url": "",
+		"date_gmt": "2010-11-22T18:30:14",
+		"content": {
+			"rendered": "<p>Mixed reactions &#8211; </p>\n<p>yay &#8211; no textbook questions. I agree 100%.</p>\n<p>However some standard skills are a must &#8211; For eg, if a person has worked on relational db before (and I assume most have) I just really want to see some query writing skills. You can definitely build a working software without writing good queries, but more often than not, you end up writing more code, or more difficult to maintain code. </p>\n<p>By same analogy, if you have worked on a particular framework, then I expect you to remember the basics of &#8216;that&#8217; framework at least. Googling up something new is fine, but I expect sufficient memory to avoid googling &#8216;every time&#8217;. You save a lot of time by just remembering how to do stuff if you are doing something the second time.</p>\n"
+		},
+		"author_avatar_urls": {
+			"24": "https://secure.gravatar.com/avatar/2d6290fa25e77c6ca3c0172a7bde5707?s=24&d=mm&r=pg",
+			"48": "https://secure.gravatar.com/avatar/2d6290fa25e77c6ca3c0172a7bde5707?s=48&d=mm&r=pg",
+			"96": "https://secure.gravatar.com/avatar/2d6290fa25e77c6ca3c0172a7bde5707?s=96&d=mm&r=pg"
+		}
+	},
+	{
+		"id": 10458,
+		"author": 0,
+		"author_name": "Murlakatam",
+		"author_url": "",
+		"date_gmt": "2010-11-22T16:57:13",
+		"content": {
+			"rendered": "<p>Hi, everybody!!!<br />\nAnyone from you could say that he really perfect programmer? Or vice versa?</p>\n"
+		},
+		"author_avatar_urls": {
+			"24": "https://secure.gravatar.com/avatar/3a854b13040a3a8035de413473e895a5?s=24&d=mm&r=pg",
+			"48": "https://secure.gravatar.com/avatar/3a854b13040a3a8035de413473e895a5?s=48&d=mm&r=pg",
+			"96": "https://secure.gravatar.com/avatar/3a854b13040a3a8035de413473e895a5?s=96&d=mm&r=pg"
+		}
+	},
+	{
+		"id": 10450,
+		"author": 0,
+		"author_name": "Daniel",
+		"author_url": "",
+		"date_gmt": "2010-11-22T14:37:50",
+		"content": {
+			"rendered": "<p>Agree with this post.  Disagree with RethinkDB.  There are too many algorithm to solve in the real world.  The world of Computer Science is too big to memorize.  Instead RethinkDB should give each interviewer a few articles or a few chapters of a book to help them get familiar with a given topic, this can be high-level coding, a business case, or some extreme low level coding.  Then in the interview they can exchange algorithms, ideas, or outcomes based on the content that was given out.  That should give them ideas on a few things, such as, how well the person understood the topic, whether they can expand on the material, or whether they can even critique a given approach by reflecting on their experience. </p>\n<p>It&#8217;s completely stupid and a waste of time to have a set of random questions in an interview process.  Anyone can ask someone an easy question that the other person wouldn&#8217;t know.  At my work, we&#8217;re constantly bombarded to find solutions to business problems that haven&#8217;t been solved before.  At first, there are always blanks in the room, but after some investigation and research we come up with great new approaches to handle each situation.  That&#8217;s why it&#8217;s called R&amp;D.</p>\n<p>RethinkDB had some success and now they have inflated egos, so that they&#8217;re even snubbing PHDs in their post.</p>\n"
+		},
+		"author_avatar_urls": {
+			"24": "https://secure.gravatar.com/avatar/5e83499ca62c4807e21169145429d1a1?s=24&d=mm&r=pg",
+			"48": "https://secure.gravatar.com/avatar/5e83499ca62c4807e21169145429d1a1?s=48&d=mm&r=pg",
+			"96": "https://secure.gravatar.com/avatar/5e83499ca62c4807e21169145429d1a1?s=96&d=mm&r=pg"
+		}
+	},
+	{
+		"id": 10449,
+		"author": 0,
+		"author_name": "clanguage",
+		"author_url": "",
+		"date_gmt": "2010-11-22T14:13:42",
+		"content": {
+			"rendered": "<p>Hello Steven,<br />\nThis is a great article and I agree with all your points, but I think that something is missing. That is; the love of the craft. I know I can speak for many programmers when I say that I cannot wait for Monday mornings to go to work/play? My days go by so quickly I often wonder where they went. I get so engrossed in my work that I have to use Outlook&#8217;s reminder feature to help me remember when it is time to go home. (I also have a family life) I do realize how blessed I am to have a job I truly love.<br />\nI often use Google but mainly as a guide to help me research what I need from the framework or to point me in the right direction.I seldom use other people&#8217;s code and will almost always come up with my own algorithms so that I can learn from the experience.<br />\nWhen time permits I also try to help others on Forums. I thus, get exposed to particular problems I would never experience where I work.<br />\nMy point of view is that, I believe that If you love programming and have an inquisitive mind you are likely to become a great programmer. No that I view myself as one since I feel that I still have a lot to learn. This is a life long process.</p>\n"
+		},
+		"author_avatar_urls": {
+			"24": "https://secure.gravatar.com/avatar/fb8fb74c2e95086032d2c2aa7f5c58ad?s=24&d=mm&r=pg",
+			"48": "https://secure.gravatar.com/avatar/fb8fb74c2e95086032d2c2aa7f5c58ad?s=48&d=mm&r=pg",
+			"96": "https://secure.gravatar.com/avatar/fb8fb74c2e95086032d2c2aa7f5c58ad?s=96&d=mm&r=pg"
+		}
+	},
+	{
+		"id": 10448,
+		"author": 0,
+		"author_name": "Marc",
+		"author_url": "http://www.marcstober.com",
+		"date_gmt": "2010-11-22T14:13:23",
+		"content": {
+			"rendered": "<p>I was bothered by Slava&#8217;s blog post as well. Thanks for articulating this!</p>\n"
+		},
+		"author_avatar_urls": {
+			"24": "https://secure.gravatar.com/avatar/e5292a6ad4feb7a1060578ccd789d404?s=24&d=mm&r=pg",
+			"48": "https://secure.gravatar.com/avatar/e5292a6ad4feb7a1060578ccd789d404?s=48&d=mm&r=pg",
+			"96": "https://secure.gravatar.com/avatar/e5292a6ad4feb7a1060578ccd789d404?s=96&d=mm&r=pg"
+		}
+	},
+	{
+		"id": 10446,
+		"author": 0,
+		"author_name": "mehgerbil",
+		"author_url": "",
+		"date_gmt": "2010-11-22T14:08:52",
+		"content": {
+			"rendered": "<p>I think trying to define a &#8216;real programmer&#8217; is like trying to define a &#8216;real athelete&#8217;.<br />\nWithin atheletics there is a whole range of skills required based upon the sport in question and what serves one well in one sport would be of no use in another.</p>\n<p>For example, I don&#8217;t have a CS degree so if you asked me about reversing a linked list in an interview I&#8217;d first have to ask you to define a linked list.  I&#8217;d be a poor candidate for a job that used a great deal of CS know how.  I couldn&#8217;t help you with multi-tasking or writing a new kernal.</p>\n<p>That said, I&#8217;ve had 10 years of success of having my boss say, &#8220;Go find out what this manager needs and then write a solution that fixes the problem.&#8221;  So I go off to the manager&#8217;s office, find out what they need, and then give them that.  Perhaps some CS candidates would find it too trival (simple accounting programs) or maybe they wouldn&#8217;t work well with skittish managers who have a hard time articulating what they need.  Maybe in that case I&#8217;m a better fit.</p>\n<p>Maybe companies should hire the guy who can do what they need done.<br />\nMaybe there is no one size fits all programmer.</p>\n"
+		},
+		"author_avatar_urls": {
+			"24": "https://secure.gravatar.com/avatar/f8ecdac5dc004cea079a50d933502c7e?s=24&d=mm&r=pg",
+			"48": "https://secure.gravatar.com/avatar/f8ecdac5dc004cea079a50d933502c7e?s=48&d=mm&r=pg",
+			"96": "https://secure.gravatar.com/avatar/f8ecdac5dc004cea079a50d933502c7e?s=96&d=mm&r=pg"
+		}
+	},
+	{
+		"id": 10444,
+		"author": 0,
+		"author_name": "alone_in_boat",
+		"author_url": "",
+		"date_gmt": "2010-11-22T14:06:10",
+		"content": {
+			"rendered": "<p>real programmers,</p>\n<p>need to run a comb through their hair (or wash it occasionally)</p>\n<p>run their work through a spell checker. (hint hint)</p>\n"
+		},
+		"author_avatar_urls": {
+			"24": "https://secure.gravatar.com/avatar/ea338d98b9dbdbcd75374f6b9feec36b?s=24&d=mm&r=pg",
+			"48": "https://secure.gravatar.com/avatar/ea338d98b9dbdbcd75374f6b9feec36b?s=48&d=mm&r=pg",
+			"96": "https://secure.gravatar.com/avatar/ea338d98b9dbdbcd75374f6b9feec36b?s=96&d=mm&r=pg"
+		}
+	},
+	{
+		"id": 10443,
+		"author": 0,
+		"author_name": "Tom Castle",
+		"author_url": "http://www.tc33.org",
+		"date_gmt": "2010-11-22T14:01:39",
+		"content": {
+			"rendered": "<p>I think in truth there needs to be a balance. An employable programmer cannot get by looking everything up &#8211; they need to know the programming language/paradigm they&#8217;re working with. It isn&#8217;t even possible to look everything up. If they don&#8217;t already know about a design pattern, they&#8217;re not going to think to use it. But, at the same time there is no need to memorise every detail. If they know when to use a design pattern but are unclear on its intricacies then there is no harm in looking it up. As you say, the skill of being able to seek answers and learn is a vital skill. </p>\n<p>I teach introductory Java programming to CS students and an important step is getting them to learn how to use the tools available to them to look up answers to their own questions. It is impossible to know the entire standard Java API, but knowing how to use the JavaDoc effectively means there&#8217;s no need to. Obviously, with time much of it seeps into memory and this is why we rate experience so highly in our field.</p>\n"
+		},
+		"author_avatar_urls": {
+			"24": "https://secure.gravatar.com/avatar/88e91fe606ddbdb801b3f8e4aa8b7f4a?s=24&d=mm&r=pg",
+			"48": "https://secure.gravatar.com/avatar/88e91fe606ddbdb801b3f8e4aa8b7f4a?s=48&d=mm&r=pg",
+			"96": "https://secure.gravatar.com/avatar/88e91fe606ddbdb801b3f8e4aa8b7f4a?s=96&d=mm&r=pg"
+		}
+	},
+	{
+		"id": 10437,
+		"author": 0,
+		"author_name": "Szaki",
+		"author_url": "",
+		"date_gmt": "2010-11-22T13:24:36",
+		"content": {
+			"rendered": "<p>Man, I want to work for you. :)</p>\n"
+		},
+		"author_avatar_urls": {
+			"24": "https://secure.gravatar.com/avatar/c5b67ad61de9de26ca34a4aee27a530d?s=24&d=mm&r=pg",
+			"48": "https://secure.gravatar.com/avatar/c5b67ad61de9de26ca34a4aee27a530d?s=48&d=mm&r=pg",
+			"96": "https://secure.gravatar.com/avatar/c5b67ad61de9de26ca34a4aee27a530d?s=96&d=mm&r=pg"
+		}
+	},
+	{
+		"id": 10427,
+		"author": 0,
+		"author_name": "Sharath Shetty",
+		"author_url": "",
+		"date_gmt": "2010-11-22T11:52:22",
+		"content": {
+			"rendered": "<p>When I read this article, I had mixed feelings. Conceptually I agreed, but was troubled by your examples. I am not a CS graduate, I moved from Electronics to C/C++ programming 20 years back. Therefore, I don&#8217;t have any classroom training in algorithms and data structures. But I learned stuff from books whenever I needed them. I never studied any CS stuff I didn&#8217;t use at work.</p>\n<p>Therefore I am wary of CS pundits in high towers trying to judge who are real programmers with their high standard goggles. I still program in C++ and enjoy doing it. So I must be doing something right despite my CS ignorance.</p>\n<p>I am also sick of companies who interviewers want you to move mountains or solve world hunger or design a compiler. Especially when the company in question has no contract to move any mountain, solve world hunger or deliver a one man designed compiler.</p>\n<p>But the Google dependency is a red flag for me. Looking up the Internet for help in debugging a problem, or how to use a particular API is one thing. But looking up the Internet on how to code a common enough algorithm is something else. </p>\n<p>My uncle is retired doctor and he tells me that there is a major difference between his generation of doctors and the current generation. His generation of doctors could do clinical diagnosis of most cases without any gadgets or tests. They would prescribe tests only when they are not very sure. But the current generation of doctors are completely dependent on lab tests and gadgets. Yes, they would also need these tests as defense against malpractice suits. As a result, the clinical diagnosis is becoming a lost art. Why bother trying to diagnose when the tests can tell you in writing.</p>\n<p>I have seen similar thing happening in the programming world ever since Java came into being 1995. It was the first major language that lowered the entry barrier into the programming job. I am not saying it is a bad thing. Most programming jobs are not rocket science, you don&#8217;t need a CS graduate to render a sales report onto the browser by querying into the database. Advent of easier languages like Java/C# has made it easy for coding such requirements. But you do need a programmer with decent understanding of CS to design a browser or a database itself. Firefox or MySQL was not designed by somebody who didn&#8217;t have understanding of CS. Therefore, if somebody is looking for programmers with understanding of CS, we have no business poopooing their requirements without knowing their coding needs.</p>\n<p>A programmer who can code without Google, can be even more potent with Google. A hell of a lot better than the programmer who is helpless without Google. If this is the kind of programmer you need, then you have to look for them, nothing less will do. </p>\n<p>After reading this article, I looked up the blog article by Slava. And I am fully with him. A link list is one of the simplest DS out there. Even a non-CS grunt like me could instantly think of how to code a C function to reverse a link list in my mind. Even the rest of the problems looked reasonable and anybody with CS background should find it easy. I empathize with him because I too reject 100s CS candidates each year who couldn&#8217;t code a C function to replace a character in a string. It is really scary.  </p>\n<p>The truth is that the art of programming is getting lost just like the art of clinical diagnosis. And lots of people think it is okay.</p>\n"
+		},
+		"author_avatar_urls": {
+			"24": "https://secure.gravatar.com/avatar/63a64cc340a481b293867a8db97626dd?s=24&d=mm&r=pg",
+			"48": "https://secure.gravatar.com/avatar/63a64cc340a481b293867a8db97626dd?s=48&d=mm&r=pg",
+			"96": "https://secure.gravatar.com/avatar/63a64cc340a481b293867a8db97626dd?s=96&d=mm&r=pg"
+		}
+	},
+	{
+		"id": 10426,
+		"author": 0,
+		"author_name": "Marcio",
+		"author_url": "",
+		"date_gmt": "2010-11-22T11:50:48",
+		"content": {
+			"rendered": "<p>Dear Steve, I believe you must be based in US. Unfortunately I am based in Australia otherwise I will get a way just to shake your hand. All IT Managers here should use your article as a learning source. They just don&#8217;t understand that a written test won&#8217;t prove anything at all and expected you remember every functionality from the framework.<br />\nI believe the best way to evaluate a programmer is as you mentioned give them a real life problem and let them work out.Not a paper question. You will have a better chance to see if the programmer are keen to get his/her way to provide a solution.<br />\nBest article&#8230; very good</p>\n"
+		},
+		"author_avatar_urls": {
+			"24": "https://secure.gravatar.com/avatar/274bb04ca9faf5e011cd506e3c62ce53?s=24&d=mm&r=pg",
+			"48": "https://secure.gravatar.com/avatar/274bb04ca9faf5e011cd506e3c62ce53?s=48&d=mm&r=pg",
+			"96": "https://secure.gravatar.com/avatar/274bb04ca9faf5e011cd506e3c62ce53?s=96&d=mm&r=pg"
+		}
+	},
+	{
+		"id": 10415,
+		"author": 0,
+		"author_name": "Daniel",
+		"author_url": "",
+		"date_gmt": "2010-11-22T09:46:13",
+		"content": {
+			"rendered": "<p>Standardized tests provide excellent metrics for gauging effort and understanding.</p>\n"
+		},
+		"author_avatar_urls": {
+			"24": "https://secure.gravatar.com/avatar/986d9f0e72c09b35c0b1540b66d5413d?s=24&d=mm&r=pg",
+			"48": "https://secure.gravatar.com/avatar/986d9f0e72c09b35c0b1540b66d5413d?s=48&d=mm&r=pg",
+			"96": "https://secure.gravatar.com/avatar/986d9f0e72c09b35c0b1540b66d5413d?s=96&d=mm&r=pg"
+		}
+	},
+	{
+		"id": 10384,
+		"author": 0,
+		"author_name": "ixong.yahoo.com",
+		"author_url": "",
+		"date_gmt": "2010-11-22T02:28:07",
+		"content": {
+			"rendered": "<p>really real programmers = RoR programmers :)</p>\n<p>/s</p>\n"
+		},
+		"author_avatar_urls": {
+			"24": "https://secure.gravatar.com/avatar/6635dcaaa9bff320f8a04a9ca7145dce?s=24&d=mm&r=pg",
+			"48": "https://secure.gravatar.com/avatar/6635dcaaa9bff320f8a04a9ca7145dce?s=48&d=mm&r=pg",
+			"96": "https://secure.gravatar.com/avatar/6635dcaaa9bff320f8a04a9ca7145dce?s=96&d=mm&r=pg"
+		}
+	},
+	{
+		"id": 10345,
+		"author": 0,
+		"author_name": "Aivar",
+		"author_url": "",
+		"date_gmt": "2010-11-21T18:41:43",
+		"content": {
+			"rendered": "<p>At first I thought there was wrong link to Slava&#8217;s article, because linked article talked about analysis skills, not about memorization.  But it turns out that many people really think that the only way to solve eg. linked list reversal problem is to reapply a memorized solution. That was surprising! And they say that only smartest part of programmers read programming blogs &#8230;</p>\n"
+		},
+		"author_avatar_urls": {
+			"24": "https://secure.gravatar.com/avatar/1fb9164cc4b683198edf6c18fff7caf0?s=24&d=mm&r=pg",
+			"48": "https://secure.gravatar.com/avatar/1fb9164cc4b683198edf6c18fff7caf0?s=48&d=mm&r=pg",
+			"96": "https://secure.gravatar.com/avatar/1fb9164cc4b683198edf6c18fff7caf0?s=96&d=mm&r=pg"
+		}
+	},
+	{
+		"id": 10236,
+		"author": 0,
+		"author_name": "sigs",
+		"author_url": "",
+		"date_gmt": "2010-11-20T18:24:45",
+		"content": {
+			"rendered": "<p>*sigh* Again I see this one-dimensional one-eyed thinking of &#8220;good&#8221; (or &#8220;real&#8221;) programmers vs. &#8220;bad&#8221; programmers. If you ever say and really mean things like &#8220;People who [this and that] are a perpetual thorn in the side&#8221; or &#8220;they just might be better than you&#8221; (from the Get Real section), it only shows how shallow your idea of programming task is. Is it a running competition? Can you put people in strict order by how fast or &#8220;real&#8221; the perform?</p>\n<p>The very idea of scoffing at, for instance, deep theoretical knowledge of CS is troubling to say the least. Performing some tasks very well benefit from such insight, and may even depend on it! Creative thinking and eye for good design and elegance also cannot be googled. I understand this was a rant, but this was truly a rant that compares programming more to assembly line labor than an art. I&#8217;d say that people who fail to appreciate the different skills of their team members and collagues are definitely a bigger thorn in the side of the industry than many others! (And by different, I mean qualitatively different, not just &#8220;more real&#8221; and &#8220;less real&#8221;&#8230; just to underline :)</p>\n"
+		},
+		"author_avatar_urls": {
+			"24": "https://secure.gravatar.com/avatar/be9f7b17144596c5350c44e2e4fd34fb?s=24&d=mm&r=pg",
+			"48": "https://secure.gravatar.com/avatar/be9f7b17144596c5350c44e2e4fd34fb?s=48&d=mm&r=pg",
+			"96": "https://secure.gravatar.com/avatar/be9f7b17144596c5350c44e2e4fd34fb?s=96&d=mm&r=pg"
+		}
+	},
+	{
+		"id": 10229,
+		"author": 0,
+		"author_name": "anon",
+		"author_url": "",
+		"date_gmt": "2010-11-20T16:07:46",
+		"content": {
+			"rendered": "<p>I think this is not entirely off-base, but I think it&#8217;s pretty misguided. It misses something crucial to the discussion related to that RethinkDB post: RethinkDB are doing low-level database implementation stuff, and so I think reversing a linked-list in C or understanding locks is probably pretty relevant to their domain. They aren&#8217;t just gluing web frameworks together, and their interview questions weren&#8217;t about trivial method names or details about some API. People often say things like &#8220;oh you never need to know that because there will be some implementation in the standard library or toolkit you are using.&#8221; In this case, these guys are building PART of that toolkit. </p>\n<p>That being said, reversing a linked-list in C isn&#8217;t exactly rocket science, OR hardcore Computer Science.</p>\n"
+		},
+		"author_avatar_urls": {
+			"24": "https://secure.gravatar.com/avatar/7afd0cf9e8d07222dba4a2563e760bcd?s=24&d=mm&r=pg",
+			"48": "https://secure.gravatar.com/avatar/7afd0cf9e8d07222dba4a2563e760bcd?s=48&d=mm&r=pg",
+			"96": "https://secure.gravatar.com/avatar/7afd0cf9e8d07222dba4a2563e760bcd?s=96&d=mm&r=pg"
+		}
+	},
+	{
+		"id": 10223,
+		"author": 0,
+		"author_name": "Tom Hoen",
+		"author_url": "",
+		"date_gmt": "2010-11-20T14:04:23",
+		"content": {
+			"rendered": "<p>Perhaps I am naive, but it seems to me that one piece that is missing from these discussions is the programmers ability and willingness to understand the domain in which she/he is being asked to develop. Though the code he/she develops may be extremely elegant and efficient, if it doesn&#8217;t meet the needs of the users, it is all wasted. Specifications never cover every detail, and intuition about what the user needs, without inserting biases or egoism, can go a long way to delivering code that moves a product forward at a lower cost to all.</p>\n"
+		},
+		"author_avatar_urls": {
+			"24": "https://secure.gravatar.com/avatar/efcc832647009caf8ac36a4006a99220?s=24&d=mm&r=pg",
+			"48": "https://secure.gravatar.com/avatar/efcc832647009caf8ac36a4006a99220?s=48&d=mm&r=pg",
+			"96": "https://secure.gravatar.com/avatar/efcc832647009caf8ac36a4006a99220?s=96&d=mm&r=pg"
+		}
+	},
+	{
+		"id": 10213,
+		"author": 0,
+		"author_name": "LaPingvino",
+		"author_url": "",
+		"date_gmt": "2010-11-20T12:18:27",
+		"content": {
+			"rendered": "<p>Hello Anonymous,</p>\n<p>Your example is one of the best googleable things most programmers don&#8217;t even need to know&#8230; Most programming toolkits already have a reversal function, and knowing how it&#8217;s implemented really is just a nice-to-know for higher-level problem solving. If it is for C-programming, okay, you have a point, but e.g. a lisper can basically solve this problem using (reverse) and its brothers. The building blocks here are just different. I won&#8217;t ask a mason if he knows how to make his bricks, it&#8217;s enough if he knows how to select the right one.</p>\n<p>And how would you go about testing critical thinking?</p>\n"
+		},
+		"author_avatar_urls": {
+			"24": "https://secure.gravatar.com/avatar/caa60d3f18f33ab35c28159fc92775bc?s=24&d=mm&r=pg",
+			"48": "https://secure.gravatar.com/avatar/caa60d3f18f33ab35c28159fc92775bc?s=48&d=mm&r=pg",
+			"96": "https://secure.gravatar.com/avatar/caa60d3f18f33ab35c28159fc92775bc?s=96&d=mm&r=pg"
+		}
+	},
+	{
+		"id": 10188,
+		"author": 0,
+		"author_name": "Anonymous",
+		"author_url": "",
+		"date_gmt": "2010-11-20T06:44:07",
+		"content": {
+			"rendered": "<p>Wow you have really low standards for people. That&#8217;s ok. But I don&#8217;t think I can respect your skills if you can&#8217;t hash out how you would think you could implement linked list reversal or read/write locks.</p>\n<p>The fact is that you should be able to think and most of those questions Slava asked, are about applying critical thinking and problem solving. Not necessarily simple undergrad crap.</p>\n"
+		},
+		"author_avatar_urls": {
+			"24": "https://secure.gravatar.com/avatar/fd678deae93668bf741dd0606a7f00b4?s=24&d=mm&r=pg",
+			"48": "https://secure.gravatar.com/avatar/fd678deae93668bf741dd0606a7f00b4?s=48&d=mm&r=pg",
+			"96": "https://secure.gravatar.com/avatar/fd678deae93668bf741dd0606a7f00b4?s=96&d=mm&r=pg"
+		}
+	},
+	{
+		"id": 10182,
+		"author": 0,
+		"author_name": "Sam Terrell",
+		"author_url": "",
+		"date_gmt": "2010-11-20T05:30:59",
+		"content": {
+			"rendered": "<p>Great article.</p>\n<p>I assume by focus on CS theory you really meant the faux theory, such as overuse of design patterns, vs. real theory of knowing the difference between an array and a linked list. Knowledge of real CS theory is a very good asset that makes the difference been good and great developers.</p>\n"
+		},
+		"author_avatar_urls": {
+			"24": "https://secure.gravatar.com/avatar/f97d7adc3cca459fa7d73d0af809c7dc?s=24&d=mm&r=pg",
+			"48": "https://secure.gravatar.com/avatar/f97d7adc3cca459fa7d73d0af809c7dc?s=48&d=mm&r=pg",
+			"96": "https://secure.gravatar.com/avatar/f97d7adc3cca459fa7d73d0af809c7dc?s=96&d=mm&r=pg"
+		}
+	},
+	{
+		"id": 10171,
+		"author": 0,
+		"author_name": "degroat",
+		"author_url": "http://www.degroat.net",
+		"date_gmt": "2010-11-20T04:01:42",
+		"content": {
+			"rendered": "<p>At my company we took the coding assignment a step further and provided requirements that they use some specific open source code within their project&#8230; including a web framework that isn&#8217;t terribly well documented.   This ensures that they are capable of adapting to a new code base quickly, since that&#8217;s what new developers are going to have to do if you hired them.</p>\n"
+		},
+		"author_avatar_urls": {
+			"24": "https://secure.gravatar.com/avatar/0893a4236d859441534acd060adfa753?s=24&d=mm&r=pg",
+			"48": "https://secure.gravatar.com/avatar/0893a4236d859441534acd060adfa753?s=48&d=mm&r=pg",
+			"96": "https://secure.gravatar.com/avatar/0893a4236d859441534acd060adfa753?s=96&d=mm&r=pg"
+		}
+	},
+	{
+		"id": 10170,
+		"author": 0,
+		"author_name": "Kirby L. Wallace",
+		"author_url": "http://www.wallaceinfo.com",
+		"date_gmt": "2010-11-20T03:50:06",
+		"content": {
+			"rendered": "<p>It seems ages ago that my eyes were enlightened.  I heard the wise words, &#8220;<i>knowlegde is 99% knowing where to look it up!</i>&#8221;  And it truly revolutionized my programming skills.  No longer did I get stymied or bogged down when I ran into a tough bit of coding that just had to get done.</p>\n<p>There&#8217;s no way to know everything about everything.  I cannot even manage to know a lot about a few things.  Back in the day, all it took was the language manual, and you could do it with enough determination.  Things are far too complex, now, for that.  No one can be an expert at &#8220;golly, just everything&#8221;, and I think it is stupid to even try.</p>\n<p>But what I do know is how to make things happen.  I&#8217;ve made things happen that people have told me cannot be done.  In fact, I&#8217;d say it is now a speciality of mine.  I take actual pride in the fact that I (as you put it) &#8220;code by google.&#8221;  Good search skills are as useful to a programmer as any other of his or her good coding skills.</p>\n<p>And&#8230; and this is a biggie in my book&#8230; I have the knack for &#8220;<i>knowing what I want to do.</i>&#8221;  Frankly, I believe that if you are facing a coding project, simply having a good picture of what it is you want to produce is virualy all of the game.  After that, coding it is a trivial matter that can be accomplished with nothing more than sheer determination.</p>\n<p>I gave up a long time ago on knowing everything.  Now, I trust in my proven ability not to know, but to find out.</p>\n"
+		},
+		"author_avatar_urls": {
+			"24": "https://secure.gravatar.com/avatar/7ce4ace2ad7eccb5d4f1e7356ca08f95?s=24&d=mm&r=pg",
+			"48": "https://secure.gravatar.com/avatar/7ce4ace2ad7eccb5d4f1e7356ca08f95?s=48&d=mm&r=pg",
+			"96": "https://secure.gravatar.com/avatar/7ce4ace2ad7eccb5d4f1e7356ca08f95?s=96&d=mm&r=pg"
+		}
+	},
+	{
+		"id": 10168,
+		"author": 0,
+		"author_name": "Jay",
+		"author_url": "",
+		"date_gmt": "2010-11-20T03:34:55",
+		"content": {
+			"rendered": "<p>So, by this standard, being afraid that I don&#8217;t know anywhere near enough as much as I think I should know (because I&#8217;m about to graduate in Computer and Information science) is a good thing? :D</p>\n"
+		},
+		"author_avatar_urls": {
+			"24": "https://secure.gravatar.com/avatar/2d31128bbefbabf6831ba2cf47a8390e?s=24&d=mm&r=pg",
+			"48": "https://secure.gravatar.com/avatar/2d31128bbefbabf6831ba2cf47a8390e?s=48&d=mm&r=pg",
+			"96": "https://secure.gravatar.com/avatar/2d31128bbefbabf6831ba2cf47a8390e?s=96&d=mm&r=pg"
+		}
+	},
+	{
+		"id": 10166,
+		"author": 0,
+		"author_name": "mclaren",
+		"author_url": "",
+		"date_gmt": "2010-11-20T03:28:17",
+		"content": {
+			"rendered": "<p>A real programmer is someone who declares extremely difficult and/or impossible problems &#8220;trivial,&#8221; then, when asked to provide a code fragment to prove how easy it is, contemptuously refuses because &#8220;it&#8217;s beneath me.&#8221;</p>\n<p>A real programmer is someone who boasts that &#8220;most programmers can&#8217;t look at a program and understand what it really does, but a REAL programmer can do it instantly&#8221; &#8212; and then, when faced with a code sample to demonstrate this capability demurs with the claim &#8220;I don&#8217;t have the time.&#8221;</p>\n<p>A real programmer is someone who jeers that &#8220;documentation is for wusses&#8221; and &#8220;readabiltity is a sign of incompetence&#8221; and spends three hours figuring out how to collapse 10 different statements into a single completely indecipherable line of C code, the better to insure that he can never be fired since no one else can maintain his code.</p>\n"
+		},
+		"author_avatar_urls": {
+			"24": "https://secure.gravatar.com/avatar/3b6df7e42f91dd74ea4dd14ee367a0d6?s=24&d=mm&r=pg",
+			"48": "https://secure.gravatar.com/avatar/3b6df7e42f91dd74ea4dd14ee367a0d6?s=48&d=mm&r=pg",
+			"96": "https://secure.gravatar.com/avatar/3b6df7e42f91dd74ea4dd14ee367a0d6?s=96&d=mm&r=pg"
+		}
+	},
+	{
+		"id": 10165,
+		"author": 0,
+		"author_name": "Greg",
+		"author_url": "",
+		"date_gmt": "2010-11-20T03:27:23",
+		"content": {
+			"rendered": "<p>That&#8217;s a nice quote &#8211; but it&#8217;s not really what Confucius said.</p>\n"
+		},
+		"author_avatar_urls": {
+			"24": "https://secure.gravatar.com/avatar/9f1f042325a6b6d3134124af2bc951a3?s=24&d=mm&r=pg",
+			"48": "https://secure.gravatar.com/avatar/9f1f042325a6b6d3134124af2bc951a3?s=48&d=mm&r=pg",
+			"96": "https://secure.gravatar.com/avatar/9f1f042325a6b6d3134124af2bc951a3?s=96&d=mm&r=pg"
+		}
+	},
+	{
+		"id": 10164,
+		"author": 0,
+		"author_name": "John Josef",
+		"author_url": "http://www.johnjosef.com",
+		"date_gmt": "2010-11-20T00:58:37",
+		"content": {
+			"rendered": "<p>As someone who has mostly been an independent developer and programmer most of my career, I keep it real.</p>\n"
+		},
+		"author_avatar_urls": {
+			"24": "https://secure.gravatar.com/avatar/acc3afdf1e58e5329d60d1a5bc898f61?s=24&d=mm&r=pg",
+			"48": "https://secure.gravatar.com/avatar/acc3afdf1e58e5329d60d1a5bc898f61?s=48&d=mm&r=pg",
+			"96": "https://secure.gravatar.com/avatar/acc3afdf1e58e5329d60d1a5bc898f61?s=96&d=mm&r=pg"
+		}
+	},
+	{
+		"id": 10163,
+		"author": 0,
+		"author_name": "Paul",
+		"author_url": "",
+		"date_gmt": "2010-11-20T00:43:37",
+		"content": {
+			"rendered": "<p>Great article, 100% agree. The skill is called initiative, and it&#8217;s wonderful, albeit rare.</p>\n"
+		},
+		"author_avatar_urls": {
+			"24": "https://secure.gravatar.com/avatar/80d500f6c953c151eaa9cf0d6d013c3a?s=24&d=mm&r=pg",
+			"48": "https://secure.gravatar.com/avatar/80d500f6c953c151eaa9cf0d6d013c3a?s=48&d=mm&r=pg",
+			"96": "https://secure.gravatar.com/avatar/80d500f6c953c151eaa9cf0d6d013c3a?s=96&d=mm&r=pg"
+		}
+	},
+	{
+		"id": 10160,
+		"author": 0,
+		"author_name": "Jim",
+		"author_url": "http://quad341.com",
+		"date_gmt": "2010-11-20T00:14:17",
+		"content": {
+			"rendered": "<p>I do generally agree with you except for a couple of caveats:</p>\n<p> &#8211; 99/100 not passing the interview may be reasonable if you have a need for a very specific skill set and not just another programmer who will become great. Consider if you were working on an embedded multithreaded kernel and a programmer shows good abilities to work through a generic problem. This could be a great programmer for your organization in enough time, but with deadlines, you do need someone who had a concept of multithreaded or working at a low level. Most teams are not like that though.</p>\n<p> &#8211; I support conceptually googling but while in an office. This is especially important for larger companies or a question of team skills. Being able to look something up is useful most of the time, but a lot of large companies might have a large amount of proprietary infrastructure already in place that the internet will not tell someone about (alternatively you can consider intellectual property questions about the use of code provided by someone on the internet going into a product). What seems like a good strategy is prefacing a difficult question or ambiguous question with the statement that questions are very encouraged and the interviewer is more interested in your thoughts than the correct answer. Working through a problem with an interviewee can really show how well they can open up with a challenge and whether or not they can consider different approaches when suggested.</p>\n<p> &#8211; I would argue that law still takes learning. How about mopping floors?</p>\n<p>Good article</p>\n"
+		},
+		"author_avatar_urls": {
+			"24": "https://secure.gravatar.com/avatar/4fe450a04533d7a5d241c05daa3f41ff?s=24&d=mm&r=pg",
+			"48": "https://secure.gravatar.com/avatar/4fe450a04533d7a5d241c05daa3f41ff?s=48&d=mm&r=pg",
+			"96": "https://secure.gravatar.com/avatar/4fe450a04533d7a5d241c05daa3f41ff?s=96&d=mm&r=pg"
+		}
+	},
+	{
+		"id": 10153,
+		"author": 0,
+		"author_name": "RickRussellTX",
+		"author_url": "https://brainscroll.wordpress.com/",
+		"date_gmt": "2010-11-19T23:06:28",
+		"content": {
+			"rendered": "<p>&#8220;The ability to understand complex problems from written and verbal description, and break down those problems into precisely defined, digestable chunks.&#8221;</p>\n<p>That&#8217;s a real programmer.</p>\n"
+		},
+		"author_avatar_urls": {
+			"24": "https://secure.gravatar.com/avatar/f2797597c235bfa7045d438999d6e191?s=24&d=mm&r=pg",
+			"48": "https://secure.gravatar.com/avatar/f2797597c235bfa7045d438999d6e191?s=48&d=mm&r=pg",
+			"96": "https://secure.gravatar.com/avatar/f2797597c235bfa7045d438999d6e191?s=96&d=mm&r=pg"
+		}
+	},
+	{
+		"id": 10150,
+		"author": 0,
+		"author_name": "Webmaster",
+		"author_url": "http://www.netarhia.com",
+		"date_gmt": "2010-11-19T22:27:38",
+		"content": {
+			"rendered": "<p>I completely agree with googling as an accepted practice. Everything changes all around, in all professional domains. Google has managed to filter data that has an acceptable, workable degree of correctedness  and authority, data that can be readily used in a world that&#8217;s flooded with new knowledge.</p>\n<p>Either get (significantly) more people and specialize them on narrow niches, or let the people you already have use every tool available to get their edge.</p>\n"
+		},
+		"author_avatar_urls": {
+			"24": "https://secure.gravatar.com/avatar/c94e760a683c70a75d7133c6cf2b9166?s=24&d=mm&r=pg",
+			"48": "https://secure.gravatar.com/avatar/c94e760a683c70a75d7133c6cf2b9166?s=48&d=mm&r=pg",
+			"96": "https://secure.gravatar.com/avatar/c94e760a683c70a75d7133c6cf2b9166?s=96&d=mm&r=pg"
+		}
+	},
+	{
+		"id": 10145,
+		"author": 0,
+		"author_name": "Mike",
+		"author_url": "",
+		"date_gmt": "2010-11-19T20:53:47",
+		"content": {
+			"rendered": "<p>Spot on. That is all.</p>\n"
+		},
+		"author_avatar_urls": {
+			"24": "https://secure.gravatar.com/avatar/71331eb718e42da6f7f9468e3ef1971d?s=24&d=mm&r=pg",
+			"48": "https://secure.gravatar.com/avatar/71331eb718e42da6f7f9468e3ef1971d?s=48&d=mm&r=pg",
+			"96": "https://secure.gravatar.com/avatar/71331eb718e42da6f7f9468e3ef1971d?s=96&d=mm&r=pg"
+		}
+	},
+	{
+		"id": 7436,
+		"author": 0,
+		"author_name": "Wim Debreuck",
+		"author_url": "http://www.d-n.be",
+		"date_gmt": "2010-10-19T12:02:48",
+		"content": {
+			"rendered": "<p>Perfect analysis.  But how do we get the &#8216;real programmer&#8217;-kandidates ringin&#8217; at our doorstep ?</p>\n"
+		},
+		"author_avatar_urls": {
+			"24": "https://secure.gravatar.com/avatar/e746856b79be7527c22379ae5486d832?s=24&d=mm&r=pg",
+			"48": "https://secure.gravatar.com/avatar/e746856b79be7527c22379ae5486d832?s=48&d=mm&r=pg",
+			"96": "https://secure.gravatar.com/avatar/e746856b79be7527c22379ae5486d832?s=96&d=mm&r=pg"
+		}
+	},
+	{
+		"id": 3802,
+		"author": 0,
+		"author_name": "Programmer",
+		"author_url": "http://www.sheersoftware.com",
+		"date_gmt": "2010-08-19T13:20:40",
+		"content": {
+			"rendered": "<p>Nice entry, Loved the article :)</p>\n"
+		},
+		"author_avatar_urls": {
+			"24": "https://secure.gravatar.com/avatar/cccc9dbd4ff4d8d83f55948fe5a17ede?s=24&d=mm&r=pg",
+			"48": "https://secure.gravatar.com/avatar/cccc9dbd4ff4d8d83f55948fe5a17ede?s=48&d=mm&r=pg",
+			"96": "https://secure.gravatar.com/avatar/cccc9dbd4ff4d8d83f55948fe5a17ede?s=96&d=mm&r=pg"
+		}
+	},
+	{
+		"id": 3593,
+		"author": 0,
+		"author_name": "Marko Acosta",
+		"author_url": "",
+		"date_gmt": "2010-08-15T16:33:28",
+		"content": {
+			"rendered": "<p>God I hate there is no &#8220;edit button&#8221;, I mispelled some words, please be kind :)</p>\n"
+		},
+		"author_avatar_urls": {
+			"24": "https://secure.gravatar.com/avatar/93e8424e60cfee14a77edc69a59ffa14?s=24&d=mm&r=pg",
+			"48": "https://secure.gravatar.com/avatar/93e8424e60cfee14a77edc69a59ffa14?s=48&d=mm&r=pg",
+			"96": "https://secure.gravatar.com/avatar/93e8424e60cfee14a77edc69a59ffa14?s=96&d=mm&r=pg"
+		}
+	},
+	{
+		"id": 3592,
+		"author": 0,
+		"author_name": "Marko Acosta",
+		"author_url": "",
+		"date_gmt": "2010-08-15T16:30:44",
+		"content": {
+			"rendered": "<p>I couldn&#8217;t agree more with you&#8230; In fact I believe I fit perfectly to what you&#8217;ve said about programming&#8230; The fact is that some frameworks are so complicated that you can&#8217;t remember every method on it and sometimes you need google to help you get back on track, also If you think that your programming language is so damn hot that will be the king forever you are lost already(tnik of visual studio in 90&#8217;s, or java in 2000) as some kids comming behind you will easily bypass you with new techniques&#8230;.</p>\n<p>As Matt Perez (My CEO/COO) said&#8230; a good programmer will never stop learning, they will find the way no matter how much work they have. As you said: if you think you know everything you are totally lost in this career&#8230;</p>\n<p>About the interviews you are totally right, I got selected because of my talking skills (as my mother was a seller) and not by my code skills, I was eager to get a real problem and solve it in my own way, I was eager to show them that I actually comment my code and follow some patterns but all in the interview was &#8220;bla bla bla do you remember this? bla bla&#8221;, I&#8217;m so happy with my new job but I still hold my breath as I still don&#8217;t know the rest of my team and don&#8217;t know if they are good for programming or just talking (as someone pointed, good programmers love to work with good programmers and create new solutions to problems, if they can&#8217;t find them they quit and bad programmers make a great company to fall apart).</p>\n<p>Thanks a lot as I fell you&#8217;ve talked for all of us :)</p>\n"
+		},
+		"author_avatar_urls": {
+			"24": "https://secure.gravatar.com/avatar/93e8424e60cfee14a77edc69a59ffa14?s=24&d=mm&r=pg",
+			"48": "https://secure.gravatar.com/avatar/93e8424e60cfee14a77edc69a59ffa14?s=48&d=mm&r=pg",
+			"96": "https://secure.gravatar.com/avatar/93e8424e60cfee14a77edc69a59ffa14?s=96&d=mm&r=pg"
+		}
+	}
+]

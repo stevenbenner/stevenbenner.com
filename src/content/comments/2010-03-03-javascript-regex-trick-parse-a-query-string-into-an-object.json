@@ -1,0 +1,257 @@
+[
+	{
+		"id": 238704,
+		"author": 0,
+		"author_name": "Iurii",
+		"author_url": "",
+		"date_gmt": "2019-01-07T15:03:33",
+		"content": {
+			"rendered": "<p>Was write parser for that <a href=\"https://github.com/PxyUp/uri-parse-lib\" rel=\"nofollow\">https://github.com/PxyUp/uri-parse-lib</a>, support nested query and array</p>\n"
+		},
+		"author_avatar_urls": {
+			"24": "https://secure.gravatar.com/avatar/de3bfc16d8c4a7815913a47a1f4d4751?s=24&d=mm&r=pg",
+			"48": "https://secure.gravatar.com/avatar/de3bfc16d8c4a7815913a47a1f4d4751?s=48&d=mm&r=pg",
+			"96": "https://secure.gravatar.com/avatar/de3bfc16d8c4a7815913a47a1f4d4751?s=96&d=mm&r=pg"
+		}
+	},
+	{
+		"id": 192337,
+		"author": 0,
+		"author_name": "John Denney",
+		"author_url": "",
+		"date_gmt": "2016-03-05T08:32:07",
+		"content": {
+			"rendered": "<p>Great job and thanks! It has saved me a lot of time. I adjusted it to suit my needs (see below)</p>\n<p>// I have altered the function to accept a query string that may have to be parsed to the function<br />\n// sample url :  &#8220;http://shopping.crepidam.com/parts/add_to_cart.php?sku=16030&amp;description=Cylinder%C2%A0Assembly&#8221;</p>\n<p>function(qryStr){</p>\n<p>\t// this was to fix a problem where the NON Breaking whitespace was not being removed properly and I could not<br />\n\t// get the regex to work where I had multiple instance within the original URL and returned object value</p>\n<p>\tqryStr.replace(&#8216;%C2%A0&#8242;,&#8217; &#8216;);</p>\n<p>\tvar queryString = {};<br />\n\tqryStr.replace(<br />\n\t      new RegExp(&#8220;([^?=&amp;]+)(=([^&amp;#]*))?&#8221;, &#8220;gi&#8221;),<br />\n\t    function($0, $1, $2, $3) { queryString[$1] = $3; }<br />\n\t);<br />\n}</p>\n<p>You can build a string like the example below </p>\n<p>    // build GET string<br />\n    var locationStr = &#8220;add_to_cart.php?sku=&#8221; + queryString[&#8216;sku&#8217;] + &#8220;&amp;description=&#8221; + queryString[&#8216;description&#8217;].replace(&#8216;%C2%A0&#8242;,&#8217; &#8216;);</p>\n<p>or you can call the object directly as per the original post above</p>\n<p>queryString[&#8216;product_id&#8217;]  and store in a variable for use later</p>\n"
+		},
+		"author_avatar_urls": {
+			"24": "https://secure.gravatar.com/avatar/8f212cf860d31a8e8ac3f8aa108271b2?s=24&d=mm&r=pg",
+			"48": "https://secure.gravatar.com/avatar/8f212cf860d31a8e8ac3f8aa108271b2?s=48&d=mm&r=pg",
+			"96": "https://secure.gravatar.com/avatar/8f212cf860d31a8e8ac3f8aa108271b2?s=96&d=mm&r=pg"
+		}
+	},
+	{
+		"id": 83849,
+		"author": 0,
+		"author_name": "Dave",
+		"author_url": "",
+		"date_gmt": "2013-05-04T04:15:31",
+		"content": {
+			"rendered": "<p>Is there any reason this is stripping out data from my string?</p>\n<p><a href=\"http://example.com/2nd-form-page/?age=87&#038;value=195%2C000&#038;lien=107%2C500&#038;sendbutton=#.UYSKDaKG2So\" rel=\"nofollow\">http://example.com/2nd-form-page/?age=87&#038;value=195%2C000&#038;lien=107%2C500&#038;sendbutton=#.UYSKDaKG2So</a></p>\n<p>I am using:</p>\n<p>function showAlert() {<br />\n\tvar age = queryString[&#8216;age&#8217;];<br />\n\tvar homeval = queryString[&#8216;value&#8217;];<br />\n        var lien = queryString[&#8216;lien&#8217;];<br />\n\talert(&#8216;The age is &#8216; + age + &#8216; and value is &#8216; + homeval + &#8216; and the liens are &#8216; + lien + &#8216;.&#8217;);<br />\n}</p>\n<p>And if the number has a 0, 3, or 8 (from what I can tell so far) the value is cut off.  So 70 shows as 7, 100,000 shows as 1, 89 shows as &#8220;&#8221; (nothing), etc., etc.</p>\n<p>Thanks.</p>\n"
+		},
+		"author_avatar_urls": {
+			"24": "https://secure.gravatar.com/avatar/eb18c5b4baecd2be0e1162b6a28153a4?s=24&d=mm&r=pg",
+			"48": "https://secure.gravatar.com/avatar/eb18c5b4baecd2be0e1162b6a28153a4?s=48&d=mm&r=pg",
+			"96": "https://secure.gravatar.com/avatar/eb18c5b4baecd2be0e1162b6a28153a4?s=96&d=mm&r=pg"
+		}
+	},
+	{
+		"id": 83745,
+		"author": 0,
+		"author_name": "Skylar",
+		"author_url": "http://skyl.org",
+		"date_gmt": "2013-03-18T04:15:39",
+		"content": {
+			"rendered": "<p>?this=1&amp;this=2&amp;this=3</p>\n<p>is not covered.</p>\n"
+		},
+		"author_avatar_urls": {
+			"24": "https://secure.gravatar.com/avatar/ae4384c9130c9b1707a15584f6b75333?s=24&d=mm&r=pg",
+			"48": "https://secure.gravatar.com/avatar/ae4384c9130c9b1707a15584f6b75333?s=48&d=mm&r=pg",
+			"96": "https://secure.gravatar.com/avatar/ae4384c9130c9b1707a15584f6b75333?s=96&d=mm&r=pg"
+		}
+	},
+	{
+		"id": 83710,
+		"author": 0,
+		"author_name": "SImon",
+		"author_url": "http://simonsmith.io",
+		"date_gmt": "2013-03-13T14:39:43",
+		"content": {
+			"rendered": "<p>@William K That still doesn&#8217;t work for me</p>\n<p>Add a simple check to ignore invalid matches &#8211; <a href=\"https://gist.github.com/simonsmith/5152680\" rel=\"nofollow\">https://gist.github.com/simonsmith/5152680</a></p>\n"
+		},
+		"author_avatar_urls": {
+			"24": "https://secure.gravatar.com/avatar/bea9bf040c9e5a030215d58695a0f2b0?s=24&d=mm&r=pg",
+			"48": "https://secure.gravatar.com/avatar/bea9bf040c9e5a030215d58695a0f2b0?s=48&d=mm&r=pg",
+			"96": "https://secure.gravatar.com/avatar/bea9bf040c9e5a030215d58695a0f2b0?s=96&d=mm&r=pg"
+		}
+	},
+	{
+		"id": 81509,
+		"author": 0,
+		"author_name": "William K",
+		"author_url": "http://www.williamkhoe.com",
+		"date_gmt": "2012-01-31T23:06:08",
+		"content": {
+			"rendered": "<p>Can&#8217;t believe no one has caught this yet. The code above does not work as expected if you pass a URL with no query string. It&#8217;ll just return an object containing the URL as key and undefined as value.</p>\n<p>To fix, use this regex instead: RegExp(&#8220;\\\\?([^?=&amp;]+)(=([^&amp;#]*))?&#8221;, &#8220;g&#8221;)</p>\n"
+		},
+		"author_avatar_urls": {
+			"24": "https://secure.gravatar.com/avatar/b47010beec892f11619d1e81f0c94f11?s=24&d=mm&r=pg",
+			"48": "https://secure.gravatar.com/avatar/b47010beec892f11619d1e81f0c94f11?s=48&d=mm&r=pg",
+			"96": "https://secure.gravatar.com/avatar/b47010beec892f11619d1e81f0c94f11?s=96&d=mm&r=pg"
+		}
+	},
+	{
+		"id": 81493,
+		"author": 0,
+		"author_name": "whump",
+		"author_url": "http://whump.com/",
+		"date_gmt": "2011-12-29T18:20:15",
+		"content": {
+			"rendered": "<p>Scott&#8217;s eval based parsing has a major risk:</p>\n<p>Consider the query string: ?foo=alert(&#8216;oh hai, xss!&#8217;)</p>\n<p>Before running the query string through that eval, you would have to sanitize it, and by that point, I think you&#8217;re better off with Steven&#8217;s original regex based solution.</p>\n"
+		},
+		"author_avatar_urls": {
+			"24": "https://secure.gravatar.com/avatar/02d70de9001a72f8a16364264b3ac3e0?s=24&d=mm&r=pg",
+			"48": "https://secure.gravatar.com/avatar/02d70de9001a72f8a16364264b3ac3e0?s=48&d=mm&r=pg",
+			"96": "https://secure.gravatar.com/avatar/02d70de9001a72f8a16364264b3ac3e0?s=96&d=mm&r=pg"
+		}
+	},
+	{
+		"id": 74375,
+		"author": 0,
+		"author_name": "Josh",
+		"author_url": "",
+		"date_gmt": "2011-09-13T00:05:16",
+		"content": {
+			"rendered": "<p>Made a jsPerf for it, only difference is I&#8217;m using a RegEx literal rather than invoking the RegExp constructor:</p>\n<p><a href=\"http://jsperf.com/query-str-parsing-regex-vs-split\" rel=\"nofollow\">http://jsperf.com/query-str-parsing-regex-vs-split</a></p>\n"
+		},
+		"author_avatar_urls": {
+			"24": "https://secure.gravatar.com/avatar/8e830af2c64e2a4bbda590f2d7b95053?s=24&d=mm&r=pg",
+			"48": "https://secure.gravatar.com/avatar/8e830af2c64e2a4bbda590f2d7b95053?s=48&d=mm&r=pg",
+			"96": "https://secure.gravatar.com/avatar/8e830af2c64e2a4bbda590f2d7b95053?s=96&d=mm&r=pg"
+		}
+	},
+	{
+		"id": 74130,
+		"author": 0,
+		"author_name": "Robert",
+		"author_url": "",
+		"date_gmt": "2011-09-12T02:25:29",
+		"content": {
+			"rendered": "<p>They should include this feature into jQuery, would be so incredibly useful.</p>\n"
+		},
+		"author_avatar_urls": {
+			"24": "https://secure.gravatar.com/avatar/4dca7761f127c3f68ef9fc7ac6858dc1?s=24&d=mm&r=pg",
+			"48": "https://secure.gravatar.com/avatar/4dca7761f127c3f68ef9fc7ac6858dc1?s=48&d=mm&r=pg",
+			"96": "https://secure.gravatar.com/avatar/4dca7761f127c3f68ef9fc7ac6858dc1?s=96&d=mm&r=pg"
+		}
+	},
+	{
+		"id": 74093,
+		"author": 0,
+		"author_name": "Steve Schwartz",
+		"author_url": "http://www.alfajango.com/blog",
+		"date_gmt": "2011-09-11T23:41:34",
+		"content": {
+			"rendered": "<p>I recently had to implement a function similar to this for a jquery plugin. However, my function ended up being quite a bit more complicated, because it also handled nested objects such as:</p>\n<p>my[nested][object]=hi //=&gt; {my: {nested: {object: &#8216;hi&#8217;}}}</p>\n<p>As well as arrays:</p>\n<p>my_array[]=hi&amp;my_array[]=there //=&gt; {my_array: [&#8216;hi&#8217;, &#8216;there&#8217;]}</p>\n<p>&#8230;and any combination thereof.</p>\n"
+		},
+		"author_avatar_urls": {
+			"24": "https://secure.gravatar.com/avatar/ca46a3d7ca39aae7b2b27526d0ad64f0?s=24&d=mm&r=pg",
+			"48": "https://secure.gravatar.com/avatar/ca46a3d7ca39aae7b2b27526d0ad64f0?s=48&d=mm&r=pg",
+			"96": "https://secure.gravatar.com/avatar/ca46a3d7ca39aae7b2b27526d0ad64f0?s=96&d=mm&r=pg"
+		}
+	},
+	{
+		"id": 74025,
+		"author": 0,
+		"author_name": "Matt",
+		"author_url": "http://www.mattgreer.org",
+		"date_gmt": "2011-09-11T18:34:41",
+		"content": {
+			"rendered": "<p>Nice and simple, I like it. But once you&#8217;ve got the queryString object, you don&#8217;t have to use the array-style notation, just queryString.product_id will work just fine, making it even cleaner.</p>\n"
+		},
+		"author_avatar_urls": {
+			"24": "https://secure.gravatar.com/avatar/f8fbc5df2432deac7557cf5e111439f2?s=24&d=mm&r=pg",
+			"48": "https://secure.gravatar.com/avatar/f8fbc5df2432deac7557cf5e111439f2?s=48&d=mm&r=pg",
+			"96": "https://secure.gravatar.com/avatar/f8fbc5df2432deac7557cf5e111439f2?s=96&d=mm&r=pg"
+		}
+	},
+	{
+		"id": 74007,
+		"author": 0,
+		"author_name": "David W",
+		"author_url": "",
+		"date_gmt": "2011-09-11T16:51:19",
+		"content": {
+			"rendered": "<p>Don&#8217;t forget window.decodeUriComponent() to handle unescaping.</p>\n"
+		},
+		"author_avatar_urls": {
+			"24": "https://secure.gravatar.com/avatar/e66985e4490f78a3b3a4bea842f2ee02?s=24&d=mm&r=pg",
+			"48": "https://secure.gravatar.com/avatar/e66985e4490f78a3b3a4bea842f2ee02?s=48&d=mm&r=pg",
+			"96": "https://secure.gravatar.com/avatar/e66985e4490f78a3b3a4bea842f2ee02?s=96&d=mm&r=pg"
+		}
+	},
+	{
+		"id": 72947,
+		"author": 0,
+		"author_name": "Todd Wheeler",
+		"author_url": "http://crown.com",
+		"date_gmt": "2011-09-07T17:47:45",
+		"content": {
+			"rendered": "<p>Can I use this to pass an item_name to a new web page,… but then to print (document.write?) the item_name *and* provide a link to an image (which is item_name.jpg)? What would the html look like? My brain does not work like a programmers!</p>\n"
+		},
+		"author_avatar_urls": {
+			"24": "https://secure.gravatar.com/avatar/89f93ee7f84e884a8e2644b301b380e0?s=24&d=mm&r=pg",
+			"48": "https://secure.gravatar.com/avatar/89f93ee7f84e884a8e2644b301b380e0?s=48&d=mm&r=pg",
+			"96": "https://secure.gravatar.com/avatar/89f93ee7f84e884a8e2644b301b380e0?s=96&d=mm&r=pg"
+		}
+	},
+	{
+		"id": 62678,
+		"author": 0,
+		"author_name": "Shamasis Bhattacharya",
+		"author_url": "http://www.shamasis.net/",
+		"date_gmt": "2011-08-07T17:14:47",
+		"content": {
+			"rendered": "<p>Simple and well written.<br />\nIt would be great if you update the article with the change suggested by Scott. :)</p>\n"
+		},
+		"author_avatar_urls": {
+			"24": "https://secure.gravatar.com/avatar/c0c9d89626c84b7043d4791d9d272f75?s=24&d=mm&r=pg",
+			"48": "https://secure.gravatar.com/avatar/c0c9d89626c84b7043d4791d9d272f75?s=48&d=mm&r=pg",
+			"96": "https://secure.gravatar.com/avatar/c0c9d89626c84b7043d4791d9d272f75?s=96&d=mm&r=pg"
+		}
+	},
+	{
+		"id": 9498,
+		"author": 0,
+		"author_name": "lee",
+		"author_url": "http://www.rowlandsgroup.com",
+		"date_gmt": "2010-11-11T11:34:00",
+		"content": {
+			"rendered": "<p>For your regex to work with hrefs that include a hash fragment<br />\neg <a href=\"http://mysite.com/here/there.html#now\" rel=\"nofollow\">http://mysite.com/here/there.html#now</a><br />\nChange the regex to<br />\nnew RegExp(&#8220;([^?=&amp;]+)(=([^&amp;#]*))?&#8221;, &#8220;g&#8221;),</p>\n"
+		},
+		"author_avatar_urls": {
+			"24": "https://secure.gravatar.com/avatar/a0a069a95045afeefc870e2f04086129?s=24&d=mm&r=pg",
+			"48": "https://secure.gravatar.com/avatar/a0a069a95045afeefc870e2f04086129?s=48&d=mm&r=pg",
+			"96": "https://secure.gravatar.com/avatar/a0a069a95045afeefc870e2f04086129?s=96&d=mm&r=pg"
+		}
+	},
+	{
+		"id": 8267,
+		"author": 0,
+		"author_name": "Scott",
+		"author_url": "",
+		"date_gmt": "2010-10-28T16:35:46",
+		"content": {
+			"rendered": "<p>here is another way (converts query string to object):</p>\n<p>qso = eval(&#8220;({&#8221; + location.search.slice(1).replace(/=/g, &#8220;:&#8221;).replace(/&amp;/g, &#8220;,&#8221;) + &#8220;})&#8221;);</p>\n"
+		},
+		"author_avatar_urls": {
+			"24": "https://secure.gravatar.com/avatar/a60e80f2f826110ff85d53b753f9a3ff?s=24&d=mm&r=pg",
+			"48": "https://secure.gravatar.com/avatar/a60e80f2f826110ff85d53b753f9a3ff?s=48&d=mm&r=pg",
+			"96": "https://secure.gravatar.com/avatar/a60e80f2f826110ff85d53b753f9a3ff?s=96&d=mm&r=pg"
+		}
+	},
+	{
+		"id": 4128,
+		"author": 0,
+		"author_name": "David Eisaiah Engel",
+		"author_url": "http://www.engeljournal.com",
+		"date_gmt": "2010-08-28T03:54:39",
+		"content": {
+			"rendered": "<p>Brilliant.</p>\n"
+		},
+		"author_avatar_urls": {
+			"24": "https://secure.gravatar.com/avatar/3418cfa289db6732be7b2268e83fa492?s=24&d=mm&r=pg",
+			"48": "https://secure.gravatar.com/avatar/3418cfa289db6732be7b2268e83fa492?s=48&d=mm&r=pg",
+			"96": "https://secure.gravatar.com/avatar/3418cfa289db6732be7b2268e83fa492?s=96&d=mm&r=pg"
+		}
+	}
+]

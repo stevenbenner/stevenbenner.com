@@ -1,0 +1,13 @@
+{
+	"site": {
+		"name": "Steven Benner’s Blog",
+		"description": "Random articles about programming, computing, and the internet.",
+		"url": "https://stevenbenner.com",
+		"language": "en-US",
+		"rss": "/rss.xml"
+	},
+	"pagination": {
+		"pageSize": 5,
+		"maxPageLinks": 5
+	}
+}

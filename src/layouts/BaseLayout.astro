@@ -1,0 +1,31 @@
+---
+import Header from '../components/Header.astro';
+import MainNav from '../components/MainNav.astro';
+import Footer from '../components/Footer.astro';
+import { site } from '../data/config.json';
+
+import '../styles/global.css';
+
+const { pageTitle } = Astro.props;
+---
+
+<html lang={site.language} dir="ltr">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="alternate" type="application/rss+xml" title={`${site.name} RSS feed`} href={site.rss} />
+		<link rel="sitemap" href="/sitemap-index.xml" />
+		<title>{`${pageTitle} « ${site.name}`}</title>
+	</head>
+	<body>
+		<main>
+			<Header />
+			<MainNav />
+			<article>
+				<h2>{pageTitle}</h2>
+				<slot />
+			</article>
+			<Footer />
+		</main>
+	</body>
+</html>

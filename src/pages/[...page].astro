@@ -1,0 +1,47 @@
+---
+import MarkdownIt from 'markdown-it';
+import { getCollection } from 'astro:content';
+import BaseLayout from '../layouts/BaseLayout.astro';
+import PostListItem from '../components/PostListItem.astro';
+import Pagination from '../components/Pagination.astro';
+import { pagination } from '../data/config.json';
+
+export async function getStaticPaths({ paginate }) {
+	const postsCollection = await getCollection('posts');
+	return paginate(postsCollection.reverse(), { pageSize: pagination.pageSize });
+}
+
+const parser = new MarkdownIt('commonmark');
+
+const { page } = Astro.props;
+const pageTitle = page.currentPage === 1 ? 'Articles' : `Articles (Page ${page.currentPage})`;
+---
+
+<BaseLayout pageTitle={pageTitle}>
+	<ol start={page.total - page.start} reversed>
+	{
+		page.data.map((post) => {
+			const body = parser.render(post.body);
+			const postExcerpt = body.substring(0, body.indexOf('<!-- more -->'));
+			return <PostListItem
+				url={`/${post.slug}/`}
+				title={post.data.title}
+				pubDate={post.data.pubDate}
+				thumbnail={post.data.image}
+				postExcerpt={postExcerpt}
+			/>;
+		})
+	}
+	</ol>
+	{
+		page.total > page.size && (
+			<Pagination
+				currentPage={page.currentPage}
+				totalPages={page.lastPage}
+				baseUrl="/"
+				prevUrl={page.url.prev}
+				nextUrl={page.url.next}
+			/>
+		)
+	}
+</BaseLayout>
