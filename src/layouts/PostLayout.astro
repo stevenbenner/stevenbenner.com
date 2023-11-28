@@ -24,7 +24,7 @@ const postComments = await getEntry('comments', id);
 	<slot />
 	{ postComments && <h3>Comments</h3> }
 	{
-		postComments && postComments.data.reverse().map((comment) => (
+		postComments && postComments.data.toReversed().map((comment) => (
 			<Comment
 				author={comment.author_name}
 				isPostAuthor={comment.author === 2}
