@@ -8,5 +8,10 @@ export default defineConfig({
 		sitemap({
 			lastmod: new Date()
 		})
-	]
+	],
+	markdown: {
+		shikiConfig: {
+			theme: 'slack-dark'
+		}
+	}
 });
