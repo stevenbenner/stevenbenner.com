@@ -108,7 +108,7 @@
 		"id": 10358,
 		"author": 2,
 		"author_name": "Steven Benner",
-		"author_url": "http://stevenbenner.com/",
+		"author_url": "https://stevenbenner.com/",
 		"date_gmt": "2010-11-21T21:59:46",
 		"content": {
 			"rendered": "<p>ShareThis has made some significant optimizations since this test. Eventually I&#8217;ll do another comparison, not sure when that&#8217;s coming though.</p>\n"
@@ -168,7 +168,7 @@
 		"id": 1816,
 		"author": 2,
 		"author_name": "Steven Benner",
-		"author_url": "http://stevenbenner.com/",
+		"author_url": "https://stevenbenner.com/",
 		"date_gmt": "2010-06-15T18:10:24",
 		"content": {
 			"rendered": "<p>Yeah, that is true. But you don&#8217;t see nearly as many subscribe widgets out there, compared to the prevalence of sharing widgets. If you put both of the AddToAny widgets on one page you will see a significant drop in performance compared to the other widgets.</p>\n<p>However this whole comparison is based on the default sharing widget from each company. So the subscription widget didn&#8217;t get tested.</p>\n"
@@ -213,7 +213,7 @@
 		"id": 1815,
 		"author": 2,
 		"author_name": "Steven Benner",
-		"author_url": "http://stevenbenner.com/",
+		"author_url": "https://stevenbenner.com/",
 		"date_gmt": "2010-05-28T18:04:39",
 		"content": {
 			"rendered": "<p>Much better!</p>\n<p>The optimizations look great. They make the widget much snappier and quicker to download. Now the widget will have much less of a page weight impact on pages that use it. This will even be an SEO improvement for ShareThis user since Google now counts page speed into its rankings.</p>\n<p>Huge improvement for the ShareThis widget. Thanks for taking the time to optimize it.</p>\n<p>I&#8217;ll have to re-profile the widgets and do another full test, eventually.</p>\n"
@@ -243,7 +243,7 @@
 		"id": 1245,
 		"author": 2,
 		"author_name": "Steven Benner",
-		"author_url": "http://stevenbenner.com/",
+		"author_url": "https://stevenbenner.com/",
 		"date_gmt": "2010-05-16T20:12:52",
 		"content": {
 			"rendered": "<p>Hi Mike,</p>\n<p>Thanks for the information! Indeed, those are some interesting features. I know the other services have some similar features, but are not as focused on the marketing aspect. I&#8217;m sure that is a big selling point to businesses that want as much branding control as possible.</p>\n"
@@ -288,7 +288,7 @@
 		"id": 458,
 		"author": 2,
 		"author_name": "Steven Benner",
-		"author_url": "http://stevenbenner.com/",
+		"author_url": "https://stevenbenner.com/",
 		"date_gmt": "2010-03-19T23:58:05",
 		"content": {
 			"rendered": "<p><strong>@Partick</strong></p>\n<p>Thanks for the kind words. I&#8217;ve played with Sexy Bookmarks as well and it is a good WordPress plugin. I&#8217;ve never thought about putting up a subscribe to comments system before, perhaps it is time. :)</p>\n<p><strong>@Steve R</strong></p>\n<p>Hi Steve! Thanks for taking the time to read and respond to my article.</p>\n<p><em>> First on localization: you marked us as an X here, but we recently shipped<br />\n> the widget in 5 languages: Spanish, German, Italian, French and (of course)<br />\n> English.</em></p>\n<p>Oops. I&#8217;ve fixed that now, sorry about missing it.</p>\n<p><em>> Second, on performance: We understand that load times are a big issue for<br />\n> publishers, and we are currently working on streamlining the widget for that<br />\n> initial load. However, once a user had our widget cached, the load time is<br />\n> significantly shorter.</em></p>\n<p>Indeed, cached performance is an important factor, but it&#8217;s not usually the best gauge for performance. A 500k script in cache loads about as fast as a 500B script from cache, but that doesn&#8217;t mean that they score the same in a performance benchmark.</p>\n<p>But it is important to note that in the real world, yes, many visitors will already have the resources for ShareThis in their local cache.</p>\n<p>I still think that performance isn&#8217;t something that should be undervalued just because everyone has DSL and more browser cache than they did in the old days. You can&#8217;t guarantee that someone has resources cache, but you can guarantee that they will need to download it again, periodically.</p>\n"
@@ -333,7 +333,7 @@
 		"id": 440,
 		"author": 2,
 		"author_name": "Steven Benner",
-		"author_url": "http://stevenbenner.com/",
+		"author_url": "https://stevenbenner.com/",
 		"date_gmt": "2010-03-18T18:13:38",
 		"content": {
 			"rendered": "<p><strong>@Pat</strong></p>\n<p>Thanks for getting in contact with me. I&#8217;ve acquired some good information about AddToAny from you. I&#8217;ve update the article to fix the original errors.</p>\n<p><strong>@Justin</strong></p>\n<p>Thanks for checking out my article. It&#8217;s really helpful for me to get your input on these tests, and I&#8217;m sure anyone who reads this will be glad to see you responding to the comparisons and pointing out featured which I failed to mention.</p>\n<p><em>> I think one vector for comparison that I’d love to see added to your<br />\n> analysis is which actually drives the most shares. In the end, isn’t<br />\n> that the whole point?</em></p>\n<p>Indeed, I couldn&#8217;t agree with you more, and this is something I am trying to organize.</p>\n<p>However, this is a much more difficult, time-intensive and generally less-quantifiable test. Putting the different widgets on different sites and comparing page views to shares isn&#8217;t a good test alone because different sites have different types of viewers who may be more, or less, inclined to share, they have different layouts, which may be better designed to focus users on the sharing tools and different locales, which also greatly effects shares.</p>\n<p>I&#8217;ve noticed that young people in east, and south-east Asia are at least 50% more likely to share via a widget then the same age group in the United States. So audience makes a <em>huge</em> difference.</p>\n<p>What I am hoping to do is arrange a test on one site with lots of traffic and a varied audience (I have a test case in mind). But this test will take a <em>very</em> long time, I would need at least one month for each widget to get any kind of valid numbers. Four widgets will require four months. And that is only if I can get it approved.</p>\n<p>I&#8217;m going to try to push forward with this because it really is the single most important metric, and is completely missing from this review. But don&#8217;t expect to see this test anytime soon.</p>\n<p><em>> according to comScore, we reach 656 million people per month worldwide.<br />\n> This means that the majority of Web visitors already have our assets<br />\n> cached on their computers</em></p>\n<p>Yeah, I made a note of that in the test metric descriptions as well. In a fully cached state all of the requests will return a 304 and not require a download.</p>\n<p>The primary focus of this test was raw performance without the benefit of cache. But it is worth pointing out that in the real world the resources for both AddThis and ShareThis are very likely to be cached due to their prolific adoption.</p>\n<p><em>> One feature that we have that you mentioned for some of the others is<br />\n> that we do auto-personalize the services listed in the menu based on<br />\n> your previous sharing history</em></p>\n<p>I&#8217;ll add a note about that.</p>\n<p><em>> Oh oh and did you see our recent addition of clickback analytics that<br />\n> we’re providing?</em></p>\n<p>Yeah, this is a great feature. I&#8217;ll add a mention about this as well.</p>\n<p><em>> A note on flash cookies… they were a legacy system that came over from<br />\n> our original flash widget platform Launchpad. After a lot of<br />\n> discussion internally and with our user community, we’re going to be<br />\n> moving to a traditional browser cookie.</em></p>\n<p>I can&#8217;t tell you how happy I am to hear this. This was a dirty tactic that I did not agree with at all. Please let me know when you take it out and I&#8217;ll update the article.</p>\n"

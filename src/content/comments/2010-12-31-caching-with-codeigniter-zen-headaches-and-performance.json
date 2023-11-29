@@ -93,7 +93,7 @@
 		"id": 16087,
 		"author": 2,
 		"author_name": "Steven Benner",
-		"author_url": "http://stevenbenner.com/",
+		"author_url": "https://stevenbenner.com/",
 		"date_gmt": "2011-01-06T03:27:37",
 		"content": {
 			"rendered": "<p>Yeah I&#8217;ve been keeping an eye on the state of CodeIgniter Reactor. I wish I could have been part of the team that&#8217;s doing the work. There&#8217;s several little areas that have some room for improvement, such a caching.</p>\n<p>But I am also worried that Reactor will introduce bloat in places that I don&#8217;t think need expansion. The fact that an admin generator and themes are number 4 and 5 on the top voted list worries me greatly. Personally, those are things that I believe belong in CMS territory.</p>\n<p>We&#8217;ll see. I use raw CodeIgniter 2.0 right now, but if the community branch is kept as tight and clean then I may end up migrating over.</p>\n"

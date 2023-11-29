@@ -18,7 +18,7 @@
 		"id": 150,
 		"author": 2,
 		"author_name": "Steven Benner",
-		"author_url": "http://stevenbenner.com/",
+		"author_url": "https://stevenbenner.com/",
 		"date_gmt": "2010-02-17T00:50:47",
 		"content": {
 			"rendered": "<p>Yeah a lot of people have reported problems with the flash injection from the widget script. It has also been known to cause issues with page layouts because of the extra markup it adds to the page. All around bad, and like you said, for no good reason.</p>\n<p>I&#8217;ve seen AddToAny around but I&#8217;ve never used it personally. I&#8217;ll check it out the next time I&#8217;m looking at social widgets.</p>\n"

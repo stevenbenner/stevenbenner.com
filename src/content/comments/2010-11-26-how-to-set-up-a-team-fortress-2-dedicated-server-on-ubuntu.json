@@ -123,7 +123,7 @@
 		"id": 82195,
 		"author": 2,
 		"author_name": "Steven Benner",
-		"author_url": "http://stevenbenner.com/",
+		"author_url": "https://stevenbenner.com/",
 		"date_gmt": "2012-07-19T10:01:49",
 		"content": {
 			"rendered": "<p><b>Update on the service script:</b></p>\n<p>I have created a repository for this script on GitHub. Please check there for the latest version. I would also appriciate it if you would submit issues and pull requests to help improve it!</p>\n<p><a href=\"https://github.com/stevenbenner/srcds-service\" rel=\"nofollow\">https://github.com/stevenbenner/srcds-service</a></p>\n"
@@ -468,7 +468,7 @@
 		"id": 19765,
 		"author": 2,
 		"author_name": "Steven Benner",
-		"author_url": "http://stevenbenner.com/",
+		"author_url": "https://stevenbenner.com/",
 		"date_gmt": "2011-01-30T02:22:53",
 		"content": {
 			"rendered": "<p><b>Less-than 50ms</b><br />\nYeah, had the wrong symbol in front of the 50ms number. Changed that to a less-than symbol.</p>\n<p><b>32 bit vs 64 bit OS</b><br />\nIf you&#8217;re going to have more than 4GB of memory then yes, you absolutely need to be running a 64 bit operating system. Though if the box is a dedicated to hlds then you don&#8217;t need that much ram anyway. In my experience the hlds process is more CPU hungry than RAM hungry.</p>\n<p>On the other hand, If you&#8217;re sure that you will never have more than 4GB of memory on that server (VPS, cheap dedicated server, or small home server) then you are much better off with a 32 bit operating system. It will take less memory overhead to run the OS, leaving more for services, and since the hlds process is 32 bit nothing will be gained by having it run on a 64 bit system.</p>\n<p>Personally, I can&#8217;t swing the money for a big dedicated server or a colocation contract, and my home DSL would never support a game server so I would never need a 64-bit OS on the server.</p>\n"
@@ -498,7 +498,7 @@
 		"id": 16086,
 		"author": 2,
 		"author_name": "Steven Benner",
-		"author_url": "http://stevenbenner.com/",
+		"author_url": "https://stevenbenner.com/",
 		"date_gmt": "2010-12-16T19:13:30",
 		"content": {
 			"rendered": "<p>Fixed. Sorry about the .com/.net mix up!</p>\n"
@@ -528,7 +528,7 @@
 		"id": 11953,
 		"author": 2,
 		"author_name": "Steven Benner",
-		"author_url": "http://stevenbenner.com/",
+		"author_url": "https://stevenbenner.com/",
 		"date_gmt": "2010-12-04T22:05:30",
 		"content": {
 			"rendered": "<p>Thanks for the feedback. Yeah I probably should tell people how to get these files on to their systems.</p>\n<p><b>On file transfers</b></p>\n<p>Personally I don&#8217;t run regular FTP servers on my systems, except for file hosting which will only accept anonymous logins. Allowing uploads through FTP is always a bad idea.</p>\n<p>I do use SFTP with FileZilla for secure uploads, but even this I have locked down pretty well. The only place I can upload files is to my home directory. I then have to use the shell to move files around and change their owners.</p>\n<p>I would recommend using SFTP or just wget to acquire files. Since you will be downloading files from the internet anyway wget will skip the middle step.</p>\n<p>When you&#8217;re SSH&#8217;ed in your home directory you can download and extract files like this:</p>\n<pre>wget http://some.domain/directory/filename.tar.gz\r\ntar xzvf filename.tar.gz</pre>\n<p>The wget command downloads the file and tar with the x flag extracts the contents to the current directory. For a nice (human readable) guide on tar check out <a href=\"http://aliyev.ws/?p=34\" rel=\"nofollow\">http://aliyev.ws/?p=34</a></p>\n<p>Once you have the files extracted you can move them around with the mv command.</p>\n<pre>mv mymod.smx orangebox/tf/addons/sourcemod/plugins</pre>\n<p>The first part is the file to move, the second part is the destination. You will have to sudo this if the destination directory doesn&#8217;t belong to your user/group.</p>\n<p><b>On your script error</b></p>\n<p>This should work on basically any version of Ubuntu&#8230; I&#8217;m not that great at shell scripting, but could you paste the exact error message you get when you try to run the srcds script?</p>\n<p>Generally, you shouldn&#8217;t need to sudo the script, but it should prompt your for a password. This will be the password for the user account that you have set it to run the srcds process under (either your regular account or hlds).</p>\n"

@@ -18,7 +18,7 @@
 		"id": 19767,
 		"author": 2,
 		"author_name": "Steven Benner",
-		"author_url": "http://stevenbenner.com/",
+		"author_url": "https://stevenbenner.com/",
 		"date_gmt": "2011-02-02T02:34:35",
 		"content": {
 			"rendered": "<p>Sounds like a permissions issue to me.</p>\n<p><a href=\"http://www.linux.com/learn/tutorials/309527-understanding-linux-file-permissions\" rel=\"nofollow\">http://www.linux.com/learn/tutorials/309527-understanding-linux-file-permissions</a></p>\n<p>The web server usually runs under it&#8217;s own user account, www-data for apache on ubuntu. You need to set the permissions on the plugins folder so that any account on the system can write to is (chmod 777) or change the owner of the folder to the web server account (e.g. chown www-data plugins). I recommend setting the ownership because it&#8217;s just a better security practice.</p>\n<p>A quick google search yielded this article which may be of help to you:<br />\n<a href=\"http://robspencer.net/auto-update-wordpress-without-ftp/\" rel=\"nofollow\">http://robspencer.net/auto-update-wordpress-without-ftp/</a></p>\n<p>As for the FTP thing, you shouldn&#8217;t need to use the FTP feature in wordpress if you have permissions set up correctly.</p>\n"

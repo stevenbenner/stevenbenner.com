@@ -168,7 +168,7 @@
 		"id": 19896,
 		"author": 2,
 		"author_name": "Steven Benner",
-		"author_url": "http://stevenbenner.com/",
+		"author_url": "https://stevenbenner.com/",
 		"date_gmt": "2011-02-02T20:43:03",
 		"content": {
 			"rendered": "<p><b>@penge</b></p>\n<p>Recently started using KeePass myself. That is the best password manager I have ever seen. Stupidly strong unique passwords for every login, it&#8217;s unnecessary, but so awesome.</p>\n<p><b>@JBENOIT</b></p>\n<p>I&#8217;ve tried to hop on the opera bandwagon a couple times over the years, but it just lacks the extensibility I need. Lack of developer tools, lack of extensions and lack of customizations. It&#8217;s reasonably fast and secure, but I&#8217;ll stick with Firefox.</p>\n<p><b>@Taylor</b></p>\n<p>Wow, I&#8217;ve never even heard of Sublime Text. I&#8217;m trying it out now and so far it is awesome. It&#8217;s not as&#8230; free, as Notepad++ and I have become very accustomed to the NP++ features, shortcuts and interface. But I&#8217;ll give this one a shot, first impression is very good.</p>\n<p><b>@Danny</b></p>\n<p>Haha, you&#8217;re right of course. I haven&#8217;t done any real C++ development in years, but I did completely give up on VS when I last tried, mostly because of the API to be honest. MFC made me cry every time I tried to do even simple tasks.</p>\n<p>On the topic of source control in Visual Studio, yeah, VSS can&#8217;t be compared to real cvs systems, but it&#8217;s hyper-simplicity does have its place, and that place is not enterprise code development. The latest Visual Studio for enterprise uses Team Foundation Server for versioning. It has many more features (such as, oh&#8230; real branches, finally), but it is slower. I haven&#8217;t done too much with it so far. It is simple for developers to work in, but slower and totally integrated into the environment. I can&#8217;t really say that I like it or I hate it, yet.</p>\n<p>For .NET development, VS2010 is the IDE that every other IDE wants to be. Development is so smooth and efficient. But I will admit that at this point everything about VS has been designed around improving the .NET developers&#8217; experience.</p>\n<p><b>@Atlscrog</b></p>\n<p>Cygwin, that&#8217;s a name I haven&#8217;t heard in years, other than a co-worker randomly mentioning it just this morning. My response was &#8220;1998 called, they want their linux emulator back&#8221; :) I don&#8217;t do much command line stuff on my Windows desktops. Windows search still sucks, but has gotten better. And for grep I use PowerGrep, not free but my company has a bazillion licenses for it.</p>\n"
@@ -288,7 +288,7 @@
 		"id": 10359,
 		"author": 2,
 		"author_name": "Steven Benner",
-		"author_url": "http://stevenbenner.com/",
+		"author_url": "https://stevenbenner.com/",
 		"date_gmt": "2010-11-21T22:09:24",
 		"content": {
 			"rendered": "<p>Excellent tips! Thanks guys. I&#8217;m testing out TextCrawler, XChat and Araxis right now.</p>\n"

@@ -48,7 +48,7 @@
 		"id": 1291,
 		"author": 2,
 		"author_name": "Steven Benner",
-		"author_url": "http://stevenbenner.com/",
+		"author_url": "https://stevenbenner.com/",
 		"date_gmt": "2010-05-19T03:02:28",
 		"content": {
 			"rendered": "<p>Oh I see, yeah I guess I didn&#8217;t quite understand how you were abstracting the content. That&#8217;s an interesting approach. Thanks for the information!</p>\n"
@@ -78,7 +78,7 @@
 		"id": 1244,
 		"author": 2,
 		"author_name": "Steven Benner",
-		"author_url": "http://stevenbenner.com/",
+		"author_url": "https://stevenbenner.com/",
 		"date_gmt": "2010-05-16T20:05:11",
 		"content": {
 			"rendered": "<p>If you&#8217;re building an XHTML document anyway I don&#8217;t see the benefit of using XSLT to modify that document. You&#8217;re loosing the abstractions between data and layout and risking backwards compatibility issues with IE6. Only XHTML 1.1 specifically allows (and requires) XML declarations, but IE6 does not support XHTML 1.1 because of the XML declaration. The first line of any HTML document must be a DOCTYPE statement or IE6 reverts to quirks mode.</p>\n<p>All modern browsers support XHTML 1.1, but IE6 is still too common to ignore especially for a business. (Granted, this site doesn&#8217;t work with IE6)</p>\n<p>The only place XSLT can be reliably used if you need to support old browsers is on an XML document.</p>\n"

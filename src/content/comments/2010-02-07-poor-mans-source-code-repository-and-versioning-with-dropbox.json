@@ -93,7 +93,7 @@
 		"id": 414,
 		"author": 2,
 		"author_name": "Steven Benner",
-		"author_url": "http://stevenbenner.com/",
+		"author_url": "https://stevenbenner.com/",
 		"date_gmt": "2010-03-17T20:45:00",
 		"content": {
 			"rendered": "<p>Personally, I do all of my work out of the DropBox folder, that way I can just work and forget about the syncs happening in the background. I&#8217;ve never had any issues, DropBox updates are just so fast, it syncs small files in a second or less after saving. Files that I have been editing do build of a large history fairly quickly. But since the free version only keeps this history for 30 days it isn&#8217;t a big deal to me.</p>\n<p>If I had a subscription version of DropBox I might consider doing a check-in/check-out kind of system, but it probably wouldn&#8217;t be worth the effort (for me). It&#8217;s easy to spot a bunch of minor updates in a file&#8217;s history, because they usually happen over the course of a couple minutes.</p>\n<p>The files with the most updates are also the files that you care the least about, objects, pdb&#8217;s, dll&#8217;s and executable files. I can see the history on these becoming huge but you will probably not find much use for the history of those files.</p>\n<p>This system is one of the &#8220;just works&#8221; tools for me. I set it up and forget about it. I just wish they would give out permanent history with the free version. :)</p>\n"

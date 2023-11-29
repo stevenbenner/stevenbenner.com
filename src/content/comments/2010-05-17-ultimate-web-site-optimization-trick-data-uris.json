@@ -33,7 +33,7 @@
 		"id": 1539,
 		"author": 2,
 		"author_name": "Steven Benner",
-		"author_url": "http://stevenbenner.com/",
+		"author_url": "https://stevenbenner.com/",
 		"date_gmt": "2010-06-01T02:29:00",
 		"content": {
 			"rendered": "<p>But that&#8217;s the best part of data URIs! You can still use your sprites, except even more effectively. Data URIs enhance what you&#8217;re trying to accomplish with sprites. I&#8217;ve taken to embedding my sprites into the CSS file, with a graceful degradation fallback to the standard sprite image on the server.</p>\n<p>So long as your server is properly configured for optimal caching then a CSS file will cache just as well as an image. With this technique there&#8217;s one less request for modern browsers.</p>\n<p>Maintainability is slightly reduced because you have to remember to update the CSS file whenever you update the sprite, but sprites themselves are a <em>huge</em> maintainability sacrifice. Since you have to keep a master composite image and append new images as needed. What&#8217;s even worse, if you need to remove one image then you also have to modify the CSS background-position for every image that follows it.</p>\n<p>But we&#8217;ve all accepted this as an acceptable trade off for the reduced number of HTTP connections. I think data URI&#8217;s are just one more little step in this direction.</p>\n"
@@ -78,7 +78,7 @@
 		"id": 1312,
 		"author": 2,
 		"author_name": "Steven Benner",
-		"author_url": "http://stevenbenner.com/",
+		"author_url": "https://stevenbenner.com/",
 		"date_gmt": "2010-05-19T17:48:52",
 		"content": {
 			"rendered": "<p>@Alex</p>\n<p>Interesting project! I don&#8217;t use Java but I&#8217;m sure someone reading this will find it useful. Thanks for the link.</p>\n<p>@Aaron</p>\n<p>Ahh, of course you are <em>technically</em> correct, the best kind of correct. The <code>return</code> should be outside of the <code>using</code> statement. I just updated the function. For the record the original version compiles and runs just fine. :)</p>\n"
@@ -123,7 +123,7 @@
 		"id": 1290,
 		"author": 2,
 		"author_name": "Steven Benner",
-		"author_url": "http://stevenbenner.com/",
+		"author_url": "https://stevenbenner.com/",
 		"date_gmt": "2010-05-19T02:56:31",
 		"content": {
 			"rendered": "<p>Hi Rob, Thanks for the comment!</p>\n<p>Indeed, gzip is very important to the equation. Most commercial hosts are set to gzip CSS files by default. This will greatly reduce the download size of the files and make the data URIs very efficient.</p>\n<p>For people running their own Apache server who don&#8217;t know the syntax, you enable gzip compression by enabling mod_deflate and adding the following line to your config file:</p>\n<p><code>AddOutputFilterByType DEFLATE text/html text/plain text/xml text/css application/x-javascript</code></p>\n<p>I don&#8217;t remember off hand how to do it in IIS but it is very simple, just google it.</p>\n"
