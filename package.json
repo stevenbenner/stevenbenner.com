@@ -1,10 +1,19 @@
 {
 	"name": "@stevenbenner/stevenbenner.com",
 	"version": "0.1.0",
+	"description": "My personal blog website.",
+	"homepage": "https://stevenbenner.com/",
+	"bugs": {
+		"url": "https://github.com/stevenbenner/stevenbenner.com/issues"
+	},
 	"license": "MPL-2.0",
 	"author": {
 		"name": "Steven Benner",
 		"url": "https://stevenbenner.com/"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/stevenbenner/stevenbenner.com.git"
 	},
 	"type": "module",
 	"scripts": {
