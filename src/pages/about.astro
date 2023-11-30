@@ -1,5 +1,6 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
+import SocialLinks from '../components/SocialLinks.astro';
 import { site } from '../data/config.json';
 
 const pageTitle = 'About Me';
@@ -9,12 +10,7 @@ const pageTitle = 'About Me';
 	<p>Hello! In case you haven’t figured it out yet, my name is Steven Benner. I am a web developer, car enthusiast, and former small business owner living in the Seattle area. I’m the general jack of all trades, master of none type. I am a capable JavaScript, C, .NET, and PHP developer who also has moonlighted as a web designer and system administrator. I can do just about anything with computers.</p>
 	<p>My work is used by countless thousands of people every day, and chances are that <em>you</em> have used my work somewhere already. Now-a-days I occupy my time by working as a web developer. My current specialties are JavaScript, C, PHP, HTML/CSS, and C# .NET development.</p>
 	<p>You can follow my antics on various social sites around the web. Here are the ones that I try to keep somewhat updated.</p>
-	<ul>
-		<li><a href="https://github.com/stevenbenner" target="_blank" rel="noopener">My GitHub</a></li>
-		<li><a href="https://www.linkedin.com/in/stevenbenner" target="_blank" rel="noopener">My LinkedIn</a></li>
-		<li><a href="https://twitter.com/stevenbenner" target="_blank" rel="noopener">My Twitter</a></li>
-		<li><a href={site.rss} target="_blank" rel="noopener">My RSS Feed</a></li>
-	</ul>
+	<SocialLinks />
 	<h3>This blog</h3>
 	<p>I created this blog as my personal forum to post random nuggets of knowledge as well as my personal rants an ramblings. I haven’t been writing blog posts much anymore, but when I do you will find posts about all kinds of random development and technology topics, really whatever interests me on that occasion. Perhaps you’ll find something interesting, helpful, or maybe even valuable posted here, from time to time. Otherwise you’ll just see me ranting at the internet.</p>
 	<p>If you want to keep updated on the random pieces of knowledge and ramblings that I post on this blog then take a moment and <a href={site.rss}>subscribe to my RSS feed</a>.</p>

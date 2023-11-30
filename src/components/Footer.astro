@@ -1,5 +1,6 @@
 ---
 import { Image } from 'astro:assets';
+import SocialLinks from '../components/SocialLinks.astro';
 import { site } from '../data/config.json';
 import licenseLogo from '../assets/cc-by-sa-88x31.png';
 ---
@@ -14,10 +15,7 @@ import licenseLogo from '../assets/cc-by-sa-88x31.png';
 		<section>
 			<h2>My feed</h2>
 			<p>Since you've wasted this much time why not follow me on <a href="https://github.com/stevenbenner" rel="noopener">GitHub</a>, or subscribe to my <a href={site.rss}>RSS</a> feed? You'll probably be the first.</p>
-			<ul>
-				<li><a href="https://github.com/stevenbenner" rel="noopener">My GitHub</a></li>
-				<li><a href={site.rss}>Subscribe via RSS</a></li>
-			</ul>
+			<SocialLinks />
 		</section>
 	</div>
 	<p id="copyright">
@@ -39,7 +37,7 @@ import licenseLogo from '../assets/cc-by-sa-88x31.png';
 		color: #aaa;
 		padding: 1rem 0;
 	}
-	div a {
+	div :global(a) {
 		color: #c3b59e;
 	}
 	div > * {
