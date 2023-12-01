@@ -9,7 +9,7 @@ const { frontmatter, id } = Astro.props;
 const postComments = await getEntry('comments', id);
 ---
 
-<BaseLayout pageTitle={frontmatter.title}>
+<BaseLayout pageTitle={frontmatter.title} pageDescription={frontmatter.description}>
 	<p>
 		<time datetime={frontmatter.pubDate.toISOString()} itemprop="published">
 		{
