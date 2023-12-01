@@ -1,5 +1,6 @@
 ---
 title: 'Calculate page size and view port position in JavaScript'
+description: 'In this article I will show you how I perform browser view port size calculation in JavaScript. With details on how to support all modern (and not so modern) browsers with one function.'
 slug: 2010/04/calculate-page-size-and-view-port-position-in-javascript
 pubDate: 2010-04-25T23:45:50Z
 modDate: 2010-04-25T23:58:16Z

@@ -1,5 +1,6 @@
 ---
 title: 'Graceful degradation theory, IE and CSS3'
+description: 'CSS3 offers a wide array of very important and useful features. There are so many new features that you will have to do some serious reading to get caught up. In this article I tell you about my favorite new features and offer some advice on using them in the wild.'
 slug: 2010/01/graceful-degradation-theory-ie-and-css3
 pubDate: 2010-01-21T23:13:00Z
 modDate: 2010-12-05T02:00:36Z

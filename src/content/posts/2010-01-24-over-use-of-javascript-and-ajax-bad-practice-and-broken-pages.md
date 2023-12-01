@@ -1,5 +1,6 @@
 ---
 title: 'Excessive JavaScript and AJAX: bad practice & broken pages'
+description: 'An ever increasing number people believe that everything on a web page should be built with JavaScript. Many take this idea so far that they believe it’s okay to say that they do not support users without JavaScript. I disagree. In this article I present my thoughts on the trend of over-reliance on JavaScript.'
 slug: 2010/01/over-use-of-javascript-and-ajax-bad-practice-and-broken-pages
 pubDate: 2010-01-24T22:07:29Z
 modDate: 2011-04-27T22:44:06Z

@@ -1,5 +1,6 @@
 ---
 title: 'JavaScript regex trick: Parse a query string into an object'
+description: 'A super-simple JavaScript trick to translate a query string into a JavaScript object that can easily be used and understood.'
 slug: 2010/03/javascript-regex-trick-parse-a-query-string-into-an-object
 pubDate: 2010-03-03T18:42:02Z
 modDate: 2011-06-05T20:48:52Z

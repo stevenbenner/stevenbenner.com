@@ -1,5 +1,6 @@
 ---
 title: 'Setting up an Ubuntu LAMP server. Part 1: Initial setup'
+description: 'Part 1 of my LAMP server configuration guide. This is the foundational guide for setting up a server based on the Ubuntu 10.04 LTS operating system. In this article I provide a step-by-step walk-through of a base server setup and provide thoughts on configuration and security concerns.'
 slug: 2010/06/setting-up-an-ubuntu-lamp-server-part-1-initial-setup
 pubDate: 2010-06-27T23:23:43Z
 modDate: 2013-02-27T15:13:25Z

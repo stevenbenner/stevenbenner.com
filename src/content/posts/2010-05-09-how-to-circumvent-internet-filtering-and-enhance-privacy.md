@@ -1,5 +1,6 @@
 ---
 title: 'How to circumvent internet filtering and enhance privacy'
+description: 'There has been a growing trend of governments around the world drafting legislation to censor or otherwise restrict access to the information on the internet. This article provides guidance on various ways to circumvent censorship, focusing on VPN technology.'
 slug: 2010/05/how-to-circumvent-internet-filtering-and-enhance-privacy
 pubDate: 2010-05-09T23:30:36Z
 modDate: 2010-05-09T23:32:03Z

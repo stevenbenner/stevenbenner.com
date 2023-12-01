@@ -1,5 +1,6 @@
 ---
 title: 'Ultimate web site optimization trick: data URIs'
+description: 'The data URI scheme can be used to embed data of any format in HTML, CSS, and JavaScript. You can use this to reduce the number of connection required to download a web page. This article will explain what data URIs are, how to use them, and how to properly implement them.'
 slug: 2010/05/ultimate-web-site-optimization-trick-data-uris
 pubDate: 2010-05-18T04:15:46Z
 modDate: 2012-07-30T03:43:43Z

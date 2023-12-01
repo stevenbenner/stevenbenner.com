@@ -1,5 +1,6 @@
 ---
 title: 'Publishing XML to the web with XSLT: a replacement for the presentation layer'
+description: 'If your web application has been built to produce XML for feeds or APIs, then you do not need to build another set of logic to make a web version. You can let web browsers hit the service directly if you create an XSLT and link it from your XML documents. In this article I present my thoughts on this pattern, how to use it, as well as working example code for your inspiration.'
 slug: 2010/02/publishing-xml-to-the-web-with-xslt-a-replacement-for-the-presentation-layer
 pubDate: 2010-02-02T06:39:54Z
 modDate: 2010-03-07T20:57:07Z

@@ -1,5 +1,6 @@
 ---
 title: 'PHP needs an IDE and a membership provider'
+description: 'In this rant I complain about the two things that are woefully missing for PHP development right now: An IDE as awesome as Visual Studio and a membership provider.'
 slug: 2009/09/php-needs-an-ide-and-a-membership-provider
 pubDate: 2009-09-06T08:24:17Z
 modDate: 2010-02-08T03:44:21Z

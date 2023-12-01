@@ -1,5 +1,6 @@
 ---
 title: 'Reset cascading style sheets are bad practice'
+description: 'I’m sure that I am one of the small minority of web developers who’s saying this, but reset style sheets are bad practice, and it’s time to stop using them. Here’s a detailed explanation of why, and my recommended alternative practice.'
 slug: 2010/02/reset-cascading-style-sheets-are-bad-practice
 pubDate: 2010-02-20T23:29:31Z
 modDate: 2010-12-05T02:00:21Z

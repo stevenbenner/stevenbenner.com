@@ -1,5 +1,6 @@
 ---
 title: 'External templates for the DataView control: Microsoft Ajax Library 4.0'
+description: 'The new DataView control in the latest beta of the ASP.NET AJAX Library version 4.0 has a template engine built into it. Unfortunately, those templates must be embedded in the page markup. Here is a workaround technique that I came up with for importing an external template file into a page.'
 slug: 2010/01/external-templates-for-the-dataview-control-microsoft-ajax-library-4-0
 pubDate: 2010-01-30T04:59:20Z
 modDate: 2010-03-07T20:57:19Z

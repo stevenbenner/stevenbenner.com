@@ -1,5 +1,6 @@
 ---
 title: 'MS Ajax 4.0 DataView Templates vs. jTemplates and PURE'
+description: 'My review of the template system added in ASP.NET AJAX version 4.0 with the new DataView control. And a comparison of DataView templates versus the popular jTemplates and PURE templates systems.'
 slug: 2010/03/microsoft-ajax-4-0-dataview-templates-vs-jtemplates-and-pure
 pubDate: 2010-03-27T03:00:18Z
 modDate: 2010-03-27T03:00:07Z

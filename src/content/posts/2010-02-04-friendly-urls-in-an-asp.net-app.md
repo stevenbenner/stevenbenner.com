@@ -1,5 +1,6 @@
 ---
 title: 'Friendly URLs in an ASP.NET app'
+description: 'A comparison of the various options for implementing friendly URLs in your ASP.NET web application. With some of my thoughts about the options and some code demonstrating and example implementation.'
 slug: 2010/02/friendly-urls-in-an-asp-net-app
 pubDate: 2010-02-05T03:04:13Z
 modDate: 2010-03-07T20:56:58Z

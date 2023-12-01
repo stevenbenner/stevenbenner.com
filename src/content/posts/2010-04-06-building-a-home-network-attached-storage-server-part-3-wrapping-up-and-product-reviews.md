@@ -1,5 +1,6 @@
 ---
 title: 'Building a home Network Attached Storage server. Part 3: Wrapping up and product reviews'
+description: 'Part 3 of my home NAS server guide. In this article I will discuss the final things that you need to do to get your NAS to fire and forget server status. I will also give you my reviews of the various pieces of hardware that I used and offer a general wrap up statement on the project.'
 slug: 2010/04/building-a-home-network-attached-storage-server-part-3-wrapping-up-and-product-reviews-2
 pubDate: 2010-04-06T23:05:15Z
 modDate: 2023-11-27T15:34:59Z

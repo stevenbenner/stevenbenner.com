@@ -1,5 +1,6 @@
 ---
 title: 'EXSLT set:distinct in MSXML for Internet Explorer'
+description: 'The most common EXSLT function that I use is set:distinct. It is an extremely powerful function that lets you grab a distinct list of nodes, attributes, or values without impacting your current context in the style sheet. However it is not available in Internet Explorer, so I decided to build it.'
 slug: 2010/02/exslt-set-distinct-in-msxml-for-internet-explorer
 pubDate: 2010-02-17T00:01:21Z
 modDate: 2010-03-07T20:56:47Z

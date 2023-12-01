@@ -1,5 +1,6 @@
 ---
 title: 'Building a home Network Attached Storage server. Part 1: Hardware'
+description: 'Part 1 of my home NAS server guide. This is the story of my particular NAS build and some of the stuff I learned during the course of this project. In this installment I focus on the hardware choices that I made.'
 slug: 2009/12/building-a-home-network-attached-storage-server-part-1-hardware
 pubDate: 2009-12-28T00:37:29Z
 modDate: 2015-08-03T01:30:10Z

@@ -1,5 +1,6 @@
 ---
 title: 'Setting up an Ubuntu LAMP server. Part 2: Apache'
+description: 'Part 2 of my LAMP server configuration guide. In this installment I provide a walk-through for the process of setting up Apache HTTP server. As well as some education about the various configuration options.'
 slug: 2012/02/setting-up-an-ubuntu-lamp-server-part-2-apache
 pubDate: 2012-03-01T03:34:18Z
 modDate: 2012-07-11T19:21:51Z

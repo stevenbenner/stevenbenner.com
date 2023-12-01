@@ -1,5 +1,6 @@
 ---
 title: 'How to set up a Team Fortress 2 dedicated server on Ubuntu'
+description: 'My walk-though guide for installing and configuring srcds on Ubuntu. This article is specifically about Team Fortress 2, however much of this information will apply to other Source games such as Counter Strike: Source, Left 4 Dead, and Half-Life 2: Deathmatch.'
 slug: 2010/11/how-to-set-up-a-team-fortress-2-dedicated-server-on-ubuntu
 pubDate: 2010-11-27T02:19:14Z
 modDate: 2012-08-20T19:18:15Z

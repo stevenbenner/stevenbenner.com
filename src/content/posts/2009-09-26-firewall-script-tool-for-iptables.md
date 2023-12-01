@@ -1,5 +1,6 @@
 ---
 title: 'Firewall script tool for iptables'
+description: 'If you’re just getting started with iptables and you want a good strong rule set to use or learn from then check out the Easy Firewall Generator for IPTables. This is a great little tool that will give you a shell script with a very nice rule set.'
 slug: 2009/09/firewall-script-tool-for-iptables
 pubDate: 2009-09-26T08:34:12Z
 modDate: 2010-03-03T19:04:06Z

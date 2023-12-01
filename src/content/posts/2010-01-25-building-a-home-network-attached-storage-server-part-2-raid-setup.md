@@ -1,5 +1,6 @@
 ---
 title: 'Building a home Network Attached Storage server. Part 2: RAID Setup'
+description: 'Part 2 of my home NAS server guide. In this article I talk about some of the options for the RAID arrays and the art of RAID configuration.'
 slug: 2010/01/building-a-home-network-attached-storage-server-part-2-raid-setup
 pubDate: 2010-01-26T00:03:12Z
 modDate: 2015-08-03T01:24:15Z
