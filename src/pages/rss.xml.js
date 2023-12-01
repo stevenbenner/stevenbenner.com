@@ -16,7 +16,8 @@ export async function GET(context) {
 			link: `/${post.slug}/`,
 			customData: `<language>${site.language}</language>`,
 			content: sanitizeHtml(parser.render(post.body)),
-			...post.data
+			...post.data,
+			...{ categories: post.data.categories.concat(post.data.tags) }
 		}))
 	});
 }
