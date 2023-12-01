@@ -12,6 +12,7 @@ categories:
 - Web Development
 tags:
 - Opinion
+- Satire
 ---
 
 I was meditating yesterday, as I often do, when I was visited by a supernatural being who called himself *Gitsvn Hgtfs*. He said that he had brought the good news of version control and that I was to be his prophet. Needless to say, I was so surprised that I almost knocked my beer over.

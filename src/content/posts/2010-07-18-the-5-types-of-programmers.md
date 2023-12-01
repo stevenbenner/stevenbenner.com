@@ -12,6 +12,7 @@ categories:
 - Web Development
 tags:
 - Opinion
+- Satire
 ---
 
 In my code journeys and programming adventures I’ve encountered many strange foes, and even stranger allies. I’ve identified at least five different kinds of code warriors, some make for wonderful comrades in arms, while others seem to foil my every plan.
