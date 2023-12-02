@@ -1,0 +1,30 @@
+---
+const { date } = Astro.props
+---
+
+<figure>
+	<figcaption>Warning: This article is very old</figcaption>
+	<p><strong>This article was written in {date.getFullYear()}.</strong> Things change over time. So the information presented here may no longer be current and up-to-date, or it may have even become factually inaccurate. There may be useful information here, but you should check recent sources before relying on this article.</p>
+</figure>
+
+<style>
+	figure {
+		border-color: #ce9621;
+		background-color: #faebd7;
+		margin: 0 0 1rem;
+		padding: 0;
+	}
+	figcaption {
+		background-color: #ce9621;
+		font-weight: bold;
+	}
+	p {
+		position: relative;
+		margin: 1rem;
+	}
+	@media (min-width: 600px) {
+		figure {
+			margin: 0 3rem 1rem;
+		}
+	}
+</style>

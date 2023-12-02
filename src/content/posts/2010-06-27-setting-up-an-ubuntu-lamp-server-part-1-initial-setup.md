@@ -4,6 +4,7 @@ description: 'Part 1 of my LAMP server configuration guide. This is the foundati
 slug: 2010/06/setting-up-an-ubuntu-lamp-server-part-1-initial-setup
 pubDate: 2010-06-27T23:23:43Z
 modDate: 2013-02-27T15:13:25Z
+transitory: true
 image:
   src: '../../assets/thumbnails/ubuntu-logo.png'
   alt: 'Ubuntu logo'

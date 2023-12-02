@@ -4,6 +4,7 @@ description: 'Part 2 of my LAMP server configuration guide. In this installment 
 slug: 2012/02/setting-up-an-ubuntu-lamp-server-part-2-apache
 pubDate: 2012-03-01T03:34:18Z
 modDate: 2012-07-11T19:21:51Z
+transitory: true
 image:
   src: '../../assets/thumbnails/apache-logo.png'
   alt: 'Apache HTTP server logo'

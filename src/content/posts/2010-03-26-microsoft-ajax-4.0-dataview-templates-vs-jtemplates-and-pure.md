@@ -4,6 +4,7 @@ description: 'My review of the template system added in ASP.NET AJAX version 4.0
 slug: 2010/03/microsoft-ajax-4-0-dataview-templates-vs-jtemplates-and-pure
 pubDate: 2010-03-27T03:00:18Z
 modDate: 2010-03-27T03:00:07Z
+transitory: true
 image:
   src: '../../assets/thumbnails/aspajax-jquery.png'
   alt: 'ASP.NET AJAX and jQuery logos'

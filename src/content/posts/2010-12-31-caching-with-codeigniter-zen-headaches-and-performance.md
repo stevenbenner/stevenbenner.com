@@ -4,6 +4,7 @@ description: 'In this article I provide you with an overview of the caching syst
 slug: 2010/12/caching-with-codeigniter-zen-headaches-and-performance
 pubDate: 2011-01-01T04:47:01Z
 modDate: 2012-07-17T15:18:52Z
+transitory: true
 image:
   src: '../../assets/thumbnails/codeigniter-fade-logo.png'
   alt: 'CodeIgniter logo'

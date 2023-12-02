@@ -4,6 +4,7 @@ description: 'A deep-dive technical comparison for the most popular social bookm
 slug: 2010/03/comparison-of-popular-social-bookmarking-widgets
 pubDate: 2010-03-13T23:47:06Z
 modDate: 2011-06-05T20:28:49Z
+transitory: true
 image:
   src: '../../assets/thumbnails/social-bookmarking-service-logos.png'
   alt: 'Social bookmarking service logos'

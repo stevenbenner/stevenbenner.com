@@ -4,6 +4,7 @@ description: 'A minor expose on how the AddThis social bookmarking widget is now
 slug: 2010/02/addthis-friendly-widget-and-brilliant-viral-tracking-scheme
 pubDate: 2010-02-14T08:15:15Z
 modDate: 2010-03-07T21:00:19Z
+transitory: true
 image:
   src: '../../assets/thumbnails/addthis-logo.png'
   alt: 'AddThis logo'

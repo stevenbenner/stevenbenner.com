@@ -4,6 +4,7 @@ description: 'In this article I will show you how I perform browser view port si
 slug: 2010/04/calculate-page-size-and-view-port-position-in-javascript
 pubDate: 2010-04-25T23:45:50Z
 modDate: 2010-04-25T23:58:16Z
+transitory: true
 image:
   src: '../../assets/thumbnails/page-size-code.png'
   alt: 'Screenshot of JavaScript code'

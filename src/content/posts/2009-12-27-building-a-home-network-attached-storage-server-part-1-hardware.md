@@ -4,6 +4,7 @@ description: 'Part 1 of my home NAS server guide. This is the story of my partic
 slug: 2009/12/building-a-home-network-attached-storage-server-part-1-hardware
 pubDate: 2009-12-28T00:37:29Z
 modDate: 2015-08-03T01:30:10Z
+transitory: true
 image:
   src: '../../assets/thumbnails/antec-1200.jpg'
   alt: 'Antec 1200 computer case'

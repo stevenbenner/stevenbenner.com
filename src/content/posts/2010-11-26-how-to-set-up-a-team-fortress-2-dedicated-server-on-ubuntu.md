@@ -4,6 +4,7 @@ description: 'My walk-though guide for installing and configuring srcds on Ubunt
 slug: 2010/11/how-to-set-up-a-team-fortress-2-dedicated-server-on-ubuntu
 pubDate: 2010-11-27T02:19:14Z
 modDate: 2012-08-20T19:18:15Z
+transitory: true
 image:
   src: '../../assets/thumbnails/tf2-logo.png'
   alt: 'Team Fortress 2 logo'

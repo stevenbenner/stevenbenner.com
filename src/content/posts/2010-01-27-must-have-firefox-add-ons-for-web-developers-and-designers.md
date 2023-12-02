@@ -4,6 +4,7 @@ description: 'This is a list of my favorite Firefox add-ons for web development.
 slug: 2010/01/must-have-firefox-add-ons-for-web-developers-designers
 pubDate: 2010-01-27T19:51:41Z
 modDate: 2010-12-05T02:00:29Z
+transitory: true
 image:
   src: '../../assets/thumbnails/firefox-logo.png'
   alt: 'Firefox logo'

@@ -4,6 +4,7 @@ description: 'I’m sure that I am one of the small minority of web developers w
 slug: 2010/02/reset-cascading-style-sheets-are-bad-practice
 pubDate: 2010-02-20T23:29:31Z
 modDate: 2010-12-05T02:00:21Z
+transitory: true
 image:
   src: '../../assets/thumbnails/firebug-reset-css.png'
   alt: 'Screenshot of reset CSS in Firebug'

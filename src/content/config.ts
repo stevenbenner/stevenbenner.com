@@ -7,6 +7,7 @@ const postsCollection = defineCollection({
 		description: z.string().optional(),
 		pubDate: z.date(),
 		modDate: z.date(),
+		transitory: z.boolean().optional(),
 		image: z.object({
 			src: image(),
 			alt: z.string()

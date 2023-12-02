@@ -4,6 +4,7 @@ description: 'Part 3 of my home NAS server guide. In this article I will discuss
 slug: 2010/04/building-a-home-network-attached-storage-server-part-3-wrapping-up-and-product-reviews-2
 pubDate: 2010-04-06T23:05:15Z
 modDate: 2023-11-27T15:34:59Z
+transitory: true
 categories:
 - System Administration
 tags:

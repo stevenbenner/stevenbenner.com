@@ -4,6 +4,7 @@ description: 'My method for handling exceptions and reporting them is very simpl
 slug: 2010/01/reporting-of-unhandled-exceptions-in-your-distributable-net-application
 pubDate: 2010-01-23T21:35:23Z
 modDate: 2010-03-07T20:57:33Z
+transitory: true
 image:
   src: '../../assets/thumbnails/dotnet-logo.gif'
   alt: 'Microsoft .NET logo'

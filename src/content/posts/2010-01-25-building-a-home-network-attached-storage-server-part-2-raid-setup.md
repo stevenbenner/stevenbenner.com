@@ -4,6 +4,7 @@ description: 'Part 2 of my home NAS server guide. In this article I talk about s
 slug: 2010/01/building-a-home-network-attached-storage-server-part-2-raid-setup
 pubDate: 2010-01-26T00:03:12Z
 modDate: 2015-08-03T01:24:15Z
+transitory: true
 image:
   src: '../../assets/thumbnails/raid5.png'
   alt: 'RAID5 balancing diagram'

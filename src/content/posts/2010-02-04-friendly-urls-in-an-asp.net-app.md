@@ -4,6 +4,7 @@ description: 'A comparison of the various options for implementing friendly URLs
 slug: 2010/02/friendly-urls-in-an-asp-net-app
 pubDate: 2010-02-05T03:04:13Z
 modDate: 2010-03-07T20:56:58Z
+transitory: true
 image:
   src: '../../assets/thumbnails/aspdotnet-logo.gif'
   alt: 'Microsoft ASP.NET logo'

@@ -4,6 +4,7 @@ description: 'The most common EXSLT function that I use is set:distinct. It is a
 slug: 2010/02/exslt-set-distinct-in-msxml-for-internet-explorer
 pubDate: 2010-02-17T00:01:21Z
 modDate: 2010-03-07T20:56:47Z
+transitory: true
 image:
   src: '../../assets/thumbnails/jscript-screenshot.png'
   alt: 'Screenshot of JScript code'

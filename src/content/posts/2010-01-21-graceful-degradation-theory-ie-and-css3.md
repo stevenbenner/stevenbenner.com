@@ -4,6 +4,7 @@ description: 'CSS3 offers a wide array of very important and useful features. Th
 slug: 2010/01/graceful-degradation-theory-ie-and-css3
 pubDate: 2010-01-21T23:13:00Z
 modDate: 2010-12-05T02:00:36Z
+transitory: true
 image:
   src: '../../assets/thumbnails/css3.png'
   alt: 'CSS3'

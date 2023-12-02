@@ -4,6 +4,7 @@ description: 'There has been a growing trend of governments around the world dra
 slug: 2010/05/how-to-circumvent-internet-filtering-and-enhance-privacy
 pubDate: 2010-05-09T23:30:36Z
 modDate: 2010-05-09T23:32:03Z
+transitory: true
 image:
   src: '../../assets/thumbnails/censored.png'
   alt: 'Censored'

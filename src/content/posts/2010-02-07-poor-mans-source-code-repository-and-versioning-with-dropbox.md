@@ -4,6 +4,7 @@ description: 'Did you know that Dropbox has a rudimentary file history? While it
 slug: 2010/02/poor-mans-source-code-repository-and-versioning-with-dropbox
 pubDate: 2010-02-08T03:38:30Z
 modDate: 2010-03-17T20:50:51Z
+transitory: true
 image:
   src: '../../assets/thumbnails/dropbox-logo.png'
   alt: 'Dropbox logo'

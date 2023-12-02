@@ -4,6 +4,7 @@ description: 'If your web application has been built to produce XML for feeds or
 slug: 2010/02/publishing-xml-to-the-web-with-xslt-a-replacement-for-the-presentation-layer
 pubDate: 2010-02-02T06:39:54Z
 modDate: 2010-03-07T20:57:07Z
+transitory: true
 image:
   src: '../../assets/thumbnails/xslt.png'
   alt: 'XSLT'

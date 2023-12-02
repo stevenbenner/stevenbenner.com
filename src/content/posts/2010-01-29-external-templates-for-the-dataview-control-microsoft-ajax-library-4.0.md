@@ -4,6 +4,7 @@ description: 'The new DataView control in the latest beta of the ASP.NET AJAX Li
 slug: 2010/01/external-templates-for-the-dataview-control-microsoft-ajax-library-4-0
 pubDate: 2010-01-30T04:59:20Z
 modDate: 2010-03-07T20:57:19Z
+transitory: true
 image:
   src: '../../assets/thumbnails/aspdotnet-ajax.png'
   alt: 'Microsoft ASP.NET AJAX logo'

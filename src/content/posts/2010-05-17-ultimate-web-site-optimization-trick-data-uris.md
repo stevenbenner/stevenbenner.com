@@ -4,6 +4,7 @@ description: 'The data URI scheme can be used to embed data of any format in HTM
 slug: 2010/05/ultimate-web-site-optimization-trick-data-uris
 pubDate: 2010-05-18T04:15:46Z
 modDate: 2012-07-30T03:43:43Z
+transitory: true
 image:
   src: '../../assets/thumbnails/base64.png'
   alt: 'Screenshot of base64 encoded data'

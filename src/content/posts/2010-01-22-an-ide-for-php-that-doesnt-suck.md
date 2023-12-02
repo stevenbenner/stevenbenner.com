@@ -4,6 +4,7 @@ description: 'I’ve finally found an IDE that doesn’t suck, phpDesigner. It i
 slug: 2010/01/an-ide-for-php-that-doesnt-suck
 pubDate: 2010-01-23T02:53:42Z
 modDate: 2010-02-08T03:43:19Z
+transitory: true
 image:
   src: '../../assets/thumbnails/phpdesigner.jpg'
   alt: 'phpDesigner logo'

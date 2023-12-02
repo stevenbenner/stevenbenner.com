@@ -4,6 +4,7 @@ description: 'My personal list of must-have software for your Microsoft Windows 
 slug: 2010/09/must-have-software-for-your-microsoft-windows-computer
 pubDate: 2010-09-29T10:10:29Z
 modDate: 2012-07-26T04:41:43Z
+transitory: true
 image:
   src: '../../assets/thumbnails/windows-logo.jpg'
   alt: 'Microsoft Windows logo'
