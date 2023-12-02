@@ -194,9 +194,9 @@ I built a little tool that allows me to quickly encode files on my computer. Her
 
 <div style="text-align: center;">
 
-[![Steve's Encode64 Utility Screen Shot](../../assets/postimages/encode64-screenshot.png)](http://stevenbenner.github.com/steves-encode64-utility/)
+[![Steve's Encode64 Utility Screen Shot](../../assets/postimages/encode64-screenshot.png)](https://stevenbenner.github.io/steves-encode64-utility/)
 
-**[Click here to download](http://stevenbenner.github.com/steves-encode64-utility/)**
+**[Click here to download](https://stevenbenner.github.io/steves-encode64-utility/)**
 
 </div>
 
