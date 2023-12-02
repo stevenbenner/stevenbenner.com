@@ -55,7 +55,7 @@ This system is very secure. Since VPN users don’t want any nefarious types or 
 
 </figure>
 
-It’s not free, but it is cheap. There are actually several companies offering this service already, such as [PRQ](http://prq.se/?intl=1) which offers an [OpenVPN tunnel service](http://prq.se/?p=tunnel&amp;intl=1) for as little as $10 per month. There, your VPN server is all ready to go! I mention PRQ only because they are famous for protecting their customers, for more VPN providers check out the [VPN list](http://en.cship.org/wiki/Virtual_Private_Network) on the Internet censorship wiki.
+It’s not free, but it is cheap. There are actually several companies offering this service already, such as [PRQ](http://prq.se/?intl=1) which offers an [OpenVPN tunnel service](http://prq.se/?p=tunnel&intl=1) for as little as $10 per month. There, your VPN server is all ready to go! I mention PRQ only because they are famous for protecting their customers, for more VPN providers check out the [VPN list](http://en.cship.org/wiki/Virtual_Private_Network) on the Internet censorship wiki.
 
 You can also set up a VPN server of your very own anywhere you like, but you will need to find a host to house the system and keep it online. I highly recommend a VPS (*Virtual Private Server*) system for this because it is cheap, fast and you don’t need much computing power to run a VPN. Of course a dedicated server is fine too, but a lot more expensive. No matter what you will need a system that gives you root access so you can install and configure the VPN server.
 
@@ -108,7 +108,7 @@ Now that you have the power to get around censorship I want you to help prevent 
 Here are some influential organizations that are fighting for internet freedom:
 
  * [Electronic Frontier Foundation (EFF)](http://www.eff.org/)
- * [Center for Democracy &amp; Technology (CDT)](http://www.cdt.org/)
+ * [Center for Democracy & Technology (CDT)](http://www.cdt.org/)
  * [American Civil Liberties Union (ACLU)](http://www.aclu.org/free-speech/internet-censorship)
  * [Electronic Frontiers Australia (EFA)](http://www.efa.org.au/)
  * [La Quadrature du Net](http://www.laquadrature.net/en)
@@ -121,6 +121,6 @@ These are a few informational sites on topics of freedom of speech and internet 
  * [Index on Censorship](http://www.indexoncensorship.org/) (UK)
  * [Digital Due Process](http://www.digitaldueprocess.org/) (US)
  * [European Digital Rights](http://www.edri.org/) (EU)
- * [Reporters Without Borders](http://www.rsf.org/index.php?page=rubrique&amp;id_rubrique=2)
+ * [Reporters Without Borders](http://www.rsf.org/index.php?page=rubrique&id_rubrique=2)
  * [OpenNet Initiative](http://opennet.net/)
  * [Google government requests tool](http://www.google.com/governmentrequests/)

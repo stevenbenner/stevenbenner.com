@@ -165,7 +165,7 @@ chmod 600 ~/.ssh/authorized_keys
 
 #### Setup PuTTY to use the private key to login
 
-Now you need to tell PuTTY about your private key. This is actually really simple, go to the Connections-&gt;SSH-&gt;Auth options and select the private key file.
+Now you need to tell PuTTY about your private key. This is actually really simple, go to the Connections->SSH->Auth options and select the private key file.
 
 ![PuTTY Private Key Config](../../assets/postimages/putty-private-key.png)
 
@@ -218,7 +218,7 @@ The name of your sever (aka “hostname”) is not only useful for keeping track
 
 First off pick a name for your server. Some people use the names of greek gods, some use simpsons characters and some use the names of minerals. There are countless naming conventions so pick whatever you want.
 
-Of course the simplest way is to name your server based on it’s role. For example: www1, sql1, memcache1, etc. If you do use generic names like this you probably should add a number to the end in case you add more servers (e.g. www1, www2, www3&#8230;).
+Of course the simplest way is to name your server based on it’s role. For example: www1, sql1, memcache1, etc. If you do use generic names like this you probably should add a number to the end in case you add more servers (e.g. www1, www2, www3…).
 
 Now there are two places we need to enter your name to get the system to use that name, /etc/hostname and /etc/hosts.
 

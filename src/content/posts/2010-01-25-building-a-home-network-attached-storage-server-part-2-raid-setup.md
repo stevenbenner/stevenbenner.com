@@ -109,7 +109,7 @@ There are two configuration options that you need to set when building a RAID 5 
 
 I did lots of reading, trying to figure out what the optimal stripe and cluster sizes. There is lots of math and science involved in determining these values, and to be honest I didn’t really understand it. I have decided that this is a mix of black magic, voodoo, and a little witchcraft. Don’t bother trying to scientifically compute the correct values of your RAID settings, you will inevitably get it wrong. Wasting days of initialization time in the process.
 
-Instead, build the smallest RAID partition you can and run benchmarks. I used the [ATTO Disk Benchmark](http://www.attotech.com/products/product.php?scat=20&amp;sku=Disk_Benchmark) tool because it gave me the most consistent readings. The procedure is simple, but time consuming:
+Instead, build the smallest RAID partition you can and run benchmarks. I used the [ATTO Disk Benchmark](http://www.attotech.com/products/product.php?scat=20&sku=Disk_Benchmark) tool because it gave me the most consistent readings. The procedure is simple, but time consuming:
 
  1. Build the smallest RAID partition you can in the controller, using all of the drives you will be using in the final array.
  2. Let the Intel Matrix software initialize the array. This will take a long time, depending on the size of the array, that’s why you want to make the smallest array possible.

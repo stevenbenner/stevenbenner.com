@@ -88,7 +88,7 @@ I have [voiced some concerns](/2010/02/addthis-friendly-widget-and-brilliant-vir
 
 #### Try it
 
-<a class="addthis_button" href="http://addthis.com/bookmark.php?v=250&amp;username=stevenbenner"><img style="border: 0;" src="http://s7.addthis.com/static/btn/v2/lg-share-en.gif" alt="Bookmark and Share" width="125" height="16" /></a><script src="http://s7.addthis.com/js/250/addthis_widget.js#username=stevenbenner" type="text/javascript"></script>
+<a class="addthis_button" href="http://addthis.com/bookmark.php?v=250&username=stevenbenner"><img style="border: 0;" src="http://s7.addthis.com/static/btn/v2/lg-share-en.gif" alt="Bookmark and Share" width="125" height="16" /></a><script src="http://s7.addthis.com/js/250/addthis_widget.js#username=stevenbenner" type="text/javascript"></script>
 
 #### Customization
 
@@ -117,7 +117,7 @@ The second most popular social bookmarking widget out there is ShareThis. The Sh
 
 #### Try it
 
-<script src="http://w.sharethis.com/button/sharethis.js#publisher=3e603d49-b061-4b55-8019-a4e380b7da6b&amp;type=website&amp;post_services=email%2Cfacebook%2Ctwitter%2Cdigg%2Cwindows_live%2Cdelicious%2Cstumbleupon%2Creddit%2Cgoogle_bmarks%2Ctechnorati%2Clinkedin%2Cybuzz%2Cmyspace%2Cbebo%2Cblogger%2Cyahoo_bmarks%2Cmixx%2Cfriendfeed%2Cpropeller%2Cwordpress%2Cnewsvine%2Cxanga%2Cslashdot" type="text/javascript"></script>
+<script src="http://w.sharethis.com/button/sharethis.js#publisher=3e603d49-b061-4b55-8019-a4e380b7da6b&type=website&post_services=email%2Cfacebook%2Ctwitter%2Cdigg%2Cwindows_live%2Cdelicious%2Cstumbleupon%2Creddit%2Cgoogle_bmarks%2Ctechnorati%2Clinkedin%2Cybuzz%2Cmyspace%2Cbebo%2Cblogger%2Cyahoo_bmarks%2Cmixx%2Cfriendfeed%2Cpropeller%2Cwordpress%2Cnewsvine%2Cxanga%2Cslashdot" type="text/javascript"></script>
 
 #### Customization
 
@@ -177,7 +177,7 @@ If you ask me the popup share view is way too big. The bookmark tab is not very 
 <figcaption>Tell-a-Friend Widget</figcaption>
 </figure>
 
-The Tell-a-Friend widget from SocialTwist is the least known bookmarking widget in this review, but those who use it tend to like it so I felt they deserved a place in this article. Of all the widgets I’ve been giving serious consideration to, this is the only one with a pay version. There is of course a free version but the pay version does have several features that power users will want. It would seem that the primary focus of this widget is branding control for the client. You don’t get these advanced features in the free version so I cannot give you more details, but they have acquired some rather large clients (Disney, Barnes &amp; Noble, Kraft Foods, etc.) who use the more advanced branding features.
+The Tell-a-Friend widget from SocialTwist is the least known bookmarking widget in this review, but those who use it tend to like it so I felt they deserved a place in this article. Of all the widgets I’ve been giving serious consideration to, this is the only one with a pay version. There is of course a free version but the pay version does have several features that power users will want. It would seem that the primary focus of this widget is branding control for the client. You don’t get these advanced features in the free version so I cannot give you more details, but they have acquired some rather large clients (Disney, Barnes & Noble, Kraft Foods, etc.) who use the more advanced branding features.
 
 #### Try it
 

@@ -324,7 +324,7 @@ Encryption, the right way, TrueCrypt is an incredibly powerful and well thought 
 
 </figure>
 
-#### Microsoft Office 2010 (word processing &amp; spreadsheets)
+#### Microsoft Office 2010 (word processing & spreadsheets)
 
 *http://office.microsoft.com/*
 

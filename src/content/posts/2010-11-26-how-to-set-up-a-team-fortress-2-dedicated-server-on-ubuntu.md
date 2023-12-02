@@ -396,7 +396,7 @@ This is a tough topic to address, getting players to join your new server can be
 
 ![TF2 Server Browser](../../assets/postimages/tf2-server/tf2-server-browser.png)
 
- * **Have a good ping (&lt;50ms).** This is one of the most important things that players will be looking for, a server with low latency will attract many more players than a server with a marginal ping. Of course a server with a terrible ping will never attract anyone because the experience of TF2 is lost on a laggy server.
+ * **Have a good ping (<50ms).** This is one of the most important things that players will be looking for, a server with low latency will attract many more players than a server with a marginal ping. Of course a server with a terrible ping will never attract anyone because the experience of TF2 is lost on a laggy server.
  * **Choose a good name.** It should stand out some, but be readable and advertise what makes your server worth playing on. Are you running special mods? Advertise them, not only to tell players what to expect, but to get people who are looking for those mods to notice. If you’re running custom maps you might want to say that as well. But you’re going to have to keep it fairly short, long names get truncated in the server browser.
  * **Find a good map rotation.** It’s hard to define this, different players are looking for different things. Even today 2Fort seems to attract players (even though I find it fairly boring), but this is more of a personal choice. Pick maps that are actually fun to play on.
  * **Set the region code properly.** This has become far more important with a recent TF2 update. Setting your region code correctly will allow players to filter by the right region to find your server.

@@ -96,7 +96,7 @@ The case needed to fit 8 hard drives and be able to cool them very well. The Ant
 
 #### CORSAIR CMPSU-750TX 750W power supply
 
-This system will never use that amount of juice, but you never want to run low. This power supply runs off of one single [power supply rail](https://en.wikipedia.org/wiki/Power_supply_rail#Multiple_.2B12_V_Rails). This means that you don’t have to worry about balancing power needs across rails. A huge benefit. This power supply also has 8 SATA power connectors, something to consider when you’re running a lot of SATA hard drives. Member of the &gt;80% efficiency club, so hopefully that will help keep the electricity bill down a bit.
+This system will never use that amount of juice, but you never want to run low. This power supply runs off of one single [power supply rail](https://en.wikipedia.org/wiki/Power_supply_rail#Multiple_.2B12_V_Rails). This means that you don’t have to worry about balancing power needs across rails. A huge benefit. This power supply also has 8 SATA power connectors, something to consider when you’re running a lot of SATA hard drives. Member of the >80% efficiency club, so hopefully that will help keep the electricity bill down a bit.
 
 #### Miscellaneous parts
 
