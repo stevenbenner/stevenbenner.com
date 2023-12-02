@@ -38,7 +38,7 @@ But did you think about using it as a poor man’s CVS? It’s actually a really
 
 </figure>
 
-**Dropbox Version ScreenIt has versioning (kinda).** Dropbox even has a versioning system, although it’s not designed for code. You miss out on nifty diff and blame tools. But on a small project you probably already know who to blame. Unfortunately they only keep versions and deleted files for 30 days unless you have a pay plan. I really wish they’d give that out for free.
+**It has versioning (kinda)** Dropbox even has a versioning system, although it’s not designed for code. You miss out on nifty diff and blame tools. But on a small project you probably already know who to blame. Unfortunately they only keep versions and deleted files for 30 days unless you have a pay plan. I really wish they’d give that out for free.
 
 Personally, I use dropbox as a personal VSS and backup for all of my projects. It is really nice to know that my work is backed up with some version info in one central location as well as distributed to all of my computers.
 
