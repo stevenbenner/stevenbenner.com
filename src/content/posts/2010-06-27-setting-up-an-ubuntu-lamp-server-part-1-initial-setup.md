@@ -204,7 +204,7 @@ Lets start with *wget*, the tool you will use to download files from the web to 
 sudo aptitude install wget
 ```
 
-The next item on the list is the [build-essential](http://packages.ubuntu.com/dapper/build-essential) package. It includes all of the software you need to build Debian/Ubuntu software packages on your machine. Most of the software you will be using will be downloaded pre-built and auto installed by the aptitude software, but if you need to build Apache modules or any other non-standard pieces of software you will require all of the suff in the *build-essential* package.
+The next item on the list is the [build-essential](http://packages.ubuntu.com/dapper/build-essential) package. It includes all of the software you need to build Debian/Ubuntu software packages on your machine. Most of the software you will be using will be downloaded pre-built and auto installed by the aptitude software, but if you need to build Apache modules or any other non-standard pieces of software you will require all of the stuff in the *build-essential* package.
 
 ```shell
 sudo aptitude install build-essential
@@ -220,7 +220,7 @@ First off pick a name for your server. Some people use the names of greek gods, 
 
 Of course the simplest way is to name your server based on it’s role. For example: www1, sql1, memcache1, etc. If you do use generic names like this you probably should add a number to the end in case you add more servers (e.g. www1, www2, www3&#8230;).
 
-Now there are two places we need to enter your name to get the system to use that name, /etc/hostname and /ets/hosts.
+Now there are two places we need to enter your name to get the system to use that name, /etc/hostname and /etc/hosts.
 
 ```shell
 sudo nano /etc/hostname

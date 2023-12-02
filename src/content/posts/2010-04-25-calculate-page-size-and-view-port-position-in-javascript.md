@@ -15,7 +15,6 @@ tags:
 - JavaScript
 ---
 
-
 Have you ever had to try to figure out the *dimensions of a page* or browser in *JavaScript*? This task seems very simple at first glace, every browser has simple properties that will give you this information. Unfortunately, not every browser agrees what object these properties belong to, or even what the names are.
 
 I’ve built a couple nifty tools in JavaScript that need to know the exact dimensions of the *document* as well as the exact dimensions of the *browser view port*. Since these scripts are uses on very high traffic sites with a very wide audience I have had to make sure they work in a multitude of browsers.
@@ -272,6 +271,6 @@ Here is a working example with this code.
 
 Please note that this is not the best way to keep an element in a fixed position on the page. It’s just a good example of the code.
 
-### Conclution
+### Conclusion
 
 There, I’ve successfully made a simple task complex and difficult to understand. I hope at least some of this information will be useful to someone out there! If you have any questions or comments please leave them in the form below and I will respond asap.

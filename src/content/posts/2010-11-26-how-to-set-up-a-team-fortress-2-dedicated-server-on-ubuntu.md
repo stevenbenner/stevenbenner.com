@@ -1,6 +1,6 @@
 ---
 title: 'How to set up a Team Fortress 2 dedicated server on Ubuntu'
-description: 'My walk-though guide for installing and configuring srcds on Ubuntu. This article is specifically about Team Fortress 2, however much of this information will apply to other Source games such as Counter Strike: Source, Left 4 Dead, and Half-Life 2: Deathmatch.'
+description: 'My walk-though guide for installing and configuring SRCDS on Ubuntu. This article is specifically about Team Fortress 2, however much of this information will apply to other Source games such as Counter Strike: Source, Left 4 Dead, and Half-Life 2: Deathmatch.'
 slug: 2010/11/how-to-set-up-a-team-fortress-2-dedicated-server-on-ubuntu
 pubDate: 2010-11-27T02:19:14Z
 modDate: 2012-08-20T19:18:15Z
@@ -21,7 +21,7 @@ I recently decided that I wanted to set up a dedicated server running *Team Fort
 
 All Valve multiplayer games run off of the same base server software, *Source Dedicated Server* (SRCDS). They build a version for Windows, Linux and Mac so you can run it on whatever system you happen to have available. In my case I had Ubuntu 10.04 LTS, which is a great operating system for any server.
 
-This article will give you a walk though guide for installing and configuring srcds on Ubuntu. I am writing specifically about TF2 here, but much of this information will apply to other Source games such as Counter Strike: Source, Left 4 Dead, and Half-Life 2: Deathmatch.
+This article will give you a walk though guide for installing and configuring SRCDS on Ubuntu. I am writing specifically about TF2 here, but much of this information will apply to other Source games such as Counter Strike: Source, Left 4 Dead, and Half-Life 2: Deathmatch.
 
 <!-- more -->
 
@@ -29,22 +29,22 @@ This article will give you a walk though guide for installing and configuring sr
 
 First off a few notes about the software:
 
- * The first thing that I should point out is the the srcds software is only available in 32-bit. So if you are setting up a server just for Source games then be sure to use the 32-bit version of Ubuntu. You will not gain anything by having the 64-bit version.
- * You may see references to “hlds” in places, hlds stands for Half-Life Dedicated server. This was the name of the old version of srcds (aka *Gold Source*) that ran the original Half-Life and Counter Strike. Don’t let it confuse you, the name is still used in places but (in this article) it is the same thing as srcds.
- * Depending on what game you’re running and what settings are applied srcds can use a good amount of processor and RAM. You really need at least 512 MB of RAM and a good modern processor to run a TF2 server properly. A gig to two of RAM will be optimal for running a couple instances. To my knowledge the srcds software is not multi-threaded so you wont see any benefits from a dual processor machine.
+ * The first thing that I should point out is the the SRCDS software is only available in 32-bit. So if you are setting up a server just for Source games then be sure to use the 32-bit version of Ubuntu. You will not gain anything by having the 64-bit version.
+ * You may see references to “HLDS” in places, HLDS stands for Half-Life Dedicated Server. This was the name of the old version of SRCDS (aka *Gold Source*) that ran the original Half-Life and Counter Strike. Don’t let it confuse you, the name is still used in places but (in this article) it is the same thing as SRCDS.
+ * Depending on what game you’re running and what settings are applied SRCDS can use a good amount of processor and RAM. You really need at least 512 MB of RAM and a good modern processor to run a TF2 server properly. A gig to two of RAM will be optimal for running a couple instances. To my knowledge the SRCDS software is not multi-threaded so you wont see any benefits from a dual processor machine.
  * The server will require a huge amount of bandwidth. For a 24 player TF2 server with voice enabled running at max capacity 24/7 expect 800+ gigabytes of bandwidth per month. I regularly see the upload reach 3 Mb/s and download hovers at around 1.5 Mb/s.
 
 ### Setting up Ubuntu
 
 For a basic system set up walk through please use Part 1 of my [guide to setting up an Ubuntu server](/2010/06/setting-up-an-ubuntu-lamp-server-part-1-initial-setup/). Everything in that article is relevant to this guide. The only thing that I should add is be sure not to run SSH on port 27015, since that is the port your Source server will be running on.
 
-One extra step that you might want to do is to create an account for running the srcds process. This isn’t at all required, but it is good practice. The standard practice seems to be creating and account called “hlds” and using that account to run the process.
+One extra step that you might want to do is to create an account for running the SRCDS process. This isn’t at all required, but it is good practice. The standard practice seems to be creating and account called “hlds” and using that account to run the process.
 
 Also, if you’re running a good firewall (as you should be) remember to poke a hole for port 27015.
 
 ### Installing Source Dedicated Server
 
-The installation of srcds is handled entirely by the hldsupdatetool created by Valve. This simple little tool will handle the download and installation of your base Source Dedicated Server. The first step in this process is to get the hldsupdatetool.
+The installation of SRCDS is handled entirely by the hldsupdatetool created by Valve. This simple little tool will handle the download and installation of your base Source Dedicated Server. The first step in this process is to get the hldsupdatetool.
 
 ```shell
 wget http://www.steampowered.com/download/hldsupdatetool.bin
@@ -81,7 +81,7 @@ Once it has finished downloading everything it will return you to the console. T
 
 There are several files that you will want to edit for configuring and setting up your TF2 server. The big one is the server.cfg file located in the orangebox/tf/cfg folder. This file is where you set all of the server variables that control how your server runs.
 
-There are literally hundreds of possible variables in srcds, many of which have no effect on a TF2 server. To simplify this guide I’ll provide you with a very simple sample server config file and talk about some of the more important variables. For a more complete list see [the complete list](http://www.dodbits.com/downloads/cvars/TF2/Team_Fortress_2_cvar_list_a-z.htm).
+There are literally hundreds of possible variables in SRCDS, many of which have no effect on a TF2 server. To simplify this guide I’ll provide you with a very simple sample server config file and talk about some of the more important variables. For a more complete list see [the complete list](http://www.dodbits.com/downloads/cvars/TF2/Team_Fortress_2_cvar_list_a-z.htm).
 
 #### Basic server configuration file
 
@@ -165,7 +165,7 @@ Now that your Team Fortress 2 server is installed, configured and ready to go it
 ./srcds_run -game tf +map ctf_2fort
 ```
 
-However, you probably want to be able to log out of your SSH session from time to time. So you will need to run srcds as a service. To do this we will use a shell script and the [Screen](https://help.ubuntu.com/community/Screen) utility. Screen is a command line multitasking tool that will allow you execute the process and detach it from your current session. Start by installing screen.
+However, you probably want to be able to log out of your SSH session from time to time. So you will need to run SRCDS as a service. To do this we will use a shell script and the [Screen](https://help.ubuntu.com/community/Screen) utility. Screen is a command line multitasking tool that will allow you execute the process and detach it from your current session. Start by installing screen.
 
 ```shell
 sudo aptitude install screen
@@ -187,7 +187,7 @@ SRCDS_USER="<newuser>"
 PATH=/bin:/usr/bin:/sbin:/usr/sbin
 
 # The path to the game you want to host. example = /home/newuser/dod
-DIR=/home//orangebox
+DIR=/home/orangebox
 DAEMON=$DIR/srcds_run
 
 # Change all PARAMS to your needs.
@@ -246,9 +246,9 @@ esac
 exit 0
 ```
 
-**UPDATE: I have created a [repository for this script on GitHub](https://github.com/stevenbenner/srcds-service). Please check there for the latest version. I would also appriciate it if you would submit issues and pull requests to help improve it!**
+**UPDATE: I have created a [repository for this script on GitHub](https://github.com/stevenbenner/srcds-service). Please check there for the latest version. I would also appreciate it if you would submit issues and pull requests to help improve it!**
 
-The highlighted lines are the important ones that you will need to modify. As the instructions say, replace &lt;newuser&gt; with the username that you will be running the service as. This will probably be your username unless you have taken the time to setup a hlds user (a good idea).
+The highlighted lines are the important ones that you will need to modify. As the instructions say, replace &lt;newuser&gt; with the username that you will be running the service as. This will probably be your username unless you have taken the time to setup a “hlds” user (a good idea).
 
 The `SRCDS_USER` variable is the appropriate username, the `DIR` variable needs to be the path to the orangebox folder and the `PARAMS` variable are the parameters that will be used when running the server.
 
@@ -268,9 +268,9 @@ Depending on your setup you may need to sudo these.
 
 For the most part, I do not recommend installing any game-play mods. Aside from the massive headaches and maintenance issues with outdated mods breaking servers (especially after game updates), Valve put a lot of thought in to TF2 game pacing and balance, and judging by their wild success they seem to have gotten it right. So, if it ain’t broke don’t fix it.
 
-However, the rcon admin system is just plain bad. As a TF2 server admin you will at the very least want to run [SourceMod](http://www.sourcemod.net/). This srcds addon is a great administration tool and framework for other mods, you will find it to be an invaluable tool for managing your TF2 server.
+However, the RCON admin system is just plain bad. As a TF2 server admin you will at the very least want to run [SourceMod](http://www.sourcemod.net/). This SRCDS add-on is a great administration tool and framework for other mods, you will find it to be an invaluable tool for managing your TF2 server.
 
-SourceMod itself is a mod for the srcds mod framework [Metamod:Source](http://www.metamodsource.net/). So we will have to install that before anything else. This is pretty simple, just download the package and extract the contents to your game directory (orangebox/tf). This will add metamod to the addons folder. Metamod does not really require any configuration, once you have the files in the correct location it’s ready to go.
+SourceMod itself is a mod for the SRCDS mod framework [Metamod:Source](http://www.metamodsource.net/). So we will have to install that before anything else. This is pretty simple, just download the package and extract the contents to your game directory (orangebox/tf). This will add metamod to the addons folder. Metamod does not really require any configuration, once you have the files in the correct location it’s ready to go.
 
 For a slightly more detailed walk-through check out the official guide: [Installing Metamod:Source](http://wiki.alliedmods.net/Installing_Metamod:Source).
 
@@ -294,7 +294,7 @@ Of course replace the Steam ID with your real Steam ID. This will grant the pers
 
 It’s that simple, but it can get as complicated as you want. For more information on the admin format read the [Adding Admins](http://wiki.alliedmods.net/Adding_Admins_%28SourceMod%29) guide.
 
-#### Adding mods/addons/plugins
+#### Adding mods/add-ons/plugins
 
 The [AlliedModders forums](http://forums.alliedmods.net/) have basically every mod in existence. It would take another full article to explain the important ones and walk you though configuration, so I’ll just provide you with the basics.
 
@@ -356,15 +356,15 @@ I’m not going to try to teach you HTML or CSS, so I’ll simply provide you wi
 </html>
 ```
 
-This is a very basic motd screen. I don’t remember where I got the blackboard graphic, but kudos to whoever did it because it works on just about every resolution. Replace the “Welcome to My Team Fortress 2 server” text with whatever you want.
+This is a very basic MOTD screen. I don’t remember where I got the blackboard graphic, but kudos to whoever did it because it works on just about every resolution. Replace the “Welcome to My Team Fortress 2 server” text with whatever you want.
 
-For more advanced layout you’re going to have to learn some HTML and CSS, Google is your best friend here. Don’t get too crazy though, if your motd is too long then no one will read it.
+For more advanced layout you’re going to have to learn some HTML and CSS, Google is your best friend here. Don’t get too crazy though, if your MOTD is too long then no one will read it.
 
 ### Updating your server
 
 You will have to occasionally update the server software, whenever Valve releases updates to Steam or the game itself. This is a very simple task, in fact you’ve already done it before. We will be running the same two commands that we used to install the server.
 
-The first thing you need to do is shut down the srcds process.
+The first thing you need to do is shut down the SRCDS process.
 
 ```shell
 /etc/init.d/srcds stop
@@ -376,13 +376,13 @@ Next you’ll want to execute the Steam software, which will automatically check
 ./steam
 ```
 
-Now you’ll need to have srcds check for TF2 updates.
+Now you’ll need to have SRCDS check for TF2 updates.
 
 ```shell
 ./steam -command update -game tf -dir .
 ```
 
-That’s it! Your Steam software and TF2 server software have been fully updated. Now you can start the srcds process again and get back to gaming.
+That’s it! Your Steam software and TF2 server software have been fully updated. Now you can start the SRCDS process again and get back to gaming.
 
 ```shell
 /etc/init.d/srcds start
@@ -407,7 +407,7 @@ This is a tough topic to address, getting players to join your new server can be
 
 It is a simple fact, you cannot be on your server 24/7/365. You can make the server more self-sufficient with mods, but you will need other admins to help keep the peace and kick/ban offensive players. I can’t really help you find admins, but I can give some some bullet points to think about.
 
- * **Do not give anyone rcon access.** Only the system administrator (you) should know the rcon password. Anyone with the rcon password can do terrible things to your server.
+ * **Do not give anyone RCON access.** Only the system administrator (you) should know the RCON password. Anyone with the RCON password can do terrible things to your server.
  * Only give full admin permissions to someone you really trust, and only via the SourceMod admin feature. The SourceMod admin has everything necessary to be an admin.
  * The type of people you accept as admins will define the attitude of your server. Make sure their personality is the kind that you want to reflect your server.
  * Bad admins can literally ruin your server. They can ban everyone from the server, change the maps randomly and kill players on a whim.

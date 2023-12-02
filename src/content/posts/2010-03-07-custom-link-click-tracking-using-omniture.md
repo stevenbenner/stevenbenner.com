@@ -84,7 +84,7 @@ No matter what you choose as your search criteria and trackable data you will ne
  * Highly *optimized* for minimum execution time
  * Cannot throw an error that will break the page
  * *Unobtrusive design* that doesn’t have any dependencies (other than Omniture)
- * Namespaced in *object literal notation* so that it can never have any confilcts
+ * Namespaced in *object literal notation* so that it can never have any conflicts
 
 #### The basic JavaScript object that I use for this
 
@@ -174,7 +174,7 @@ There are three methods in the sb_trackLinks object:
 
 Now that we have a basic structure that we can use, all that we need to build is the anchor search statements, tracking variable and event attachments.
 
-This needs to be custom built for your specific needs. The application, URL structure and tracking needs are all critical parts of this equation. If you are using [friendly URLs](/2010/02/friendly-urls-in-an-asp-net-app/) and need to parse data from them then you will may have to deconstruct the URI to grab the specific data that you want to track in prop codes. If you need data from somewhere else on the page you will have to figure out out to grab it. Etcetera.
+This needs to be custom built for your specific needs. The application, URL structure and tracking needs are all critical parts of this equation. If you are using [friendly URLs](/2010/02/friendly-urls-in-an-asp-net-app/) and need to parse data from them then you will may have to deconstruct the URI to grab the specific data that you want to track in prop codes. If you need data from somewhere else on the page you will have to figure out out to grab it. Et cetera.
 
 I’ll provide you with an example based on our previous examples. In this case we are tracking clicks in an online store application. We are using standard query string parameters in our URLs and do not need any other special data.
 

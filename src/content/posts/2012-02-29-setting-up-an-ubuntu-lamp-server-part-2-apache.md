@@ -50,7 +50,7 @@ Apache is the stalwart web server, it has been the de facto web server software 
 
 There are times when Apache is not the best choice.
 
- * **Performance.** Yes, Apache can be as fast as any other server on the market, but it takes a little more tweaking to get it there. The default configuration seems designed for heavy hitting dedicated machines, and will bring most <abbr title="Virtual Private Server">VPS</abbr> instances to their knees if they get significant traffic. If you screw up the configuration at all then your sites will go down the first time you get linked on reddit.
+ * **Performance.** Yes, Apache can be as fast as any other server on the market, but it takes a little more tweaking to get it there. The default configuration seems designed for heavy hitting dedicated machines, and will bring most <abbr title="Virtual Private Server">VPS</abbr> instances to their knees if they get significant traffic. If you screw up the configuration at all then your sites will go down the first time you get linked on Reddit.
  * **Memory footprint.** Apache tends to be more memory heavy than the newer servers. This is what usually causes issues on VPSs.
 
 #### The other popular web servers
@@ -78,7 +78,7 @@ You have a choice of several [Multi-Processing Modules](http://httpd.apache.org/
 
 	Worker is a system that uses separate **threaded** Apache processes. In this system you will be running [FastCGI](https://en.wikipedia.org/wiki/FastCGI) with [mod_fastcgi](http://www.fastcgi.com/mod_fastcgi/docs/mod_fastcgi.html) or possibly [mod_fcgid](http://httpd.apache.org/mod_fcgid/) to execute PHP. This is significantly more memory efficient than the prefork system, but the overall performance difference is debatable. The speed at which the server works may or may not be improved, but FastCGI is, in general, faster for PHP scripts.
 
-	However, if you want <abbr title="Alternative PHP Cache">APC</abbr> (which you do) you should know that there are [caching issues with APC and and mod_fcgid](https://bugs.php.net/bug.php?id=57825) that we cannot work around right now, so the best option is to use the slightly older and slower mod_fastcgi with [php-fpm](http://php-fpm.org/). In addition to the threading and APC issue with fcgid, some older PHP code will not play well with a FastCGI environment (e.g. older mediawiki versions). Modern PHP code should not have any issues in this environment but it may be something you need to consider.
+	However, if you want <abbr title="Alternative PHP Cache">APC</abbr> (which you do) you should know that there are [caching issues with APC and and mod_fcgid](https://bugs.php.net/bug.php?id=57825) that we cannot work around right now, so the best option is to use the slightly older and slower mod_fastcgi with [php-fpm](http://php-fpm.org/). In addition to the threading and APC issue with fcgid, some older PHP code will not play well with a FastCGI environment (e.g. older MediaWiki versions). Modern PHP code should not have any issues in this environment but it may be something you need to consider.
 
 	Moving forward I suspect that MPM worker with php-fpm will probably become the default setup because of its speed and memory efficiency.
 
@@ -120,7 +120,7 @@ Now lets do some configuration. I’m not going to list every option you can con
 
 #### Basic configuration
 
- * **`ServerName`** – Used in server signatures and some server generated links. If you are only going to run one web site on this server then set this to that sites URL (e.g. `www.exampe.com`). If you are going to run more than one site then set this to the server’s IP address (e.g. `12.34.567.890`).
+ * **`ServerName`** – Used in server signatures and some server generated links. If you are only going to run one web site on this server then set this to that sites URL (e.g. `www.example.com`). If you are going to run more than one site then set this to the server’s IP address (e.g. `12.34.567.890`).
  * **`Timeout`** – How long someone can hang a connection open before requesting a page. I set this to `30` seconds, which I feel is generous. The default config value of `300` is outrageous.
  * **`KeepAliveTimeout`** – How long to hold connections open for followup requests. My recommendation is to set this short, I would recommend `2` to `5` seconds.
  * **`ServerTokens`** – What the server should tell the world about itself in the response header. The default setting is to send the full version information with PHP and mod versions. You might as well print out a list of every hack your system is vulnerable to in the headers. Set this to `Prod`.
@@ -244,7 +244,7 @@ That’s it. You can do all kinds of crazy configuration in the virtual host, bu
 
 ### Web optimizations
 
-Now is the time to do some tuning for the client side of your web server. If you’ve ever used the YSlow or PageSpeed addons for Firefox (must have for web developers) you’ve probably seen them complaining about sites that don’t gzip, or that use ETags. Well let’s make sure your sites are not guilty of those sins.
+Now is the time to do some tuning for the client side of your web server. If you’ve ever used the YSlow or PageSpeed add-ons for Firefox (must have for web developers) you’ve probably seen them complaining about sites that don’t gzip, or that use ETags. Well let’s make sure your sites are not guilty of those sins.
 
 These changes are made by adding these configuration values to the bottom of your config file (it can go anywhere in the file, I just prefer to keep these kinds of customizations all in one place)
 
@@ -277,7 +277,7 @@ And add the following to your apache2.conf:
 AddOutputFilterByType DEFLATE text/html text/plain text/xml text/css application/x-javascript
 ```
 
-You are now serving static text, HTML, XML, CS and JS files gzipped.
+You are now serving static text, HTML, XML, CSS and JS files gzipped.
 
 #### ETags
 
@@ -318,7 +318,7 @@ ExpiresActive on
 
 #### Further reading
 
-I recommend you get both the YSlow and Page Speed addons and test your sites with them. These really are invaluable tools for improving your web site performance.
+I recommend you get both the YSlow and Page Speed add-ons and test your sites with them. These really are invaluable tools for improving your web site performance.
 
 Also, I highly recommend taking the time to read through the official [Yahoo performance best practices](http://developer.yahoo.com/performance/rules.html) and [Google performance best practices](http://code.google.com/speed/page-speed/docs/rules_intro.html) documents. They are filled with excellent tips for both the server and the web site.
 
@@ -326,7 +326,7 @@ Also, I highly recommend taking the time to read through the official [Yahoo per
 
 This article covers the basics of getting Apache up and running. From here on you can keep it simple or get as complicated as your heard desires. There are at least a few other mods that you should probably be aware of to help you on your journey:
 
- * **rewrite** – The Apache URL rewriter, industry standard, much beloved and keeping the internet working. This will alow you to do URL rewriting, which is a huge article unto itself. Google to learn about Apache URL rewriting.
+ * **rewrite** – The Apache URL rewriter, industry standard, much beloved and keeping the internet working. This will allow you to do URL rewriting, which is a huge article unto itself. Google to learn about Apache URL rewriting.
  * **auth_basic and auth_digest** – These are the authentication modules that are used to require a username and password to access a file or directory on the server. Very useful, I personally like to protect admin folders (e.g. wp-admin for WordPress) with authentication, just as an extra layer of inconvenience to would-be hackers. Always use digest, don’t bother with basic.
  * **status** – Useful for seeing what your web server is doing at any particular moment. This will give you the Apache status page that you might have seen before. Also, required for some monitoring tools (i.e. munin). Remember to require authentication on that page as well or anyone can see what sites/files you are sending and what IPs are accessing them.
 

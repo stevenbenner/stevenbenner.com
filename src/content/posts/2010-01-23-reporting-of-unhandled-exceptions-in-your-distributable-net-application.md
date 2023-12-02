@@ -252,7 +252,7 @@ This is what I ended up with:
 
 ![ErrorReport User Interface](../../assets/postimages/errorreport-ui.png)
 
-This interface can certainly be improved, but this is enough to get all of the functionality you need. The first text box is where users enter their report, the second text box is set to be ReadOnly and will display the raw error text that will be sent back to the developer. It is always good practice to show people exactly what information you intend to send so they can look it over.
+This interface can certainly be improved, but this is enough to get all of the functionality you need. The first text box is where users enter their report, the second text box is set to be read-only and will display the raw error text that will be sent back to the developer. It is always good practice to show people exactly what information you intend to send so they can look it over.
 
 Again, the code is pretty self-explanatory, so I won’t go into much detail. But I would like to point out that the program will automatically close after it posts the report to the web. So if the user tries to close the form themselves we can assume that they haven’t sent the report. In this case I display a warning to that effect. We really want people to send us these reports so we can kill bugs out in the wild.
 

@@ -33,7 +33,7 @@ To me personally, these are the greatest pieces of technology offered in the cur
 
  * **[opacity](http://www.w3.org/TR/css3-color/#transparency)**
 
-	Set transparency on all of your favorite block elements. Now you can do those nifty overlays without custom images and png hacks.
+	Set transparency on all of your favorite block elements. Now you can do those nifty overlays without custom images and PNG hacks.
 
  * **[Attribute selectors](http://www.w3.org/TR/css3-selectors/#attribute-selectors)**
 

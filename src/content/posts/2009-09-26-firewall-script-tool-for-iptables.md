@@ -19,10 +19,10 @@ tags:
 - Ubuntu
 ---
 
-If you run a public linux server of any kind then you should have a firewall running. Hopefully you already know that. I prefer [iptables](http://www.netfilter.org/) because it is so powerful, however the iptables language is a little less than intuitive.
+If you run a public Linux server of any kind then you should have a firewall running. Hopefully you already know that. I prefer [iptables](http://www.netfilter.org/) because it is so powerful, however the iptables language is a little less than intuitive.
 
 If you’re just getting started with iptables and you want a good strong rule set to use or learn from then check out the [Easy Firewall Generator for IPTables](http://easyfwgen.morizot.net/gen/). This is a great little tool that will give you a shell script with a very nice rule set.
 
-Just fill out the form and save the script to your server. Run the shell script and you have a great firewall with good logging. Though don’t auto-run the script on bootup until you are absolutely sure that you have the rules perfect, iptables can and will happily lock you out of your own server for good.
+Just fill out the form and save the script to your server. Run the shell script and you have a great firewall with good logging. Though don’t auto-run the script on boot-up until you are absolutely sure that you have the rules perfect, iptables can and will happily lock you out of your own server for good.
 
 <!-- more -->

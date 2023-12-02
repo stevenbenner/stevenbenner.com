@@ -29,7 +29,7 @@ However they all have their place in the pantheon of software development. Witho
 
 </figure>
 
-*The code may not be pretty, but damnit, it works!*
+*The code may not be pretty, but dammit, it works!*
 
 This guy is the foundation of your company. When something goes wrong he will fix it fast and in a way that won’t break again. Of course he doesn’t care about how it looks, ease of use, or any of those other *trivial* concerns, but he will make it happen, without a bunch of talk or time-wasting nonsense. The best way to use this person is to point at a problem and walk away.
 
@@ -53,7 +53,7 @@ This guy doesn’t care about your deadlines or budgets, those are insignificant
 
 </figure>
 
-*I’m a programmer, damnit. I don’t write code.*
+*I’m a programmer, dammit. I don’t write code.*
 
 His world has one simple truth; writing code is bad. If you have to write something then you’re doing it wrong. Someone else has already done the work so just use their code. He will tell you how much faster this development practice is, even though he takes as long or longer than the other programmers. But when you get the project it will only be 20 lines of actual code and will be very easy to read. It may not be very fast, efficient, or forward-compatible, but it will be done with the least effort required.
 
@@ -67,7 +67,7 @@ His world has one simple truth; writing code is bad. If you have to write someth
 
 *What do you want? It works doesn’t it?*
 
-The guy who couldn’t care less about quality, that’s someone elses job. He accomplishes the tasks that he’s asked to do, quickly. You may not like his work, the other programmers hate it, but management and the clients love it. As much pain as he will cause you in the future, he is single-handedly keeping your deadlines so you can’t scoff at it (no matter how much you want to).
+The guy who couldn’t care less about quality, that’s someone else’s job. He accomplishes the tasks that he’s asked to do, quickly. You may not like his work, the other programmers hate it, but management and the clients love it. As much pain as he will cause you in the future, he is single-handedly keeping your deadlines so you can’t scoff at it (no matter how much you want to).
 
 ### The theoretical programmer
 

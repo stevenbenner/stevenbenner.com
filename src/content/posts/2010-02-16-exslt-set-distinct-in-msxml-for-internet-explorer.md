@@ -47,7 +47,7 @@ this['distinct'] = function (values) {
 	xmlDoc.loadXML('<?xml version="1.0" encoding="utf-8"?>\n<distinctRoot></distinctRoot>');
 
 	var dedupe = [];
-	// iteratre through the nodes passed to this function
+	// iterate through the nodes passed to this function
 	var node = values.nextNode();
 	while (node) {
 		var isDuplicate = false;
@@ -139,7 +139,7 @@ Now we’ll create the full XSLT style sheet to implement this functionality.
 			xmlDoc.loadXML('<?xml version="1.0" encoding="utf-8"?>\n<distinctRoot></distinctRoot>');
 
 			var dedupe = [];
-			// iteratre through the nodes passed to this function
+			// iterate through the nodes passed to this function
 			var node = values.nextNode();
 			while (node) {
 				var isDuplicate = false;

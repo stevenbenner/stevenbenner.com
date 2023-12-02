@@ -26,7 +26,7 @@ I selected to use the new binary database format during install. After copying o
 
 Now this is really just a minor problem, it wont affect the functionality of your wiki install at all. However, binary data makes more sense than the old UTF-8 format for a couple of reasons:
 
- * Characters are stored exactly as they are entered, so if you use non-English or unusual characters often they will be better preserved.  In MySQL 4, the UTF-8 format only covered characters in the [Basic Multilingual Plane](https://en.wikipedia.org/wiki/Mapping_of_Unicode_character_planes) (BMP). Anything outside of those standard characters would be saved as jibberish if you did a mysqldump of the database.
+ * Characters are stored exactly as they are entered, so if you use non-English or unusual characters often they will be better preserved.  In MySQL 4, the UTF-8 format only covered characters in the [Basic Multilingual Plane](https://en.wikipedia.org/wiki/Mapping_of_Unicode_character_planes) (BMP). Anything outside of those standard characters would be saved as gibberish if you did a mysqldump of the database.
  * Binary text data is faster to search through, since it is always a direct binary comparison.
 
 So I wanted to convert the database to the new binary schema, but the upgrade script cannot change the character sets or collations on the tables. Since I was actually moving servers I didn’t have to do the whole thing in a live SQL database, so decided to accomplish this by doing a two-step update.
@@ -48,7 +48,7 @@ To upgrade your wiki database from 1.6.12 to 1.15.1 follow these simple steps:
  3. Now go through your database dump from the old wiki and remove all of the CREATE TABLE statements. You just want the INSERT statements.
  4. Run your modified mediawiki-conversion-schema.sql (“mysql < mediawiki-conversion-schema.sql -p”). This will create the interim table structure.
  5. Run your modified database dump SQL file (“mysql < mydatadump.sql -p”). This will import all of your old data into the new, upgradeable database.
- 6. Then run the mediawiki upgrade script on that database.
+ 6. Then run the MediaWiki upgrade script on that database.
 
 It’s pretty straightforward, you create an interim database with the latest binary data types but only the columns from the old schema. This allows you to import your old data into the interim database. You can then use the regular MediaWiki upgrade process to finish the database structure and clean up the data.
 

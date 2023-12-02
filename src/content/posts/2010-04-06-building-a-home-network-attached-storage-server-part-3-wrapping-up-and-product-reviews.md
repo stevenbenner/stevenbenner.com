@@ -136,7 +136,7 @@ When you see this message you should be very concerned and do everything possibl
 
 Creating a task that will be run whenever this event happens is really easy, it’s built right in to the event system. It even has a “Send email” feature, unfortunately it is really dumb and requires a simple SMTP server which doesn’t require a log in. If you have such a SMTP server (possibly from your ISP) then you can use this feature and call it done.
 
-If you do not have access to an SMTP server that doesn’t require authentication then you will need to find another way to send messages. In my case I created a little program that uses my gmail account. I’ll post more on this and provide a download in another article.
+If you do not have access to an SMTP server that doesn’t require authentication then you will need to find another way to send messages. In my case I created a little program that uses my Gmail account. I’ll post more on this and provide a download in another article.
 
 ### Hardware reviews
 

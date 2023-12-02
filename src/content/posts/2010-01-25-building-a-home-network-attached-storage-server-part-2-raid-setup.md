@@ -16,7 +16,6 @@ tags:
 - Windows
 ---
 
-
 This is Part 2 in the [Building a home Network Attached Storage server](/2009/12/building-a-home-network-attached-storage-server-part-1-hardware/) series. In this article I will talk about some of the options for the RAID arrays and the art of RAID configuration.
 
 Now that we know what hardware this system is going to be built on we have to decide what technology is going to run it all. We still have several options for RAID controllers and software.
@@ -49,7 +48,7 @@ There is Windows *Home Server*, which is much cheaper, but it is only available 
 
 #### Ubuntu software RAID
 
-I am familiar with the Ubuntu operating system, so this was another one of the options I considered. Ubuntu also has support for linux software RAID. It has all of the same benefits and drawbacks as Windows Server software RAID, with one major additional drawback that made me drop it as an option, it doesn’t have the Windows SMB2 system. On my Windows network SMB2 will make a night-and-day difference in network throughput.
+I am familiar with the Ubuntu operating system, so this was another one of the options I considered. Ubuntu also has support for Linux software RAID. It has all of the same benefits and drawbacks as Windows Server software RAID, with one major additional drawback that made me drop it as an option, it doesn’t have the Windows SMB2 system. On my Windows network SMB2 will make a night-and-day difference in network throughput.
 
 #### OpenSolaris ZFS file system
 

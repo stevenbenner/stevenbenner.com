@@ -41,7 +41,7 @@ In short the defining characteristic of real programmers is that **they never st
 
 ### My experience with real programmers
 
-I’ve worked as a peon coder, link-in-the-chain guy, I’ve worked as a manager who did the hiring and firing, I’ve worked as a one-man-shop serving milti-billion dollar corporations, and I’ve worked as a solo freelancer. This experience has taught me two things:
+I’ve worked as a peon coder, link-in-the-chain guy, I’ve worked as a manager who did the hiring and firing, I’ve worked as a one-man-shop serving miltibillion dollar corporations, and I’ve worked as a solo freelancer. This experience has taught me two things:
 
  1. I am not the greatest programmer in the world, despite what my website says, and
  2. That you can rarely tell a good programmer from a bad one by the resume, or the interview.
@@ -70,7 +70,7 @@ I do expect people to know how to use the language and/or framework they were hi
 
 Of course it’s pretty absurd to require knowledge that 99% of programmers have absolutely no need for in real life. But perhaps you don’t entirely know why. If you have very strict hiring standards then you are only going to find people who match your specific model, and your code will suffer because of this.
 
-Computer science grows at a fantastical rate, every day there is another small innovation that someone came up with. This small innovation will slowly propegate out to the rest of the programming community and become part of everyone’s toolbox. This happens because some creative programmer tried some alternative idea and found a new way to solve a problem.
+Computer science grows at a fantastical rate, every day there is another small innovation that someone came up with. This small innovation will slowly propagate out to the rest of the programming community and become part of everyone’s toolbox. This happens because some creative programmer tried some alternative idea and found a new way to solve a problem.
 
 If your team consists entirely of people with the same background, skills and knowledge then your creativity bucket will be quite small. This means you will not see as much innovation as a varied team with people asking questions that wouldn’t normally be asked, and people offering solutions that wouldn’t normally be offered.
 

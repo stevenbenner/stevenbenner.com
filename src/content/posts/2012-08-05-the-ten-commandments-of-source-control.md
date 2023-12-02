@@ -97,7 +97,7 @@ When you have a file open, swap the whitespace around. One of two things will ha
 
 </figure>
 
-Sure, you’ve got access to lots of legacy projects running around the system. Start working on them, checking in as you go, then abandon the project, leaving only your commits behind. If you did this right and obey all of the commandments then the project is essentially lost to the ages. A long forgotten un-reconstructable quagmire of history, broken structures, and sin, like ancient Greece, or New Orleans.
+Sure, you’ve got access to lots of legacy projects running around the system. Start working on them, checking in as you go, then abandon the project, leaving only your commits behind. If you did this right and obey all of the commandments then the project is essentially lost to the ages. A long forgotten unreconstructable quagmire of history, broken structures, and sin, like ancient Greece, or New Orleans.
 
 ### If you find a bug you are responsible for, ignore it
 
@@ -131,7 +131,7 @@ It doesn’t even have to be big stuff, some of the greatest rewrites of history
 
 </figure>
 
-There are many people evangelizing the benefits of committing often, but you need to step it up a notch. Commit very often, say, every 10 minutes or so. Any wild tangent that your code is taking should be prompty checked in.
+There are many people evangelizing the benefits of committing often, but you need to step it up a notch. Commit very often, say, every 10 minutes or so. Any wild tangent that your code is taking should be promptly checked in.
 
 Not only does this impress the management with your amazing productivity and work ethic, but it also leaves half completed work in source control, guaranteeing your position for another day.
 

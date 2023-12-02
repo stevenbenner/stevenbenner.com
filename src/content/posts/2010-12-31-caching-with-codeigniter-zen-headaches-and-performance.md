@@ -136,7 +136,7 @@ So you have to search for the cache files you want to purge using that algorithm
  * Evicts the output cache for the targeted page.
  *
  * @author	Steven Benner
- * @link	https://stevenbenner.com/2010/12/caching-with-codeigniter-zen-headaches-and-perfomance/
+ * @link	https://stevenbenner.com/2010/12/caching-with-codeigniter-zen-headaches-and-performance/
  * @param	string	$uri_string	Full uri_string() of the target page (e.g. '/blog/comments/123')
  * @return	bool	True if the cache file was removed, false if it was not
  */
@@ -216,7 +216,7 @@ Several other more advanced and more flexible caching systems have been created 
 
 One day I’ll probably stop being lazy and extend the caching system to add these features, but until that day these are the biggest things that I wish EllisLab would implement in CodeIgniter’s caching system:
 
- * **Partial output caching.** This would be a huge, massive, zomgwtfwin improvement. Even if I could just use partial caching on views. Having main un-cached template view that calls individual cached content views would be immensely awesome. Cache just the content blocks with lots of heavy lifting beneath them and leave the lightweight user-specific stuff completely un-cached.
+ * **Partial output caching.** This would be a huge, massive, zomgwtfwin improvement. Even if I could just use partial caching on views. Having main uncached template view that calls individual cached content views would be immensely awesome. Cache just the content blocks with lots of heavy lifting beneath them and leave the lightweight user-specific stuff completely uncached.
  * **Native output cache eviction.** One little function, say `clear_cache('controller/function')` would be very helpful. It is really troublesome to have to find cache files by their full URL. Any little modifier, say page-numbers, greatly complicates a search for cache files to delete. Not to mention that it just plain doesn’t make sense that the application has to know all of it’s possible URIs to purge cache files.
  * **Output cache groups.** Similar to the last idea, it would be nice to group related caches somehow, even just being able to specify a sub-directory to save them in would be enough. One example is paginated content. If I want to evict all caches for every page of a category I have to determine number of pages and the URIs for every page to delete all of the affected cache files. It would be nice to purge all of them as a group.
  * **Support for common caching back-ends.** It’s something I don’t really need to see in the library, but it would be nice if there was support for caching objects with the more popular PHP caching schemes such as APC.

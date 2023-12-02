@@ -56,7 +56,7 @@ The [World of Warcraft](http://www.worldofwarcraft.com/) web site uses the XML/X
 
 Remember Twitter doesn’t have to worry about SEO, accessibility or backwards compatibility. You do. Don’t use AJAX or JSON for anything but gloss and finish on a functioning base web site. Relying on dynamic calls for widgets and decorations are fine, but don’t require it for any real content.
 
-I will add that I think all of the AJAX in gmail is fine. Why? Because gmail is a *web application*, behind a login screen. The context is different than a page on a front-facing web site that you might find through a search engine. Web users understand that they are entering something different than a static page when they log in to their gmail accounts.
+I will add that I think all of the AJAX in Gmail is fine. Why? Because Gmail is a *web application*, behind a login screen. The context is different than a page on a front-facing web site that you might find through a search engine. Web users understand that they are entering something different than a static page when they log in to their Gmail accounts.
 
 ### Thoughts on libraries
 

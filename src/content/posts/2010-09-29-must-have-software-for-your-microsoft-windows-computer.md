@@ -17,7 +17,7 @@ tags:
 
 *Microsoft Windows* is my operating system of choice, for many reasons. One of the best reasons is because of the wide array of *software* available for it. I’ve been a Windows user since Windows 3.1, before that I used MS DOS.
 
-Despite the many criticisms levied against the Windows operating system (many completely unfounded, many are very true) it is an excellent OS for casual users, home users, business users, gamers, software developers, graphics artists, etcetera, etcetera. Unfortunately most of the point is lost if you don’t know what software to install.
+Despite the many criticisms levied against the Windows operating system (many completely unfounded, many are very true) it is an excellent OS for casual users, home users, business users, gamers, software developers, graphics artists, et cetera, et cetera. Unfortunately most of the point is lost if you don’t know what software to install.
 
 This is my personal list of must have software for your Microsoft Windows computer. When I set up a new computer every item on this list gets installed, and I can do everything that I want to do. This list is valid for Windows XP, Vista or 7.
 
@@ -61,7 +61,7 @@ Second choice: Microsoft Outlook<
 
 </figure>
 
-#### <del datetime="2011-05-22T05:57:16+00:00">Trillian Astra (instant messeger)</del>
+#### <del datetime="2011-05-22T05:57:16+00:00">Trillian Astra (instant messenger)</del>
 
 <del datetime="2011-05-22T05:57:16+00:00">Trillian from Cerulean Studios was the original all-in-one instant messaging software. It is powerful and flexible, but it has some quirks. Luckily Cerulean has a record of being a great company and the community for Trillian is excellent. I find it to be the best instant messenger client available.</del>
 
@@ -254,7 +254,7 @@ Alternate choice: WinDiff
 
 <figure>
 
-![NOD32 Llogo](../../assets/postimages/windows-software/nod32-logo.png)
+![NOD32 Logo](../../assets/postimages/windows-software/nod32-logo.png)
 
 </figure>
 
@@ -278,7 +278,7 @@ Windows XP had a great defragmenter included with it. It wasn’t particularly f
 
 So, lets replace it with something that is actually good, MyDefrag. This utility gives you a lot more than just defragmenting file, it optimizes the data on the drive. Moving the the data to the outside of the disc where the rotational velocity is higher and transfer rates are fastest and sorting files on the disc. Suffice it to say that this is a very advanced defrag tool, and you should be using it.
 
-Be sure to disable the default defrag tool (a scheduled item in Vista/7) because it will un-optimize the disc.
+Be sure to disable the default defrag tool (a scheduled item in Vista/7) because it will unoptimize the disc.
 
 <figure>
 
@@ -290,7 +290,7 @@ Be sure to disable the default defrag tool (a scheduled item in Vista/7) because
 
 *http://www.piriform.com/*
 
-CCleaner *(a.k.a. Crap Cleaner)* is a hugely helpful tool for deleting all of the crap that you don’t need. It will clear out all of the regular crap that builds up in Windows as well as the crap that builds up in various applications that you may have installed. It has an excellent registry cleaner that will clear all of the crap registry entries that build up over time. And it give’s you tools for even more advanced maintenance.
+CCleaner *(a.k.a. Crap Cleaner)* is a hugely helpful tool for deleting all of the crap that you don’t need. It will clear out all of the regular crap that builds up in Windows as well as the crap that builds up in various applications that you may have installed. It has an excellent registry cleaner that will clear all of the crap registry entries that build up over time. And it gives you tools for even more advanced maintenance.
 
 <figure>
 

@@ -107,18 +107,18 @@ In addition to the problem of old versions, Internet Explorer 8 has some additio
  * data URIs cannot be used for JavaScript
  * only object, img, input and link HTML tags can use data URIs
 
-However, you can use data URIs in any CSS url statements, so there is still plenty of use for data URIs in the latest version of Internet Explorer.
+However, you can use data URIs in any CSS URL statements, so there is still plenty of use for data URIs in the latest version of Internet Explorer.
 
 #### Graceful degradation options for older versions of IE
 
 There are two options for graceful degradation:
 
- * Make regular images available and use regular url links as a fall-back.
+ * Make regular images available and use regular URL links as a fall-back.
  * Or, use the MHTML technique.
 
-Personally, I’m not a fan of the MHTML technique because it will greatly increases the size of your CSS file (doubling the number of embedded images). In my opinion, this is just too high of a price to pay. It is far simpler to make the images available on your server and just link to them with regular CSS url statements. At least it is for me, if for some reason you would rather take the file size hit instead of publishing the image files then there is a good MHTML how-to article [here](http://www.phpied.com/mhtml-when-you-need-data-uris-in-ie7-and-under/).
+Personally, I’m not a fan of the MHTML technique because it will greatly increases the size of your CSS file (doubling the number of embedded images). In my opinion, this is just too high of a price to pay. It is far simpler to make the images available on your server and just link to them with regular CSS URL statements. At least it is for me, if for some reason you would rather take the file size hit instead of publishing the image files then there is a good MHTML how-to article [here](http://www.phpied.com/mhtml-when-you-need-data-uris-in-ie7-and-under/).
 
-For the this article I will use CSS url fall-backs for graceful degradation.
+For the this article I will use CSS URL fall-backs for graceful degradation.
 
 ### IE 6-7 specific CSS degradation
 
@@ -232,7 +232,7 @@ private string Base64Encode(string fileToEncode)
 }
 ```
 
-### Conclution
+### Conclusion
 
 I think data URIs are an awesome, and powerful optimization trick. You can save many extra HTTP connections, and the associated latency and overhead for all of your users who are running a modern browser. This will make your site much snappier, especially if you use a lot of icons.
 

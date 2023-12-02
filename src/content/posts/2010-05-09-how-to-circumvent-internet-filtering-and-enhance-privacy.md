@@ -17,7 +17,7 @@ tags:
 - Security
 ---
 
-The whole world knows about the so called *“Great Wall”* that protects the Chinese people from dangerous western ideals, the serious concerns about internet privacy in the United Kingdom, now we have Australia making a real push towards [internet filtering legislation](http://www.guardian.co.uk/world/2010/mar/29/google-yahoo-australia-internet-filter) as well as all of North America and most of Europe signing on with the *[ACTA](https://en.wikipedia.org/wiki/Anti-Counterfeiting_Trade_Agreement)* legislation. Of course we still have [Iran blocking news, social media and even gmail](http://online.wsj.com/article/SB10001424052748704140104575056972514372994.html). But even countries that we wouldn’t expect to support censorship are signing bad legislation, such as [France](http://www.theinquirer.net/inquirer/news/1591582/france-falls-internet-censorship), [New Zealand](http://www.neowin.net/news/main/09/09/14/new-zealand-to-get-country-wide-filtered-internet), and [Ireland](http://www.irishtimes.com/newspaper/frontpage/2009/0820/1224252952116.html).
+The whole world knows about the so called *“Great Wall”* that protects the Chinese people from dangerous western ideals, the serious concerns about internet privacy in the United Kingdom, now we have Australia making a real push towards [internet filtering legislation](http://www.guardian.co.uk/world/2010/mar/29/google-yahoo-australia-internet-filter) as well as all of North America and most of Europe signing on with the *[ACTA](https://en.wikipedia.org/wiki/Anti-Counterfeiting_Trade_Agreement)* legislation. Of course we still have [Iran blocking news, social media and even Gmail](http://online.wsj.com/article/SB10001424052748704140104575056972514372994.html). But even countries that we wouldn’t expect to support censorship are signing bad legislation, such as [France](http://www.theinquirer.net/inquirer/news/1591582/france-falls-internet-censorship), [New Zealand](http://www.neowin.net/news/main/09/09/14/new-zealand-to-get-country-wide-filtered-internet), and [Ireland](http://www.irishtimes.com/newspaper/frontpage/2009/0820/1224252952116.html).
 
 For at least a decade the very idea of filtering information was something first world countries laughed at as a tactic only dictatorships and xenophobes would seriously consider, now it seems the stage is changing and governments and ISPs are becoming more open to the idea of national censorship.
 
@@ -67,7 +67,7 @@ The first thing you need to do is to download a copy of the [OpenVPN GUI](http:/
 
 If you are getting your VPN access from a company that provides OpenVPN services then you should receive all of your configuration information from them. If you’re setting up your own VPN server then you will need to read the OpenVPN documentation for your particular system.
 
-The guide for setting up your VPN will be the topic of another article, I’ll write up a nice how-to with screen shots and such eventually. For now, if you’re looking fo a good walk-through on setting up the OpenVPN GUI check out [How to configure OpenVPN](http://www.itsatechworld.com/2006/01/29/how-to-configure-openvpn/).
+The guide for setting up your VPN will be the topic of another article, I’ll write up a nice how-to with screen shots and such eventually. For now, if you’re looking for a good walk-through on setting up the OpenVPN GUI check out [How to configure OpenVPN](http://www.itsatechworld.com/2006/01/29/how-to-configure-openvpn/).
 
 ### The other option
 

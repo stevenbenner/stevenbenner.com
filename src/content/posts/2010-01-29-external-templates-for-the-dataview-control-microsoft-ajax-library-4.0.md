@@ -27,7 +27,7 @@ This is one technique that I came up with for importing a template file into a p
 
 <!-- more -->
 
-You can save your template as an html or xml file in your project and then, using an AJAX connection, download the template and insert it into the page. Once the template has been inserted into the page you can create the DataView control and generate the widget.
+You can save your template as an HTML or XML file in your project and then, using an AJAX connection, download the template and insert it into the page. Once the template has been inserted into the page you can create the DataView control and generate the widget.
 
 First off create the JavaScript file, in this case `MyWidget.js`:
 
@@ -84,7 +84,7 @@ And finally bring it all together in the page:
 		<script src="scripts/MyWidget.js" type="text/javascript"></script>
 		<script type="text/javascript">
 			// this should come from a javascript include tag, but for the
-			// sake of example, im embedding it here for you
+			// sake of example, i'm embedding it here for you
 			var MyWidgetData = [
 				{ Name: "Steven Benner", WebSite: "https://stevenbenner.com/" },
 				{ Name: "Bill Gates", WebSite: "http://www.gatesfoundation.org/" },

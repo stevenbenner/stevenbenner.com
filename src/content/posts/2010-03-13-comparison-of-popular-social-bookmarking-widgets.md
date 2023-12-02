@@ -25,7 +25,7 @@ This begs the question, which one is best? As usual it depends on what your need
 
 ### Performance chart
 
-I started off by creating pages that contain absolutely nothing but the widget. With these completely empty pages I can get a much more accurate reflection on load time. I used Mozilla Firefox with the Firebug, YSlow, PageSpeed and Tamper Data add-on’s to to determine the number of connections, load time and weight for each widget. These are some of my [recommended Firefox add-on’s for all web guys](/2010/01/must-have-firefox-add-ons-for-web-developers-designers/).
+I started off by creating pages that contain absolutely nothing but the widget. With these completely empty pages I can get a much more accurate reflection on load time. I used Mozilla Firefox with the Firebug, YSlow, PageSpeed and Tamper Data add-ons to to determine the number of connections, load time and weight for each widget. These are some of my [recommended Firefox add-ons for all web guys](/2010/01/must-have-firefox-add-ons-for-web-developers-designers/).
 
 All of these tests are using the default button with the default settings for each service. I ran all of these tests from two locations in northern California. One set was run from my home 6Mbps ADSL connection and another set is run from my dual 30Mbps DS3 work connection. The results were basically the same from both locations. Both computers were Intel Qxxxx quad core systems with ample power.
 
@@ -82,7 +82,7 @@ All of these services fail the YSlow and PageSpeed recommendations in some way o
 <figcaption>AddThis Widget</figcaption>
 </figure>
 
-By far the most popular social bookmarking widget on the internet today, AddThis set’s the standard that all of the other bookmarking widgets try to live up to. They have the largest user base, a massive collection of supported service, lots of display flexibility and have localized their widget into more than 50 languages. They also support SSL.
+By far the most popular social bookmarking widget on the internet today, AddThis sets the standard that all of the other bookmarking widgets try to live up to. They have the largest user base, a massive collection of supported service, lots of display flexibility and have localized their widget into more than 50 languages. They also support SSL.
 
 I have [voiced some concerns](/2010/02/addthis-friendly-widget-and-brilliant-viral-tracking-scheme/) about AddThis using some black-hat user tracking and profiling tactics. However, since they are so popular this service must get some love in this review.
 
@@ -245,7 +245,7 @@ AddThis wins the customization contest hands-down. In some ways AddToAny is as g
 
 #### Best end-user privacy – Tell-a-Friend
 
-Of course, Tell-a-Friend with their decent privacy policy and lack of profiling wins the privacy competition. Most web masters don’t concern themselves with matters like this, but internet privacy is something that I consider very important. As much as I want to know who you are, I don’t presume the right to know everything about you just because you viewed my site. At the same time servers and dark-fiber aint cheap, and I need to make money off of you somehow.
+Of course, Tell-a-Friend with their decent privacy policy and lack of profiling wins the privacy competition. Most webmasters don’t concern themselves with matters like this, but internet privacy is something that I consider very important. As much as I want to know who you are, I don’t presume the right to know everything about you just because you viewed my site. At the same time servers and dark-fiber ain’t cheap, and I need to make money off of you somehow.
 
 ### Do you really need a bookmarking widget?
 

@@ -42,11 +42,11 @@ I am not saying that the technique is bad, I’m saying it’s bad practice, for
 
 Many reset style sheets set *outline* to zero. Outline is an important feature for usability and accessibility. It is used for keyboard navigation.
 
-The outline property sets an overlay border on an active/selected element that is actionable and/or has a tabindex. This gives users a visual cue as to where there active cursor is (note: tab cursor, not mouse cusor). Without the outline users who cannot use a mouse or who choose to use the tab function to navigate pages can’t see where their cursor is. This effectively makes the page unusable for some disabled people, and less-usable for tabbing power-users.
+The outline property sets an overlay border on an active/selected element that is actionable and/or has a tabindex. This gives users a visual cue as to where there active cursor is (note: tab cursor, not mouse cursor). Without the outline users who cannot use a mouse or who choose to use the tab function to navigate pages can’t see where their cursor is. This effectively makes the page unusable for some disabled people, and less-usable for tabbing power-users.
 
 #### Unnecessarily large style sheets
 
-There are certain display standards and conventions that all browsers agree on by default. Headings are bold, links are underlined, lists have bullets, etcetera. When using a reset style sheet you have to manually set every single display property for every single element.
+There are certain display standards and conventions that all browsers agree on by default. Headings are bold, links are underlined, lists have bullets, et cetera. When using a reset style sheet you have to manually set every single display property for every single element.
 
 Why would you want to repeat the same CSS that every browser gives you by default? It only clutters your style sheet, increases download footprint and slows the browser rendering engine.
 
@@ -103,7 +103,7 @@ Take this very seriously, development on a high traffic web sites is all about s
 
 ### That was a very long-winded rant, so how do you deal with it?
 
-Simple, the way we’ve been doing it since we stopped using tables and 1px separator gifs.
+Simple, the way we’ve been doing it since we stopped using tables and 1px separator GIFs.
 
 ```css
 * {

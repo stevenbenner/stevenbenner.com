@@ -54,7 +54,7 @@ No, not really. I don’t know the internals of their analytics system, but if t
 
 ### Conclusion
 
-If you are concerned about your privacy online them only use [Mozilla Firefox](http://www.mozilla.com/firefox/) and pick up the [BetterPrivacy](https://addons.mozilla.org/en-US/firefox/addon/6623) and [CookieMoster](https://addons.mozilla.org/en-US/firefox/addon/4703) add-on’s (you need both). They will stop the simple cookie/LSO based tracking systems.
+If you are concerned about your privacy online them only use [Mozilla Firefox](http://www.mozilla.com/firefox/) and pick up the [BetterPrivacy](https://addons.mozilla.org/en-US/firefox/addon/6623) and [CookieMoster](https://addons.mozilla.org/en-US/firefox/addon/4703) add-ons (you need both). They will stop the simple cookie/LSO based tracking systems.
 
 If you are concerned about the privacy of the visitors on your web site then do not use AddThis bookmarking widget. But if you really can’t come up with an alternative at least be sure to add the JavaScript code I posted above with your AddThis widget. [ShareThis](http://sharethis.com/) is an alternative, but they are hoping to cash in the same way.
 
