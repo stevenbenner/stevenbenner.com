@@ -11,7 +11,7 @@ export async function getStaticPaths({ paginate }) {
 	return paginate(postsCollection.reverse(), { pageSize: pagination.pageSize });
 }
 
-const parser = new MarkdownIt('commonmark');
+const parser = new MarkdownIt({ html: true });
 
 const { page } = Astro.props;
 const pageTitle = page.currentPage === 1 ? 'Articles' : `Articles (Page ${page.currentPage})`;

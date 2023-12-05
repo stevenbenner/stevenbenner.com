@@ -4,7 +4,7 @@ import MarkdownIt from 'markdown-it';
 import { getCollection } from 'astro:content';
 import { site } from '../data/config.json';
 
-const parser = new MarkdownIt();
+const parser = new MarkdownIt({ html: true });
 
 export async function GET(context) {
 	const postsCollection = await getCollection('posts');
