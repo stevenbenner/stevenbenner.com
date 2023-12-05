@@ -38,7 +38,7 @@ There are four pieces to this reporting system:
 
 This is a simple class that I wrote to process an exception passed to it and save the information to a text file. The code is all pretty much self-explanatory so I won’t go in to too much detail here.
 
-I do want to point out that I am saving the error logs into the ApplicationData folder. This is standard practice since Windows Vista came out because UAC might stop you from saving files anywhere else on the system.
+I do want to point out that I am saving the error logs into the `ApplicationData` folder. This is standard practice since Windows Vista came out because <abbr title="User Account Control">UAC</abbr> might stop you from saving files anywhere else on the system.
 
 ```csharp
 public sealed class ErrorLog
@@ -246,7 +246,7 @@ public static void Application_ThreadException(object sender, System.Threading.T
 
 The error submission program itself will open the log file you passed to it and give the user an opportunity to provide some details about what they were trying to do when the exception occurred. When the user clicks send it will post the information to the web for you to read later.
 
-Add a new project to your solution, a Windows Form Application and name it ErrorReport. Create two labels, two large text boxes and two buttons. One label will be a description telling the user what is happening, it should read something like “We encountered an error. Please help improve this software by sending an error report.” The second label will be for the user report box. Asking them to tell us what they were doing when the exception happened. Something along the lines of ” Describe what you were doing when the error occurred:”
+Add a new project to your solution, a Windows Form Application and name it ErrorReport. Create two labels, two large text boxes and two buttons. One label will be a description telling the user what is happening, it should read something like “We encountered an error. Please help improve this software by sending an error report.” The second label will be for the user report box. Asking them to tell us what they were doing when the exception happened. Something along the lines of “Describe what you were doing when the error occurred:”
 
 This is what I ended up with:
 

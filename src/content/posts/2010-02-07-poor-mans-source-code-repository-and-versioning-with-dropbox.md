@@ -20,7 +20,7 @@ tags:
 
 By now just about everyone knows about *[Dropbox](https://www.dropbox.com/)*, the simple file syncing/sharing and online backup solution. The software is available for several operating systems and is very fast and intuitive. It even has a good online interface so you can access your dropbox from anywhere.
 
-But did you think about using it as a poor man’s CVS? It’s actually a really good solution for personal projects, or for a small group of people working on a project. I have fallen in love with the service for several reasons.
+But did you think about using it as a poor man’s <abbr title="Concurrent Versions System">CVS</abbr>? It’s actually a really good solution for personal projects, or for a small group of people working on a project. I have fallen in love with the service for several reasons.
 
 <!-- more -->
 
@@ -40,7 +40,7 @@ But did you think about using it as a poor man’s CVS? It’s actually a really
 
 **It has versioning (kinda)** Dropbox even has a versioning system, although it’s not designed for code. You miss out on nifty diff and blame tools. But on a small project you probably already know who to blame. Unfortunately they only keep versions and deleted files for 30 days unless you have a pay plan. I really wish they’d give that out for free.
 
-Personally, I use Dropbox as a personal VSS and backup for all of my projects. It is really nice to know that my work is backed up with some version info in one central location as well as distributed to all of my computers.
+Personally, I use Dropbox as a personal <abbr title="Microsoft Visual SourceSafe">VSS</abbr> and backup for all of my projects. It is really nice to know that my work is backed up with some version info in one central location as well as distributed to all of my computers.
 
 **It’s an off-site backup.** It is very important that you keep your hard work backed up. But just copying it to an external drive isn’t enough. You need to have an off-site backup in case something terrible happens. This is something else that Dropbox does well.
 
@@ -50,4 +50,4 @@ If you don’t mind giving your code to anyone in the world who wants it, *[GitH
 
 ### Conclusion
 
-For big-project work in a multi-developer environment Dropbox will certainly not replace your CVS/VSS/SVN/GIT code repository. Having tools like diffs, branches and merges integrated into the repository is absolutely required in a corporate environment. But for one man projects or freelance work where you can’t really justify the cost or the time for managing a real code repository, Dropbox is a good choice.
+For big-project work in a multi-developer environment Dropbox will certainly not replace your CVS/VSS/<abbr title="Apache Subversion">SVN</abbr>/git code repository. Having tools like diffs, branches and merges integrated into the repository is absolutely required in a corporate environment. But for one man projects or freelance work where you can’t really justify the cost or the time for managing a real code repository, Dropbox is a good choice.

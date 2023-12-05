@@ -46,10 +46,10 @@ s.tl(this, 'o');
 
 Now, this is fairly self-explanatory, but I’ll break this down line for line so you know exactly what’s happening and what these statement mean.
 
- * **s.linkTrackVars** declares which prop codes you will be using in this event. This property is a comma-separated list of each prop code that you want tracked.
- * **s.linkTrackEvents** are the “events” that an action may represent. Usually you will use events like “purchase” or “save” but you can put just about anything you want in here. It’s just a different way of looking at the same information. I typically set it to none and use custom insights for reports.
- * **s.prop1** and **s.prop2** are the custom metrics that will be attached to this click event. In this case prop1 is the product category and prop2 is the product name.
- * **s.tl(this, 'o')** calls the tracking action. The `tl()` method (a.k.a. the *trackLinks method*) requires two parameters, this anchor object to be tracked (should always be `this`) and the type of link we are tracking. There are three types of basic links that is method understands: o is the “Other/General” link type, d is a “File Download” link, and e which is an “Exit Link”. Anything that isn’t a download or exit link should be given the “o” tag.
+ * **`s.linkTrackVars`** declares which prop codes you will be using in this event. This property is a comma-separated list of each prop code that you want tracked.
+ * **`s.linkTrackEvents`** are the “events” that an action may represent. Usually you will use events like “purchase” or “save” but you can put just about anything you want in here. It’s just a different way of looking at the same information. I typically set it to none and use custom insights for reports.
+ * **`s.prop1`** and **`s.prop2`** are the custom metrics that will be attached to this click event. In this case `prop1` is the product category and `prop2` is the product name.
+ * **`s.tl(this, 'o')`** calls the tracking action. The `tl()` method (a.k.a. the *trackLinks method*) requires two parameters, this anchor object to be tracked (should always be `this`) and the type of link we are tracking. There are three types of basic links that is method understands: `o` is the “Other/General” link type, `d` is a “File Download” link, and `e` which is an “Exit Link”. Anything that isn’t a download or exit link should be given the `o` tag.
 
 There you have it, not incredibly complex, but not obviously simple either. There are a bunch of other properties that you can attach to a trackLinks event, but this is what 99% of them look like.
 
@@ -68,9 +68,9 @@ For this rest of this article I will assume that you want to use *the smart meth
 
 ### Defining the criteria and search pattern
 
-First off, you must be able to identify the links that you want to track. I have used two different systems for this: Searching href tags and adding rel tags.
+First off, you must be able to identify the links that you want to track. I have used two different systems for this: Searching `href` tags and adding `rel` tags.
 
-Searching href tags is generally the best option. This means matching the link href and attaching the event based on that data. However I have found situations where I didn’t want to track every link that had the string “products.aspx” in it, so I chose to add rel tags to those links that I did want to track. This way I could just search for links that had rel=”product” in them.
+Searching `href` tags is generally the best option. This means matching the link `href` and attaching the event based on that data. However I have found situations where I didn’t want to track every link that had the string “products.aspx” in it, so I chose to add `rel` tags to those links that I did want to track. This way I could just search for links that had `rel="product"` in them.
 
 The technique is still basically the same, we will gather all of the anchors in the document into an array, then iterate through the array, attaching the appropriate events and data to those anchor which meet our criteria for each type of page.
 
@@ -142,33 +142,33 @@ sb_trackLinks = {
 sb_trackLinks.addEvent(window, 'load', sb_trackLinks.init);
 ```
 
-This is the basic outline of my JavaScript click tracking object. It has three methods and automatically runs itself in the window.onload event.
+This is the basic outline of my JavaScript click tracking object. It has three methods and automatically runs itself in the `window.onload` event.
 
 I’ve put a lot of thought into optimizing this script. For instance, notice that I reverse iterate through the anchors array. This technique has been proven to be faster because the array length is only calculated once when the for statement begins. If you do the `while i<array.length` style then the length is calculated once for every iteration in the loop.
 
 When you build any kind of tracking or analytics JavaScript your highest priority should be to shave every nanosecond from it’s operations. It is acceptable to sacrifice readability for performance here. After all, as a web developer your primary job should be to improve *user experience*, tracking scripts are a necessity but do not benefit users in any way, so you do your best to reduce their impact on user experience.
 
-### The sb_trackLinks methods
+### The `sb_trackLinks` methods
 
-There are three methods in the sb_trackLinks object:
+There are three methods in the `sb_trackLinks` object:
 
- * **init()**
+ * **`init()`**
 
-	The init() method is where the startup, initialization and event attachment will occur. We still need to build the search criteria, tracking variables and event attachment code before this will do anything.
+	The `init()` method is where the startup, initialization and event attachment will occur. We still need to build the search criteria, tracking variables and event attachment code before this will do anything.
 
- * **track(obj, propCodes, linkType)**
+ * **`track(obj, propCodes, linkType)`**
 
-	The track() method is the code that will be attached to the onclick events for the anchors that we want to track. It requires two parameters and will accept a third.
+	The `track()` method is the code that will be attached to the onclick events for the anchors that we want to track. It requires two parameters and will accept a third.
 
-	* **obj:** The first parameter is the anchor object that we will be tracking, in the context of our for statement in the `init()` method this will always be `anchors[i]`.
-	* **propCodes:** The second parameter is an object with the prop codes that we want to use. This should be a standard JavaScript *object* with the conventions as the `s.propXX` codes. So if you want to track prop1 you should set `propCodes['prop1']` to the value that you want and pass it through to the `track()` method.
-	* **linkType:** The third parameter is the link type that will be passed to s.tl() and is optional. It will default to `'o'`. As I said earlier, it will accept o, d and e as valid values.
+	* **`obj:`** The first parameter is the anchor object that we will be tracking, in the context of our for statement in the `init()` method this will always be `anchors[i]`.
+	* **`propCodes:`** The second parameter is an object with the prop codes that we want to use. This should be a standard JavaScript *object* with the conventions as the `s.propXX` codes. So if you want to track prop1 you should set `propCodes['prop1']` to the value that you want and pass it through to the `track()` method.
+	* **`linkType:`** The third parameter is the link type that will be passed to `s.tl()` and is optional. It will default to `'o'`. As I said earlier, it will accept `o`, `d` and `e` as valid values.
 
 	You may have to modify this function if your Omniture code has been customized.
 
- * **addEvent(obj, evType, fn, useCapture)**
+ * **`addEvent(obj, evType, fn, useCapture)`**
 
-	The addEvent() method is the standard addEvent that you see everywhere on the internet.
+	The `addEvent()` method is the standard `addEvent` that you see everywhere on the internet.
 
 ### Crafting the search and tracking variables
 
@@ -372,7 +372,7 @@ sb_trackLinks = {
 sb_trackLinks.addEvent(window, 'load', sb_trackLinks.init);
 ```
 
-Save this code in the s_code.js (or whatever you named it) script for your Omniture-enabled web site and it will start sending click data back to your Omniture account.
+Save this code in the `s_code.js` (or whatever you named it) script for your Omniture-enabled web site and it will start sending click data back to your Omniture account.
 
 ### Gotchas
 
@@ -380,7 +380,7 @@ There are some possible problems that may crop up using this system.
 
  * **Page never stops loading**
 
-	I have seen pages that simply never stop loading because of poor use of AJAX, slow servers, or broken dependencies. The click tracking events will not be attached to links until the loading icon in the browser stops.
+	I have seen pages that simply never stop loading because of poor use of <abbr title="Asynchronous JavaScript and XML">AJAX</abbr>, slow servers, or broken dependencies. The click tracking events will not be attached to links until the loading icon in the browser stops.
 
  * **Links added after page load**
 
@@ -398,9 +398,9 @@ There are some possible problems that may crop up using this system.
 
 Omniture link tracking can be used for more than just links. You can use the `s.tl()` method to send any data at any time for any reason. Do you want to track when someone puts their mouse over an image, or how long they waited before scrolling, or even what text they selected? You can do all of that, and more if you *really* want to.
 
-If you ask me those fine-grain *viewer eyeball focus* type of reports are not only invasive but genuinely useless. However, I’ve been asked to do even worse invasive and pointless tracking before. If you need to you can send any data you want on any DOM event, or even with timers.
+If you ask me those fine-grain *[viewer eyeball focus](https://www.youtube.com/watch?v=JwaC1Y0jhDs)* type of reports are not only invasive but genuinely useless. However, I’ve been asked to do even worse invasive and pointless tracking before. If you need to you can send any data you want on any DOM event, or even with timers.
 
-The only thing that you must overcome is that the object you pass to `s.tl()` must be an anchor, or more specifically, *something* with an href attribute. There is nothing about this in the documentation, but it simply doesn’t seem to work unless it has an anchor with an href passed to it. You can get around this by creating an element or simply passing `true`.
+The only thing that you must overcome is that the object you pass to `s.tl()` must be an anchor, or more specifically, *something* with an `href` attribute. There is nothing about this in the documentation, but it simply doesn’t seem to work unless it has an anchor with an `href` passed to it. You can get around this by creating an element or simply passing `true`.
 
 This is, however, the subject of a different article.
 

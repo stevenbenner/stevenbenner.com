@@ -18,9 +18,9 @@ tags:
 - Ubuntu
 ---
 
-This will be the first part in a new series of articles about setting up your own *Ubuntu* LAMP *(Linux, Apache, MySQL, PHP)* server. If you are already proficient with Linux and/or Ubuntu then you can skip this first part because it is just about the basic post-install set up and configuration. For those of us who haven’t set up an Ubuntu system a hundred times over, here is the quick and dirty base Ubuntu set up guide.
+This will be the first part in a new series of articles about setting up your own *Ubuntu* <abbr>LAMP</abbr> *(Linux, Apache, MySQL, PHP)* server. If you are already proficient with Linux and/or Ubuntu then you can skip this first part because it is just about the basic post-install set up and configuration. For those of us who haven’t set up an Ubuntu system a hundred times over, here is the quick and dirty base Ubuntu set up guide.
 
-Once you have your Ubuntu operating system installed there are still a few things you need to do to get it ready for prime time. A fresh install of Ubuntu will have a root account (you chose the password during installation) and the SSH server running. At the moment my recommendation for version is *10.04 LTS*.
+Once you have your Ubuntu operating system installed there are still a few things you need to do to get it ready for prime time. A fresh install of Ubuntu will have a root account (you chose the password during installation) and the <abbr title="Secure Shell Protocol">SSH</abbr> server running. At the moment my recommendation for version is *10.04 LTS*.
 
 Without further ado, lets get this show on the road. Start by connecting to your system via SSH and logging in to the root account. (For Windows users I recommend [PuTTY](http://www.chiark.greenend.org.uk/~sgtatham/putty/) as an SSH client)
 
@@ -28,7 +28,7 @@ Without further ado, lets get this show on the road. Start by connecting to your
 
 ### Create your account
 
-The first thing to do is to create your account. Logging in as root is bad and you should never do it after you create a personal account. Create a new account with the *adduser* command.
+The first thing to do is to create your account. Logging in as root is bad and you should never do it after you create a personal account. Create a new account with the `adduser` command.
 
 ```shell
 adduser steve
@@ -38,7 +38,7 @@ Of course use whatever name you like for your account. It will ask you for vario
 
 ### Give your new account sudo access
 
-The reason you never have to log in as root is because your account will have super-user access via the *sudo* command. Sudo will let you execute other commands at nearly the same level as the root account. Open the sudo configuration file with the *visudo* command.
+The reason you never have to log in as root is because your account will have super-user access via the `sudo` command. Sudo will let you execute other commands at nearly the same level as the root account. Open the sudo configuration file with the `visudo` command.
 
 ```shell
 visudo
@@ -50,7 +50,7 @@ This will open a text file, at the bottom of that file add the following line (r
 steve ALL=(ALL) ALL
 ```
 
-Now save the file and exit the text editor. Chances are this file was opened in *nano*, so you exit by hitting CTRL+X on your keyboard. It will ask you if you want to save the changes, say yes by typing “y” and hitting the enter key.
+Now save the file and exit the text editor. Chances are this file was opened in *nano*, so you exit by hitting <kbd>Ctrl</kbd>+<kbd>X</kbd> on your keyboard. It will ask you if you want to save the changes, say yes by typing <kbd>Y</kbd> and hitting the <kbd>↵ Return</kbd> key.
 
 ### Configure the SSH server
 
@@ -99,11 +99,11 @@ Now you can logout and log back in using your new account.
 logout
 ```
 
-SSH back in to your server and log in with your new account. You should now be logged in as yourself in your home directory. For now on when you need to execute something that requires *super-user* permissions you will do so via the *sudo* command.
+SSH back in to your server and log in with your new account. You should now be logged in as yourself in your home directory. For now on when you need to execute something that requires *super-user* permissions you will do so via the `sudo` command.
 
 ### Update all of the installed software
 
-The next step is to get all of the software on your system up to date. This is one of the best things about running Ubuntu, updates are incredibly easy using the *aptitude* tool. Frankly, this is even easier than Windows Update, and far more reliable.
+The next step is to get all of the software on your system up to date. This is one of the best things about running Ubuntu, updates are incredibly easy using the `aptitude` tool. Frankly, this is even easier than Windows Update, and far more reliable.
 
 Update the packages list with the following command:
 
@@ -121,7 +121,7 @@ Now you can upgrade everything that needs updates with the *safe-upgrade* comman
 sudo aptitude safe-upgrade
 ```
 
-It will list all of the packages (programs) that it wants to update and ask if you want to proceed. Enter “y” for yes and hit enter. The aptitude program will automatically download and upgrade everything that needs to be updated.
+It will list all of the packages (programs) that it wants to update and ask if you want to proceed. Enter <kbd>Y</kbd> for yes and hit <kbd>↵ Return</kbd>. The aptitude program will automatically download and upgrade everything that needs to be updated.
 
 You should do this as often as possible, once or twice a week is more than enough if you’re anal about keeping everything updated with the latest fixes and security updates.
 
@@ -143,7 +143,7 @@ Make sure it is backed up in a safe place. Make sure it is backed up in multiple
 
 #### Save the public key on the server
 
-Now you need to give the server your public key. This public key will need to be stored in the ~/.ssh/authorized_keys file. This file will not exists in a freshly installed system so you will need to first create the file, then add your private key to that file (do not sudo these commands!).
+Now you need to give the server your public key. This public key will need to be stored in the `~/.ssh/authorized_keys` file. This file will not exists in a freshly installed system so you will need to first create the file, then add your private key to that file (do not sudo these commands!).
 
 ```shell
 mkdir ~/.ssh
@@ -156,7 +156,7 @@ Now you are viewing the new authorized keys file. Here you will enter “ssh-rsa
 ssh-rsa AAAAB3NzaC..........lots more...........6URYr15Xapm2+4sU8= steve@hostname
 ```
 
-Now you need to make sure the directory and the file have the correct permissions. SSH is very picky about the user and permissions on the file and directory. The .ssh directory and the authorized_keys file must be owned by the user they reference, and the permissions have to be 700 for the folder and 600 for the file.
+Now you need to make sure the directory and the file have the correct permissions. SSH is very picky about the user and permissions on the file and directory. The `.ssh` directory and the `authorized_keys` file must be owned by the user they reference, and the permissions have to be `700` for the folder and `600` for the file.
 
 ```shell
 chmod 700 ~/.ssh
@@ -214,13 +214,13 @@ This will download and automatically install everything in this package.
 
 ### Changing the system name
 
-The name of your sever (aka “hostname”) is not only useful for keeping track of what server you’re looking at in a console window, but it is actually used to identify your account in a couple places (e.g. the authorized_keys file). If you’re setting up a VPS or dedicated server then you probably didn’t install the operating system yourself. Which means it probably isn’t named what you want it to be named.
+The name of your sever (aka “hostname”) is not only useful for keeping track of what server you’re looking at in a console window, but it is actually used to identify your account in a couple places (e.g. the `authorized_keys` file). If you’re setting up a VPS or dedicated server then you probably didn’t install the operating system yourself. Which means it probably isn’t named what you want it to be named.
 
 First off pick a name for your server. Some people use the names of greek gods, some use simpsons characters and some use the names of minerals. There are countless naming conventions so pick whatever you want.
 
 Of course the simplest way is to name your server based on it’s role. For example: www1, sql1, memcache1, etc. If you do use generic names like this you probably should add a number to the end in case you add more servers (e.g. www1, www2, www3…).
 
-Now there are two places we need to enter your name to get the system to use that name, /etc/hostname and /etc/hosts.
+Now there are two places we need to enter your name to get the system to use that name, `/etc/hostname` and `/etc/hosts`.
 
 ```shell
 sudo nano /etc/hostname
@@ -245,25 +245,25 @@ Once these files are save you will have to restart the server for the setting to
 
 Here are some of the most useful commands you should know for managing your system.
 
- * **sudo !!**
+ * **<kbd>sudo !!</kbd>**
 
-	This is one of the best little tricks to know. When you try to run a command but get a permissions error because you needed to sudo it, then you can run “sudo !!” which will execute the last command under sudo. This will save you lots of typing.
+	This is one of the best little tricks to know. When you try to run a command but get a permissions error because you needed to sudo it, then you can run <kbd>sudo !!</kbd> which will execute the last command under sudo. This will save you lots of typing.
 
- * **free -m**
+ * **<kbd>free -m</kbd>**
 
-	The free command will display current memory usage information. This will be an invaluable tool for optimizing as well as diagnosing problems. The -m flag tells it to display the numbers in megabytes, instead of just bytes.
+	The `free` command will display current memory usage information. This will be an invaluable tool for optimizing as well as diagnosing problems. The <kbd>-m</kbd> flag tells it to display the numbers in megabytes, instead of just bytes.
 
- * **df -h and du -h**
+ * **<kbd>df -h</kbd> and <kbd>du -h</kbd>**
 
-	The df and du commands report disk usage information. The df (disk free) command reports how much disk space is used and available on each partition. The du (disk usage) command reports how much space all of the files and folders in the current directory are taking. Both commands should be run with the -h flag which tells it we want human-readable (xxxKB, MB, GB) numbers.
+	The `df` and `du` commands report disk usage information. The `df` (disk free) command reports how much disk space is used and available on each partition. The `du` (disk usage) command reports how much space all of the files and folders in the current directory are taking. Both commands should be run with the <kbd>-h</kbd> flag which tells it we want human-readable (xxxKB, MB, GB) numbers.
 
- * **top**
+ * **<kbd>top</kbd>**
 
-	Use the top command to find out information about the processes that are currently running. This app shows a constantly refreshed list of the processes with memory utilization, CPU usage, time running and such. It’s a very useful tool for finding out which processes are taking the most CPU and memory. There are a lot of feature in this one so read the [man page](http://manpages.ubuntu.com/manpages/hardy/man1/top.1.html). Press “q” to exit the app.
+	Use the `top` command to find out information about the processes that are currently running. This app shows a constantly refreshed list of the processes with memory utilization, CPU usage, time running and such. It’s a very useful tool for finding out which processes are taking the most CPU and memory. There are a lot of feature in this one so read the [man page](http://manpages.ubuntu.com/manpages/hardy/man1/top.1.html). Press <kbd>Q</kbd> to exit the app.
 
- * **man**
+ * **<kbd>man</kbd>**
 
-	Of course real men don’t read instructions, so I don’t know why I’m listing this here. Perhaps it’s all of the times other real men have told me to RTFM. Anyway, man is the manual tool. For example entering “man top” will display the manual for the top application.
+	Of course real men don’t read instructions, so I don’t know why I’m listing this here. Perhaps it’s all of the times other real men have told me to RTFM. Anyway, man is the manual tool. For example entering <kbd>man top</kbd> will display the manual for the top application.
 
 ### Conclusion
 

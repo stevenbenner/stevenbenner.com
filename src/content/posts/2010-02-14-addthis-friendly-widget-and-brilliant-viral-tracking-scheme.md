@@ -38,13 +38,13 @@ var addthis_config = {
 }
 ```
 
-The first statement, `data_use_cookies` is fairly obvious, it turns off the AddThis cookies. However many web users who are concerned about their privacy have already taken to limiting or disabling cookies altogether. There is however an ingenious workaround that few people even know exists, the [Local Shared Object](https://en.wikipedia.org/wiki/Local_Shared_Object) (LSO) feature in *Flash*.
+The first statement, `data_use_cookies` is fairly obvious, it turns off the AddThis cookies. However many web users who are concerned about their privacy have already taken to limiting or disabling cookies altogether. There is however an ingenious workaround that few people even know exists, the [Local Shared Object](https://en.wikipedia.org/wiki/Local_Shared_Object) (<abbr>LSO</abbr>) feature in *Flash*.
 
 ### Local Shared Objects
 
 LSOs are basically cookies, but their bigger and better in every way. Flash LSOs do not expire and can hold much more data. Most importantly, they are almost never deleted by users. The only way to control them is through the [Global Storage Settings](http://www.macromedia.com/support/documentation/en/flashplayer/help/settings_manager03.html) control via Adobe’s Flash configuration on their web site, or with the [BetterPrivacy](https://addons.mozilla.org/en-US/firefox/addon/6623) Firefox add on.
 
-If you’re in the business of analytics and tracking, LSOs are where it’s at. This is why we are setting `data_use_flash` to false. The widget itself has no reason to use flash, the only reason it is in there is because Clearspring wants to use LSOs to augment their tracking.
+If you’re in the business of analytics and tracking, LSOs are where it’s at. This is why we are setting `data_use_flash` to `false`. The widget itself has no reason to use flash, the only reason it is in there is because Clearspring wants to use LSOs to augment their tracking.
 
 If you’re a Firefox user you can pick up the BetterPrivacy add on and get in-browser control of your LSOs. Like I said, I’m not a paranoid, but I do believe in protecting online privacy.
 

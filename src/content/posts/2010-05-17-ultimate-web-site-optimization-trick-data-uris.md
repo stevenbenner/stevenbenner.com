@@ -28,7 +28,7 @@ This article will explain what data URIs are, how to use them, and how to proper
 
 The data URI scheme (*aka data: URLs*) is a method to include data in-line in a URI.
 
-I don’t suppose that makes much sense, let me elaborate; Simply put, data URIs allow you to include a file (or multiple files) inside of another file. The most obvious and practical use is to embed background images inside a CSS file. You do this by base64 encoding a file and embedding the contents, with some basic meta data, into a URI.
+I don’t suppose that makes much sense, let me elaborate; Simply put, data URIs allow you to include a file (or multiple files) inside of another file. The most obvious and practical use is to embed background images inside a CSS file. You do this by <a href="https://en.wikipedia.org/wiki/Base64">base64</a> encoding a file and embedding the contents, with some basic meta data, into a URI.
 
 It is important to note that while the data URI scheme was created in 1998 it never reached the status of Standard Protocol. It is still on the list of “Proposed Standards”. However, all of the most popular *modern* browsers have implemented the data URI scheme.
 
@@ -44,13 +44,13 @@ Okay, let me break that down for you and provide some real world examples.
 
 Like any URI it starts with a protocol identifier, data. Just like http, ftp, mailto or gopher this tells the browser how to use the following information.
 
-The first piece the browser needs to know is the MIME type of the data you are including (e/g image/png or text/html). Over normal HTTP transfers the server identifies the MIME type from the file extension and sends it back with the file in the response headers. Since we are not transferring the data through an HTTP connection there is no automatic MIME-type data, and we have to manually identify the type of data we are giving to the browser.
+The first piece the browser needs to know is the <abbr title="Multipurpose Internet Mail Extensions">MIME</abbr> type of the data you are including (e/g `image/png` or `text/html`). Over normal HTTP transfers the server identifies the MIME type from the file extension and sends it back with the file in the response headers. Since we are not transferring the data through an HTTP connection there is no automatic MIME-type data, and we have to manually identify the type of data we are giving to the browser.
 
-Next is the charset identifier, which is exactly what it sounds like. If you are passing any kind of text document (e.g. plain text, html, xml) then you should tell the browser what kind of character encoding your are using for that text (e.g. UTF-8 or US-ASCII).
+Next is the charset identifier, which is exactly what it sounds like. If you are passing any kind of text document (e.g. plain text, HTML, XML) then you should tell the browser what kind of character encoding your are using for that text (e.g. UTF-8 or US-ASCII).
 
 And the last piece of possible meta data is the base64 keyword. This tells the browser that the following data is base64 encoded.
 
-All of this meta data is optional depending on the data you are embedding. If you are passing an image you won’t include the charset information, likewise if you’re passing a text document then your probably wont be encoding it and will omit the base64 keyword.
+All of this meta data is optional depending on the data you are embedding. If you are passing an image you won’t include the `charset` information, likewise if you’re passing a text document then your probably wont be encoding it and will omit the `base64` keyword.
 
 ### Useful examples
 
@@ -99,13 +99,13 @@ Even Internet Explorer 8 won’t let you embed data in links because of security
 
 ### The Internet Explorer problem
 
-As usual, Microsoft *Internet Explorer* screws up everything, data URLs are not supported in any version prior to Internet Explorer version 8. As much as I may want to add this to the hate list, I honestly cannot fault Microsoft for not supporting this until version 8. As I said earlier the data URI scheme is still on the list of *Proposed* Standards. So the fault rests entirely on the shoulders of the *[W3C](http://www.w3.org/)* for not looking at this [RFC](http://tools.ietf.org/html/rfc2397) for the last 10 years.
+As usual, Microsoft *Internet Explorer* screws up everything, data URLs are not supported in any version prior to Internet Explorer version 8. As much as I may want to add this to the hate list, I honestly cannot fault Microsoft for not supporting this until version 8. As I said earlier the data URI scheme is still on the list of *Proposed* Standards. So the fault rests entirely on the shoulders of the *[<abbr title="World Wide Web Consortium">W3C</abbr>](http://www.w3.org/)* for not looking at [RFC 2397](http://tools.ietf.org/html/rfc2397) for the last 10 years.
 
 In addition to the problem of old versions, Internet Explorer 8 has some additional restrictions.
 
  * data must be smaller than 32KB
  * data URIs cannot be used for JavaScript
- * only object, img, input and link HTML tags can use data URIs
+ * only `<object>`, `<img>`, `<input>` and `<link>` HTML tags can use data URIs
 
 However, you can use data URIs in any CSS URL statements, so there is still plenty of use for data URIs in the latest version of Internet Explorer.
 
@@ -146,9 +146,9 @@ The following snippet demonstrates how you include a CSS file that will only be 
 <![endif]-->
 ```
 
-In this example base.css is seen by all browsers but old_ie.css is only seen by IE 7 and older. Place this code in your HTML head block and the statements you place in old_ie.css will override the rules from base.css in old versions of Internet Explorer. For example:
+In this example base.css is seen by all browsers but `old_ie.css` is only seen by IE 7 and older. Place this code in your HTML head block and the statements you place in `old_ie.css` will override the rules from base.css in old versions of Internet Explorer. For example:
 
-**base.css**
+**`base.css`**
 
 ```css
 #logo {
@@ -156,7 +156,7 @@ In this example base.css is seen by all browsers but old_ie.css is only seen by 
 }
 ```
 
-**old_ie.css**
+**`old_ie.css`**
 
 ```css
 #logo {
@@ -164,7 +164,7 @@ In this example base.css is seen by all browsers but old_ie.css is only seen by 
 }
 ```
 
-Now when a modern browser visits the page they will properly download and use the embedded background image but when an old version of IE visits the site it will use the rule from old_ie.css.
+Now when a modern browser visits the page they will properly download and use the embedded background image but when an old version of IE visits the site it will use the rule from `old_ie.css`.
 
 #### The asterisk hack
 
@@ -190,9 +190,9 @@ Simple! Unfortunately this is invalid CSS, which irks me, but it is a clean and 
 
 I built a little tool that allows me to quickly encode files on my computer. Here is the download if you would like to use it. This isn’t my finest work, it is just a basic tool to do the job in 20 lines of code, don’t expect a lot of bells and whistles.
 
-**Steve’s Encode64 Utility**
-
 <div style="text-align: center;">
+
+**Steve’s Encode64 Utility**
 
 [![Steve's Encode64 Utility Screen Shot](../../assets/postimages/encode64-screenshot.png)](https://stevenbenner.github.io/steves-encode64-utility/)
 

@@ -21,13 +21,13 @@ One of the best things about *templates* is how portable they are. You can build
 
 This is a very powerful and very *maintainable* technique. Portable template files are a great example of the *Don’t Repeat Yourself* (DRY) principal and are a good idea for any template that will see reuse.
 
-The new *DataView* control in the latest beta of the [Microsoft Ajax Library](http://www.asp.net/ajaxlibrary/) version 4.0 (aka *the ASP.NET AJAX Library*) has a fine template engine built into it. Unfortunately, those templates must be embedded in the page markup. If it’s your project then you can simply use an ascx User Control, or a `ContentPlaceHolder` or an `Html.RenderPartial`, but what if you need to be able to use the template on a static file, or a clients site, or even in another framework? You can’t have portable template files that you can just call anywhere. Well, you can, but you have to use a workaround technique.
+The new `DataView` control in the latest beta of the [Microsoft Ajax Library](http://www.asp.net/ajaxlibrary/) version 4.0 (aka *the ASP.NET AJAX Library*) has a fine template engine built into it. Unfortunately, those templates must be embedded in the page markup. If it’s your project then you can simply use an ascx User Control, or a `ContentPlaceHolder` or an `Html.RenderPartial`, but what if you need to be able to use the template on a static file, or a clients site, or even in another framework? You can’t have portable template files that you can just call anywhere. Well, you can, but you have to use a workaround technique.
 
 This is one technique that I came up with for importing a template file into a page. This lets me have one (or a selection of) template files that I can use everywhere for a portable JavaScript widget. It has no dependencies other than the Microsoft Ajax Library.
 
 <!-- more -->
 
-You can save your template as an HTML or XML file in your project and then, using an AJAX connection, download the template and insert it into the page. Once the template has been inserted into the page you can create the DataView control and generate the widget.
+You can save your template as an HTML or XML file in your project and then, using an AJAX connection, download the template and insert it into the page. Once the template has been inserted into the page you can create the `DataView` control and generate the widget.
 
 First off create the JavaScript file, in this case `MyWidget.js`:
 

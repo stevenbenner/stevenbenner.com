@@ -20,7 +20,7 @@ tags:
 - Ubuntu
 ---
 
-This is part two in my Ubuntu LAMP server series. In this article I will guide you through the process of installing and setting up the [Apache HTTP Server](http://httpd.apache.org/).
+This is part two in my Ubuntu <abbr title="Linux, Apache, MySQL, PHP">LAMP</abbr> server series. In this article I will guide you through the process of installing and setting up the [Apache HTTP Server](http://httpd.apache.org/).
 
 If you are setting up a web server then you are probably best off running Apache. There are other web servers that will serve your needs and maybe even serve them faster but Apache is the default, for good reason.
 
@@ -64,7 +64,7 @@ Of course this wouldn’t be an Apache web server article if I didn’t at least
 
 Before I dive in to the install and configuration guide I do need to touch on one of the more advanced considerations, MPMs and their affects. This is the most advanced option with Apache, you do not need to know this to get a server up and serving hundreds of thousands of pageviews per day. You probably do need to know this to serve millions of pageviews a day.
 
-You have a choice of several [Multi-Processing Modules](http://httpd.apache.org/docs/2.0/mpm.html) *(MPMs)* for your web server. These are the internals of how Apache works and have some very important considerations.
+You have a choice of several [Multi-Processing Modules](http://httpd.apache.org/docs/2.0/mpm.html) *(<abbr>MPM</abbr>)* for your web server. These are the internals of how Apache works and have some very important considerations.
 
  * **[MPM Prefork](http://httpd.apache.org/docs/2.0/mod/prefork.html)**
 
@@ -110,7 +110,7 @@ Alright, you now have Apache 2 installed. That’s it.
 
 Now this part is a bit more complicated than the install. We need to configure some basic global variables and set your MPM limits to values that make sense for your server.
 
-First off lets set the basics, open up your apache2.conf file which is located in /etc/apache2.
+First off lets set the basics, open up your `apache2.conf` file which is located in `/etc/apache2`.
 
 ```shell
 sudo nano /etc/apache2/apache2.conf
@@ -125,7 +125,7 @@ Now lets do some configuration. I’m not going to list every option you can con
  * **`KeepAliveTimeout`** – How long to hold connections open for followup requests. My recommendation is to set this short, I would recommend `2` to `5` seconds.
  * **`ServerTokens`** – What the server should tell the world about itself in the response header. The default setting is to send the full version information with PHP and mod versions. You might as well print out a list of every hack your system is vulnerable to in the headers. Set this to `Prod`.
  * **`ServerSignature`** – What kind of signature to show on server generated pages. I personally set this to `Off`.
- * **`TraceEnable`** – Whether or not to allow TRACE requests. The default is to allow them, but there is absolutely no reason to so you should set this to `Off`.
+ * **`TraceEnable`** – Whether or not to allow `TRACE` requests. The default is to allow them, but there is absolutely no reason to so you should set this to `Off`.
 
 #### MPM Prefork configuration
 
@@ -151,7 +151,7 @@ The default values for MPM Prefork are fine, if you’re running a dedicated ser
 
 #### Save your config and reload Apache
 
-Once you’ve got all of your basic global settings where you want them then exit nano by hitting Ctrl+X and Y to save.
+Once you’ve got all of your basic global settings where you want them then exit nano by hitting <kbd>Ctrl</kbd>+<kbd>X</kbd> and <kbd>Y</kbd> to save.
 
 Now reload the Apache server:
 
@@ -165,7 +165,7 @@ Your web server is now running with your new settings.
 
 Name based virtual hosts are how we do multiple web sites on one server. You have the DNS records for the sites pointing at your web servers IP address and virtual hosts for each domain set up on the web server. Setting up a virtual host in Apache is very simple indeed.
 
-You do this by creating a virtual host config file, these will be located in /etc/apache2/sites-available.
+You do this by creating a virtual host config file, these will be located in `/etc/apache2/sites-available`.
 
 #### Default virtual host
 
@@ -184,7 +184,7 @@ sudo a2ensite 000-default
 
 #### Adding a new virtual host
 
-Alright, let’s create a new virtual host. Start by creating the directories for your new site. You can put the directories anywhere you want, but the convention for Ubuntu is that web sites belong in /var/www, and I recommend following that convention. Let’s create a folder for the domain that contains an *htdocs* folder for the web site and a *logs* folder for the logs.
+Alright, let’s create a new virtual host. Start by creating the directories for your new site. You can put the directories anywhere you want, but the convention for Ubuntu is that web sites belong in `/var/www`, and I recommend following that convention. Let’s create a folder for the domain that contains an `htdocs` folder for the web site and a `logs` folder for the logs.
 
 ```shell
 sudo mkdir /var/www/yourdomain.com
@@ -192,7 +192,7 @@ sudo mkdir /var/www/yourdomain.com/htdocs
 sudo mkdir /var/www/yourdomain.com/logs
 ```
 
-Now, create a new file in the sites-available directory:
+Now, create a new file in the `sites-available` directory:
 
 ```shell
 sudo nano /etc/apache2/sites-available/yourdomain.com
@@ -228,7 +228,7 @@ And paste in this virtual host config:
 </VirtualHost>
 ```
 
-Exit nano (Ctrl+X to exit, and Y to save). Now you just enable the site:
+Exit nano (<kbd>Ctrl</kbd>+<kbd>X</kbd> to exit, and <kbd>Y</kbd> to save). Now you just enable the site:
 
 ```shell
 sudo a2ensite yourdomain.com
@@ -240,7 +240,7 @@ And reload Apache:
 sudo /etc/init.d/apache2 reload
 ```
 
-That’s it. You can do all kinds of crazy configuration in the virtual host, but that template is enough to get your site up and running. If your DNS is set up right you should be able to hit your domain in a browser and see whatever is in /var/www/yourdomain.com.
+That’s it. You can do all kinds of crazy configuration in the virtual host, but that template is enough to get your site up and running. If your DNS is set up right you should be able to hit your domain in a browser and see whatever is in `/var/www/yourdomain.com`.
 
 ### Web optimizations
 
@@ -248,13 +248,13 @@ Now is the time to do some tuning for the client side of your web server. If you
 
 These changes are made by adding these configuration values to the bottom of your config file (it can go anywhere in the file, I just prefer to keep these kinds of customizations all in one place)
 
-To edit your apache2.conf again just enter this command in the console:
+To edit your `apache2.conf` again just enter this command in the console:
 
 ```shell
 sudo nano /etc/apache2/apache2.conf
 ```
 
-After you’ve made your changes you exit nano (Ctrl+X to exit, Y to save), and reload Apache with this command:
+After you’ve made your changes you exit nano (<kbd>Ctrl</kbd>+<kbd>X</kbd> to exit, and <kbd>Y</kbd> to save), and reload Apache with this command:
 
 ```shell
 sudo /etc/init.d/apache2 reload
@@ -270,14 +270,14 @@ First, enable mod_deflate:
 sudo a2enmod deflate
 ```
 
-And add the following to your apache2.conf:
+And add the following to your `apache2.conf`:
 
 ```
 # mod_deflate - add gzip compression
 AddOutputFilterByType DEFLATE text/html text/plain text/xml text/css application/x-javascript
 ```
 
-You are now serving static text, HTML, XML, CSS and JS files gzipped.
+You are now serving static text, HTML, XML, CSS and JavaScript files gzipped.
 
 #### ETags
 
@@ -295,7 +295,7 @@ FileETag None
 
 To get the most out of client-side caching it is recommended that you set the cache expiration into the distant future for all static files. This will ask clients to hold onto your static files for a long time so that they do not have to regularly re-download them, wasting time and bandwidth.
 
-However, **I do not recommend this for most people** because you are forced to implement versioning on all of your resource files (e.g. stylesheet_v1.2.css). If you want to modify a CSS file you have to make a new copy of that file and give it a file name and/or path different from the original because anyone that has that file cached will not receive any of the changes.
+However, **I do not recommend this for most people** because you are forced to implement versioning on all of your resource files (e.g. `stylesheet_v1.2.css`). If you want to modify a CSS file you have to make a new copy of that file and give it a file name and/or path different from the original because anyone that has that file cached will not receive any of the changes.
 
 If you are willing to deal with this hassle then this is a nice boost to the effectiveness of caching.
 
@@ -327,7 +327,7 @@ Also, I highly recommend taking the time to read through the official [Yahoo per
 This article covers the basics of getting Apache up and running. From here on you can keep it simple or get as complicated as your heard desires. There are at least a few other mods that you should probably be aware of to help you on your journey:
 
  * **rewrite** – The Apache URL rewriter, industry standard, much beloved and keeping the internet working. This will allow you to do URL rewriting, which is a huge article unto itself. Google to learn about Apache URL rewriting.
- * **auth_basic and auth_digest** – These are the authentication modules that are used to require a username and password to access a file or directory on the server. Very useful, I personally like to protect admin folders (e.g. wp-admin for WordPress) with authentication, just as an extra layer of inconvenience to would-be hackers. Always use digest, don’t bother with basic.
+ * **auth_basic and auth_digest** – These are the authentication modules that are used to require a username and password to access a file or directory on the server. Very useful, I personally like to protect admin folders (e.g. `wp-admin` for WordPress) with authentication, just as an extra layer of inconvenience to would-be hackers. Always use digest, don’t bother with basic.
  * **status** – Useful for seeing what your web server is doing at any particular moment. This will give you the Apache status page that you might have seen before. Also, required for some monitoring tools (i.e. munin). Remember to require authentication on that page as well or anyone can see what sites/files you are sending and what IPs are accessing them.
 
 ### Conclusion

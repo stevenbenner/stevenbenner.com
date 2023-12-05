@@ -40,9 +40,9 @@ I am not saying that the technique is bad, I’m saying it’s bad practice, for
 
 #### Accessibility
 
-Many reset style sheets set *outline* to zero. Outline is an important feature for usability and accessibility. It is used for keyboard navigation.
+Many reset style sheets set `outline` to zero. Outline is an important feature for usability and accessibility. It is used for keyboard navigation.
 
-The outline property sets an overlay border on an active/selected element that is actionable and/or has a tabindex. This gives users a visual cue as to where there active cursor is (note: tab cursor, not mouse cursor). Without the outline users who cannot use a mouse or who choose to use the tab function to navigate pages can’t see where their cursor is. This effectively makes the page unusable for some disabled people, and less-usable for tabbing power-users.
+The `outline` property sets an overlay border on an active/selected element that is actionable and/or has a `tabindex`. This gives users a visual cue as to where there active cursor is (note: tab cursor, not mouse cursor). Without the outline users who cannot use a mouse or who choose to use the tab function to navigate pages can’t see where their cursor is. This effectively makes the page unusable for some disabled people, and less-usable for tabbing power-users.
 
 #### Unnecessarily large style sheets
 

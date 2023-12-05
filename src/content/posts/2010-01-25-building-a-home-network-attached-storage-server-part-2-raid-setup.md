@@ -16,11 +16,11 @@ tags:
 - Windows
 ---
 
-This is Part 2 in the [Building a home Network Attached Storage server](/2009/12/building-a-home-network-attached-storage-server-part-1-hardware/) series. In this article I will talk about some of the options for the RAID arrays and the art of RAID configuration.
+This is Part 2 in the [Building a home Network Attached Storage server](/2009/12/building-a-home-network-attached-storage-server-part-1-hardware/) series. In this article I will talk about some of the options for the <abbr title="Redundant Array of Inexpensive Disks">RAID</abbr> arrays and the art of RAID configuration.
 
 Now that we know what hardware this system is going to be built on we have to decide what technology is going to run it all. We still have several options for RAID controllers and software.
 
-One item that really needs to be mentioned is that if you use Windows computers to access the NAS you will want to use Windows Vista, 7 or Server 2008 as the NAS operating system. This is for one simple reason, Windows Vista in 2006 introduced [Server Message Block 2.0](https://en.wikipedia.org/wiki/Windows_Vista_networking_technologies#Server_Message_Block_2.0). SMB2 is a massive boost to network file transfer speeds. Where an XP machine may only be able to send 50MB/s over the network, the same machine running SMB2 will be pushing 80MB/s. So if you are going to be using Windows on your desktop, you probably want to be using Windows on your NAS.
+One item that really needs to be mentioned is that if you use Windows computers to access the NAS you will want to use Windows Vista, 7 or Server 2008 as the <abbr title="Network-Attached Storage">NAS</abbr> operating system. This is for one simple reason, Windows Vista in 2006 introduced [Server Message Block 2.0](https://en.wikipedia.org/wiki/Windows_Vista_networking_technologies#Server_Message_Block_2.0). <abbr>SMB2</abbr> is a massive boost to network file transfer speeds. Where an XP machine may only be able to send 50MB/s over the network, the same machine running SMB2 will be pushing 80MB/s. So if you are going to be using Windows on your desktop, you probably want to be using Windows on your NAS.
 
 The first step is deciding what RAID controller you are going to use for the system.
 
@@ -52,7 +52,7 @@ I am familiar with the Ubuntu operating system, so this was another one of the o
 
 #### OpenSolaris ZFS file system
 
-The OpenSolaris [ZFS file system](https://en.wikipedia.org/wiki/ZFS) is the most intriguing RAID option I’ve seen. It is a form of software RAID that is reportedly very fast, and very smart. After doing some reading on the ZFS file system and it’s native support and very smooth implementation for RAID, I was really interested. It’s been quite some time since I worked on a Solaris system so there would have been an extra learning curve, but in the end I dropped this option for the same reason as Ubuntu. It doesn’t have SMB2.
+The OpenSolaris [<abbr title="Zettabyte File System">ZFS</abbr>](https://en.wikipedia.org/wiki/ZFS) is the most intriguing RAID option I’ve seen. It is a form of software RAID that is reportedly very fast, and very smart. After doing some reading on the ZFS file system and it’s native support and very smooth implementation for RAID, I was really interested. It’s been quite some time since I worked on a Solaris system so there would have been an extra learning curve, but in the end I dropped this option for the same reason as Ubuntu. It doesn’t have SMB2.
 
 If you don’t plan on using Windows machines as the clients for the NAS, and don’t mind dealing with the quirks of Solaris, then this is my recommendation. ZFS is a very cool system and they are constantly improving it.
 

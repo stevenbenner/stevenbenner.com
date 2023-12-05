@@ -18,7 +18,7 @@ tags:
 
 One little quirk of *C#*, which has pretty much become a defining characteristic of the language, is the default parameters system, or lack thereof.
 
-If you want to have a default set of arguments for a function or constructor then you have to create several overloaded versions of the function for each possible set of parameter that you want to be able to accept.
+If you want to have a default set of arguments for a function or constructor then you have to create several overloaded versions of the function for each possible set of parameters that you want to be able to accept.
 
 This will no longer be the case in C# 4.0 with the addition of *optional parameters* and *named parameters* features. This is one little change I am really looking forward to in a big way.
 

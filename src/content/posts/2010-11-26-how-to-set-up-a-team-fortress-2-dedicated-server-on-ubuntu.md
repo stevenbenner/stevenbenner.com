@@ -19,7 +19,7 @@ tags:
 
 I recently decided that I wanted to set up a dedicated server running *Team Fortress 2*, the very entertaining multiplayer first-person shooter game by *Valve*. I was pleasantly surprised at how easy it was to install and configure a server that runs exactly the way I want.
 
-All Valve multiplayer games run off of the same base server software, *Source Dedicated Server* (SRCDS). They build a version for Windows, Linux and Mac so you can run it on whatever system you happen to have available. In my case I had Ubuntu 10.04 LTS, which is a great operating system for any server.
+All Valve multiplayer games run off of the same base server software, *Source Dedicated Server* (<abbr>SRCDS</abbr>). They build a version for Windows, Linux and Mac so you can run it on whatever system you happen to have available. In my case I had Ubuntu 10.04 LTS, which is a great operating system for any server.
 
 This article will give you a walk though guide for installing and configuring SRCDS on Ubuntu. I am writing specifically about TF2 here, but much of this information will apply to other Source games such as Counter Strike: Source, Left 4 Dead, and Half-Life 2: Deathmatch.
 
@@ -30,13 +30,13 @@ This article will give you a walk though guide for installing and configuring SR
 First off a few notes about the software:
 
  * The first thing that I should point out is the the SRCDS software is only available in 32-bit. So if you are setting up a server just for Source games then be sure to use the 32-bit version of Ubuntu. You will not gain anything by having the 64-bit version.
- * You may see references to “HLDS” in places, HLDS stands for Half-Life Dedicated Server. This was the name of the old version of SRCDS (aka *Gold Source*) that ran the original Half-Life and Counter Strike. Don’t let it confuse you, the name is still used in places but (in this article) it is the same thing as SRCDS.
+ * You may see references to “HLDS” in places, <abbr>HLDS</abbr> stands for Half-Life Dedicated Server. This was the name of the old version of SRCDS (aka *Gold Source*) that ran the original Half-Life and Counter Strike. Don’t let it confuse you, the name is still used in places but (in this article) it is the same thing as SRCDS.
  * Depending on what game you’re running and what settings are applied SRCDS can use a good amount of processor and RAM. You really need at least 512 MB of RAM and a good modern processor to run a TF2 server properly. A gig to two of RAM will be optimal for running a couple instances. To my knowledge the SRCDS software is not multi-threaded so you wont see any benefits from a dual processor machine.
  * The server will require a huge amount of bandwidth. For a 24 player TF2 server with voice enabled running at max capacity 24/7 expect 800+ gigabytes of bandwidth per month. I regularly see the upload reach 3 Mb/s and download hovers at around 1.5 Mb/s.
 
 ### Setting up Ubuntu
 
-For a basic system set up walk through please use Part 1 of my [guide to setting up an Ubuntu server](/2010/06/setting-up-an-ubuntu-lamp-server-part-1-initial-setup/). Everything in that article is relevant to this guide. The only thing that I should add is be sure not to run SSH on port 27015, since that is the port your Source server will be running on.
+For a basic system set up walk through please use Part 1 of my [guide to setting up an Ubuntu server](/2010/06/setting-up-an-ubuntu-lamp-server-part-1-initial-setup/). Everything in that article is relevant to this guide. The only thing that I should add is be sure not to run <abbr title="Secure Shell Protocol">SSH</abbr> on port 27015, since that is the port your Source server will be running on.
 
 One extra step that you might want to do is to create an account for running the SRCDS process. This isn’t at all required, but it is good practice. The standard practice seems to be creating and account called “hlds” and using that account to run the process.
 
@@ -44,20 +44,20 @@ Also, if you’re running a good firewall (as you should be) remember to poke a 
 
 ### Installing Source Dedicated Server
 
-The installation of SRCDS is handled entirely by the hldsupdatetool created by Valve. This simple little tool will handle the download and installation of your base Source Dedicated Server. The first step in this process is to get the hldsupdatetool.
+The installation of SRCDS is handled entirely by the HLDSUpdateTool created by Valve. This simple little tool will handle the download and installation of your base Source Dedicated Server. The first step in this process is to get the HLDSUpdateTool.
 
 ```shell
 wget http://www.steampowered.com/download/hldsupdatetool.bin
 ```
 
-This will download hldsupdatetool.bin to your current directory. Next we need to give this file execute permissions and the run it.
+This will download `hldsupdatetool.bin` to your current directory. Next we need to give this file execute permissions and the run it.
 
 ```shell
 chmod +x hldsupdatetool.bin
 ./hldsupdatetool.bin
 ```
 
-This will run the tool. It will present you with a license agreement, type “yes” and hit enter to proceed. It will install steam into the current directory.
+This will run the tool. It will present you with a license agreement, type <kbd>yes</kbd> and hit <kbd>↵ Return</kbd> to proceed. It will install steam into the current directory.
 
 Now we have to run the steam client, which will check to see if it is currently up to date and download a whole bunch of updates. This will take some time.
 
@@ -71,7 +71,7 @@ Now that steam is up to date and ready to run we are ready to install the Team F
 ./steam -command update -game tf -dir .
 ```
 
-The dot after the -dir flag tells it to install the game server based in the current directory. You can tell it to install wherever you want, but most people just install it in home directory.
+The dot after the <kbd>-dir</kbd> flag tells it to install the game server based in the current directory. You can tell it to install wherever you want, but most people just install it in home directory.
 
 If you thought the steam update took a while, you might want to find something else to do for a while, the initial install of the Team Fortress 2 server requires downloading about 3.5 gigabytes of files. This will take a lot of time.
 
@@ -79,7 +79,7 @@ Once it has finished downloading everything it will return you to the console. T
 
 ### Configuring your server
 
-There are several files that you will want to edit for configuring and setting up your TF2 server. The big one is the server.cfg file located in the orangebox/tf/cfg folder. This file is where you set all of the server variables that control how your server runs.
+There are several files that you will want to edit for configuring and setting up your TF2 server. The big one is the `server.cfg` file located in the `orangebox/tf/cfg` folder. This file is where you set all of the server variables that control how your server runs.
 
 There are literally hundreds of possible variables in SRCDS, many of which have no effect on a TF2 server. To simplify this guide I’ll provide you with a very simple sample server config file and talk about some of the more important variables. For a more complete list see [the complete list](http://www.dodbits.com/downloads/cvars/TF2/Team_Fortress_2_cvar_list_a-z.htm).
 
@@ -129,11 +129,17 @@ Most of these variables are pretty self-explanatory. The `hostname` is the serve
 
 The `sv_region` variable is quite important. This tells the master list server what region your server is running in so players can filter out servers not in their region. Here are the possible values.
 
-| Code | Region        | Code | Region    | Code | Region      |
-| :--- | :------------ | :--- | :-------- | :--- | :---------- |
-| 0    | US East coast | 3    | Europe    | 6    | Middle East |
-| 1    | US West coast | 4    | Asia      | 7    | Africa      |
-| 2    | South America | 5    | Australia | 255  | World       |
+| Code | Region        |
+| :--- | :------------ |
+| 0    | US East coast |
+| 1    | US West coast |
+| 2    | South America |
+| 3    | Europe        |
+| 4    | Asia          |
+| 5    | Australia     |
+| 6    | Middle East   |
+| 7    | Africa        |
+| 255  | World         |
 
 #### Game settings
 
@@ -145,7 +151,7 @@ The maximum time a game is allowed to be played (in minutes). This one is easy t
 
 ##### mp_maxrounds
 
-The maximum number of *“rounds”* that one team can win before the server changes maps. A round is an entire game where the teams win or loose the game. For example, in a payload map a round is everything from the gates opening to the cart being pushed to the last point. In a CTF map a round is from the gates opening to the the point where the winning team has captured the intelligence three times.
+The maximum number of *“rounds”* that one team can win before the server changes maps. A round is an entire game where the teams win or loose the game. For example, in a payload map a round is everything from the gates opening to the cart being pushed to the last point. In a <abbr title="Capture The Flag">CTF</abbr> map a round is from the gates opening to the the point where the winning team has captured the intelligence three times.
 
 ##### mp_winlimit
 
@@ -171,7 +177,7 @@ However, you probably want to be able to log out of your SSH session from time t
 sudo aptitude install screen
 ```
 
-Now we’re going to create a script called “srcds” in the /etc/init.d folder that will let you start, restart and stop the server with a very simple command.
+Now we’re going to create a script called `srcds` in the `/etc/init.d` folder that will let you start, restart and stop the server with a very simple command.
 
 ```shell
 sudo nano /etc/init.d/srcds
@@ -248,11 +254,11 @@ exit 0
 
 **UPDATE: I have created a [repository for this script on GitHub](https://github.com/stevenbenner/srcds-service). Please check there for the latest version. I would also appreciate it if you would submit issues and pull requests to help improve it!**
 
-The highlighted lines are the important ones that you will need to modify. As the instructions say, replace &lt;newuser&gt; with the username that you will be running the service as. This will probably be your username unless you have taken the time to setup a “hlds” user (a good idea).
+The highlighted lines are the important ones that you will need to modify. As the instructions say, replace `<newuser>` with the username that you will be running the service as. This will probably be your username unless you have taken the time to setup a “hlds” user (a good idea).
 
 The `SRCDS_USER` variable is the appropriate username, the `DIR` variable needs to be the path to the orangebox folder and the `PARAMS` variable are the parameters that will be used when running the server.
 
-Once you have added this script save it by pressing CTRL+X (quit nano) and then Y to save changes.
+Once you have added this script save it by pressing <kbd>Ctrl</kbd>+<kbd>X</kbd> (quit nano) and then <kbd>Y</kbd> to save changes.
 
 You can now control the server via the following commands:
 
@@ -270,7 +276,7 @@ For the most part, I do not recommend installing any game-play mods. Aside from 
 
 However, the RCON admin system is just plain bad. As a TF2 server admin you will at the very least want to run [SourceMod](http://www.sourcemod.net/). This SRCDS add-on is a great administration tool and framework for other mods, you will find it to be an invaluable tool for managing your TF2 server.
 
-SourceMod itself is a mod for the SRCDS mod framework [Metamod:Source](http://www.metamodsource.net/). So we will have to install that before anything else. This is pretty simple, just download the package and extract the contents to your game directory (orangebox/tf). This will add metamod to the addons folder. Metamod does not really require any configuration, once you have the files in the correct location it’s ready to go.
+SourceMod itself is a mod for the SRCDS mod framework [Metamod:Source](http://www.metamodsource.net/). So we will have to install that before anything else. This is pretty simple, just download the package and extract the contents to your game directory (`orangebox/tf`). This will add metamod to the addons folder. Metamod does not really require any configuration, once you have the files in the correct location it’s ready to go.
 
 For a slightly more detailed walk-through check out the official guide: [Installing Metamod:Source](http://wiki.alliedmods.net/Installing_Metamod:Source).
 
@@ -284,13 +290,13 @@ Before you start adding mods you should add yourself (and anyone else you want) 
 
 Start by grabbing your Steam ID. You can easily get the Steam ID of anyone you want from the [Steam ID Finder](http://steamidfinder.com/) if you know their name.
 
-Now add them to the admin file. Open up orangebox/tf/addons/sourcemod/configs/admins_simple.ini and add the following to the end of the file:
+Now add them to the admin file. Open up `orangebox/tf/addons/sourcemod/configs/admins_simple.ini` and add the following to the end of the file:
 
 ```shell
 "STEAM_0:1:1234567"    "99:z"
 ```
 
-Of course replace the Steam ID with your real Steam ID. This will grant the person with this Steam ID all admin permissions with an immunity value of 99. The next time you join the server you will be able to use the *sm_admin* command in the console which will bring up a simple little admin menu in-game. You will also be able to use any other the other [Admin Commands](http://wiki.alliedmods.net/Admin_Commands_%28SourceMod%29).
+Of course replace the Steam ID with your real Steam ID. This will grant the person with this Steam ID all admin permissions with an immunity value of 99. The next time you join the server you will be able to use the `sm_admin` command in the console which will bring up a simple little admin menu in-game. You will also be able to use any other the other [Admin Commands](http://wiki.alliedmods.net/Admin_Commands_%28SourceMod%29).
 
 It’s that simple, but it can get as complicated as you want. For more information on the admin format read the [Adding Admins](http://wiki.alliedmods.net/Adding_Admins_%28SourceMod%29) guide.
 
@@ -300,15 +306,15 @@ The [AlliedModders forums](http://forums.alliedmods.net/) have basically every m
 
 Browse the [SourceMod Approved Plugins](http://forums.alliedmods.net/forumdisplay.php?f=108) forum for mod you want to install. The thread will have all of the information you need to configure the mod.
 
-Once you’ve found a mod you want download the mod and install the files in the appropriate locations. Generally the smx files belong in the orangebox/tf/addons/sourcemod/plugins folder and the configuration files belong in the orangebox/tf/addons/sourcemod/configs folder.
+Once you’ve found a mod you want download the mod and install the files in the appropriate locations. Generally the smx files belong in the `orangebox/tf/addons/sourcemod/plugins` folder and the configuration files belong in the `orangebox/tf/addons/sourcemod/configs` folder.
 
 ### Creating a MOTD
 
-The Message of the Day (MOTD) is the intro chalkboard screen you see when you join a server. It is an HTML document that runs in WebKit, so you can do just about anything you like here. Personally, I find the chalkboard look to be the most professional looking MOTD.
+The Message of the Day (<abbr>MOTD</abbr>) is the intro chalkboard screen you see when you join a server. It is an HTML document that runs in WebKit, so you can do just about anything you like here. Personally, I find the chalkboard look to be the most professional looking MOTD.
 
 ![TF2 MOTD](../../assets/postimages/tf2-server/tf2-motd.jpg)
 
-The Message of the Day page is located in the orangebox/tf folder as motd.txt. Here you can create your HTML page that will be shown to players who join your server.
+The Message of the Day page is located in the `orangebox/tf` folder as `motd.txt`. Here you can create your HTML page that will be shown to players who join your server.
 
 I’m not going to try to teach you HTML or CSS, so I’ll simply provide you with the markup for a simple Message of the Day sample page.
 

@@ -17,7 +17,7 @@ tags:
 - Security
 ---
 
-The whole world knows about the so called *“Great Wall”* that protects the Chinese people from dangerous western ideals, the serious concerns about internet privacy in the United Kingdom, now we have Australia making a real push towards [internet filtering legislation](http://www.guardian.co.uk/world/2010/mar/29/google-yahoo-australia-internet-filter) as well as all of North America and most of Europe signing on with the *[ACTA](https://en.wikipedia.org/wiki/Anti-Counterfeiting_Trade_Agreement)* legislation. Of course we still have [Iran blocking news, social media and even Gmail](http://online.wsj.com/article/SB10001424052748704140104575056972514372994.html). But even countries that we wouldn’t expect to support censorship are signing bad legislation, such as [France](http://www.theinquirer.net/inquirer/news/1591582/france-falls-internet-censorship), [New Zealand](http://www.neowin.net/news/main/09/09/14/new-zealand-to-get-country-wide-filtered-internet), and [Ireland](http://www.irishtimes.com/newspaper/frontpage/2009/0820/1224252952116.html).
+The whole world knows about the so called *“Great Wall”* that protects the Chinese people from dangerous western ideals, the serious concerns about internet privacy in the United Kingdom, now we have Australia making a real push towards [internet filtering legislation](http://www.guardian.co.uk/world/2010/mar/29/google-yahoo-australia-internet-filter) as well as all of North America and most of Europe signing on with the *[<abbr title="Anti-Counterfeiting Trade Agreement">ACTA</abbr>](https://en.wikipedia.org/wiki/Anti-Counterfeiting_Trade_Agreement)* legislation. Of course we still have [Iran blocking news, social media and even Gmail](http://online.wsj.com/article/SB10001424052748704140104575056972514372994.html). But even countries that we wouldn’t expect to support censorship are signing bad legislation, such as [France](http://www.theinquirer.net/inquirer/news/1591582/france-falls-internet-censorship), [New Zealand](http://www.neowin.net/news/main/09/09/14/new-zealand-to-get-country-wide-filtered-internet), and [Ireland](http://www.irishtimes.com/newspaper/frontpage/2009/0820/1224252952116.html).
 
 For at least a decade the very idea of filtering information was something first world countries laughed at as a tactic only dictatorships and xenophobes would seriously consider, now it seems the stage is changing and governments and ISPs are becoming more open to the idea of national censorship.
 
@@ -43,7 +43,7 @@ The idea is simple, do your internet surfing through a *VPN* tunnel that ends in
 
 ### What is a VPN?
 
-A VPN (or *Virtual Private Network*) is a way to securely extend a private network across the internet to another location. The client computer (in this case your computer) makes an encrypted connection to a server which acts as a normal network connection. This technique is commonly used at tech companies to allow employees to connect to their work network from anywhere in the world so they can access files on the corporate network or even open a remote desktop connection to their office computer.
+A <abbr>VPN</abbr> (or *Virtual Private Network*) is a way to securely extend a private network across the internet to another location. The client computer (in this case your computer) makes an encrypted connection to a server which acts as a normal network connection. This technique is commonly used at tech companies to allow employees to connect to their work network from anywhere in the world so they can access files on the corporate network or even open a remote desktop connection to their office computer.
 
 This system is very secure. Since VPN users don’t want any nefarious types or compromised systems along the way to be able to sniff out what files you are reading or what information you are sending, hence “Private”. When a VPN connection is open it is just like having an Ethernet cable connected to the other machine, just slower since it is going over public networks.
 
@@ -57,7 +57,7 @@ This system is very secure. Since VPN users don’t want any nefarious types or 
 
 It’s not free, but it is cheap. There are actually several companies offering this service already, such as [PRQ](http://prq.se/?intl=1) which offers an [OpenVPN tunnel service](http://prq.se/?p=tunnel&intl=1) for as little as $10 per month. There, your VPN server is all ready to go! I mention PRQ only because they are famous for protecting their customers, for more VPN providers check out the [VPN list](http://en.cship.org/wiki/Virtual_Private_Network) on the Internet censorship wiki.
 
-You can also set up a VPN server of your very own anywhere you like, but you will need to find a host to house the system and keep it online. I highly recommend a VPS (*Virtual Private Server*) system for this because it is cheap, fast and you don’t need much computing power to run a VPN. Of course a dedicated server is fine too, but a lot more expensive. No matter what you will need a system that gives you root access so you can install and configure the VPN server.
+You can also set up a VPN server of your very own anywhere you like, but you will need to find a host to house the system and keep it online. I highly recommend a <abbr>VPS</abbr> (*Virtual Private Server*) system for this because it is cheap, fast and you don’t need much computing power to run a VPN. Of course a dedicated server is fine too, but a lot more expensive. No matter what you will need a system that gives you root access so you can install and configure the VPN server.
 
 ### Alright, I have my VPN server! Now, how do I use it?
 
@@ -69,7 +69,7 @@ If you are getting your VPN access from a company that provides OpenVPN services
 
 The guide for setting up your VPN will be the topic of another article, I’ll write up a nice how-to with screen shots and such eventually. For now, if you’re looking for a good walk-through on setting up the OpenVPN GUI check out [How to configure OpenVPN](http://www.itsatechworld.com/2006/01/29/how-to-configure-openvpn/).
 
-### The other option
+### The other options
 
 I believe that a VPN system like what I have described is the best solution because it is fast and nearly impossible to eavesdrop on, however it isn’t the only solution.
 
@@ -85,7 +85,7 @@ Since I’m American and the only thing really threatening American internet is 
 
 ACTA (*The Anti-Counterfeiting Trade Agreement*) is an international agreement being pushed through many nations. There are some parts of ACTA that are good, basically the anti-counterfeiting portions, however most of ACTA is about *intellectual property*. In fact ACTA, if it is accepted, will put forth some of the most sweeping international copyright policies ever made.
 
-Primarily backed by media giant and organizations such as the infamous RIAA and MPAA, ACTA will force countries to enact legislation very similar to the American DMCA (*Digital Media Communications Act*) except with even more stringent rules and harsher penalties.
+Primarily backed by media giant and organizations such as the infamous <abbr title="Recording Industry Association of America">RIAA</abbr> and <abbr title="Motion Picture Association of America">MPAA</abbr>, ACTA will force countries to enact legislation very similar to the American <abbr>DMCA</abbr> (*Digital Media Communications Act*) except with even more stringent rules and harsher penalties.
 
 #### Quick ACTA facts:
 

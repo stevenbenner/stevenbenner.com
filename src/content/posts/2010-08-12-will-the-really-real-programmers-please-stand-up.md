@@ -27,7 +27,7 @@ But more to the point, I think that this is the wrong way to define a real progr
 
 This comes from one of my favorite quotes in all of history:
 
- > “Real knowledge is to know the extent of ones ignorance” – Confucius
+ > “Real knowledge is to know the extent of one’s ignorance” – Confucius
 
 Having an encyclopedic knowledge of a college curriculum is not required to be a great programmer. Real world software development isn’t about memorizing low-level programming techniques, or math formulas. These are great tools to have at your disposal, but are certainly not the end-all-be-all of development. It’s all about problem solving, in the most efficient and elegant way that circumstances allow.
 

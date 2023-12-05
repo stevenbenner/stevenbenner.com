@@ -17,15 +17,15 @@ tags:
 - XSLT
 ---
 
-Most web APIs and data feeds are built to consume and produce *XML* data. RSS, SOAP, REST, ATOM, AJAX, web-services, indeed, even XHTML itself is a form of XML. If you publish anything to the web you’re probably publishing XML in some form or another. Many web developers work with some flavor of XML every day.
+Most web <abbr title="Application Programming Interface">API</abbr>s and data feeds are built to consume and produce *<abbr title="Extensible Markup Language">XML</abbr>* data. <abbr title="Really Simple Syndication">RSS</abbr>, <abbr title="Simple Object Access Protocol">SOAP</abbr>, <abbr title="Representational State Transfer">REST</abbr>, Atom, <abbr title="Asynchronous JavaScript and XML">AJAX</abbr>, web-services, indeed, even <abbr title="Extensible HyperText Markup Language">XHTML</abbr> itself is a form of XML. If you publish anything to the web you’re probably publishing XML in some form or another. Many web developers work with some flavor of XML every day.
 
-However few have heard of *[XSLT](http://www.w3.org/TR/xslt)*, a standard language adopted by the [W3C](http://www.w3.org/) a decade ago for styling XML data for user consumption. XSLT, or *XSL Transform*, is a real language, part of XSL, the *XML Stylesheet Language*. XSLT is a tool for reformatting XML data, literally an XML stylesheet. This powerful language lets you convert XML data into almost any other XML structure you could imagine, including completely valid and functional XHTML.
+However few have heard of *[<abbr>XSLT</abbr>](http://www.w3.org/TR/xslt)*, a standard language adopted by the [<abbr title="World Wide Web Consortium">W3C</abbr>](http://www.w3.org/) a decade ago for styling XML data for user consumption. XSLT, or *XSL Transform*, is a real language, part of <abbr>XSL</abbr>, the *Extensible Stylesheet Language*. XSLT is a tool for reformatting XML data, literally an XML stylesheet. This powerful language lets you convert XML data into almost any other XML structure you could imagine, including completely valid and functional XHTML.
 
 Simply put, if your web application has been built to produce XML for feeds or APIs, then you do not need to build another set of logic to make a web version. You can let web browsers hit the service, just as you would for feeds or APIs. Just create an XSLT and link it from your XML document. All modern browsers will render the XSLT and display it as a normal web page.
 
 <!-- more -->
 
-The most famous example of this technique in action is the [World of Warcraft](http://www.worldofwarcraft.com/) home page. Blizzard publishes a minimum amount of data in a XML document which includes a reference to an XSLT stylesheet. The XSLT takes this minimum of data and uses it to build the XHTML document in the users’ web browser. This means that instead of having a complicated and slow CMS solution they can serve the entire (very high-traffic) home page from flat text files. When they change the content, all they need to do is publish the tiny XML file with the new data. When they want to change the look and feel they simply change the XSLT file.
+The most famous example of this technique in action is the [World of Warcraft](http://www.worldofwarcraft.com/) home page. Blizzard publishes a minimum amount of data in a XML document which includes a reference to an XSLT stylesheet. The XSLT takes this minimum of data and uses it to build the XHTML document in the users’ web browser. This means that instead of having a complicated and slow <abbr title="Content Management System">CMS</abbr> solution they can serve the entire (very high-traffic) home page from flat text files. When they change the content, all they need to do is publish the tiny XML file with the new data. When they want to change the look and feel they simply change the XSLT file.
 
 This provides a nice level of abstraction between the data and the layout. Your application can focus on data, leaving the work of presentation to the XSLT.
 
@@ -49,7 +49,7 @@ Using XSLT to support and render your XML data can have many huge advantages, es
 
 ### Browser support
 
-All modern browsers support XSLT, even updated version of IE6. The original vanilla version of Internet Explorer 6 used the *Microsoft XML Core Services* (MSXML) 3.0 processor for its XSLT engine. This version of the MSXML processor didn’t support the full XSLT 1.0 specification released by the W3C, it only partially support an antiquated draft. It was also simply terrible in every way. Say “MSXML 3” to an old XML guy and he’ll probably adopt the fetal position and begin rambling incoherent nonsense about the horrors he’s experienced.
+All modern browsers support XSLT, even updated versions of IE6. The original vanilla version of Internet Explorer 6 used the *Microsoft XML Core Services* (<abbr>MSXML</abbr>) 3.0 processor for its XSLT engine. This version of the MSXML processor didn’t support the full XSLT 1.0 specification released by the W3C, it only partially support an antiquated draft. It was also simply terrible in every way. Say “MSXML 3” to an old XML guy and he’ll probably adopt the fetal position and begin rambling incoherent nonsense about the horrors he’s experienced.
 
 Fortunately, it is exceedingly rare to find a copy of the original IE6 out in the wild. If the user has updated Windows, installed a service pack, or installed the Microsoft Office software, then their version of IE6 has been updated to use the MSXML 4.0 processor. MSXML 4.0 and up have excellent support for XSLT and are very fast at rendering it.
 
@@ -57,7 +57,7 @@ I don’t believe that you should ever have to worry about browser support issue
 
 W3 Schools has a good rundown on [XSLT Browser](http://www.w3schools.com/XSL/xsl_browsers.asp) support.
 
-### SEO implications
+### <abbr title="Search Engine Optimization">SEO</abbr> implications
 
 The impact of the XML/XSLT system on search engine rankings hasn’t been very well researched. Google seems to be able to process XML/XSLT pages just fine. They see the rendered content in their index and will display results based on that content.
 
@@ -112,7 +112,7 @@ Let’s use the following XML data for this example, a search result for the str
 
 There is a whole language and syntax that powers XSLT, I wont bother trying to write a full guide here. I just want to provide you with a basic example to show you how it works.
 
-One important item to note is that XSLT selectors use *[XPath](http://www.w3.org/TR/xpath/)* statements to target data. XPath, or *XML Path* statements treat XML data like a directory structure. Node values are targeted like a directory (e.g. parentNode/childNode), attributes are selected using an “at” sign (e.g. parentNote/@id).
+One important item to note is that XSLT selectors use *[XPath](http://www.w3.org/TR/xpath/)* statements to target data. <abbr>XPath</abbr>, or *XML Path Language* statements treat XML data like a directory structure. Node values are targeted like a directory (e.g. parentNode/childNode), attributes are selected using an “at” sign (e.g. `parentNote/@id`).
 
 This is what the XSLT for rendering it as an XHTML document would look like.
 
@@ -174,7 +174,7 @@ You can use XSLT on the server side just as easily as in the browser. If you sim
 
 Be warned however, XSLT is not the fastest template engine ever made. You will lose the speed benefits of publishing the XML/XSLT directly to the browser. For pure speed, a properly optimized PHP or .NET web application will out-perform it.
 
-In .NET you have the [XslCompiledTransform](http://msdn.microsoft.com/en-us/library/system.xml.xsl.xslcompiledtransform.aspx) class, and in PHP you have the [XSL extension](http://php.net/manual/en/book.xsl.php).
+In .NET you have the [`XslCompiledTransform`](http://msdn.microsoft.com/en-us/library/system.xml.xsl.xslcompiledtransform.aspx) class, and in PHP you have the [XSL extension](http://php.net/manual/en/book.xsl.php).
 
 ### Conclusion
 

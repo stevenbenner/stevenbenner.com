@@ -27,7 +27,7 @@ This begs the question, which one is best? As usual it depends on what your need
 
 I started off by creating pages that contain absolutely nothing but the widget. With these completely empty pages I can get a much more accurate reflection on load time. I used Mozilla Firefox with the Firebug, YSlow, PageSpeed and Tamper Data add-ons to to determine the number of connections, load time and weight for each widget. These are some of my [recommended Firefox add-ons for all web guys](/2010/01/must-have-firefox-add-ons-for-web-developers-designers/).
 
-All of these tests are using the default button with the default settings for each service. I ran all of these tests from two locations in northern California. One set was run from my home 6Mbps ADSL connection and another set is run from my dual 30Mbps DS3 work connection. The results were basically the same from both locations. Both computers were Intel Qxxxx quad core systems with ample power.
+All of these tests are using the default button with the default settings for each service. I ran all of these tests from two locations in northern California. One set was run from my home 6Mbps <abbr title="Asymmetric Digital Subscriber Line">ADSL</abbr> connection and another set is run from my dual 30Mbps <abbr title="Digital Signal 3">DS3</abbr> work connection. The results were basically the same from both locations. Both computers were Intel Qxxxx quad core systems with ample power.
 
 These tests are not necessarily what you would expect average users to see but they offer a good comparison between the performance factors for each service.
 
@@ -82,7 +82,7 @@ All of these services fail the YSlow and PageSpeed recommendations in some way o
 <figcaption>AddThis Widget</figcaption>
 </figure>
 
-By far the most popular social bookmarking widget on the internet today, AddThis sets the standard that all of the other bookmarking widgets try to live up to. They have the largest user base, a massive collection of supported service, lots of display flexibility and have localized their widget into more than 50 languages. They also support SSL.
+By far the most popular social bookmarking widget on the internet today, AddThis sets the standard that all of the other bookmarking widgets try to live up to. They have the largest user base, a massive collection of supported service, lots of display flexibility and have localized their widget into more than 50 languages. They also support <abbr title="Secure Sockets Layer">SSL</abbr>.
 
 I have [voiced some concerns](/2010/02/addthis-friendly-widget-and-brilliant-viral-tracking-scheme/) about AddThis using some black-hat user tracking and profiling tactics. However, since they are so popular this service must get some love in this review.
 
@@ -131,7 +131,7 @@ It takes a total of 18 HTTP requests to get the widget if the user does not have
 
 What really hurt was the initial load time. I should point out that the load time is skewed by the Google ad services and analytics calls that the script calls. It will render and display before the 1.69 second average initial load time, but since I tested load time not render time I have to factor in the tracking and ad code.
 
-ShareThis sends two logging GET request as well as an AJAX POST request when it opens the sharing dialog, the ShareThis server requests tend to take around 220ms each which hurt the total load time even more. The Google analytics request only takes 45ms, which is the kind of speed they should be shooting for if they want this extra logging.
+ShareThis sends two logging `GET` request as well as an <abbr title="Asynchronous JavaScript and XML">AJAX</abbr> `POST` request when it opens the sharing dialog, the ShareThis server requests tend to take around 220ms each which hurt the total load time even more. The Google analytics request only takes 45ms, which is the kind of speed they should be shooting for if they want this extra logging.
 
 In my opinion even through the loading time doesn’t really reflect the render time, they still deserve a bad score because of this unnecessary logging and fat weight. Do you really need two separate logs every time someone happens to mouse over the button? Do you really need any?
 
@@ -158,7 +158,7 @@ They also have a “personalization” feature that displays services that indiv
 
 #### Customization
 
-The button itself is an image tag, so it’s easy to change that to anything you like. The widget creator lets you change the colors, but that’s about it. However, since the popup menu is not in a `iframe` you can control it’s look with CSS. The markup is well structured and has good ID and class identifiers. Their API offers some additional customization elements as well.
+The button itself is an image tag, so it’s easy to change that to anything you like. The widget creator lets you change the colors, but that’s about it. However, since the popup menu is not in a `iframe` you can control it’s look with CSS. The markup is well structured and has good `id` and `class` identifiers. Their <abbr title="Application Programming Interface">API</abbr> offers some additional customization elements as well.
 
 #### Performance
 
@@ -166,7 +166,7 @@ AddToAny did very well in the performance testing. It has the second highest ini
 
 #### Thoughts
 
-If you ask me the popup share view is way too big. The bookmark tab is not very useful, in IE it gives you an “Add to Favorites” button, but in every other browser it simply says “Press Ctrl+D or ⌘+D to bookmark this page”, there isn’t much point. The search form? Why is it there? Who will search for their social site? If you press that little down-arrow under the social links it will display every social site that has been enabled. With the default settings this is a massive list which can mess with your site layout if you don’t expect it.
+If you ask me the popup share view is way too big. The bookmark tab is not very useful, in Internet Explorer it gives you an “Add to Favorites” button, but in every other browser it simply says “Press Ctrl+D or ⌘+D to bookmark this page”, there isn’t much point. The search form? Why is it there? Who will search for their social site? If you press that little down-arrow under the social links it will display every social site that has been enabled. With the default settings this is a massive list which can mess with your site layout if you don’t expect it.
 
 ### Tell-a-Friend
 
@@ -193,7 +193,7 @@ They chose to go a different direction for the bookmarking and sharing functiona
 
 #### Performance
 
-Surprisingly, the Tell-a-Friend widget was the one of the best in the performance comparison. It had the lowest initial download weight and the second fastest average initial load time. The images are served from a different sub domain than the JavaScript, they could literally cut their DNS lookups in half by putting the images and JS on the same CDN sub domain. But I can’t really complain about 2 DNS lookups. For some reason their script seems to have the longest execution time, average `window.onload` fires around 100ms later than AddThis or ShareThis.
+Surprisingly, the Tell-a-Friend widget was the one of the best in the performance comparison. It had the lowest initial download weight and the second fastest average initial load time. The images are served from a different sub domain than the JavaScript, they could literally cut their DNS lookups in half by putting the images and JavaScript on the same CDN sub domain. But I can’t really complain about 2 DNS lookups. For some reason their script seems to have the longest execution time, average `window.onload` fires around 100ms later than AddThis or ShareThis.
 
 The performance tests did not take into consideration the modal window. Since you have to take an action to open the window I didn’t feel it needed to be rated for performance. However I do want to note that it is quite large, with lots of scripts, CSS and images.
 
@@ -207,7 +207,7 @@ Indeed, they don’t do any cookie based tracking and their low weight and fast 
 
 I understand why they have a pay system in place, it’s the only business model that works for them. Unfortunately their free implementation feels like they’ve had to do extra work to reduce the usefulness of their product. The basic vs detailed analytics, not offering button customization and not offering modal customization. It all just feels too forced, especially when their competition is offering all of those features and more for free.
 
-Personally, I refuse to enter my Twitter login information anywhere other than Twitter or my Twitter desktop application. However if you want to share to twitter via the Tell-a-Friend form you will have to enter your login information. It asks you to login to share for several other services as well. I can see this stopping many users dead in their tracks.
+Personally, I refuse to enter my Twitter login information anywhere other than Twitter or my Twitter desktop application. However if you want to share to Twitter via the Tell-a-Friend form you will have to enter your login information. It asks you to login to share for several other services as well. I can see this stopping many users dead in their tracks.
 
 ### Features chart
 
@@ -261,6 +261,6 @@ Any of these widgets are good choices, depending on your needs. Personally, I th
 
 If I had to pick a widget right now it would probably be AddToAny, with a lot of thought given to AddThis.
 
-**Update (3/16):** Re-tested all widgets and updated all of the performance numbers. Updated AddToAny customization information. Added thoughts on Tell-a-Friend privacy.
+**Update (<time datetime="2010-03-16">3/16</time>):** Re-tested all widgets and updated all of the performance numbers. Updated AddToAny customization information. Added thoughts on Tell-a-Friend privacy.
 
-**Update (3/19):** Update language localization information. Added SSL support.
+**Update (<time datetime="2010-03-19">3/19</time>):** Update language localization information. Added SSL support.

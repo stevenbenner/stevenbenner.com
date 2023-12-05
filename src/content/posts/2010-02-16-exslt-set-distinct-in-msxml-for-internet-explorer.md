@@ -17,13 +17,13 @@ tags:
 - XSLT
 ---
 
-I’ve recently talked about how [XSLT is pretty good as a presentation layer for web applications](/2010/02/publishing-xml-to-the-web-with-xslt-a-replacement-for-the-presentation-layer/). XSLT is a powerful template language by itself but it is woefully missing several functions and interfaces which you will eventually find absolutely necessary for some purposes. *[EXSLT](http://www.exslt.org/)* is the solution. EXSLT is a collection of extensions for the XSLT. It has numerous functions and features that XSLT is missing.
+I’ve recently talked about how [XSLT is pretty good as a presentation layer for web applications](/2010/02/publishing-xml-to-the-web-with-xslt-a-replacement-for-the-presentation-layer/). <abbr title="Extensible Stylesheet Language Transformations">XSLT</abbr> is a powerful template language by itself but it is woefully missing several functions and interfaces which you will eventually find absolutely necessary for some purposes. *[EXSLT](http://www.exslt.org/)* is the solution. EXSLT is a collection of extensions for the XSLT. It has numerous functions and features that XSLT is missing.
 
 EXSLT functions are widely used and extensively tested. Not only is it available for every server-side XSLT engine, but it is also available in Mozilla Firefox, Safari, Chrome and Opera.
 
 Unfortunately, as usual *Internet Explorer* throws a wrench in the whole works. Microsoft in their infinite wisdom decided not to implement the EXSLT functions and specs in their browser. Instead they implemented their own MSXSL extensions, which are frankly terrible. It doesn’t have anywhere near as much functionality as EXSLT and will never work with anything other than Internet Explorer.
 
-The most common (and difficult to replicate) EXSLT function that I use is *[set:distinct](http://www.exslt.org/set/functions/distinct/)*. It is an extremely powerful function that lets you grab a distinct list of nodes, attributes, or values without impacting your current context in the style sheet.
+The most common (and difficult to replicate) EXSLT function that I use is [`set:distinct`](http://www.exslt.org/set/functions/distinct/). It is an extremely powerful function that lets you grab a *distinct list* of nodes, attributes, or values without impacting your current context in the style sheet.
 
 This function is not available in any form in MSXML, so I decided to build it.
 
@@ -31,11 +31,11 @@ This function is not available in any form in MSXML, so I decided to build it.
 
 ### Building a custom function is MSXML
 
-The MSXSL spec in MSXML does have one powerful feature that can help us rectify some of these problems, *[msxsl:script](http://msdn.microsoft.com/en-us/library/ms256042.aspx)*. This feature allows you to build script extensions inside your XSLT style sheet. Of course it only exists in the Microsoft spec, so really it’s only obvious use is spending weeks hand-crafting the standard extension functions that Microsoft decided that they didn’t need to support.
+The MSXSL spec in MSXML does have one powerful feature that can help us rectify some of these problems, [`msxsl:script`](http://msdn.microsoft.com/en-us/library/ms256042.aspx). This feature allows you to build script extensions inside your XSLT style sheet. Of course it only exists in the Microsoft spec, so really it’s only obvious use is spending weeks hand-crafting the standard extension functions that Microsoft decided that they didn’t need to support.
 
-In this case I built a *JScript* hack to implement the set:distinct function. It isn’t nearly as powerful or flexible as the real EXSLT function, but it will grab a distinct list of nodes.
+In this case I built a *[JScript](https://en.wikipedia.org/wiki/JScript)* hack to implement the `set:distinct` function. It isn’t nearly as powerful or flexible as the real EXSLT function, but it will grab a distinct list of nodes.
 
-We have to use native MSXML *XSLDOM* scripting to do all of this and we have to return the results in the form of a NodeList so the the XSLT processor can process the output.
+We have to use native MSXML *XSLDOM* scripting to do all of this and we have to return the results in the form of a `NodeList` so the the XSLT processor can process the output.
 
 This is the script that I came up with:
 
@@ -72,18 +72,18 @@ this['distinct'] = function (values) {
 
 We will run this script inside a `<msxsl:script language="JScript" implements-prefix="set">` statement. Notice the `implements-prefix` attribute, this tells the MSXML engine that this block of code will define the “set” namespace. In the code we attach a function to `this['distinct']`, so when we call `set:distinct` in the XSLT it will call this function.
 
-This script is not perfect, and it is no where near a full implementation of the EXSLT set:distinct function. Here are the major limitations:
+This script is not perfect, and it is no where near a full implementation of the EXSLT `set:distinct` function. Here are the major limitations:
 
  * **Only works on NodeLists.** It will not be able to return a distinct list of attributes, values, text nodes, etc. There might be a way to do those in JScript, but I couldn’t find one.
  * **Only one kind of node.** If you want a single distinct list of `<authors>` it will work, however if you want a single distinct list of `<authors>` and `<writers>` it will **not** work.
 
-**Important note:** Do not use msxsl:script in server-side XSLTs in .NET. There have been [numerous problems reported in .NET 2.0](http://www.tkachenko.com/blog/archives/000620.html) that will case fatal memory leaks. It works fine in web browsers, just don’t use this tag in the XslTransform or XslCompiledTransform classes.
+**Important note:** Do not use `msxsl:script` in server-side XSLTs in .NET. There have been [numerous problems reported in .NET 2.0](http://www.tkachenko.com/blog/archives/000620.html) that will case fatal memory leaks. It works fine in web browsers, just don’t use this tag in the `XslTransform` or `XslCompiledTransform` classes.
 
 ### Implementing the set:distinct hack
 
 Getting this code to work is actually quite simple once we’ve built the function. All you have to do is paste the code into the XSLT and tell the style sheet to exclude the `set` and `msxsl` prefixes. But I’ll provide a demonstration so you can see a real world working example.
 
-First off: a sample XML file for us to show the use and purpose of the set:distinct function.
+First off: a sample XML file for us to show the use and purpose of the `set:distinct` function.
 
 ```xml
 <?xml version="1.0" encoding="utf-8"?>
@@ -220,7 +220,7 @@ Now we’ll create the full XSLT style sheet to implement this functionality.
 </xsl:stylesheet>
 ```
 
-Note the `exclude-result-prefixes` statement. This tells the XSLT engine that it should not render anything with these namespaces. So Firefox, Safari, Chrome, etc. will completely ignore the msxsl blocks.
+Note the `exclude-result-prefixes` statement. This tells the XSLT engine that it should not render anything with these namespaces. So Firefox, Safari, Chrome, etc. will completely ignore the `msxsl` blocks.
 
 This XML and XSL pair works in all modern browsers including the not-so-modern IE6.
 
@@ -230,4 +230,4 @@ Check out the [working demo](/misc/xslt-demo2/index.xml) for a proof of concept.
 
 As usual, Internet Explorer sucks. Microsoft’s unwillingness to adopt the same standards that every other browser lives by is hurting the internet. However, it is possible to work around some of the missing functionality. It’s just really painful and requires you to learn Microsoft specific technologies and language implementations that will never see the light of day for 60% of your users.
 
-This particular solution is completely cross-browser compatible. Every EXSLT enabled browser will ignore the msxsl namespace and use it’s built-in set:distinct function. Internet Explorer will evaluate the script and run our custom set:distinct function.
+This particular solution is completely cross-browser compatible. Every EXSLT enabled browser will ignore the msxsl namespace and use it’s built-in `set:distinct` function. Internet Explorer will evaluate the script and run our custom `set:distinct` function.

@@ -53,7 +53,7 @@ This doesn’t mean that we can’t use them today. Firefox, Chrome, Safari, etc
 
 Is this really such a big problem? The content of your pages should be your focus. If you’ve truly been creating web pages with graceful degradation then you have already been designing using features that you assume will not exist in all browsers and formats.
 
-I have been using the border-radius feature for about a year now. I still use GUI caps or corner overlays when I need round corners as part of the basic look of the user interface. But, whenever I want to place round corners on content divs I just add the moz/webkit CSS. Internet Explorer users will see a square box, but it doesn’t affect the experience. I sacrifice an irrelevant and unnecessary visual effect on IE and in return I get easy to maintain CSS with more semantic markup.
+I have been using the `border-radius` feature for about a year now. I still use GUI caps or corner overlays when I need round corners as part of the basic look of the user interface. But, whenever I want to place round corners on content divs I just add the moz/webkit CSS. Internet Explorer users will see a square box, but it doesn’t affect the experience. I sacrifice an irrelevant and unnecessary visual effect on IE and in return I get easy to maintain CSS with more semantic markup.
 
 People who are stuck on Internet Explorer can still use the site just as well as the Firefox/Chrome crowd, it just doesn’t look exactly as smooth. And that is perfectly acceptable.
 

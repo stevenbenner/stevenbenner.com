@@ -49,7 +49,7 @@ But we can work around these issues with a little bit of extra thought and desig
 
 **What output caching does parse**
 
-It’s worth mentioning that there are two functions/strings that output caching will parse, even after the file is cached, the [benchmark class’](http://codeigniter.com/user_guide/libraries/benchmark.html) `elapsed_time()` and `memory_usage()` functions. These functions will insert text markers (`{elapsed_time}` and `{memory_usage}`, respectively) that are parsed by CodeIgniter when it sends the output to the browser.
+It’s worth mentioning that there are two functions/strings that output caching will parse, even after the file is cached, the [`benchmark` class’](http://codeigniter.com/user_guide/libraries/benchmark.html) `elapsed_time()` and `memory_usage()` functions. These functions will insert text markers (`{elapsed_time}` and `{memory_usage}`, respectively) that are parsed by CodeIgniter when it sends the output to the browser.
 
 This always makes for some interesting figures so it’s nice to include a HTML comment in your pages with these functions to watch just how fast the output cache is working.
 
@@ -166,7 +166,7 @@ if ( ! function_exists('delete_cache'))
 }
 ```
 
-**You may want to just download my complete [Cache Helper](https://github.com/stevenbenner/codeigniter-cache-helper) from GitHub.** Place cache_helper.php in your helpers directory and you’re good to go. Now you can evict cache files like this:
+**You may want to just download my complete [Cache Helper](https://github.com/stevenbenner/codeigniter-cache-helper) from GitHub.** Place `cache_helper.php` in your `helpers` directory and you’re good to go. Now you can evict cache files like this:
 
 ```php
 $this->load->helper('cache');

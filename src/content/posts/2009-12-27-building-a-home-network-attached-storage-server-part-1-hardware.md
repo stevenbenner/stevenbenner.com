@@ -15,14 +15,14 @@ tags:
 - Networking
 ---
 
-Recently I built a home [NAS](https://en.wikipedia.org/wiki/Network-attached_storage) file server to finally consolidate all of my data into one easily managed network location. I have worked with Network Attached Storage systems before, and I’ve even played with [SAN](https://en.wikipedia.org/wiki/Storage_area_network) solutions before, but this was my first time building one from scratch.
+Recently I built a home [<abbr title="Network-Attached Storage">NAS</abbr>](https://en.wikipedia.org/wiki/Network-attached_storage) file server to finally consolidate all of my data into one easily managed network location. I have worked with Network Attached Storage systems before, and I’ve even played with [<abbr title="Storage Area Network">SAN</abbr>](https://en.wikipedia.org/wiki/Storage_area_network) solutions before, but this was my first time building one from scratch.
 
 The goal of this project is to have a massive, always-on, redundant, and wicked fast network accessible storage drive where I can save all of the files from my massive media collection for permanent archive. This central location will be my grand file repository for basically everything. Ideally I should be able to loose my desktop and laptop drives without losing anything that I care about.
 
 I’ve had plenty of time to define exactly what I needed in a file server, and requirements were actually pretty simple:
 
  * Separate system and storage arrays
- * [RAID](https://en.wikipedia.org/wiki/RAID) failure protection on both arrays
+ * [<abbr title="Redundant Array of Inexpensive Disks">RAID</abbr>](https://en.wikipedia.org/wiki/RAID) failure protection on both arrays
  * At least 7 terabytes of usable storage
  * At least 60 MB/s of real world network throughput
  * Expandable base that I can add storage to when it become necessary
@@ -48,7 +48,7 @@ The Intel ICH10R is a proven and well tested RAID controller with plenty of band
 
 </figure>
 
-The final build that I ended up with was basically just a normal Intel Core2 system with a bunch of hard drives instead of an insanely powerful video card. Looking back, there are a couple improvements that I could have made, but most of them would have put me over budget (see Concessions).
+The final build that I ended up with was basically just a normal Intel Core2 system with a bunch of hard drives instead of an insanely powerful video card. Looking back, there are a couple improvements that I could have made, but most of them would have put me over budget (see [Concessions](#concessions)).
 
 With the exception of the motherboard, I made all of the major purchases during the Black Friday sale on NewEgg. This saved me literally hundreds of dollars and allowed me to spring for 2TB instead of 1.5TB drives and still stay in the budget. Give it 6 months and even the base prices will be within budget.
 
@@ -114,9 +114,9 @@ All of the major sacrifices in this build were needed to meet the budget require
 
 A professional file server should be running a dedicated hardware RAID controller card. They are faster, have better alerts and disaster recovery and are theoretically easier to replace in the event of a controller failure. However, they are very expensive for a home server budget. A good controller card will cost between $500 and $1,000. For this build budget there was simply no way that I could purchase a hardware controller and still meet my storage requirements.
 
-#### Not using ECC RAM.
+#### Not using <abbr title="Error Correction Code">ECC</abbr> RAM.
 
-I should have been looking for a motherboard that supports ECC RAM. This thought never even crossed my mind when I was planning it. However, the idea of a Network Attached File Server is that it will be online 24/7/365. It would be best if it was running ECC RAM. This isn’t the end of the world however, it is unlikely that this will ever cause a problem.
+I should have been looking for a motherboard that supports [ECC RAM](https://en.wikipedia.org/wiki/ECC_memory). This thought never even crossed my mind when I was planning it. However, the idea of a Network Attached File Server is that it will be online 24/7/365. It would be best if it was running ECC RAM. This isn’t the end of the world however, it is unlikely that this will ever cause a problem.
 
 #### The Promise RAID controller is slow.
 

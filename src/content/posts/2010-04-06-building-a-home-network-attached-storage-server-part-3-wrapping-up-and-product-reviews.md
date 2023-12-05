@@ -13,7 +13,7 @@ tags:
 - Reviews
 ---
 
-It’s taken me a quarter of a year to write this series, partially because I wanted to make sure I got it right, partially because I’m a lazy writer. But now the wait is over, here is the third and final installment of the series about my home NAS server build. The previous installments are [Part 1: Hardware](/2009/12/building-a-home-network-attached-storage-server-part-1-hardware/) and [Part 2: RAID Setup](/2010/01/building-a-home-network-attached-storage-server-part-2-raid-setup/).
+It’s taken me a quarter of a year to write this series, partially because I wanted to make sure I got it right, partially because I’m a lazy writer. But now the wait is over, here is the third and final installment of the series about my home <abbr title="Network-Attached Storage">NAS</abbr> server build. The previous installments are [Part 1: Hardware](/2009/12/building-a-home-network-attached-storage-server-part-1-hardware/) and [Part 2: RAID Setup](/2010/01/building-a-home-network-attached-storage-server-part-2-raid-setup/).
 
 In this article I will discuss the final garnishing that you need to do to get you NAS to fire and forget server status. I will also give you my reviews of the various pieces of hardware that I used and offer a general wrap up statement on the project.
 
@@ -32,7 +32,7 @@ In this article I will discuss the final garnishing that you need to do to get y
 During the course of building and using my NAS I discovered a couple of interesting things that I was not expecting to see.
 
  * **Drives spin down:** I was quite surprised to see that the drives on the ICH10R will power down. This was not something that I was expecting, but was happy to see. Just setting the regular power controls in Windows will allow your system to turn off the hard drives when they haven’t been used for a while. Doing this will not only save your electric bill, but will also increase the life span of the hard drives.
- * **Full network saturation:** To be honest I was expecting 40-50MB/sec, and I would have been able to live with that. However I often see network transfers moving at 70-80MB/sec! Fully saturating my gigabit network. Of course a lot of this speed is due to the SMB2 performance, so don’t expect to see these speeds on XP or Linux machines.
+ * **Full network saturation:** To be honest I was expecting 40-50MB/sec, and I would have been able to live with that. However I often see network transfers moving at 70-80MB/sec! Fully saturating my gigabit network. Of course a lot of this speed is due to the <abbr title="Server Message Block 2.0">SMB2</abbr> performance, so don’t expect to see these speeds on XP or Linux machines.
  * **Low power consumption:** The whole system only consumes 68 watts when the hard drives are powered down and the server is just sitting idle. I can probably reduce this even further with an undervolt and more aggressive power saving, but it isn’t worth the trouble. I sleep quite well knowing my NAS is costing me less than that light I left on in the kitchen.
 
 ### Final tinkering and optimizations
@@ -41,7 +41,7 @@ Before we walk away and call the server done we should take care of a couple sma
 
  * Add a UPS with a decent battery backup time
  * Disable the swap file
- * Set up RAID notifications
+ * Set up <abbr title="Redundant Array of Inexpensive Disks">RAID</abbr> notifications
 
 ### Add a battery backup
 
@@ -51,7 +51,7 @@ Before we walk away and call the server done we should take care of a couple sma
 
 </figure>
 
-Running the file server off of a [UPS](https://en.wikipedia.org/wiki/Uninterruptible_power_supply) *(Uninterruptible Power Supply)* is perhaps the single most important thing you can do. I would say this is not only necessary, but absolutely required for this kind of RAID server. If you run your server simply plugged into the wall then you are placing your data at great risk. A risk that can be all but removed by spending $50-$250 on a UPS.
+Running the file server off of a [<abbr>UPS</abbr>](https://en.wikipedia.org/wiki/Uninterruptible_power_supply) *(Uninterruptible Power Supply)* is perhaps the single most important thing you can do. I would say this is not only necessary, but absolutely required for this kind of RAID server. If you run your server simply plugged into the wall then you are placing your data at great risk. A risk that can be all but removed by spending $50-$250 on a UPS.
 
 A good battery backup can make the difference between a fully functional system and an instantly corrupted RAID array. If the power on the system were to fail during a parity write then the RAID array could be corrupted, i.e. *catastrophic data loss*.
 
@@ -65,17 +65,17 @@ The bigger the battery the better, but you’re not going for length of run time
 
 You want the server to automatically turn itself off (safely) if you are experiencing an extended black out or brown out. To do this we will configure Windows to shut down when a low battery status is detected. Here is a brief walk-through for Windows Vista:
 
- 1. Open up the *Power Options* from the Windows Control Panel.
+ 1. Open up the *“Power Options”* from the Windows Control Panel.
  2. Click the *“Change plan settings”* link under your current power plan.
  3. Pick an appropriate time for sleep.
  4. Click the the *“Change advanced power settings link”*.
- 5. Under the Battery controls (at the bottom of the list), set both *Low battery action* and *Critical battery action* to *“Shut Down”*. Also verify that the Low battery level and Critical battery level setting are appropriate for your UPS.
+ 5. Under the Battery controls (at the bottom of the list), set both *“Low battery action”* and *“Critical battery action”* to *“Shut Down”*. Also verify that the Low battery level and Critical battery level setting are appropriate for your UPS.
 
 The default battery level settings should be fine for 1000VA or better, but if you’re running an underpowered battery jack these values up to 70-80% because a small battery will run out much faster and you want to leave ample time for the system to shut down.
 
 That’s it for settings. Your server should automatically shut down when there is a power failure without any assistance, even if you’re far away from home. When you are at home you will surely hear your UPS screaming at you if there is a power failure. If you’re there then go ahead and shut the server down, don’t take any risks with your precious data (and quiet that loud alarm).
 
-A note on power actions: I believe that hibernate and sleep should also protect your RAID array, but I don’t know enough about the inner workings of these functions to say for sure. All you are trying to do is to get the drives to finish any current I/O activity and power down safely.
+A note on power actions: I believe that hibernate and sleep should also protect your RAID array, but I don’t know enough about the inner workings of these functions to say for sure. All you are trying to do is to get the drives to finish any current <abbr title="input/output">I/O</abbr> activity and power down safely.
 
 The only time a power failure can damage your system is if it happens during a parity **write**. So if you’re in the middle of a wind storm and see your lights flickering, do yourself a favor and do not save a bunch of files to the NAS.
 
@@ -125,10 +125,10 @@ The big thing we are looking for is when a RAID array goes from “Normal” sta
 
 A Degraded notification is logged with an event ID of 7202 (on my system, may be standard but I can’t say that for sure). Here is an example of the first couple lines of such a notification:
 
- > Status for volume ‘Data’ changed from ‘Normal’ to ‘Degraded’. \
- > System Report:- \
- > Intel RAID Controller: Intel(R) ICH8R/ICH9R/ICH10R SATA RAID Controller \
- > Number of Serial ATA ports: 6
+ > <samp>Status for volume ‘Data’ changed from ‘Normal’ to ‘Degraded’.</samp> \
+ > <samp>System Report:-</samp> \
+ > <samp>Intel RAID Controller: Intel(R) ICH8R/ICH9R/ICH10R SATA RAID Controller</samp> \
+ > <samp>Number of Serial ATA ports: 6</samp>
 
 When you see this message you should be very concerned and do everything possible to replace the failed hard drive. The information that follows this message will give you the details of all of the drives so you can identify which SATA port has the failed drive.
 
@@ -156,7 +156,7 @@ Fine drives, they work well, were reasonable priced and are still chugging along
 
 #### Gigabyte EP45-UD3R motherboard
 
-The first one I got was DOA, it would try to boot, fail and reboot over and over. Apparently this was a common occurrence with these boards. The second one I got worked fine, however two of the CPU pins were slightly bent. I don’t know if it was something that happened at the factory or during shipping, but they were easily repaired with a pair of needle-nose pliers. Other than those issues the board has been working great.
+The first one I got was <abbr title="Dead On Arrival">DOA</abbr>, it would try to boot, fail and reboot over and over. Apparently this was a common occurrence with these boards. The second one I got worked fine, however two of the CPU pins were slightly bent. I don’t know if it was something that happened at the factory or during shipping, but they were easily repaired with a pair of needle-nose pliers. Other than those issues the board has been working great.
 
 #### APC Back-UPS XS 1300 (second generation)
 
@@ -164,7 +164,7 @@ APC has a long history of making good UPS systems and supporting them for a very
 
 I chose APC because I have had good luck with them personally, and I chose the second generation Back-UPS XS 1300 because it was a high quality system that I’ve used before and was available locally. These can be quite heavy so I didn’t want to pay shipping and I didn’t want to have to do a mail RMA if I had the bad luck of getting a dead one.
 
-The XS 1300, as it’s name implies, is a 1300VA UPS, which is more than enough juice for my low-power NAS. I can get well over 30 minutes of battery run time on this unit and it has a nice LCD screen that reports load (wattage and percent) as well as estimated run time. It has AVR *(Automatic Voltage Regulation)* which is a feature I would recommend. AVR keeps the voltage constant during a brown out which will help protect sensitive (and expensive) computer components. It also looks good, a tall and slim black unit that looks great sitting next to the Antec 1200.
+The XS 1300, as it’s name implies, is a 1300VA UPS, which is more than enough juice for my low-power NAS. I can get well over 30 minutes of battery run time on this unit and it has a nice LCD screen that reports load (wattage and percent) as well as estimated run time. It has <abbr>AVR</abbr> *(Automatic Voltage Regulation)* which is a feature I would recommend. AVR keeps the voltage constant during a brown out which will help protect sensitive (and expensive) computer components. It also looks good, a tall and slim black unit that looks great sitting next to the Antec 1200.
 
 This is a quality unit and I am happy to give it a big thumbs up.
 

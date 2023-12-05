@@ -17,7 +17,7 @@ tags:
 - Windows
 ---
 
-A few months ago I commented on how [PHP needs an IDE and a membership provider](/2009/09/php-needs-an-ide-and-a-membership-provider/). Well, I’m still waiting on the membership provider, but I’m happy to say that I’ve finally found an IDE that doesn’t suck, [phpDesigner](http://www.mpsoftware.dk/). phpDesigner is a complete IDE for PHP based web development. It is a pretty simple idea but this one seems to have actually pulled it off. If you’re looking for a *Windows* PHP IDE, this one is certainly worth a look.
+A few months ago I commented on how [PHP needs an <abbr title="Integrated Development Environment">IDE</abbr> and a membership provider](/2009/09/php-needs-an-ide-and-a-membership-provider/). Well, I’m still waiting on the membership provider, but I’m happy to say that I’ve finally found an IDE that doesn’t suck, [phpDesigner](http://www.mpsoftware.dk/). phpDesigner is a complete IDE for PHP based web development. It is a pretty simple idea but this one seems to have actually pulled it off. If you’re looking for a *Windows* PHP IDE, this one is certainly worth a look.
 
 This development environment isn’t perfect, that is to say it’s not Visual Studio smooth, but it is far better than anything else that I’ve tried for PHP. It has all of the basic features that I’ve been looking for in a PHP IDE that runs on Windows.
 
@@ -31,6 +31,6 @@ This development environment isn’t perfect, that is to say it’s not Visual S
 
 Like I said, there is room for improvement. Auto-complete could be a little smarter, tab controls could be a little bit more customizable (I like the double-click to close function from Notepad++), and the whole app just isn’t quite as fast or refined as Visual Studio.
 
-But, this is now my IDE of choice for PHP. It has everything I need and it isn’t another damn Java app. Sorry Java developers, the JRE is painfully slow on Windows and sucks memory worse than old Firefox. I refuse to install it on my personal computers.
+But, this is now my IDE of choice for PHP. It has everything I need and it isn’t another damn Java app. Sorry Java developers, the <abbr title="Java Runtime Environment">JRE</abbr> is painfully slow on Windows and sucks memory worse than old Firefox. I refuse to install it on my personal computers.
 
 The one major flaw is that it isn’t free. A personal license costs €39 (\~$55 USD), a commercial license costs €85 (\~$120 USD). There is a 30-day evaluation version, so i recommend that you at least give it a shot.

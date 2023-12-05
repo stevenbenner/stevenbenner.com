@@ -14,7 +14,7 @@ tags:
 - Tips and Tricks
 ---
 
-Have you ever needed to get query string values using JavaScript? This task is usually a painful split, split, split, iterate, indexOf hack that is really slow and terribly ugly to look at. It also tends to pile up lines of code really fast.
+Have you ever needed to get query string values using JavaScript? This task is usually a painful split, split, split, iterate, `indexOf` hack that is really slow and terribly ugly to look at. It also tends to pile up lines of code really fast.
 
 Here is a really sweet way to parse the query string into a JavaScript object with two lines of code using regular expressions to populate an object. I discovered this trick a few years ago and filed it away in my code snippets folder.
 

@@ -20,7 +20,7 @@ Recently I had to upgrade an install of [MediaWiki](http://www.mediawiki.org/) f
 
 I selected to use the new binary database format during install. After copying over the database and running the upgrade script I came across an interesting error:
 
- > Warning: you requested the mysql5-binary schema, but the existing database has the mysql4 schema. This upgrade script can’t convert it, so it will remain mysql4.
+ > <samp>Warning: you requested the mysql5-binary schema, but the existing database has the mysql4 schema. This upgrade script can’t convert it, so it will remain mysql4.</samp>
 
 <!-- more -->
 
@@ -43,11 +43,11 @@ To upgrade your wiki database from 1.6.12 to 1.15.1 follow these simple steps:
 
  1. Do a database dump of your existing wiki database
  2. Open the mediawiki-conversion-schema SQL file linked above and change the following items:
-     * Replace all occurrences of “DATABASE_NAME” with the name of your new wiki database.
-     * Update the AUTO_INCREMENT values on each table to those of your current wiki database (you can find these values in your database dump).
- 3. Now go through your database dump from the old wiki and remove all of the CREATE TABLE statements. You just want the INSERT statements.
- 4. Run your modified mediawiki-conversion-schema.sql (“mysql < mediawiki-conversion-schema.sql -p”). This will create the interim table structure.
- 5. Run your modified database dump SQL file (“mysql < mydatadump.sql -p”). This will import all of your old data into the new, upgradeable database.
+     * Replace all occurrences of `DATABASE_NAME` with the name of your new wiki database.
+     * Update the `AUTO_INCREMENT` values on each table to those of your current wiki database (you can find these values in your database dump).
+ 3. Now go through your database dump from the old wiki and remove all of the `CREATE TABLE` statements. You just want the `INSERT` statements.
+ 4. Run your modified `mediawiki-conversion-schema.sql` (<kbd>mysql < mediawiki-conversion-schema.sql -p</kbd>). This will create the interim table structure.
+ 5. Run your modified database dump SQL file (<kbd>mysql < mydatadump.sql -p</kbd>). This will import all of your old data into the new, upgradeable database.
  6. Then run the MediaWiki upgrade script on that database.
 
 It’s pretty straightforward, you create an interim database with the latest binary data types but only the columns from the old schema. This allows you to import your old data into the interim database. You can then use the regular MediaWiki upgrade process to finish the database structure and clean up the data.

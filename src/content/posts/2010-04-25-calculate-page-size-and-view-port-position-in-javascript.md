@@ -43,7 +43,7 @@ To do any kind of dynamic absolute placement you need to know what your constrai
 
 Think of the web browser as a window and the document as a paper underneath it. When you scroll down a page you are simply moving the document up in the view port. This means that if you want to position something based on the view port you will need to consider where the view port is on the page.
 
-Horizontal bounds are simple (assuming you aren’t dealing with a very small browser), your constraints will be *X=0 to X=View Port Width*. Vertical bounds are a little more complicated. To compute vertical bounds on a page you have to factor in the current scrolled position of the view port in the document. So your vertical constraints will be *Y=View Port Offset to Y=View Port Offset + View Port Height*. Simple.
+Horizontal bounds are simple (assuming you aren’t dealing with a very small browser), your constraints will be *<var>X</var>=0 to <var>X</var>=<var>View Port Width</var>*. Vertical bounds are a little more complicated. To compute vertical bounds on a page you have to factor in the current scrolled position of the view port in the document. So your vertical constraints will be *<var>Y</var>=<var>View Port Offset</var> to <var>Y</var>=<var>View Port Offset</var> + <var>View Port Height</var>*. Simple.
 
 However those formulas are missing one critical piece that most browsers do not give you, scroll bar width. Most browsers consider the scroll bars to be inside of the view port so they are not factored in to the view port dimensions that the browsers will give you. If you create an element and push it in to a scroll bar it will increase the size of the document as the browser renders it, this leads to the “infinite scrolling phenomena”. Unfortunately the width of the scroll bars depends on the operating system.
 
@@ -51,8 +51,8 @@ It is basically impossible to compute the size of the scroll bars in such situat
 
 Taking the 17 pixel padding into consideration our bounding formula now looks like this:
 
- * X = 0 to X = View Port Width − 17
- * Y = View Port Offset to Y = View Port Offset + View Port Width − 17
+ * <var>X</var> = 0 to <var>X</var> = <var>View Port Width</var> − 17
+ * <var>Y</var> = <var>View Port Offset</var> to <var>Y</var> = <var>View Port Offset</var> + <var>View Port Width</var> − 17
 
 ### The browser properties
 
@@ -254,7 +254,7 @@ window.onscroll = function() {
 };
 ```
 
-Now, when the user scrolls it will only update the needed information. This is really unnecessary, simply calling the centerElementOnScreen method in the onscroll event is perfectly acceptable. The execution time is so minimal that you really shouldn’t even bother. But if you are incredibly obsessive about optimizing your JavaScript code then this is the way to do it.
+Now, when the user scrolls it will only update the needed information. This is really unnecessary, simply calling the `centerElementOnScreen` method in the onscroll event is perfectly acceptable. The execution time is so minimal that you really shouldn’t even bother. But if you are incredibly obsessive about optimizing your JavaScript code then this is the way to do it.
 
 ### Working example
 
