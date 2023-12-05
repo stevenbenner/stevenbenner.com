@@ -25,7 +25,7 @@ And so I present the holy commandments of source control, with my understanding 
 
 ### Commit bad code by proxy
 
-<figure>
+<figure class="sectioncontent">
 
 ![Perfection](../../assets/postimages/ten-commandments/buddy.png)
 
@@ -35,9 +35,11 @@ Did you write some questionable code yourself? Then the best course of action is
 
 This will divert the attention (and ire) when it inevitably breaks.
 
+<div style="clear: both;" />
+
 ### Craft evasive and mystifying check in notes
 
-<figure style="float: left;">
+<figure class="sectioncontent">
 
 ![Perfection](../../assets/postimages/ten-commandments/notes.png)
 
@@ -47,9 +49,11 @@ Don’t directly say what you did in the check in notes, it makes it to easy for
 
 If all else fails, just reference a task ID that does not exist.
 
+<div style="clear: both;" />
+
 ### Do not commit small change sets
 
-<figure>
+<figure class="sectioncontent">
 
 ![Perfection](../../assets/postimages/ten-commandments/diff.png)
 
@@ -57,9 +61,11 @@ If all else fails, just reference a task ID that does not exist.
 
 When someone checks in small changes they are easy to identify and read, this lets anyone reviewing the history know exactly what changed, as well as give them the power to easily revert your changes. You should not give away such an advantage to parties unknown. It is better to make innumerable changes and/or combine the work of many tasks into one check in.
 
+<div style="clear: both;" />
+
 ### When in doubt, change things for no reason at all
 
-<figure style="float: left;">
+<figure class="sectioncontent">
 
 ![Perfection](../../assets/postimages/ten-commandments/if.png)
 
@@ -69,9 +75,11 @@ It is usually advantageous to pad your check-ins with extra “work”. Especial
 
 This will serve to confuse and disorient your enemies.
 
+<div style="clear: both;" />
+
 ### Do not fix a an error until all know who wrote it (unless it was you)
 
-<figure>
+<figure class="sectioncontent">
 
 ![Perfection](../../assets/postimages/ten-commandments/bad.png)
 
@@ -79,9 +87,11 @@ This will serve to confuse and disorient your enemies.
 
 So you’ve diagnosed the problem, and have located the exact block of code responsible, great! But you cannot proceed with the fix until you have sifted through the history and identified the individual who wrote that code. It is now your sacred duty to call said person out and make sure everyone on the team knows where the fault rests!
 
+<div style="clear: both;" />
+
 ### Change tabs to spaces, or spaces to tabs
 
-<figure style="float: left;">
+<figure class="sectioncontent">
 
 ![Perfection](../../assets/postimages/ten-commandments/backspace.png)
 
@@ -89,9 +99,11 @@ So you’ve diagnosed the problem, and have located the exact block of code resp
 
 When you have a file open, swap the whitespace around. One of two things will happen, either diffs will ignore the whitespace and see no change, so the next person to get the file will be taken completely by surprise when they start coding. Or, the diffs will see the white space and mark every line as changed, essentially marking your territory as the *alpha* of its change history.
 
+<div style="clear: both;" />
+
 ### Leave no rarely used project in a buildable state
 
-<figure>
+<figure class="sectioncontent">
 
 ![Perfection](../../assets/postimages/ten-commandments/gfx.png)
 
@@ -99,9 +111,11 @@ When you have a file open, swap the whitespace around. One of two things will ha
 
 Sure, you’ve got access to lots of legacy projects running around the system. Start working on them, checking in as you go, then abandon the project, leaving only your commits behind. If you did this right and obey all of the commandments then the project is essentially lost to the ages. A long forgotten unreconstructable quagmire of history, broken structures, and sin, like ancient Greece, or New Orleans.
 
+<div style="clear: both;" />
+
 ### If you find a bug you are responsible for, ignore it
 
-<figure style="float: left;">
+<figure class="sectioncontent">
 
 ![Perfection](../../assets/postimages/ten-commandments/blame.png)
 
@@ -111,9 +125,11 @@ When you find a bug of your own making, for heaven’s sake, do not acknowledge 
 
 Such things are best left forgotten and buried. With any luck nobody will know about it until long after you’ve moved on.
 
+<div style="clear: both;" />
+
 ### Rebase, reset, and filter often
 
-<figure>
+<figure class="sectioncontent">
 
 ![Perfection](../../assets/postimages/ten-commandments/victoire.png)
 
@@ -123,9 +139,11 @@ They say that history is written by the victor, and that’s almost right. In re
 
 It doesn’t even have to be big stuff, some of the greatest rewrites of history were minor. Squash a few unrelated commits together, rename a file from the beginning of time, rewrite some commit messages. Little things can make all of the difference in the world.
 
+<div style="clear: both;" />
+
 ### Commit often, preferably before any actual code has been completed
 
-<figure style="float: left;">
+<figure class="sectioncontent">
 
 ![Perfection](../../assets/postimages/ten-commandments/todo.png)
 
@@ -134,6 +152,8 @@ It doesn’t even have to be big stuff, some of the greatest rewrites of history
 There are many people evangelizing the benefits of committing often, but you need to step it up a notch. Commit very often, say, every 10 minutes or so. Any wild tangent that your code is taking should be promptly checked in.
 
 Not only does this impress the management with your amazing productivity and work ethic, but it also leaves half completed work in source control, guaranteeing your position for another day.
+
+<div style="clear: both;" />
 
 ### Conclusion
 
