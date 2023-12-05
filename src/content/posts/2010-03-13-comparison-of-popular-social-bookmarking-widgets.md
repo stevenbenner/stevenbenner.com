@@ -49,7 +49,7 @@ Let me first take a moment to explain exactly what these values are. The *initia
 
  * **DNS Requests**
 
-	The number of specific domains and sub domains that must be resolved to load the widget. Lower is better, but in the real world most users will already have these <acronym title="Domain Name System">DNS</acronym> entries cached in their browsers, especially AddThis.
+	The number of specific domains and sub domains that must be resolved to load the widget. Lower is better, but in the real world most users will already have these <abbr title="Domain Name System">DNS</abbr> entries cached in their browsers, especially AddThis.
 
  * **HTTP Requests**
 
@@ -57,7 +57,7 @@ Let me first take a moment to explain exactly what these values are. The *initia
 
  * **Weight**
 
-	The download size of all of the scripts, <acronym title="Cascading Style Sheets">CSS</acronym> and images needed to display the content you see on the page. Again, in the real world you can expect much of this to be cached.
+	The download size of all of the scripts, <abbr title="Cascading Style Sheets">CSS</abbr> and images needed to display the content you see on the page. Again, in the real world you can expect much of this to be cached.
 
  * **Load Time**
 

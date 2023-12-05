@@ -64,7 +64,7 @@ There are two standard ways to attach these custom link tracking events to the a
 	* Pros: Smart, not-stupid, simple, maintainable
 	* Cons: Links don’t get the tracking events attached until the whole page has finished loading.
 
-For this rest of this article I will assume that you want to use *the smart method*. Basically, we will build a script that will look at every single anchor tag in the <acronym title="Document Object Model">DOM</acronym> and attach the click tracking events to any links matching whatever criteria you choose. This script will automatically run when the page loads.
+For this rest of this article I will assume that you want to use *the smart method*. Basically, we will build a script that will look at every single anchor tag in the <abbr title="Document Object Model">DOM</abbr> and attach the click tracking events to any links matching whatever criteria you choose. This script will automatically run when the page loads.
 
 ### Defining the criteria and search pattern
 
