@@ -79,6 +79,10 @@ main > article img {
 	height: auto;
 }
 
+#articlelist {
+	list-style-type: none;
+	padding-left: 0;
+}
 .thumbnail {
 	float: right;
 	margin: 0 0 1rem 1rem;
@@ -93,6 +97,10 @@ main > article img {
 	}
 	main > article {
 		padding: 2rem 3rem;
+	}
+	#articlelist {
+		list-style-type: decimal;
+		padding-left: 2.5rem;
 	}
 	.thumbnail {
 		max-width: 20rem;

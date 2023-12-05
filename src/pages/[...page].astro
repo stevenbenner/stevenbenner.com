@@ -18,7 +18,7 @@ const pageTitle = page.currentPage === 1 ? 'Articles' : `Articles (Page ${page.c
 ---
 
 <BaseLayout pageTitle={pageTitle} pageDescription={site.description}>
-	<ol start={page.total - page.start} reversed>
+	<ol start={page.total - page.start} id="articlelist" reversed>
 	{
 		page.data.map((post) => {
 			const body = parser.render(post.body);
