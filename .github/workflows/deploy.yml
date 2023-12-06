@@ -21,6 +21,8 @@ jobs:
 
       - name: Install, build, and commit Astro site
         uses: withastro/action@v1
+        with:
+          node-version: 20
 
   deploy:
     name: Deploy to GitHub Pages
