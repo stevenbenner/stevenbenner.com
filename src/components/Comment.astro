@@ -2,7 +2,7 @@
 import { Image } from 'astro:assets';
 import { site } from '../data/config.json';
 
-const { author, isPostAuthor, url, avatar, date, content } = Astro.props
+const { author, isPostAuthor, url, avatar, date, content } = Astro.props;
 ---
 
 <section class={isPostAuthor && 'postauthor'}>
