@@ -12,9 +12,9 @@ export async function GET(context) {
 		title: site.name,
 		description: site.description,
 		site: context.site,
+		customData: `<language>${site.language}</language>`,
 		items: postsCollection.reverse().map((post) => ({
 			link: `/${post.slug}/`,
-			customData: `<language>${site.language}</language>`,
 			content: sanitizeHtml(parser.render(post.body)),
 			...post.data,
 			...{ categories: post.data.categories.concat(post.data.tags) }
