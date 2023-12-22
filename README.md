@@ -14,7 +14,7 @@ This software is licensed under the [Mozilla Public License, Version 2.0][licens
 
 This project runs in [Node.js][node]. So long as you have node and npm installed then you can run this project locally with the following commands:
 
- 1. `npm install` (only needed for the first run)
+ 1. `npm ci` (clean-install, only needed for the first run)
  2. `npm run dev`
 
 You can then view the local server at: http://localhost:4321/
