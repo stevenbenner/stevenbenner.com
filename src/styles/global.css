@@ -91,7 +91,7 @@ main > article img {
 @media (min-width: 600px) {
 	main {
 		margin: 0 auto;
-		max-width: 75rem;
+		max-width: 95vw;
 		box-shadow: 0 0 1rem 0.1rem #000;
 		border-radius: 0.5rem;
 	}
@@ -104,5 +104,11 @@ main > article img {
 	}
 	.thumbnail {
 		max-width: 20rem;
+	}
+}
+
+@media (min-width: 80rem) {
+	main {
+		max-width: 75rem;
 	}
 }
