@@ -13,7 +13,9 @@ export async function GET(context) {
 		description: site.description,
 		site: context.site,
 		customData: `<language>${site.language}</language>`,
-		items: postsCollection.reverse().map((post) => ({
+		items: postsCollection.sort((a, b) => (
+			b.data.pubDate.valueOf() - a.data.pubDate.valueOf()
+		)).map((post) => ({
 			link: `/${post.slug}/`,
 			content: sanitizeHtml(parser.render(post.body)),
 			...post.data,
