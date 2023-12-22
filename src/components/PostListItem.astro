@@ -9,7 +9,16 @@ const { title, url, pubDate, thumbnail, postExcerpt } = Astro.props;
 	<article>
 		<hgroup>
 			<h3><a href={url}>{title}</a></h3>
-			<p><time datetime={pubDate.toISOString()}>{pubDate.toLocaleDateString(site.language)}</time></p>
+			<p>
+				<time datetime={pubDate.toISOString()}>
+				{
+					new Intl.DateTimeFormat(
+						site.language,
+						{ year: 'numeric', month: 'long', day: 'numeric' }
+					).format(pubDate)
+				}
+				</time>
+			</p>
 		</hgroup>
 		{ thumbnail && <Image src={thumbnail.src} alt={thumbnail.alt} class="thumbnail" /> }
 		<Fragment set:html={postExcerpt} />
