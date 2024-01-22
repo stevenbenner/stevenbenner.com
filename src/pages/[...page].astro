@@ -9,9 +9,9 @@ import { site, pagination } from '../data/config.json';
 export async function getStaticPaths({ paginate }) {
 	const postsCollection = await getCollection('posts');
 	return paginate(
-		postsCollection.toSorted(
-			(a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf()
-		),
+		postsCollection.toSorted((a, b) => (
+			b.data.pubDate.valueOf() - a.data.pubDate.valueOf()
+		)),
 		{ pageSize: pagination.pageSize }
 	);
 }
