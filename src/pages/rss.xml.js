@@ -13,7 +13,7 @@ export async function GET(context) {
 		description: site.description,
 		site: context.site,
 		customData: `<language>${site.language}</language>`,
-		items: postsCollection.sort((a, b) => (
+		items: postsCollection.toSorted((a, b) => (
 			b.data.pubDate.valueOf() - a.data.pubDate.valueOf()
 		)).map((post) => ({
 			link: `/${post.slug}/`,
