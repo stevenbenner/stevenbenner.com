@@ -3,7 +3,6 @@ title: 'Caching with CodeIgniter: Zen, headaches and performance'
 description: 'In this article I provide you with an overview of the caching systems available and a few of my tricks. Including a small helper library that you can use to manage the CodeIgniter output cache.'
 slug: 2010/12/caching-with-codeigniter-zen-headaches-and-performance
 pubDate: 2011-01-01T04:47:01Z
-modDate: 2012-07-17T15:18:52Z
 transitory: true
 image:
   src: '../../assets/thumbnails/codeigniter-fade-logo.png'

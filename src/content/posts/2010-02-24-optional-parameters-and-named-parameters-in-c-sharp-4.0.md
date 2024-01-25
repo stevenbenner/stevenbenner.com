@@ -3,7 +3,6 @@ title: 'Optional parameters and named parameters in C# 4.0'
 description: 'C# 4.0 is adding various quality of life improvements. In this article I introduce you to two of my favorite new additions: optional parameters and named parameters. An explanation of what they do, how to use them, and examples of why they are excellent language features.'
 slug: 2010/02/optional-parameters-and-named-parameters-in-c-4-0
 pubDate: 2010-02-24T22:12:19Z
-modDate: 2010-03-03T19:04:29Z
 image:
   src: '../../assets/thumbnails/csharp.png'
   alt: 'C#'

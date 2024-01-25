@@ -29,7 +29,7 @@ The posts are simply files in a folder. There is no metadata or lists to maintai
 
  1. Create a new markdown file in the `src/content/posts` folder with a filename in the format of "YYYY-MM-DD-slug.md".
  2. Add the YAML frontmatter document information. (The data in the `---` block at the beginning of the file.)
- 3. Set the `pubDate` and `modDate` to the current date and time in ISO 8601 format.
+ 3. Set the `pubDate` to the current date and time in ISO 8601 format.
 
 	Get the current ISO 8601 datetime with this command: `date -u +'%Y-%m-%dT%H:%M:%SZ'`
 

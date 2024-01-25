@@ -3,7 +3,6 @@ title: 'Must-have Firefox Add-ons for Web Developers & Designers'
 description: 'This is a list of my favorite Firefox add-ons for web development. These tools have fundamentally changed how I design and develop web pages. With these tools I can accomplish tasks in minutes that would have taken me hours just four years ago.'
 slug: 2010/01/must-have-firefox-add-ons-for-web-developers-designers
 pubDate: 2010-01-27T19:51:41Z
-modDate: 2010-12-05T02:00:29Z
 transitory: true
 image:
   src: '../../assets/thumbnails/firefox-logo.png'

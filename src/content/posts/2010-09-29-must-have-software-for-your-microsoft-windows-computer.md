@@ -3,7 +3,6 @@ title: 'Must have software for your Microsoft Windows computer'
 description: 'My personal list of must-have software for your Microsoft Windows computer. When I set up a new Windows computer every item on this list gets installed. This list is valid for Windows XP, Windows Vista, or Windows 7.'
 slug: 2010/09/must-have-software-for-your-microsoft-windows-computer
 pubDate: 2010-09-29T10:10:29Z
-modDate: 2012-07-26T04:41:43Z
 transitory: true
 image:
   src: '../../assets/thumbnails/windows-logo.jpg'

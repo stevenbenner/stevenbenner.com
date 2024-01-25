@@ -3,7 +3,6 @@ title: 'Reporting of unhandled exceptions in your distributable .NET desktop app
 description: 'My method for handling exceptions and reporting them is very simple. However, it does require a little extra work to set up. In this article I’ll walk you through my particular method and give you the basic C# code that I use.'
 slug: 2010/01/reporting-of-unhandled-exceptions-in-your-distributable-net-application
 pubDate: 2010-01-23T21:35:23Z
-modDate: 2010-03-07T20:57:33Z
 transitory: true
 image:
   src: '../../assets/thumbnails/dotnet-logo.gif'

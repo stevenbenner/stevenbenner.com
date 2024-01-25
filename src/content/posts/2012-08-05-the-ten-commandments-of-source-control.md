@@ -3,7 +3,6 @@ title: 'The Ten Commandments of Source Control'
 description: 'A short satiracle story with very bad drawings which lists out ten very bad source control practices that can happen to programmers while on the job.'
 slug: 2012/08/the-ten-commandments-of-source-control
 pubDate: 2012-08-05T09:47:56Z
-modDate: 2012-12-11T00:49:33Z
 image:
   src: '../../assets/thumbnails/victory.png'
   alt: 'Victory'

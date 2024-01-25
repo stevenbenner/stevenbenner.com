@@ -3,7 +3,6 @@ title: 'Will the really real programmers please stand up?'
 description: 'Many people in our profession are only willing to call someone a “real programmer” if they have memorized a certain curriculum of patterns, algorithms, and facts. I disagree with that view. In this open letter response to a popular article, I explain why I feel that way and how I think about “real programmers”.'
 slug: 2010/08/will-the-really-real-programmers-please-stand-up
 pubDate: 2010-08-12T18:00:56Z
-modDate: 2011-02-04T07:19:31Z
 image:
   src: '../../assets/thumbnails/get-real.png'
   alt: 'Get real'

@@ -3,7 +3,6 @@ title: 'Custom link click tracking using Omniture'
 description: 'This article is step-by-step how-to for building a custom link tracking for Omniture with JavaScript. In the hopes that I can save some other JavaScript developer out there the headaches and frustration that is usually associated with learning advanced Omniture implementations.'
 slug: 2010/03/custom-link-click-tracking-using-omniture
 pubDate: 2010-03-07T20:55:28Z
-modDate: 2010-04-14T06:00:31Z
 transitory: true
 image:
   src: '../../assets/thumbnails/omniture-logo.gif'

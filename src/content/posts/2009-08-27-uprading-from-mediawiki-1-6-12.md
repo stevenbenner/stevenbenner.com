@@ -3,7 +3,6 @@ title: 'Uprading from MediaWiki 1.6.12'
 description: 'This is a guide to fixing the MediaWiki 1.15.1+ upgrade warning “you requested the mysql5-binary schema, but the existing database has the mysql4 schema”.'
 slug: 2009/08/uprading-from-mediawiki-1-6-12
 pubDate: 2009-08-28T04:26:41Z
-modDate: 2010-03-07T20:58:04Z
 image:
   src: '../../assets/thumbnails/wikipedia-logo.png'
   alt: 'Wikipedia logo'

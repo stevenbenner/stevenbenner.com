@@ -3,7 +3,6 @@ title: 'The 5 types of programmers'
 description: 'A satiracle list of engineering personalities you might find yourself interacting with as a software developer. And the unique strategies they employ in their craft.'
 slug: 2010/07/the-5-types-of-programmers
 pubDate: 2010-07-18T22:11:45Z
-modDate: 2010-07-18T22:25:29Z
 image:
   src: '../../assets/thumbnails/awesomecode.png'
   alt: 'Awesome code'
