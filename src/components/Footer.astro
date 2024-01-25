@@ -1,8 +1,11 @@
 ---
+import { getCollection } from 'astro:content';
 import { Image } from 'astro:assets';
 import SocialLinks from '../components/SocialLinks.astro';
 import { site } from '../data/config.json';
 import licenseLogo from '../assets/cc-by-sa-88x31.png';
+
+const postsCollection = await getCollection('posts');
 ---
 
 <footer>
@@ -11,6 +14,18 @@ import licenseLogo from '../assets/cc-by-sa-88x31.png';
 			<h2>About this blog</h2>
 			<p>This blog is a forum for all of the technical rants, ramblings, and nonsense that I feel like throwing at the internet. Mostly, the content will be about programming, servers, computing, gadgets, and the internet. But sometimes you may find even more useless articles posted here.</p>
 			<p>All opinions expressed here are my own and do not represent the views of my employer or any organizations that I am part of.</p>
+		</section>
+		<section>
+			<h2>Latest articles</h2>
+			<ol>
+			{
+				postsCollection.toSorted((a, b) => (
+					b.data.pubDate.valueOf() - a.data.pubDate.valueOf()
+				)).slice(0, 5).map((post) => {
+					return <li><a href={`/${post.slug}/`}>{post.data.title}</a></li>;
+				})
+			}
+			</ol>
 		</section>
 		<section>
 			<h2>My feed</h2>
@@ -43,6 +58,10 @@ import licenseLogo from '../assets/cc-by-sa-88x31.png';
 	div > * {
 		padding: 1rem;
 	}
+	ol {
+		list-style-type: none;
+		padding-left: 0;
+	}
 	#copyright {
 		color: #676767;
 		font-size: 0.7rem;
@@ -61,11 +80,12 @@ import licenseLogo from '../assets/cc-by-sa-88x31.png';
 		div {
 			display: grid;
 			grid-auto-rows: 1fr;
-			grid-template-columns: 1fr 1fr;
+			grid-template-columns: 1fr 1fr 1fr;
 			border-radius: 0 0 0.5rem 0.5rem;
+			padding: 1rem 2rem;
 		}
 		div > * {
-			padding: 1rem 3rem;
+			padding: 1rem;
 		}
 		#copyright {
 			padding: 1rem 15%;
